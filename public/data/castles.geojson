@@ -30,15 +30,18 @@
         "name_ja": "大坂城",
         "reading": "おおさかじょう",
         "name_en": "Osaka Castle",
-        "former_names": [],
-        "description": "豊臣秀吉が1583年から築いた、豊臣氏の本拠。現在地表に見える遺構は、1620年から徳川秀忠が大規模に修築したもの。",
+        "former_names": [{"name_ja": "石山御坊", "reading": "いしやまごぼう", "name_en": "Ishiyama Gobō", "until": 1580}, {"name_ja": "石山本願寺", "reading": "いしやまほんがんじ", "name_en": "Ishiyama Hongan-ji", "until": 1580}],
+        "description": "織田信長と戦った石山本願寺（石山御坊）の跡に、豊臣秀吉が1583年から築いた、豊臣氏の本拠。現在地表に見える遺構は、1620年から徳川秀忠が大規模に修築したもの。",
         "wikipedia_ja": "大坂城",
         "official_url": null,
         "province": "摂津",
         "type": "平城",
-        "built": {"earliest": 1583, "latest": 1583},
+        "built": {"earliest": 1496, "latest": 1583},
         "abandoned": {"earliest": 1868, "latest": 1868},
         "owners": [
+          { "clan": "honganji", "from": 1496, "to": 1580 },
+          { "clan": "oda", "from": 1580, "to": 1582 },
+          { "clan": "ikeda", "from": 1582, "to": 1583 },
           { "clan": "toyotomi", "from": 1583, "to": 1615 },
           { "clan": "tokugawa", "from": 1619, "to": 1868 }
         ]
@@ -1076,6 +1079,163 @@
           { "clan": "uesugi", "from": 1577, "to": 1579 },
           { "clan": "oda", "from": 1580, "to": 1581 },
           { "clan": "maeda", "from": 1581, "to": 1589 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.72496, 34.7118] },
+      "properties": {
+        "id": "hamamatsu",
+        "name_ja": "浜松城",
+        "reading": "はままつじょう",
+        "name_en": "Hamamatsu Castle",
+        "former_names": [{"name_ja": "曳馬城", "reading": "ひくまじょう", "name_en": "Hikuma Castle", "until": 1570}],
+        "description": "今川氏に仕えた飯尾氏の曳馬城を前身とする。1568年に徳川家康が攻め取り、1570年に本拠を移して浜松城と改め、拡張した。三方ヶ原の戦いでは、家康がここから出陣した。",
+        "wikipedia_ja": "浜松城",
+        "official_url": "https://www.entetsuassist-dms.com/hamamatsu-jyo/",
+        "province": "遠江",
+        "type": "平山城",
+        "built": {"earliest": 1401, "latest": 1514},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "imagawa", "from": 1514, "to": 1568 },
+          { "clan": "tokugawa", "from": 1568, "to": 1590 },
+          { "clan": "horio", "from": 1590, "to": 1600 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.38333, 34.97917] },
+      "properties": {
+        "id": "sunpu",
+        "name_ja": "駿府城",
+        "reading": "すんぷじょう",
+        "name_en": "Sunpu Castle",
+        "former_names": [{"name_ja": "今川館", "reading": "いまがわやかた", "name_en": "Imagawa Residence", "until": 1568}],
+        "description": "駿河の守護・今川氏の今川館が置かれた地に、徳川家康が1585年から築いた城。将軍を退いた家康は大御所としてここで政治をとった。今川館の正確な位置はわかっていない。",
+        "wikipedia_ja": "駿府城",
+        "official_url": "https://sumpu-castlepark.com/",
+        "province": "駿河",
+        "type": "平城",
+        "built": {"earliest": 1301, "latest": 1585},
+        "abandoned": {"earliest": 1869, "latest": 1869},
+        "owners": [
+          { "clan": "imagawa", "from": 1467, "to": 1568 },
+          { "clan": "takeda", "from": 1568, "to": 1582 },
+          { "clan": "tokugawa", "from": 1582, "to": 1590 },
+          { "clan": "nakamura", "from": 1590, "to": 1600 },
+          { "clan": "tokugawa", "from": 1601, "to": 1869 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.90206, 35.18431] },
+      "properties": {
+        "id": "old-nagoya",
+        "name_ja": "那古野城",
+        "reading": "なごやじょう",
+        "name_en": "Nagoya Castle",
+        "former_names": [],
+        "description": "今川氏親が尾張進出の拠点として築き、織田信秀が奪った城。織田信長が若いころ居城とし、1555年に清洲城へ移った。廃城後、跡地に徳川家康が名古屋城を築いた。",
+        "wikipedia_ja": "那古野城",
+        "official_url": null,
+        "province": "尾張",
+        "type": "平城",
+        "built": {"earliest": 1521, "latest": 1528},
+        "abandoned": {"earliest": 1555, "latest": 1582},
+        "owners": [
+          { "clan": "imagawa", "from": 1528, "to": 1538 },
+          { "clan": "oda", "from": 1538, "to": 1582 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.47277, 34.52719] },
+      "properties": {
+        "id": "okawachi",
+        "name_ja": "大河内城",
+        "reading": "おかわちじょう",
+        "name_en": "Okawachi Castle",
+        "former_names": [],
+        "description": "伊勢国司・北畠氏の一族、大河内氏の居城。1569年、北畠具教らが織田信長の大軍を相手に50日余り籠城し、信長の次男（信雄）に家督を譲る条件で和睦した。",
+        "wikipedia_ja": "大河内城",
+        "official_url": null,
+        "province": "伊勢",
+        "type": "山城",
+        "built": {"earliest": 1412, "latest": 1415},
+        "abandoned": {"earliest": 1575, "latest": 1576},
+        "owners": [
+          { "clan": "kitabatake", "from": 1467, "to": 1569 },
+          { "clan": "oda", "from": 1569, "to": 1576 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.17119, 34.19069] },
+      "properties": {
+        "id": "saika",
+        "name_ja": "雑賀城",
+        "reading": "さいかじょう",
+        "name_en": "Saika Castle",
+        "former_names": [],
+        "description": "鉄砲で知られた雑賀衆の有力者、鈴木氏の城。1577年、織田信長の紀州攻めで本陣が置かれた。1585年の羽柴秀吉の紀州攻めのころまでに廃城になったとみられる。",
+        "wikipedia_ja": "雑賀城",
+        "official_url": null,
+        "province": "紀伊",
+        "type": "平山城",
+        "built": {"earliest": 1467, "latest": 1577},
+        "abandoned": {"earliest": 1577, "latest": 1585},
+        "owners": [
+          { "clan": "suzuki", "from": 1467, "to": 1585 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.75861, 35.03061] },
+      "properties": {
+        "id": "muromachi",
+        "name_ja": "室町御所",
+        "reading": "むろまちごしょ",
+        "name_en": "Muromachi Palace",
+        "former_names": [],
+        "description": "足利義満が1378年に造営を始めた将軍の邸宅で、花の御所とも呼ばれた。室町幕府の名の由来。焼失と再建を繰り返し、1559年に足利義輝が二条御所へ移って廃止された。",
+        "wikipedia_ja": "花の御所",
+        "official_url": null,
+        "province": "山城",
+        "type": "館",
+        "built": {"earliest": 1378, "latest": 1381},
+        "abandoned": {"earliest": 1559, "latest": 1559},
+        "owners": [
+          { "clan": "ashikaga", "from": 1381, "to": 1559 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.52293, 34.1326] },
+      "properties": {
+        "id": "shozui",
+        "name_ja": "勝瑞城",
+        "reading": "しょうずいじょう",
+        "name_en": "Shōzui Castle",
+        "former_names": [],
+        "description": "阿波の守護・細川氏の居館で、のちに三好氏の本拠となった城。1552年に三好実休が主君の細川氏之を討って奪った。1582年、長宗我部元親に攻められて廃城となった。",
+        "wikipedia_ja": "勝瑞城",
+        "official_url": null,
+        "province": "阿波",
+        "type": "平城",
+        "built": {"earliest": 1221, "latest": 1363},
+        "abandoned": {"earliest": 1582, "latest": 1582},
+        "owners": [
+          { "clan": "hosokawa", "from": 1363, "to": 1552 },
+          { "clan": "miyoshi", "from": 1552, "to": 1582 },
+          { "clan": "chosokabe", "from": 1582, "to": 1582 }
         ]
       }
     }

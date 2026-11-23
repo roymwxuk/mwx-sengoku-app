@@ -8,7 +8,7 @@ Links can open a castle directly, e.g. [吉田郡山城](https://roymwxuk.github
 
 ## Current status
 
-_As of 2026-11-23._ The map, castles, detail panel, castle list and search work, with 47 castles. The interface is in Japanese.
+_As of 2026-11-23._ The map, castles, detail panel, castle list and search work, with 54 castles. The interface is in Japanese.
 
 | Milestone                        | Status                                  |
 | -------------------------------- | --------------------------------------- |
@@ -19,7 +19,7 @@ _As of 2026-11-23._ The map, castles, detail panel, castle list and search work,
 | M4 Provinces (令制国) and clans  | Done                                    |
 | M5 Timeline 1467–1615            | In progress: 1560/1583/1600 switch done |
 | M6 Search and filters            | In progress: search done                |
-| M7 Data growth                   | In progress: 47 castles                 |
+| M7 Data growth                   | In progress: 54 castles                 |
 | M8 Sengoku look and polish       | In progress: castle list, links done    |
 | M9 v1.0 release                  | Not started                             |
 

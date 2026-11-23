@@ -74,5 +74,11 @@
   {"id": "kanamori", "name_ja": "金森氏", "reading": "かなもりし", "name_en": "Kanamori", "mark": "近", "color": "#6b645c"},
   {"id": "honganji", "name_ja": "本願寺", "reading": "ほんがんじ", "name_en": "Hongan-ji", "mark": "願", "color": "#6b645c"},
   {"id": "maeda", "name_ja": "前田氏", "reading": "まえだし", "name_en": "Maeda", "mark": "前", "color": "#6b645c"},
-  {"id": "hatakeyama", "name_ja": "畠山氏（能登）", "reading": "はたけやまし", "name_en": "Hatakeyama (Noto)", "mark": "畠", "color": "#6b645c"}
+  {"id": "hatakeyama", "name_ja": "畠山氏（能登）", "reading": "はたけやまし", "name_en": "Hatakeyama (Noto)", "mark": "畠", "color": "#6b645c"},
+  {"id": "ashikaga", "name_ja": "足利氏", "reading": "あしかがし", "name_en": "Ashikaga", "mark": "足", "color": "#6b645c"},
+  {"id": "hosokawa", "name_ja": "細川氏", "reading": "ほそかわし", "name_en": "Hosokawa", "mark": "細", "color": "#6b645c"},
+  {"id": "miyoshi", "name_ja": "三好氏", "reading": "みよしし", "name_en": "Miyoshi", "mark": "好", "color": "#6b645c"},
+  {"id": "suzuki", "name_ja": "鈴木氏（雑賀衆）", "reading": "すずきし", "name_en": "Suzuki (Saika)", "mark": "鈴", "color": "#6b645c"},
+  {"id": "kitabatake", "name_ja": "北畠氏", "reading": "きたばたけし", "name_en": "Kitabatake", "mark": "具", "color": "#6b645c"},
+  {"id": "nakamura", "name_ja": "中村氏", "reading": "なかむらし", "name_en": "Nakamura", "mark": "一", "color": "#6b645c"}
 ]
