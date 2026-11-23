@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.13936, 35.15602] },
+      "properties": {
+        "id": "azuchi",
+        "name_ja": "安土城",
+        "reading": "あづちじょう",
+        "name_en": "Azuchi Castle",
+        "former_names": [],
+        "province": "近江",
+        "type": "山城",
+        "built": {"earliest": 1576, "latest": 1576},
+        "abandoned": {"earliest": 1582, "latest": 1585},
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.52583, 34.68722] },
+      "properties": {
+        "id": "osaka",
+        "name_ja": "大坂城",
+        "reading": "おおさかじょう",
+        "name_en": "Osaka Castle",
+        "former_names": [],
+        "province": "摂津",
+        "type": "平城",
+        "built": {"earliest": 1583, "latest": 1583},
+        "abandoned": {"earliest": 1868, "latest": 1868},
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.15361, 35.25083] },
+      "properties": {
+        "id": "odawara",
+        "name_ja": "小田原城",
+        "reading": "おだわらじょう",
+        "name_en": "Odawara Castle",
+        "former_names": [],
+        "province": "相模",
+        "type": "平山城",
+        "built": {"earliest": 1417, "latest": 1418},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.2056, 37.14711] },
+      "properties": {
+        "id": "kasugayama",
+        "name_ja": "春日山城",
+        "reading": "かすがやまじょう",
+        "name_en": "Kasugayama Castle",
+        "former_names": [],
+        "province": "越後",
+        "type": "山城",
+        "built": {"earliest": 1336, "latest": 1392},
+        "abandoned": {"earliest": 1607, "latest": 1607},
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.69361, 34.83944] },
+      "properties": {
+        "id": "himeji",
+        "name_ja": "姫路城",
+        "reading": "ひめじじょう",
+        "name_en": "Himeji Castle",
+        "former_names": [],
+        "province": "播磨",
+        "type": "平山城",
+        "built": {"earliest": 1346, "latest": 1347},
+        "abandoned": null,
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.78222, 35.43389] },
+      "properties": {
+        "id": "gifu",
+        "name_ja": "岐阜城",
+        "reading": "ぎふじょう",
+        "name_en": "Gifu Castle",
+        "former_names": [{"name_ja": "稲葉山城", "reading": "いなばやまじょう", "name_en": "Inabayama Castle", "until": 1567}],
+        "province": "美濃",
+        "type": "山城",
+        "built": {"earliest": 1201, "latest": 1201},
+        "abandoned": {"earliest": 1600, "latest": 1601},
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.57746, 35.68686] },
+      "properties": {
+        "id": "tsutsujigasaki",
+        "name_ja": "躑躅ヶ崎館",
+        "reading": "つつじがさきやかた",
+        "name_en": "Tsutsujigasaki Residence",
+        "former_names": [],
+        "province": "甲斐",
+        "type": "館",
+        "built": {"earliest": 1519, "latest": 1519},
+        "abandoned": {"earliest": 1590, "latest": 1594},
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.844, 35.217] },
+      "properties": {
+        "id": "kiyosu",
+        "name_ja": "清洲城",
+        "reading": "きよすじょう",
+        "name_en": "Kiyosu Castle",
+        "former_names": [],
+        "province": "尾張",
+        "type": "平城",
+        "built": {"earliest": 1394, "latest": 1405},
+        "abandoned": {"earliest": 1610, "latest": 1613},
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.15889, 34.95639] },
+      "properties": {
+        "id": "okazaki",
+        "name_ja": "岡崎城",
+        "reading": "おかざきじょう",
+        "name_en": "Okazaki Castle",
+        "former_names": [],
+        "province": "三河",
+        "type": "平山城",
+        "built": {"earliest": 1452, "latest": 1455},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.75439, 35.68832] },
+      "properties": {
+        "id": "edo",
+        "name_ja": "江戸城",
+        "reading": "えどじょう",
+        "name_en": "Edo Castle",
+        "former_names": [],
+        "province": "武蔵",
+        "type": "平山城",
+        "built": {"earliest": 1457, "latest": 1457},
+        "abandoned": null,
+        "owners": []
+      }
+    }
+  ]
+}

@@ -12,7 +12,7 @@ A frontend-only web app showing a map of 戦国時代 Japan where users can find
 
 Goal: an empty but deployable project, with key decisions written down.
 
-- [ ] Review and accept/reject ADRs 0002–0007 (0005 and 0006 remain; decide in M2)
+- [x] Review and accept/reject ADRs 0002–0007
 - [x] `git init`, add `.gitignore`, first commit
 - [x] Scaffold Vite + React + TypeScript (`npm create vite@latest`) — *done when* `npm run dev` shows the starter page
 - [x] Add Prettier, `npm run format:check` passes (ESLint dropped)
@@ -38,14 +38,14 @@ Goal: a full-screen, pannable, zoomable map of Japan.
 
 Goal: castles appear as points and can be selected.
 
-- [ ] Define the `Castle` TypeScript type and GeoJSON schema (id, name_ja, name_en, reading, lat/lng, province, built, abandoned, type 山城/平山城/平城)
-- [ ] Create `public/data/castles.geojson` with ~10 famous castles (安土, 大坂, 小田原, 春日山, 姫路, 岐阜, 躑躅ヶ崎館, 清洲, 岡崎, 江戸)
-- [ ] Add a schema-check script (Zod) that fails CI on bad data
-- [ ] Load the GeoJSON and render it as a circle layer
-- [ ] Hover: cursor change + tooltip showing the castle name
-- [ ] Click: store `selectedCastleId` in Zustand; highlight the selected marker
-- [ ] Click on empty map clears the selection
-- [ ] Unit test: data loader + selection store
+- [x] Define the `Castle` TypeScript type and GeoJSON schema (id, name_ja, name_en, reading, former_names, lat/lng, province, built, abandoned, owners, type 山城/平山城/平城/館)
+- [x] Create `public/data/castles.geojson` with ~10 famous castles (安土, 大坂, 小田原, 春日山, 姫路, 岐阜, 躑躅ヶ崎館, 清洲, 岡崎, 江戸)
+- [x] Add a schema-check script (Zod) that fails on bad data: `npm run data:check` (add to CI later)
+- [x] Load the GeoJSON and render it as a circle layer
+- [x] Hover: cursor change + tooltip showing the castle name
+- [x] Click: store `selectedCastleId` in Zustand; highlight the selected marker
+- [x] Click on empty map clears the selection
+- [ ] *(deferred with Vitest)* Unit test: data loader + selection store
 - *Milestone done when:* clicking any of the 10 castles highlights it, and clicking elsewhere deselects.
 
 ## M3 — Castle detail panel & shareable state
@@ -69,7 +69,7 @@ Goal: historical context on the map.
 - [ ] Simplify the polygons (mapshaper) to keep the file small (target < 500 KB)
 - [ ] Render province borders + labels
 - [ ] Add `clans.json` (id, name, colour, 家紋 icon later)
-- [ ] Add an `owner` field to castles; colour markers by clan
+- [ ] Fill in `owners` for castles; colour markers by clan
 - [ ] Legend showing clan colours
 - [ ] Layer toggle: provinces on/off, clan colours on/off
 - *Milestone done when:* provinces are visible and castles are coloured by their owning clan.
@@ -78,7 +78,7 @@ Goal: historical context on the map.
 
 Goal: see how the map changes from 1467 to 1615.
 
-- [ ] Extend the data model: `owners: [{ clan, from, to }]` instead of a single `owner` (write ADR if the schema changes significantly)
+- [ ] Check that `owners` covers 1467–1615 for every castle (the schema is already in place, ADR-0005)
 - [ ] Year slider UI (1467–1615) stored in Zustand + URL (`?year=1560`)
 - [ ] Filter castles by year (exists between `built` and `abandoned`)
 - [ ] Colour castles by their owner in the selected year

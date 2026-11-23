@@ -1,6 +1,6 @@
 # ADR-0005: Store castle and province data as static GeoJSON
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-23
 
 ## Context
@@ -16,7 +16,14 @@ There is no backend. Data includes castles (points), 令制国 provinces (polygo
 
 ## Decision
 
-Keep data as static files in `public/data/`: `castles.geojson`, `provinces.geojson`, `clans.json`. Define the schema in TypeScript with Zod and validate it in CI.
+Keep data as static files in `public/data/`: `castles.geojson`, `provinces.geojson`, `clans.json`. Define the schema in TypeScript with Zod and validate it with `npm run data:check` (in CI once CI exists).
+
+The castle schema allows for how uncertain the history is:
+
+- **Dates** are ranges, `{ earliest, latest }`, because sources disagree or are vague. An exact year has equal ends. `built: null` means unknown; `abandoned: null` means never abandoned, or unknown.
+- **Ownership** is a list from the start, `owners: [{ clan, from, to }]`, so the timeline (M5) needs no migration. It stays empty until clans are added (M4).
+- **Renamed castles** use their best-known Sengoku name, with earlier names in `former_names` (e.g., 稲葉山城 → 岐阜城).
+- **Type** is 山城, 平山城, 平城 or 館. 館 covers residences such as 躑躅ヶ崎館.
 
 ## Consequences
 
