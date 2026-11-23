@@ -301,6 +301,184 @@
           { "clan": "hojo", "from": 1587, "to": 1590 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.57134, 35.66529] },
+      "properties": {
+        "id": "kofu",
+        "name_ja": "甲府城",
+        "reading": "こうふじょう",
+        "name_en": "Kōfu Castle",
+        "former_names": [],
+        "description": "武田氏の滅亡後、甲斐を治めた徳川氏や豊臣系の大名が築いた城。躑躅ヶ崎館に代わって甲斐の中心となった。",
+        "wikipedia_ja": "甲府城",
+        "official_url": null,
+        "province": "甲斐",
+        "type": "平山城",
+        "built": {"earliest": 1583, "latest": 1585},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "tokugawa", "from": 1583, "to": 1590 },
+          { "clan": "toyotomi", "from": 1590, "to": 1591 },
+          { "clan": "kato", "from": 1591, "to": 1593 },
+          { "clan": "asano", "from": 1593, "to": 1600 },
+          { "clan": "tokugawa", "from": 1601, "to": 1616 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.296, 35.9995] },
+      "properties": {
+        "id": "ichijodani",
+        "name_ja": "一乗谷城",
+        "reading": "いちじょうだにじょう",
+        "name_en": "Ichijōdani Castle",
+        "former_names": [],
+        "description": "越前国を支配した戦国大名・朝倉氏の本拠。谷あいの館と城下町、背後の山城からなり、1573年に朝倉氏が織田信長に敗れて滅んだ。",
+        "wikipedia_ja": "一乗谷朝倉氏遺跡",
+        "official_url": null,
+        "province": "越前",
+        "type": "山城",
+        "built": {"earliest": 1336, "latest": 1392},
+        "abandoned": {"earliest": 1575, "latest": 1575},
+        "owners": [
+          { "clan": "asakura", "from": 1392, "to": 1573 },
+          { "clan": "oda", "from": 1573, "to": 1574 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.95581, 35.05385] },
+      "properties": {
+        "id": "nirayama",
+        "name_ja": "韮山城",
+        "reading": "にらやまじょう",
+        "name_en": "Nirayama Castle",
+        "former_names": [],
+        "description": "伊勢盛時（北条早雲）が伊豆を制して本拠とした城。1590年の小田原征伐では、北条氏規が豊臣の大軍に約100日間持ちこたえた末に開城した。",
+        "wikipedia_ja": "韮山城",
+        "official_url": null,
+        "province": "伊豆",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1500},
+        "abandoned": {"earliest": 1601, "latest": 1601},
+        "owners": [
+          { "clan": "hojo", "from": 1491, "to": 1590 },
+          { "clan": "tokugawa", "from": 1590, "to": 1601 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.76572, 33.84554] },
+      "properties": {
+        "id": "iyo-matsuyama",
+        "name_ja": "松山城",
+        "reading": "まつやまじょう",
+        "name_en": "Matsuyama Castle",
+        "former_names": [],
+        "description": "関ヶ原の戦いの戦功で加増された加藤嘉明が、1602年に築き始めた平山城。現存12天守の一つである天守は、江戸時代後期の再建。",
+        "wikipedia_ja": "松山城",
+        "official_url": "https://www.matsuyamajo.jp/",
+        "province": "伊予",
+        "type": "平山城",
+        "built": {"earliest": 1602, "latest": 1602},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "kato-yoshiaki", "from": 1602, "to": 1627 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.7475, 35.01417] },
+      "properties": {
+        "id": "nijo",
+        "name_ja": "二条城",
+        "reading": "にじょうじょう",
+        "name_en": "Nijō Castle",
+        "former_names": [],
+        "description": "徳川家康が、京都御所の守護と上洛時の宿所として築いた城。1603年に落成し、のちに徳川慶喜による大政奉還の上奏の舞台となった。",
+        "wikipedia_ja": "二条城",
+        "official_url": null,
+        "province": "山城",
+        "type": "平城",
+        "built": {"earliest": 1601, "latest": 1603},
+        "abandoned": null,
+        "owners": [
+          { "clan": "tokugawa", "from": 1601, "to": 1868 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.172, 34.2276] },
+      "properties": {
+        "id": "wakayama",
+        "name_ja": "和歌山城",
+        "reading": "わかやまじょう",
+        "name_en": "Wakayama Castle",
+        "former_names": [],
+        "description": "豊臣秀長が1585年に築いた城。浅野氏を経て、江戸時代には徳川御三家の一つ、紀州徳川家の居城となった。",
+        "wikipedia_ja": "和歌山城",
+        "official_url": null,
+        "province": "紀伊",
+        "type": "平山城",
+        "built": {"earliest": 1585, "latest": 1585},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "toyotomi", "from": 1585, "to": 1600 },
+          { "clan": "asano", "from": 1600, "to": 1619 },
+          { "clan": "tokugawa", "from": 1619, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.052, 34.3504] },
+      "properties": {
+        "id": "sanuki-takamatsu",
+        "name_ja": "高松城",
+        "reading": "たかまつじょう",
+        "name_en": "Takamatsu Castle",
+        "former_names": [],
+        "description": "讃岐国の領主となった生駒親正が、1588年に築き始めた海城。玉藻城とも呼ばれ、江戸時代に松平頼重が改修した。",
+        "wikipedia_ja": "高松城 (讃岐国)",
+        "official_url": null,
+        "province": "讃岐",
+        "type": "平城",
+        "built": {"earliest": 1588, "latest": 1590},
+        "abandoned": {"earliest": 1869, "latest": 1869},
+        "owners": [
+          { "clan": "ikoma", "from": 1588, "to": 1639 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.78674, 33.84811] },
+      "properties": {
+        "id": "yuzuki",
+        "name_ja": "湯築城",
+        "reading": "ゆづきじょう",
+        "name_en": "Yuzuki Castle",
+        "former_names": [],
+        "description": "伊予国の守護・河野氏の居城。1585年、羽柴秀吉の四国征伐で小早川隆景らの軍に攻められ、約1か月の籠城の後に降伏した。",
+        "wikipedia_ja": "湯築城",
+        "official_url": null,
+        "province": "伊予",
+        "type": "平山城",
+        "built": {"earliest": 1335, "latest": 1335},
+        "abandoned": {"earliest": 1587, "latest": 1587},
+        "owners": [
+          { "clan": "kono", "from": 1335, "to": 1585 },
+          { "clan": "kobayakawa", "from": 1585, "to": 1587 },
+          { "clan": "fukushima", "from": 1587, "to": 1587 }
+        ]
+      }
     }
   ]
 }
