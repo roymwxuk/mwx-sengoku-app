@@ -982,6 +982,102 @@
           { "clan": "hoshina", "from": 1636, "to": 1643 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.17317, 36.47397] },
+      "properties": {
+        "id": "katsurao",
+        "name_ja": "葛尾城",
+        "reading": "かつらおじょう",
+        "name_en": "Katsurao Castle",
+        "former_names": [],
+        "description": "北信濃に勢力を張った村上氏の居城。村上義清は武田晴信（信玄）の侵攻を二度退けたが、1553年に城を捨てて越後の長尾景虎を頼り、川中島の戦いのきっかけとなった。",
+        "wikipedia_ja": "葛尾城",
+        "official_url": null,
+        "province": "信濃",
+        "type": "山城",
+        "built": {"earliest": 1336, "latest": 1501},
+        "abandoned": null,
+        "owners": [
+          { "clan": "murakami", "from": 1501, "to": 1553 },
+          { "clan": "takeda", "from": 1553, "to": 1582 },
+          { "clan": "uesugi", "from": 1582, "to": 1598 },
+          { "clan": "mori-tadamasa", "from": 1600, "to": 1603 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.26358, 36.13819] },
+      "properties": {
+        "id": "hida-takayama",
+        "name_ja": "高山城",
+        "reading": "たかやまじょう",
+        "name_en": "Takayama Castle",
+        "former_names": [],
+        "description": "飛騨を平定した金森長近が、天神山城の跡に築いた城。城下町も整え、今の高山の町並みのもとになった。飛騨が幕府領となった後、1695年に取り壊された。",
+        "wikipedia_ja": "高山城 (飛騨国)",
+        "official_url": null,
+        "province": "飛騨",
+        "type": "平山城",
+        "built": {"earliest": 1588, "latest": 1605},
+        "abandoned": {"earliest": 1695, "latest": 1695},
+        "owners": [
+          { "clan": "kanamori", "from": 1588, "to": 1692 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.65923, 36.56432] },
+      "properties": {
+        "id": "kanazawa",
+        "name_ja": "金沢城",
+        "reading": "かなざわじょう",
+        "name_en": "Kanazawa Castle",
+        "former_names": [
+          {"name_ja": "尾山御坊", "reading": "おやまごぼう", "name_en": "Oyama Gobō", "until": 1580},
+          {"name_ja": "御山御坊", "reading": "おやまごぼう", "name_en": "Oyama Gobō", "until": 1580},
+          {"name_ja": "尾山城", "reading": "おやまじょう", "name_en": "Oyama Castle", "until": null}
+        ],
+        "description": "加賀一向一揆の拠点だった尾山御坊（御山御坊、金沢御堂）を、1580年に佐久間盛政が攻め落として城とした。1583年に前田利家が入り、加賀藩主・前田家の居城となった。",
+        "wikipedia_ja": "金沢城",
+        "official_url": "https://shiro-niwa.pref.ishikawa.lg.jp/kanazawa-castle/",
+        "province": "加賀",
+        "type": "平山城",
+        "built": {"earliest": 1546, "latest": 1580},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "honganji", "from": 1546, "to": 1580 },
+          { "clan": "oda", "from": 1580, "to": 1583 },
+          { "clan": "maeda", "from": 1583, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.98392, 37.00904] },
+      "properties": {
+        "id": "noto-nanao",
+        "name_ja": "七尾城",
+        "reading": "ななおじょう",
+        "name_en": "Nanao Castle",
+        "former_names": [],
+        "description": "能登国の守護・畠山氏が約150年にわたり本拠とした、大規模な山城。1577年、上杉謙信に包囲され、重臣の内応で落城した。のちに前田利家が入ったが、拠点は小丸山城へ移された。",
+        "wikipedia_ja": "七尾城",
+        "official_url": null,
+        "province": "能登",
+        "type": "山城",
+        "built": {"earliest": 1408, "latest": 1429},
+        "abandoned": {"earliest": 1582, "latest": 1589},
+        "owners": [
+          { "clan": "hatakeyama", "from": 1429, "to": 1577 },
+          { "clan": "uesugi", "from": 1577, "to": 1579 },
+          { "clan": "oda", "from": 1580, "to": 1581 },
+          { "clan": "maeda", "from": 1581, "to": 1589 }
+        ]
+      }
     }
   ]
 }
