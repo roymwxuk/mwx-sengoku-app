@@ -87,7 +87,7 @@
   {"id": "mizuno", "name_ja": "水野氏", "reading": "みずのし", "name_en": "Mizuno", "mark": "水", "color": "#b93761"},
   {"id": "sugihara", "name_ja": "杉原氏", "reading": "すぎはらし", "name_en": "Sugihara", "mark": "杉", "color": "#60b09e"},
   {"id": "yamana", "name_ja": "山名氏", "reading": "やまなし", "name_en": "Yamana", "mark": "山", "color": "#8d434a"},
-  {"id": "ouchi", "name_ja": "大内氏", "reading": "おおうちし", "name_en": "Ōuchi", "mark": "内", "color": "#fe8d76"},
+  {"id": "ouchi", "name_ja": "大内氏", "reading": "おおうちし", "name_en": "Ōuchi", "mark": "内", "color": "#5a3058"},
   {"id": "motoyama", "name_ja": "本山氏", "reading": "もとやまし", "name_en": "Motoyama", "mark": "茂", "color": "#cfaf21"},
   {"id": "saionji", "name_ja": "西園寺氏", "reading": "さいおんじし", "name_en": "Saionji", "mark": "西", "color": "#cc8e6f"},
   {"id": "ichijo", "name_ja": "一条氏", "reading": "いちじょうし", "name_en": "Ichijō", "mark": "条", "color": "#5a469d"},
@@ -98,5 +98,11 @@
   {"id": "inaba", "name_ja": "稲葉氏", "reading": "いなばし", "name_en": "Inaba", "mark": "稲", "color": "#634cec"},
   {"id": "ito", "name_ja": "伊藤氏", "reading": "いとうし", "name_en": "Itō", "mark": "盛", "color": "#5f7214"},
   {"id": "toyama", "name_ja": "遠山氏", "reading": "とおやまし", "name_en": "Tōyama", "mark": "遠", "color": "#c67595"},
-  {"id": "tamaru", "name_ja": "田丸氏", "reading": "たまるし", "name_en": "Tamaru", "mark": "丸", "color": "#9f89a6"}
+  {"id": "tamaru", "name_ja": "田丸氏", "reading": "たまるし", "name_en": "Tamaru", "mark": "丸", "color": "#9f89a6"},
+  {"id": "sue", "name_ja": "陶氏", "reading": "すえし", "name_en": "Sue", "mark": "陶", "color": "#a7a7c7"},
+  {"id": "yabe", "name_ja": "矢部氏", "reading": "やべし", "name_en": "Yabe", "mark": "矢", "color": "#fcb7ac"},
+  {"id": "kinoshita", "name_ja": "木下氏（重堅）", "reading": "きのしたし", "name_en": "Kinoshita (Shigekata)", "mark": "堅", "color": "#06790b"},
+  {"id": "yamazaki", "name_ja": "山崎氏", "reading": "やまざきし", "name_en": "Yamazaki", "mark": "崎", "color": "#30aefe"},
+  {"id": "furuta", "name_ja": "古田氏", "reading": "ふるたし", "name_en": "Furuta", "mark": "古", "color": "#1009f2"},
+  {"id": "ishikawa", "name_ja": "石川氏（備中）", "reading": "いしかわし", "name_en": "Ishikawa (Bitchū)", "mark": "石", "color": "#fe535c"}
 ]

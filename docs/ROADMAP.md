@@ -79,7 +79,7 @@ Goal: historical context on the map.
 Goal: see how the map changes from 1467 to 1615.
 
 - [ ] Check that `owners` covers 1467–1615 for every castle (the schema is already in place, ADR-0005); fill the gaps listed in `docs/data-sources.md`
-- [x] Choose colours for more clans: each has its own, from a palette of 100 (`scripts/clan-palette.json`)
+- [x] Choose colours for more clans: each has its own, from a palette of 130 (`scripts/clan-palette.json`)
 - [x] Switch between 1553 (just before the first 川中島), 1560 (just before 桶狭間), 1583 and 1600 (just before 関ヶ原), in the URL as `?year=1600`; castles not built yet are dotted circles, abandoned ones ✕; the slider will replace the switch
 - [ ] Year slider UI (1467–1615) stored in Zustand + URL (`?year=1560`)
 - [x] Show a castle's former name in the years it was used (大坂城 is 石山御坊 in 1553 and 1560), in the panel, tooltip and list
