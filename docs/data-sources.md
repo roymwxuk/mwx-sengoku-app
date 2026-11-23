@@ -39,6 +39,12 @@
 - 岡山城: 石山城 is the former name until 1597, when 宇喜多秀家 finished rebuilding it around a new 本丸 on the hill 岡山.
 - 徳島城: a small castle (渭山城) stood on the hill from 1385; `built` is the Hachisuka castle. `abandoned` is the infobox's 1869, though the article says it was kept in 1873 and cleared in 1875.
 - 新発田城: `built` is null, as the source says it is unknown (perhaps early Kamakura; Wikidata's 1597 is 溝口氏's arrival).
+- 十河城: `built` is 1336–1392 because the source only says 南北朝時代 (it names 十河吉保, active in 1362, as the likely builder). `abandoned` is 1586, which the infobox gives as approximate. The article classes it as 平城, though it stood on a low rise. 十川城 and 西尾城 are alternative names, not former ones, so they aren't listed.
+- 盛岡城: `built` is 1598 (begun) to 1633 (all finished); the infobox and Wikidata give 1598. 不来方城, often given as another name, was strictly an earlier, separate castle (福士氏's), so it isn't a former name. `abandoned` is the infobox's 1871, though the article says it was first kept under the 廃城令 and cleared from 1874. The official site (盛岡城跡公園) is from Wikidata.
+- 小高城: the 相馬氏 one in 陸奥 (おだか); its id is `mutsu-odaka`, as a castle in 常陸 (行方市) shares the name. `built` is 1323–1336: 相馬重胤, who moved to 小高 in 1323, built it per his article, and it fell to 北畠顕家's side in 1336. The castle's own article, which is flagged as needing more citations, says 南北朝時代. `abandoned` is 1611, when 相馬氏 moved to 中村城; no source gives a date of abandonment. 浮船城 is an alternative name, not a former one.
+- 久保田城: the one in 出羽; its id is `dewa-kubota`, as a castle in 上総 shares the name. `built` is 1603 (begun) to 1604 (本丸 finished); the infobox and Wikidata give 1604. 窪田城 is the former spelling; the article puts the change between 1633 and 1645, so its `until` is null. `abandoned` is the infobox's 1880, when a fire destroyed the buildings; it was kept in 1873. The official site on Wikidata no longer exists.
+- 土崎湊城: the article is 湊城. `built` is null, as the article says the date is unknown: 1436 is from a Meiji-era book, and 湊氏's seat may first have been elsewhere (寺内, or the old 秋田城) and moved to this site only after about 1590. The point is the site destroyed in 1604. Coordinates are from the Japanese Wikipedia article, as Wikidata's are given to about 1 km.
+- 山形城: `built` is 1356 (infobox) to 1357 (article's text and Wikidata). `abandoned` is the infobox's 1871. 霞城 and 霞ヶ城 are alternative names, not former ones.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -76,5 +82,11 @@
 - 備中松山城: the article gives no dates before 1570. 庄氏 from 1533 and 三村氏 from 1561 are from general knowledge. 徳川氏 in 1600–1617 is the shogunate's 城番; owners after 1641 are left out.
 - 岡山城: 金光氏 is listed from 1521, the start of 大永年間. The years 1602 and 1603, and owners after 1632 (still 池田氏), are from general knowledge or left out.
 - 新発田城: 新発田氏 is listed from 1467, the start of the app's period. 溝口氏's end in 1871 is from general knowledge.
+- 十河城: 十河氏 is listed from 1392, the end of its construction range, including when 三好氏 were adopted as its heads (一存, 存保). 長宗我部氏 in 1584–1585 is 親武. 十河氏 got it back in 1585: the article's text says 存之, and the sign at the site 存保; both died at 戸次川 in 1586.
+- 盛岡城: 南部氏 is listed from 1598, when building began; they lived at 福岡城 (九戸城) for a time after a fire in 1634. The year 1871 is 廃藩置県.
+- 小高城: 相馬氏 is listed from 1337, when they retook it, to 1611. Their base was 牛越城 in 1597–1603 (dates from the article 相馬義胤; the city says it was their seat around 1600), but 小高城 was still among the castles taken from them in 1602 (article 相馬中村藩), so 1600 shows 相馬氏. The confiscation was reversed within the year, so it is left out.
+- 久保田城: 佐竹氏 is listed from 1603, when building began. The year 1871 is 廃藩置県.
+- 土崎湊城: 安東氏 is listed from 1467, the start of the app's period, and covers the 湊 and 檜山 branches, joined in 1570, and 秋田氏, the name taken by 実季. Its brief capture by 豊島氏's side in 1589 is left out. 佐竹氏 entered in 1602.
+- 山形城: 最上氏 is listed from 1357, the end of its construction range, as 斯波氏 of 出羽 took that name. Owners after 1643 are left out.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
