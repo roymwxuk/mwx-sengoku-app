@@ -1,8 +1,8 @@
 import type { StyleSpecification } from 'maplibre-gl'
 
 // Keep in sync with the theme tokens in src/index.css (ADR-0007).
-const SEA = '#c5cfca'
-export const WASHI = '#f4ecd8'
+const SEA = '#dae3df'
+export const WASHI = '#faf6ea'
 export const SUMI = '#2b2622'
 export const SHU = '#9b2d1f'
 
@@ -48,7 +48,7 @@ export const mapStyle: StyleSpecification = {
       layout: { 'line-join': 'round' },
       paint: {
         'line-color': SUMI,
-        'line-opacity': 0.75,
+        'line-opacity': 0.6,
         'line-width': ['interpolate', ['linear'], ['zoom'], 4, 0.6, 10, 1.6],
       },
     },
