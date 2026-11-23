@@ -851,6 +851,137 @@
           { "clan": "hachisuka", "from": 1585, "to": 1869 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.10539, 34.26075] },
+      "properties": {
+        "id": "sogo",
+        "name_ja": "十河城",
+        "reading": "そごうじょう",
+        "name_en": "Sogō Castle",
+        "former_names": [],
+        "description": "讃岐の国人・十河氏の居城。長宗我部元親の軍に攻められ、1582年は持ちこたえたが、1584年に落城した。本丸跡には称念寺が建つ。",
+        "wikipedia_ja": "十河城",
+        "official_url": null,
+        "province": "讃岐",
+        "type": "平城",
+        "built": {"earliest": 1336, "latest": 1392},
+        "abandoned": {"earliest": 1586, "latest": 1586},
+        "owners": [
+          { "clan": "sogo", "from": 1392, "to": 1584 },
+          { "clan": "chosokabe", "from": 1584, "to": 1585 },
+          { "clan": "sogo", "from": 1585, "to": 1586 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.15011, 39.69995] },
+      "properties": {
+        "id": "morioka",
+        "name_ja": "盛岡城",
+        "reading": "もりおかじょう",
+        "name_en": "Morioka Castle",
+        "former_names": [],
+        "description": "南部信直が子の利直に命じて、1598年に築き始めた城。1633年に全体が完成し、盛岡藩主・南部家の居城となった。東北では珍しい、花崗岩の総石垣の城。",
+        "wikipedia_ja": "盛岡城",
+        "official_url": "https://www.moriokashiroato.jp/",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1598, "latest": 1633},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "nanbu", "from": 1598, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.99043, 37.56846] },
+      "properties": {
+        "id": "mutsu-odaka",
+        "name_ja": "小高城",
+        "reading": "おだかじょう",
+        "name_en": "Odaka Castle",
+        "former_names": [],
+        "description": "南北朝時代から、陸奥の相馬氏が本拠とした城。三方を水域と湿地に囲まれ、浮船城とも呼ばれた。相馬氏は1597年に牛越城へ移り、のちに戻ったが、1611年に中村城へ本拠を移した。",
+        "wikipedia_ja": "小高城",
+        "official_url": null,
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1323, "latest": 1336},
+        "abandoned": {"earliest": 1611, "latest": 1611},
+        "owners": [
+          { "clan": "soma", "from": 1337, "to": 1611 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.12324, 39.72348] },
+      "properties": {
+        "id": "dewa-kubota",
+        "name_ja": "久保田城",
+        "reading": "くぼたじょう",
+        "name_en": "Kubota Castle",
+        "former_names": [{"name_ja": "窪田城", "reading": "くぼたじょう", "name_en": "Kubota Castle", "until": null}],
+        "description": "常陸から秋田へ移された佐竹義宣が、手狭な湊城に代えて1603年に築き始めた城。久保田藩主・佐竹家の居城で、石垣をほとんど使わず土塁で守った。1880年の大火で焼失した。",
+        "wikipedia_ja": "久保田城",
+        "official_url": null,
+        "province": "出羽",
+        "type": "平山城",
+        "built": {"earliest": 1603, "latest": 1604},
+        "abandoned": {"earliest": 1880, "latest": 1880},
+        "owners": [
+          { "clan": "satake", "from": 1603, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.07111, 39.75753] },
+      "properties": {
+        "id": "tsuchizaki-minato",
+        "name_ja": "土崎湊城",
+        "reading": "つちざきみなとじょう",
+        "name_en": "Tsuchizaki-Minato Castle",
+        "former_names": [],
+        "description": "港町・土崎湊にあった安東氏の城。安東（秋田）実季が本拠とし、1599年から大改築した。1602年に佐竹義宣が入ったが、1604年に久保田城へ移り、取り壊された。",
+        "wikipedia_ja": "湊城",
+        "official_url": null,
+        "province": "出羽",
+        "type": "平城",
+        "built": null,
+        "abandoned": {"earliest": 1604, "latest": 1604},
+        "owners": [
+          { "clan": "ando", "from": 1467, "to": 1602 },
+          { "clan": "satake", "from": 1602, "to": 1604 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.32806, 38.25556] },
+      "properties": {
+        "id": "yamagata",
+        "name_ja": "山形城",
+        "reading": "やまがたじょう",
+        "name_en": "Yamagata Castle",
+        "former_names": [],
+        "description": "羽州探題として山形に入った斯波兼頼が築き、その子孫の最上氏が本拠とした城。慶長年間に最上義光が三の丸を構えて拡張した。霞城とも呼ばれる。",
+        "wikipedia_ja": "山形城",
+        "official_url": null,
+        "province": "出羽",
+        "type": "平城",
+        "built": {"earliest": 1356, "latest": 1357},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "mogami", "from": 1357, "to": 1622 },
+          { "clan": "torii", "from": 1622, "to": 1636 },
+          { "clan": "hoshina", "from": 1636, "to": 1643 }
+        ]
+      }
     }
   ]
 }

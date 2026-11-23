@@ -60,5 +60,13 @@
   {"id": "ukita", "name_ja": "宇喜多氏", "reading": "うきたし", "name_en": "Ukita", "mark": "宇", "color": "#6b645c"},
   {"id": "shibata", "name_ja": "新発田氏", "reading": "しばたし", "name_en": "Shibata (Echigo)", "mark": "新", "color": "#6b645c"},
   {"id": "mizoguchi", "name_ja": "溝口氏", "reading": "みぞぐちし", "name_en": "Mizoguchi", "mark": "溝", "color": "#6b645c"},
-  {"id": "hachisuka", "name_ja": "蜂須賀氏", "reading": "はちすかし", "name_en": "Hachisuka", "mark": "蜂", "color": "#6b645c"}
+  {"id": "hachisuka", "name_ja": "蜂須賀氏", "reading": "はちすかし", "name_en": "Hachisuka", "mark": "蜂", "color": "#6b645c"},
+  {"id": "sogo", "name_ja": "十河氏", "reading": "そごうし", "name_en": "Sogō", "mark": "十", "color": "#6b645c"},
+  {"id": "chosokabe", "name_ja": "長宗我部氏", "reading": "ちょうそかべし", "name_en": "Chōsokabe", "mark": "長", "color": "#6b645c"},
+  {"id": "nanbu", "name_ja": "南部氏", "reading": "なんぶし", "name_en": "Nanbu", "mark": "南", "color": "#6b645c"},
+  {"id": "soma", "name_ja": "相馬氏", "reading": "そうまし", "name_en": "Sōma", "mark": "相", "color": "#6b645c"},
+  {"id": "satake", "name_ja": "佐竹氏", "reading": "さたけし", "name_en": "Satake", "mark": "佐", "color": "#6b645c"},
+  {"id": "ando", "name_ja": "安東・秋田氏", "reading": "あんどう・あきたし", "name_en": "Andō / Akita", "mark": "安", "color": "#6b645c"},
+  {"id": "mogami", "name_ja": "最上氏", "reading": "もがみし", "name_en": "Mogami", "mark": "最", "color": "#6b645c"},
+  {"id": "torii", "name_ja": "鳥居氏", "reading": "とりいし", "name_en": "Torii", "mark": "鳥", "color": "#6b645c"}
 ]
