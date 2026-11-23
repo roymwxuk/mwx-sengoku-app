@@ -10,18 +10,18 @@ Links can open a castle directly, e.g. [吉田郡山城](https://roymwxuk.github
 
 _As of 2026-11-23._ The map, castles, detail panel and castle list work, with 11 castles. The interface is in Japanese.
 
-| Milestone                        | Status                        |
-| -------------------------------- | ----------------------------- |
-| M0 Foundations                   | Done, except deferred items   |
-| M1 Map of Japan                  | Done                          |
-| M2 Castles on the map            | Done, except deferred items   |
-| M3 Detail panel, shareable links | Done, except deferred items   |
-| M4 Provinces (令制国) and clans  | Not started                   |
-| M5 Timeline 1467–1615            | Not started                   |
-| M6 Search and filters            | Not started                   |
-| M7 Data growth                   | Not started                   |
-| M8 Sengoku look and polish       | In progress: castle list done |
-| M9 v1.0 release                  | Not started                   |
+| Milestone                        | Status                               |
+| -------------------------------- | ------------------------------------ |
+| M0 Foundations                   | Done, except deferred items          |
+| M1 Map of Japan                  | Done                                 |
+| M2 Castles on the map            | Done, except deferred items          |
+| M3 Detail panel, shareable links | Done, except deferred items          |
+| M4 Provinces (令制国) and clans  | Not started                          |
+| M5 Timeline 1467–1615            | Not started                          |
+| M6 Search and filters            | Not started                          |
+| M7 Data growth                   | Not started                          |
+| M8 Sengoku look and polish       | In progress: castle list, links done |
+| M9 v1.0 release                  | Not started                          |
 
 Deferred for now: unit and component tests (Vitest), and CI checks. See the [roadmap](docs/ROADMAP.md) for details.
 
@@ -30,6 +30,7 @@ Deferred for now: unit and component tests (Vitest), and CI checks. See the [roa
 - Pan and zoom a map of Japan on desktop and phone
 - Hover over a castle for its name; click or tap it for details
 - Choose a castle from the list (城一覧, bottom left) by mouse, touch or keyboard
+- Open a castle's place in Google Maps, or its Wikipedia article
 - Share a castle as a link, and step through castles with back and forward
 
 ### Known limits

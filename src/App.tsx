@@ -27,11 +27,7 @@ function App() {
       <JapanMap castles={castles} selected={selected} panelRef={panelRef} />
       {castles && <CastleList castles={castles} />}
       {selected && (
-        <CastlePanel
-          ref={panelRef}
-          castle={selected.properties}
-          onClose={closePanel}
-        />
+        <CastlePanel ref={panelRef} feature={selected} onClose={closePanel} />
       )}
       <h1 className="pointer-events-none absolute top-3 left-3 border-l-4 border-shu bg-washi/90 px-3 py-2 text-xl tracking-widest shadow-sm">
         戦国城地図

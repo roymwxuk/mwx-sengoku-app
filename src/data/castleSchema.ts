@@ -29,6 +29,8 @@ const castle = z
     former_names: z.array(formerName),
     /** One or two sentences, in Japanese */
     description: z.string().min(1).max(200),
+    /** Article title on Japanese Wikipedia. null: no article */
+    wikipedia_ja: z.string().min(1).nullable(),
     province: z.string().min(1),
     type: z.enum(['山城', '平山城', '平城', '館']),
     /** null: unknown */

@@ -1,15 +1,18 @@
 import { useEffect, type ReactNode, type Ref } from 'react'
-import type { Castle } from '../../data/castleSchema'
+import type { CastleFeature } from '../../data/castleSchema'
+import { googleMapsUrl, wikipediaUrl } from './castleLinks'
 import { formatYears } from './formatYears'
 
 interface Props {
-  castle: Castle
+  feature: CastleFeature
   onClose: () => void
   ref: Ref<HTMLElement>
 }
 
 /** Side panel on wide screens, bottom sheet on phones. */
-export function CastlePanel({ castle, onClose, ref }: Props) {
+export function CastlePanel({ feature, onClose, ref }: Props) {
+  const castle = feature.properties
+
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose()
@@ -40,7 +43,22 @@ export function CastlePanel({ castle, onClose, ref }: Props) {
 
         <p className="mt-4 leading-relaxed">{castle.description}</p>
 
-        <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 border-t border-sumi/20 pt-4">
+        <ul className="mt-2 flex flex-wrap gap-x-5">
+          <li>
+            <ExternalLink href={googleMapsUrl(feature.geometry.coordinates)}>
+              Googleマップ
+            </ExternalLink>
+          </li>
+          {castle.wikipedia_ja && (
+            <li>
+              <ExternalLink href={wikipediaUrl(castle.wikipedia_ja)}>
+                Wikipedia
+              </ExternalLink>
+            </li>
+          )}
+        </ul>
+
+        <dl className="mt-2 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 border-t border-sumi/20 pt-4">
           {castle.former_names.length > 0 && (
             <Row label="旧名">
               {castle.former_names.map((former) => (
@@ -80,5 +98,20 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
       <dt className="text-shu">{label}</dt>
       <dd>{children}</dd>
     </>
+  )
+}
+
+function ExternalLink({ href, children }: { href: string; children: string }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex min-h-11 items-center gap-1 text-shu underline underline-offset-4 hover:text-sumi focus-visible:outline-2 focus-visible:outline-shu"
+    >
+      {children}
+      <span aria-hidden="true">↗</span>
+      <span className="sr-only">（新しいタブで開く）</span>
+    </a>
   )
 }
