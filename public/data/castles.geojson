@@ -1102,7 +1102,9 @@
         "owners": [
           { "clan": "imagawa", "from": 1514, "to": 1568 },
           { "clan": "tokugawa", "from": 1568, "to": 1590 },
-          { "clan": "horio", "from": 1590, "to": 1600 }
+          { "clan": "horio", "from": 1590, "to": 1600 },
+          { "clan": "matsudaira", "from": 1601, "to": 1609 },
+          { "clan": "mizuno", "from": 1609, "to": 1619 }
         ]
       }
     },
@@ -1449,7 +1451,7 @@
           { "clan": "todo", "from": 1595, "to": 1608 },
           { "clan": "tomita", "from": 1608, "to": 1613 },
           { "clan": "tokugawa", "from": 1613, "to": 1614 },
-          { "clan": "date", "from": 1614, "to": 1871 }
+          { "clan": "date", "from": 1615, "to": 1871 }
         ]
       }
     },
@@ -1520,7 +1522,8 @@
           { "clan": "oda", "from": 1567, "to": 1583 },
           { "clan": "ikeda", "from": 1583, "to": 1585 },
           { "clan": "toyotomi", "from": 1585, "to": 1590 },
-          { "clan": "ito", "from": 1590, "to": 1600 }
+          { "clan": "ito", "from": 1590, "to": 1600 },
+          { "clan": "ishikawa-mikawa", "from": 1601, "to": 1616 }
         ]
       }
     },
@@ -1568,7 +1571,8 @@
           { "clan": "takeda", "from": 1572, "to": 1575 },
           { "clan": "oda", "from": 1575, "to": 1582 },
           { "clan": "mori-tadamasa", "from": 1582, "to": 1599 },
-          { "clan": "tamaru", "from": 1599, "to": 1600 }
+          { "clan": "tamaru", "from": 1599, "to": 1600 },
+          { "clan": "matsudaira", "from": 1601, "to": 1638 }
         ]
       }
     },
@@ -1664,7 +1668,8 @@
         "owners": [
           { "clan": "ishikawa", "from": 1561, "to": 1575 },
           { "clan": "mori", "from": 1575, "to": 1582 },
-          { "clan": "ukita", "from": 1582, "to": 1600 }
+          { "clan": "ukita", "from": 1582, "to": 1600 },
+          { "clan": "hanabusa", "from": 1600, "to": 1617 }
         ]
       }
     },
@@ -2022,7 +2027,8 @@
         "built": {"earliest": 1601, "latest": 1603},
         "abandoned": {"earliest": 1870, "latest": 1870},
         "owners": [
-          { "clan": "takahashi", "from": 1601, "to": 1613 }
+          { "clan": "takahashi", "from": 1601, "to": 1613 },
+          { "clan": "arima", "from": 1614, "to": 1691 }
         ]
       }
     },
@@ -2044,7 +2050,7 @@
         "abandoned": {"earliest": 1871, "latest": 1871},
         "owners": [
           { "clan": "narita", "from": 1478, "to": 1590 },
-          { "clan": "tokugawa", "from": 1590, "to": 1600 }
+          { "clan": "tokugawa", "from": 1590, "to": 1633 }
         ]
       }
     },
@@ -2111,7 +2117,8 @@
         "owners": [
           { "clan": "imagawa", "from": 1546, "to": 1565 },
           { "clan": "tokugawa", "from": 1565, "to": 1590 },
-          { "clan": "ikeda", "from": 1590, "to": 1601 }
+          { "clan": "ikeda", "from": 1590, "to": 1601 },
+          { "clan": "matsudaira", "from": 1601, "to": 1632 }
         ]
       }
     },
@@ -2184,7 +2191,8 @@
           { "clan": "takeda", "from": 1579, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
           { "clan": "uesugi", "from": 1582, "to": 1598 },
-          { "clan": "mori-tadamasa", "from": 1600, "to": 1603 }
+          { "clan": "mori-tadamasa", "from": 1600, "to": 1603 },
+          { "clan": "hori", "from": 1610, "to": 1616 }
         ]
       }
     },
@@ -2308,7 +2316,7 @@
           { "clan": "takeda", "from": 1566, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
           { "clan": "hojo", "from": 1582, "to": 1590 },
-          { "clan": "tokugawa", "from": 1590, "to": 1598 }
+          { "clan": "ii", "from": 1590, "to": 1598 }
         ]
       }
     },
@@ -2333,6 +2341,168 @@
           { "clan": "oda", "from": 1582, "to": 1582 },
           { "clan": "tokugawa", "from": 1582, "to": 1590 },
           { "clan": "sengoku", "from": 1590, "to": 1622 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.99242, 35.15640] },
+      "properties": {
+        "id": "yamanaka",
+        "name_ja": "山中城",
+        "reading": "やまなかじょう",
+        "name_en": "Yamanaka Castle",
+        "former_names": [],
+        "description": "後北条氏が小田原の西の守りとして、東海道を取り込んで築いた山城。畝を残した堀で知られる。1590年、小田原征伐で豊臣秀次の大軍に攻められ、わずか半日で落ちた。",
+        "wikipedia_ja": "山中城",
+        "official_url": null,
+        "province": "伊豆",
+        "type": "山城",
+        "built": {"earliest": 1558, "latest": 1570},
+        "abandoned": {"earliest": 1590, "latest": 1590},
+        "owners": [
+          { "clan": "hojo", "from": 1558, "to": 1590 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.01473, 34.77542] },
+      "properties": {
+        "id": "kakegawa",
+        "name_ja": "掛川城",
+        "reading": "かけがわじょう",
+        "name_en": "Kakegawa Castle",
+        "former_names": [],
+        "description": "今川氏の重臣朝比奈氏が築いた城。1569年、逃げ込んだ今川氏真が徳川家康に開城し、戦国大名としての今川氏は終わった。1590年に入った山内一豊が、天守を備えた城に広げた。",
+        "wikipedia_ja": "掛川城",
+        "official_url": "https://kakegawajo.com/",
+        "province": "遠江",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1513},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "imagawa", "from": 1469, "to": 1569 },
+          { "clan": "tokugawa", "from": 1569, "to": 1590 },
+          { "clan": "yamauchi", "from": 1590, "to": 1600 },
+          { "clan": "matsudaira", "from": 1601, "to": 1617 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.93917, 35.38833] },
+      "properties": {
+        "id": "inuyama",
+        "name_ja": "犬山城",
+        "reading": "いぬやまじょう",
+        "name_en": "Inuyama Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "白帝城", "reading": "はくていじょう", "name_en": "Hakutei Castle"}],
+        "description": "木曽川を見下ろす丘の城。1537年に織田信康が今の場所に築いた。1584年、池田恒興が奇襲で奪い、小牧・長久手の戦いで豊臣秀吉の拠点となった。現存天守は国宝。白帝城とも呼ばれる。",
+        "wikipedia_ja": "犬山城",
+        "official_url": "https://inuyamajo.jp/",
+        "province": "尾張",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1537},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "oda", "from": 1469, "to": 1584 },
+          { "clan": "ikeda", "from": 1584, "to": 1584 },
+          { "clan": "toyotomi", "from": 1584, "to": 1587 },
+          { "clan": "oda", "from": 1587, "to": 1590 },
+          { "clan": "toyotomi", "from": 1590, "to": 1595 },
+          { "clan": "ishikawa-sadakiyo", "from": 1595, "to": 1600 },
+          { "clan": "tokugawa", "from": 1601, "to": 1617 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.52583, 34.70917] },
+      "properties": {
+        "id": "matsusaka",
+        "name_ja": "松坂城",
+        "reading": "まつさかじょう",
+        "name_en": "Matsusaka Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "松阪城", "reading": "まつさかじょう", "name_en": "Matsusaka Castle"}],
+        "description": "蒲生氏郷が1588年に四五百森に築いた城。楽市楽座を設け、商人を移して、商都松阪の礎を築いた。氏郷が会津へ移ったのち、服部一忠、古田重勝らが入り、1619年から紀州藩の城となった。",
+        "wikipedia_ja": "松坂城",
+        "official_url": "https://www.city.matsusaka.mie.jp/site/kanko/matsusakajoato.html",
+        "province": "伊勢",
+        "type": "平山城",
+        "built": {"earliest": 1588, "latest": 1588},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "gamo", "from": 1588, "to": 1590 },
+          { "clan": "furuta", "from": 1595, "to": 1619 },
+          { "clan": "tokugawa", "from": 1619, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.25167, 35.27639] },
+      "properties": {
+        "id": "hikone",
+        "name_ja": "彦根城",
+        "reading": "ひこねじょう",
+        "name_en": "Hikone Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "金亀城", "reading": "こんきじょう", "name_en": "Konki Castle"}],
+        "description": "井伊直政の遺志を継ぎ、1603年から琵琶湖のほとりの彦根山に築かれた井伊氏の城。12を超える大名が手伝った天下普請で、1622年に完成した。現存天守は国宝。金亀城とも呼ばれる。",
+        "wikipedia_ja": "彦根城",
+        "official_url": "https://hikonecastle.com/",
+        "province": "近江",
+        "type": "平山城",
+        "built": {"earliest": 1603, "latest": 1622},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "ii", "from": 1603, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.77686, 34.93950] },
+      "properties": {
+        "id": "fushimi",
+        "name_ja": "伏見城",
+        "reading": "ふしみじょう",
+        "name_en": "Fushimi Castle",
+        "former_names": [],
+        "description": "豊臣秀吉が1592年から指月に築き、地震で倒れると木幡山に築き直して、1598年にここで没した。1600年、関ヶ原の戦いの前に鳥居元忠が守り、落城した。家康が再建し、将軍宣下を受けた。",
+        "wikipedia_ja": "伏見城",
+        "official_url": null,
+        "province": "山城",
+        "type": "平山城",
+        "built": {"earliest": 1592, "latest": 1597},
+        "abandoned": {"earliest": 1619, "latest": 1623},
+        "owners": [
+          { "clan": "toyotomi", "from": 1592, "to": 1599 },
+          { "clan": "tokugawa", "from": 1599, "to": 1623 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.17423, 34.17526] },
+      "properties": {
+        "id": "iwakuni",
+        "name_ja": "岩国城",
+        "reading": "いわくにじょう",
+        "name_en": "Iwakuni Castle",
+        "former_names": [],
+        "description": "関ヶ原の戦いのあと岩国に移った吉川広家が、横山の上に築いた城。1608年に完成したが、わずか7年後、一国一城令で取り壊された。",
+        "wikipedia_ja": "岩国城",
+        "official_url": null,
+        "province": "周防",
+        "type": "山城",
+        "built": {"earliest": 1601, "latest": 1608},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "kikkawa", "from": 1601, "to": 1615 }
         ]
       }
     }
