@@ -15,9 +15,37 @@ export const MAP_FONT = [
   'serif',
 ]
 
-// The title in brush strokes, in the Sea of Japan. The image is 4:1; keep the
-// corners so on the map (Web Mercator), or it will look stretched.
-const LOGO = { west: 129, east: 137.4, north: 40.502, south: 38.886 }
+type LngLat = [number, number]
+
+/** The title in brush strokes, in the Sea of Japan. Sizes are in degrees. */
+const LOGO = {
+  center: [133.2, 39.7],
+  width: 7.56,
+  aspect: 4, // of logo.webp
+  tilt: 15, // anticlockwise
+}
+
+/** Clockwise from the top left. Worked out in Web Mercator, so it isn't skewed. */
+function logoCorners(): [LngLat, LngLat, LngLat, LngLat] {
+  const radians = Math.PI / 180
+  const [lng, lat] = LOGO.center
+  const centerY = Math.asinh(Math.tan(lat * radians)) / radians
+  const cos = Math.cos(LOGO.tilt * radians)
+  const sin = Math.sin(LOGO.tilt * radians)
+  const right = LOGO.width / 2
+  const top = right / LOGO.aspect
+
+  const corner = (x: number, y: number): LngLat => [
+    lng + x * cos - y * sin,
+    Math.atan(Math.sinh((centerY + x * sin + y * cos) * radians)) / radians,
+  ]
+  return [
+    corner(-right, top),
+    corner(right, top),
+    corner(right, -top),
+    corner(-right, -top),
+  ]
+}
 
 export const mapStyle: StyleSpecification = {
   version: 8,
@@ -31,12 +59,7 @@ export const mapStyle: StyleSpecification = {
     logo: {
       type: 'image',
       url: `${import.meta.env.BASE_URL}logo.webp`,
-      coordinates: [
-        [LOGO.west, LOGO.north],
-        [LOGO.east, LOGO.north],
-        [LOGO.east, LOGO.south],
-        [LOGO.west, LOGO.south],
-      ],
+      coordinates: logoCorners(),
     },
   },
   layers: [
