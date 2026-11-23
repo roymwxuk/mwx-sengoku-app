@@ -49,6 +49,14 @@
 - 高山城: the one in 飛騨; its id is `hida-takayama`, as other castles share the name. `built` is 1588–1605: the castle's article says it was begun in 1588 and finished by about 1603, the article 金森長近 that it was begun in 1590 and finished about 1605. 天神山城 was an earlier, separate castle on the site, so it isn't a former name.
 - 金沢城: asked for as 御山御坊, which redirects to it: 尾山御坊 (also 御山御坊, 金沢御堂), a fortified temple of 1546, was taken in 1580 and renamed 金沢城. `built` is 1546–1580, from the temple to the castle; Wikidata gives 1583, when 前田利家 entered. Both spellings are listed as former names so that search finds them. 尾山城 was the name from 1583; its `until` is null, as sources say about 1587, or 利家's last years or later. It was 金沢城 in 1580–1583. `abandoned` is the infobox's 1871; it was kept in 1873.
 - 七尾城: the one in 能登; its id is `noto-nanao`, as other castles share the name. `built` is 1408 (Wikidata) to 1429 (the article says 1428–1429). `abandoned` is 1582–1589: the article 前田利家 gives 1582, when 小丸山城 was built, and the castle's article 1589. The article 前田利政 has him enter it in 1597. The official site on Wikidata no longer exists.
+- 大坂城: 石山御坊 and 石山本願寺 are listed as former names until 1580, when the temple was given up and burned; they are one site, though the castle was new. `built` is 1496–1583, from the first temple to the castle. Some scholars hold that the name 石山 is later, and that it was then called 大坂本願寺.
+- 浜松城: asked for as 曳馬城, which redirects to it. `built` is 1401–1514: the article says about the 15th century, the infobox suggests 永正年間 (1504–1520), and it stood by 1514. The point is the present castle; 曳馬城 was its north-eastern part (元城町東照宮). 引馬城 and 引間城 are other spellings. `abandoned` is the infobox's 1871. The official site was under maintenance on 2026-11-23.
+- 駿府城: 今川館 redirects to it and is listed as the former name until 1568, when it burned. `built` is 1301–1585, from 今川館 (14th century) to the castle. No source shows that they were on the same site, and 今川館 may have been further west, so the point is approximate before 1585. `abandoned` is the infobox's 1869.
+- 那古野城: separate from 名古屋城, which was built on its site from 1609; its id is `old-nagoya`. `abandoned` is 1555 (infobox) to 1582 (名古屋城's official site). 柳ノ丸, its first form, isn't listed as a former name.
+- 大河内城: `abandoned` is 1576 (the article) or 1575 (article 織田信雄).
+- 雑賀城: `built` is 1467–1577: the source only says 戦国時代, and it stood in 1577. `abandoned` is 1577–1585: it probably fell in 1577, and was gone by about 1585.
+- 室町御所: the article is 花の御所. `built` is 1378 (begun) to 1381 (finished). It burned in 1476 and was rebuilt on a smaller scale several times. Coordinates are from the article, as Wikidata has none.
+- 勝瑞城: `built` is 1221–1363: the article gives the early Kamakura period (after 1221), 1338, 1340 and 1363. Excavation suggests that the moated part now called the 本丸 was built just before 1582.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -60,7 +68,7 @@
 - 春日山城: 上杉氏 (with 長尾氏) is listed from 1392, the end of its construction range.
 - 吉田郡山城: 毛利氏 is listed from 1467, the start of the app's period (they held it earlier), to 1600, the end of its abandonment range: they held 安芸 until 関ヶ原, though their base moved to 広島城 in 1591.
 - 江戸城: the article's infobox gives 太田氏 for 1561–1577; we list 後北条氏 throughout 1524–1590. Needs checking.
-- 大坂城: the Okudaira (松平忠明) years, 1615–1619, are left out.
+- 大坂城: the Okudaira (松平忠明) years, 1615–1619, are left out. 本願寺 is listed from 1496. 織田氏 in 1580–1582 is the garrison of 丹羽長秀 and 津田信澄; 池田氏 in 1582–1583 is 恒興.
 - 府内城: 福原氏 lost it in 1599 and 竹中氏 in 1634 (both years from general knowledge); owners after 1634 are left out.
 - 岡城: 志賀氏 is listed from 1467, the start of the app's period (they were retainers of 大友氏), to 1593. The year 1871 for 中川氏 is from the article 岡藩.
 - 観音寺城: 六角氏 is listed throughout 1467–1568, although it fell to 京極氏 briefly in 1468 and was given up to the shogun's armies in 1489 and 1491. Possible 織田氏 use after 1568 is left out.
@@ -96,5 +104,12 @@
 - 高山城: 金森氏 is listed from 1588, when building began. 前田氏 of 加賀 kept it for the shogunate in 1692–1695, left out.
 - 金沢城: 本願寺 in 1546–1580 is the 加賀一向一揆. 織田氏 in 1580–1583 is 佐久間盛政. The year 1871 for 前田氏 is 廃藩置県.
 - 七尾城: 畠山氏 is listed from 1429, the end of its construction range. 温井氏 and 三宅氏, who drove out 上杉氏's castellan in 1579, are left out. 織田氏 is listed from 1580, when 長連龍 took it (articles 長連龍 and 三宅長盛), and is 菅屋長頼 in 1581; 前田利家 was given 能登 that August. In 1583 it was held by 前田氏's castellan 安勝. 畠山氏 of 二本松 is listed as 二本松氏.
+- 浜松城: 今川氏 is listed from 1514, when 氏親 gave it to 飯尾氏, their retainers (in revolt by 1565). 吉良氏 before that is left out, as are owners after 1600.
+- 駿府城: 今川氏 is listed from 1467, the start of the app's period. 中村氏 (一氏, then 一忠) left after 関ヶ原. 徳川氏 in 1601–1869 covers 内藤信成, 家康, 頼宣, 忠長, the shogunate and the 駿府藩 of 1868.
+- 那古野城: 織田氏 is listed to 1582 and covers 信秀, 信長, 信光 and 林秀貞. 今川氏 is 氏豊. The capture was long dated 1532; the article and the official site give 1538.
+- 大河内城: 大河内氏, a branch of 北畠氏, are listed as 北畠氏 from 1467, the start of the app's period. 織田氏 in 1569–1576 is 信雄, who became 北畠氏's heir.
+- 雑賀城: 鈴木氏, its builders and only known lords, are listed from 1467, the earliest it can have been built. They led the 雑賀衆, allies of 本願寺.
+- 室町御所: the shoguns were often away from Kyoto; 足利氏 is listed throughout 1381–1559.
+- 勝瑞城: 細川氏 is listed from 1363, the end of its construction range. 三好氏 in 1552–1582 covers 実休, 長治 and 十河存保. Its capture by 細川真之's side in 1577 and the brief occupation in 1580 are left out.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
