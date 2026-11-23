@@ -45,6 +45,10 @@
 - 久保田城: the one in 出羽; its id is `dewa-kubota`, as a castle in 上総 shares the name. `built` is 1603 (begun) to 1604 (本丸 finished); the infobox and Wikidata give 1604. 窪田城 is the former spelling; the article puts the change between 1633 and 1645, so its `until` is null. `abandoned` is the infobox's 1880, when a fire destroyed the buildings; it was kept in 1873. The official site on Wikidata no longer exists.
 - 土崎湊城: the article is 湊城. `built` is null, as the article says the date is unknown: 1436 is from a Meiji-era book, and 湊氏's seat may first have been elsewhere (寺内, or the old 秋田城) and moved to this site only after about 1590. The point is the site destroyed in 1604. Coordinates are from the Japanese Wikipedia article, as Wikidata's are given to about 1 km.
 - 山形城: `built` is 1356 (infobox) to 1357 (article's text and Wikidata). `abandoned` is the infobox's 1871. 霞城 and 霞ヶ城 are alternative names, not former ones.
+- 葛尾城: `built` is 1336–1501: the infobox only says 室町時代, and 村上義清 was born there in 1501, per his article. `abandoned` is null, as no date is given; its last recorded battle was in 1600.
+- 高山城: the one in 飛騨; its id is `hida-takayama`, as other castles share the name. `built` is 1588–1605: the castle's article says it was begun in 1588 and finished by about 1603, the article 金森長近 that it was begun in 1590 and finished about 1605. 天神山城 was an earlier, separate castle on the site, so it isn't a former name.
+- 金沢城: asked for as 御山御坊, which redirects to it: 尾山御坊 (also 御山御坊, 金沢御堂), a fortified temple of 1546, was taken in 1580 and renamed 金沢城. `built` is 1546–1580, from the temple to the castle; Wikidata gives 1583, when 前田利家 entered. Both spellings are listed as former names so that search finds them. 尾山城 was the name from 1583; its `until` is null, as sources say about 1587, or 利家's last years or later. It was 金沢城 in 1580–1583. `abandoned` is the infobox's 1871; it was kept in 1873.
+- 七尾城: the one in 能登; its id is `noto-nanao`, as other castles share the name. `built` is 1408 (Wikidata) to 1429 (the article says 1428–1429). `abandoned` is 1582–1589: the article 前田利家 gives 1582, when 小丸山城 was built, and the castle's article 1589. The article 前田利政 has him enter it in 1597. The official site on Wikidata no longer exists.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -88,5 +92,9 @@
 - 久保田城: 佐竹氏 is listed from 1603, when building began. The year 1871 is 廃藩置県.
 - 土崎湊城: 安東氏 is listed from 1467, the start of the app's period, and covers the 湊 and 檜山 branches, joined in 1570, and 秋田氏, the name taken by 実季. Its brief capture by 豊島氏's side in 1589 is left out. 佐竹氏 entered in 1602.
 - 山形城: 最上氏 is listed from 1357, the end of its construction range, as 斯波氏 of 出羽 took that name. Owners after 1643 are left out.
+- 葛尾城: 村上氏 is listed from 1501, the first date found for them there. They lost it in April 1553, retook it that month and left it for good in August. Later years are inferred from who held the district (埴科郡 and 川中島), as little is known of the castle itself: 武田氏 to 1582, 上杉氏 from 1582 (article 山浦景国), and 森氏 from 1600, whose castellan held it that year. 織田氏's brief hold in 1582 and 田丸氏 in 1598–1600 are left out. The years 1598 (上杉氏's move to 会津) and 1603 (森氏's to 美作) are from general knowledge. 森氏 (忠政) isn't 毛利氏.
+- 高山城: 金森氏 is listed from 1588, when building began. 前田氏 of 加賀 kept it for the shogunate in 1692–1695, left out.
+- 金沢城: 本願寺 in 1546–1580 is the 加賀一向一揆. 織田氏 in 1580–1583 is 佐久間盛政. The year 1871 for 前田氏 is 廃藩置県.
+- 七尾城: 畠山氏 is listed from 1429, the end of its construction range. 温井氏 and 三宅氏, who drove out 上杉氏's castellan in 1579, are left out. 織田氏 is listed from 1580, when 長連龍 took it (articles 長連龍 and 三宅長盛), and is 菅屋長頼 in 1581; 前田利家 was given 能登 that August. In 1583 it was held by 前田氏's castellan 安勝. 畠山氏 of 二本松 is listed as 二本松氏.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
