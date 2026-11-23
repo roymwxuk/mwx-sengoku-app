@@ -1,6 +1,6 @@
 # ADR-0003: Use MapLibre GL JS as the map engine
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-23
 
 ## Context
