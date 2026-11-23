@@ -118,5 +118,6 @@
   {"id": "narita", "name_ja": "成田氏", "reading": "なりたし", "name_en": "Narita", "mark": "泰", "color": "#ae0a9f"},
   {"id": "kimotsuki", "name_ja": "肝付氏", "reading": "きもつきし", "name_en": "Kimotsuki", "mark": "肝", "color": "#421159"},
   {"id": "hineno", "name_ja": "日根野氏", "reading": "ひねのし", "name_en": "Hineno", "mark": "根", "color": "#f668c3"},
-  {"id": "suwa", "name_ja": "諏訪氏", "reading": "すわし", "name_en": "Suwa", "mark": "諏", "color": "#0766ad"}
+  {"id": "suwa", "name_ja": "諏訪氏", "reading": "すわし", "name_en": "Suwa", "mark": "諏", "color": "#0766ad"},
+  {"id": "takanashi", "name_ja": "高梨氏", "reading": "たかなしし", "name_en": "Takanashi", "mark": "梨", "color": "#9934e3"}
 ]

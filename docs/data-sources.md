@@ -104,6 +104,7 @@
 - 吉田城: the one in 三河; its id is `mikawa-yoshida`, as other castles share the name. `built` is 1497 (牧野古白 lived there, per a recent study) to 1505 (traditional, and the infobox). 今橋城 was an early name; its `until` is null, as sources give 1522 or 天文年間 (1532–1555) for the change. Coordinates are from the article, as Wikidata's are given to about 1 km.
 - 高島城: the one by 諏訪湖; its id is `suwa-takashima`, as other castles share the name. `built` is 1592–1598, begun to finished; the infobox gives 1592. 諏訪氏's and 武田氏's older 高島城 was on 茶臼山, north of it, and isn't included.
 - 要害山城: coordinates are from Wikidata, where they are given to about 1 km, but agree with the peak on OpenStreetMap. 積翠山城 is an alternative name.
+- 飯山城: `built` is the early 14th century, when 泉氏 lived there, to 1564, when 上杉謙信 rebuilt it; the infobox says 室町時代. `abandoned` is 廃藩置県 (1871), as the article only says that the buildings went after it. Coordinates are from the article.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -196,5 +197,6 @@
 - 吉田城: owners before 1546 are left out, as 牧野氏, 戸田氏 and 松平氏 took it from each other often. 徳川氏 in 1565–1590 is 酒井忠次. Owners after 1601 are left out.
 - 高島城: 日根野氏 is marked 根.
 - 要害山城: as at 躑躅ヶ崎館, 織田氏 in 1582 is 河尻秀隆 (from general knowledge). 加藤氏 is 光泰; its years and 浅野氏 in 1593–1600 follow 甲府城.
+- 飯山城: owners before 1557 (泉氏, then a branch castle of 高梨氏) are left out, as no dates are given. 高梨氏 were allies of 上杉氏. 織田氏 in 1582 is 森長可. 上杉氏 in 1582–1598 is the castellan 岩井信能. 石川光吉 (a 豊臣 deputy) and 関一政, 1598–1600, are left out. 森氏 in 1600–1603 is 忠政, who was given the district in 1600 (from general knowledge). Owners after 1603 are left out.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.

@@ -2160,6 +2160,32 @@
           { "clan": "asano", "from": 1593, "to": 1600 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.36625, 36.85640] },
+      "properties": {
+        "id": "iiyama",
+        "name_ja": "飯山城",
+        "reading": "いいやまじょう",
+        "name_en": "Iiyama Castle",
+        "former_names": [],
+        "description": "千曲川に面した丘の城。1557年、武田氏に追われた高梨政頼が移った。1564年、上杉謙信が武田信玄に備える前線の城として本格的に築き直した。江戸時代は飯山藩の藩庁となった。",
+        "wikipedia_ja": "飯山城",
+        "official_url": null,
+        "province": "信濃",
+        "type": "平山城",
+        "built": {"earliest": 1301, "latest": 1564},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "takanashi", "from": 1557, "to": 1564 },
+          { "clan": "uesugi", "from": 1564, "to": 1579 },
+          { "clan": "takeda", "from": 1579, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "uesugi", "from": 1582, "to": 1598 },
+          { "clan": "mori-tadamasa", "from": 1600, "to": 1603 }
+        ]
+      }
     }
   ]
 }
