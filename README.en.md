@@ -23,7 +23,7 @@ _As of 2026-11-23._ The map, castles, detail panel, castle list and search work,
 | M6 Search and filters            | In progress: search done                    |
 | M7 Data growth                   | In progress: 58 castles                     |
 | M8 Sengoku look and polish       | In progress: castle list, links, icons done |
-| M9 v1.0 release                  | Not started                                 |
+| M9 v1.0 release                  | In progress: about dialog done              |
 
 Deferred for now: unit and component tests (Vitest), and CI checks. See the [roadmap](docs/ROADMAP.md) for details.
 
@@ -34,8 +34,10 @@ Deferred for now: unit and component tests (Vitest), and CI checks. See the [roa
 - Tell a castle's type (山城, 平山城, 平城 or 館) from the shape of its icon
 - See province borders and names, and who held each castle in 1553 (just before 川中島), 1560 (just before 桶狭間), 1583 or 1600 (just before 関ヶ原); both can be turned off (凡例, top right)
 - Search for a castle in kanji, kana or romaji (城を検索), by current or former name; small typos are fine
+- See a castle under its former name in the years it was used (大坂城 is 石山御坊 in 1560)
 - Choose a castle from the list (城一覧, bottom left) by mouse, touch or keyboard
 - Open a castle's place in Google Maps, its Wikipedia article, or its official site
+- See credits, licences and a link to GitHub (概要, bottom left)
 - Share a castle as a link, and step through castles with back and forward
 
 ### Known limits

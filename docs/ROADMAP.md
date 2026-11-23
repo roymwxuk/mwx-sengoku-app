@@ -82,6 +82,7 @@ Goal: see how the map changes from 1467 to 1615.
 - [ ] Choose colours for more clans (9 have one, the rest are grey; about 8 can be told apart in one year)
 - [x] Switch between 1553 (just before the first 川中島), 1560 (just before 桶狭間), 1583 and 1600 (just before 関ヶ原), in the URL as `?year=1600`; castles not built yet are dotted circles, abandoned ones ✕; the slider will replace the switch
 - [ ] Year slider UI (1467–1615) stored in Zustand + URL (`?year=1560`)
+- [x] Show a castle's former name in the years it was used (大坂城 is 石山御坊 in 1553 and 1560), in the panel, tooltip and list
 - [ ] Filter castles by year (exists between `built` and `abandoned`)
 - [ ] Colour castles by their owner in the selected year
 - [ ] Optional: colour provinces by their dominant clan
@@ -128,7 +129,7 @@ Goal: it looks and feels like the Sengoku era, and works for everyone.
 ## M9 — v1.0 release
 
 - [ ] Custom domain (optional)
-- [ ] About page with data credits and licences
+- [x] About dialog (概要, bottom left) with data credits, licences and a link to GitHub
 - [ ] Error boundary + "data failed to load" state
 - [ ] Tag `v1.0.0`, write release notes
 

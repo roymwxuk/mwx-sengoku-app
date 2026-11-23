@@ -32,8 +32,9 @@
   }
 }
 
-/* Castle list: bottom left, clear of the detail panel, title and map credit. */
-.castle-list {
+/* Castle list and about: bottom left, clear of the detail panel, title and map
+   credit. */
+.bottom-bar {
   --list-bottom: 0.75rem;
   bottom: var(--list-bottom);
 }
@@ -41,18 +42,18 @@
   /* Leaves room for the title above and the toggle button below. */
   max-height: calc(100dvh - var(--list-bottom) - 8rem);
 }
-@media (width < 48rem) {
-  .castle-list {
+@media (width < 54rem) {
+  .bottom-bar {
     --list-bottom: 4rem;
   }
 }
 @media (width < 40rem) {
-  [data-panel-open] .castle-list {
+  [data-panel-open] .bottom-bar {
     --list-bottom: calc(var(--sheet-height) + 4rem);
   }
 }
 @media (width >= 40rem) {
-  [data-panel-open] .castle-list {
+  [data-panel-open] .bottom-bar {
     left: 20.75rem;
   }
 }

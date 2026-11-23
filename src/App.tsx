@@ -1,5 +1,6 @@
 import { useCallback, useMemo, useRef } from 'react'
 import { useMapData } from './data/useMapData'
+import { AboutDialog } from './features/about/AboutDialog'
 import { CastleList } from './features/castles/CastleList'
 import { CastlePanel } from './features/castles/CastlePanel'
 import { statusesIn, type Statuses } from './features/castles/castleStatus'
@@ -50,12 +51,12 @@ function App() {
     >
       <JapanMap
         castles={castles}
+        view={view}
         ownership={ownership}
         statuses={statuses}
         selected={selected}
         panelRef={panelRef}
       />
-      {castles && <CastleList castles={castles} />}
       {data && (
         <LegendPanel
           clans={data.clans}
@@ -69,7 +70,7 @@ function App() {
           ref={panelRef}
           feature={selected}
           clan={ownership.get(selected.properties.id)}
-          year={view.year}
+          view={view}
           onClose={closePanel}
         />
       )}
@@ -77,6 +78,10 @@ function App() {
         戦国城地図
       </h1>
       <YearSwitch />
+      <div className="bottom-bar pointer-events-none absolute left-3 flex gap-2 *:pointer-events-auto">
+        {castles && <CastleList castles={castles} view={view} />}
+        <AboutDialog />
+      </div>
       {castles && <CastleSearch castles={castles} />}
       {state.status === 'error' && (
         <p

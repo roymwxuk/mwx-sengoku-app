@@ -19,6 +19,7 @@ import type { Ownership } from '../features/clans/ownership'
 import { ProvinceLayers } from '../features/layers/ProvinceLayers'
 import { useLayers } from '../features/layers/layerStore'
 import { useSelection } from '../features/castles/selectionStore'
+import type { YearView } from '../features/years/yearViews'
 import { FlyToCastle } from './FlyToCastle'
 import { mapStyle } from './mapStyle'
 
@@ -55,6 +56,7 @@ const LOCALE = {
 interface Props {
   /** null while loading */
   castles: CastleCollection | null
+  view: YearView
   ownership: Ownership
   statuses: Statuses
   selected: CastleFeature | null
@@ -63,6 +65,7 @@ interface Props {
 
 export function JapanMap({
   castles,
+  view,
   ownership,
   statuses,
   selected,
@@ -111,6 +114,7 @@ export function JapanMap({
       {hovered && hovered !== selected && (
         <CastleTooltip
           castle={hovered}
+          view={view}
           clan={showClans ? ownership.get(hovered.properties.id) : undefined}
         />
       )}

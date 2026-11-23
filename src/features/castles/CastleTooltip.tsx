@@ -2,14 +2,18 @@ import { Popup } from 'react-map-gl/maplibre'
 import type { CastleFeature } from '../../data/castleSchema'
 import type { Clan } from '../../data/clanSchema'
 
+import type { YearView } from '../years/yearViews'
+import { nameIn } from './castleName'
+
 interface Props {
   castle: CastleFeature
   clan?: Clan
+  view: YearView
 }
 
-export function CastleTooltip({ castle, clan }: Props) {
+export function CastleTooltip({ castle, clan, view }: Props) {
   const [longitude, latitude] = castle.geometry.coordinates
-  const { name_ja, reading, name_en } = castle.properties
+  const { name_ja, reading, name_en } = nameIn(view, castle.properties)
 
   return (
     <Popup
