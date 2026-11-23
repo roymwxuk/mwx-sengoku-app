@@ -22,7 +22,7 @@ const LOGO = {
   center: [133.2, 39.7],
   width: 7.56,
   aspect: 4, // of logo.webp
-  tilt: 5, // anticlockwise
+  tilt: 15, // anticlockwise
 }
 
 /** Clockwise from the top left. Worked out in Web Mercator, so it isn't skewed. */
