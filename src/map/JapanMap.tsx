@@ -12,6 +12,7 @@ import {
   CASTLE_HIT_LAYER,
   CastleLayers,
 } from '../features/castles/CastleLayers'
+import type { Statuses } from '../features/castles/castleStatus'
 import { CastleTooltip } from '../features/castles/CastleTooltip'
 import { nearestCastle } from '../features/castles/nearestCastle'
 import type { Ownership } from '../features/clans/ownership'
@@ -55,11 +56,18 @@ interface Props {
   /** null while loading */
   castles: CastleCollection | null
   ownership: Ownership
+  statuses: Statuses
   selected: CastleFeature | null
   panelRef: RefObject<HTMLElement | null>
 }
 
-export function JapanMap({ castles, ownership, selected, panelRef }: Props) {
+export function JapanMap({
+  castles,
+  ownership,
+  statuses,
+  selected,
+  panelRef,
+}: Props) {
   const [hovered, setHovered] = useState<CastleFeature | null>(null)
   const showProvinces = useLayers((s) => s.provinces)
   const showClans = useLayers((s) => s.clanColors)
@@ -94,6 +102,7 @@ export function JapanMap({ castles, ownership, selected, panelRef }: Props) {
         <CastleLayers
           castles={castles}
           ownership={showClans ? ownership : null}
+          statuses={statuses}
           hoveredId={hovered?.properties.id ?? null}
           selectedId={selected?.properties.id ?? null}
         />

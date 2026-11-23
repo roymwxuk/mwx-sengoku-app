@@ -1,6 +1,6 @@
 import { SUMI, WASHI } from '../../map/mapStyle'
 
-/** Castles not built yet, or whose owner isn't known, in the year shown */
+/** Castles whose owner isn't known in the year shown */
 export const NO_CLAN_COLOR = '#6b645c'
 
 function luminance(hex: string): number {

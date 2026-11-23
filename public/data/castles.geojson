@@ -12,6 +12,7 @@
         "former_names": [],
         "description": "織田信長が1576年、琵琶湖東岸の安土山に築き始めた城。本能寺の変の後まもなく天主などが焼失し、のちに廃城となった。",
         "wikipedia_ja": "安土城",
+        "official_url": null,
         "province": "近江",
         "type": "山城",
         "built": {"earliest": 1576, "latest": 1576},
@@ -32,6 +33,7 @@
         "former_names": [],
         "description": "豊臣秀吉が1583年から築いた、豊臣氏の本拠。現在地表に見える遺構は、1620年から徳川秀忠が大規模に修築したもの。",
         "wikipedia_ja": "大坂城",
+        "official_url": null,
         "province": "摂津",
         "type": "平城",
         "built": {"earliest": 1583, "latest": 1583},
@@ -53,6 +55,7 @@
         "former_names": [],
         "description": "戦国大名・後北条氏の本拠地。江戸時代には小田原藩の藩庁が置かれた。",
         "wikipedia_ja": "小田原城",
+        "official_url": null,
         "province": "相模",
         "type": "平山城",
         "built": {"earliest": 1417, "latest": 1418},
@@ -76,6 +79,7 @@
         "former_names": [],
         "description": "長尾氏の居城で、上杉謙信の城として知られる。1607年に堀氏が新たに築いた福島城へ移り、役目を終えた。",
         "wikipedia_ja": "春日山城",
+        "official_url": null,
         "province": "越後",
         "type": "山城",
         "built": {"earliest": 1336, "latest": 1392},
@@ -97,6 +101,7 @@
         "former_names": [],
         "description": "赤松貞範の築城に始まるとする説が有力。1601年から池田輝政が8年をかけて大改修した。現存する天守は国宝。",
         "wikipedia_ja": "姫路城",
+        "official_url": null,
         "province": "播磨",
         "type": "平山城",
         "built": {"earliest": 1346, "latest": 1347},
@@ -121,6 +126,7 @@
         "former_names": [{"name_ja": "稲葉山城", "reading": "いなばやまじょう", "name_en": "Inabayama Castle", "until": 1567}],
         "description": "斎藤氏の稲葉山城を、1567年に織田信長が奪って本拠地とし、新たに造営した城。関ヶ原の戦いの前哨戦で落城した。",
         "wikipedia_ja": "岐阜城",
+        "official_url": null,
         "province": "美濃",
         "type": "山城",
         "built": {"earliest": 1201, "latest": 1201},
@@ -145,6 +151,7 @@
         "former_names": [],
         "description": "武田信虎が築いた、甲斐守護・武田氏の居館。戦国大名となった武田氏の領国経営の中心となった。",
         "wikipedia_ja": "躑躅ヶ崎館",
+        "official_url": null,
         "province": "甲斐",
         "type": "館",
         "built": {"earliest": 1519, "latest": 1519},
@@ -167,6 +174,7 @@
         "former_names": [],
         "description": "斯波義重が築いたとされ、のちに織田信長の本拠地となった。1560年の桶狭間の戦いでは、信長がこの城から出陣した。",
         "wikipedia_ja": "清洲城",
+        "official_url": null,
         "province": "尾張",
         "type": "平城",
         "built": {"earliest": 1394, "latest": 1405},
@@ -191,12 +199,15 @@
         "former_names": [],
         "description": "徳川家康が生まれた城。三河国守護代の西郷氏が築いた砦に始まる。",
         "wikipedia_ja": "岡崎城",
+        "official_url": null,
         "province": "三河",
         "type": "平山城",
         "built": {"earliest": 1452, "latest": 1455},
         "abandoned": {"earliest": 1873, "latest": 1873},
         "owners": [
-          { "clan": "tokugawa", "from": 1531, "to": 1590 },
+          { "clan": "tokugawa", "from": 1531, "to": 1549 },
+          { "clan": "imagawa", "from": 1549, "to": 1560 },
+          { "clan": "tokugawa", "from": 1560, "to": 1590 },
           { "clan": "tanaka", "from": 1590, "to": 1601 },
           { "clan": "honda", "from": 1602, "to": 1645 }
         ]
@@ -213,6 +224,7 @@
         "former_names": [],
         "description": "太田道灌が1457年に築いた城。扇谷上杉氏や後北条氏などを経て、1590年から徳川氏の居城となった。",
         "wikipedia_ja": "江戸城",
+        "official_url": null,
         "province": "武蔵",
         "type": "平山城",
         "built": {"earliest": 1457, "latest": 1457},
@@ -236,12 +248,13 @@
         "former_names": [],
         "description": "安芸国の戦国大名・毛利氏の居城。毛利元就が郡山の全域へ城を広げ、孫の輝元が広島城へ移るまで本拠とした。",
         "wikipedia_ja": "吉田郡山城",
+        "official_url": null,
         "province": "安芸",
         "type": "山城",
         "built": null,
         "abandoned": {"earliest": 1591, "latest": 1600},
         "owners": [
-          { "clan": "mori", "from": 1467, "to": 1591 }
+          { "clan": "mori", "from": 1467, "to": 1600 }
         ]
       }
     },
@@ -256,6 +269,7 @@
         "former_names": [],
         "description": "豊臣秀吉の家臣・福原直高が1597年に築き始め、関ヶ原の戦いの後に入った竹中重利が完成させた城。江戸時代には府内藩の藩庁が置かれた。",
         "wikipedia_ja": "府内城",
+        "official_url": null,
         "province": "豊後",
         "type": "平城",
         "built": {"earliest": 1597, "latest": 1597},
@@ -278,12 +292,191 @@
         "former_names": [],
         "description": "北条氏康の三男・氏照が築き、1587年に本拠とした山城。小田原城の支城として関東の西を守り、1590年に落城した。",
         "wikipedia_ja": "八王子城",
+        "official_url": null,
         "province": "武蔵",
         "type": "山城",
         "built": {"earliest": 1587, "latest": 1587},
         "abandoned": {"earliest": 1590, "latest": 1590},
         "owners": [
           { "clan": "hojo", "from": 1587, "to": 1590 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.57134, 35.66529] },
+      "properties": {
+        "id": "kofu",
+        "name_ja": "甲府城",
+        "reading": "こうふじょう",
+        "name_en": "Kōfu Castle",
+        "former_names": [],
+        "description": "武田氏の滅亡後、甲斐を治めた徳川氏や豊臣系の大名が築いた城。躑躅ヶ崎館に代わって甲斐の中心となった。",
+        "wikipedia_ja": "甲府城",
+        "official_url": null,
+        "province": "甲斐",
+        "type": "平山城",
+        "built": {"earliest": 1583, "latest": 1585},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "tokugawa", "from": 1583, "to": 1590 },
+          { "clan": "toyotomi", "from": 1590, "to": 1591 },
+          { "clan": "kato", "from": 1591, "to": 1593 },
+          { "clan": "asano", "from": 1593, "to": 1600 },
+          { "clan": "tokugawa", "from": 1601, "to": 1616 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.296, 35.9995] },
+      "properties": {
+        "id": "ichijodani",
+        "name_ja": "一乗谷城",
+        "reading": "いちじょうだにじょう",
+        "name_en": "Ichijōdani Castle",
+        "former_names": [],
+        "description": "越前国を支配した戦国大名・朝倉氏の本拠。谷あいの館と城下町、背後の山城からなり、1573年に朝倉氏が織田信長に敗れて滅んだ。",
+        "wikipedia_ja": "一乗谷朝倉氏遺跡",
+        "official_url": null,
+        "province": "越前",
+        "type": "山城",
+        "built": {"earliest": 1336, "latest": 1392},
+        "abandoned": {"earliest": 1575, "latest": 1575},
+        "owners": [
+          { "clan": "asakura", "from": 1392, "to": 1573 },
+          { "clan": "oda", "from": 1573, "to": 1574 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.95581, 35.05385] },
+      "properties": {
+        "id": "nirayama",
+        "name_ja": "韮山城",
+        "reading": "にらやまじょう",
+        "name_en": "Nirayama Castle",
+        "former_names": [],
+        "description": "伊勢盛時（北条早雲）が伊豆を制して本拠とした城。1590年の小田原征伐では、北条氏規が豊臣の大軍に約100日間持ちこたえた末に開城した。",
+        "wikipedia_ja": "韮山城",
+        "official_url": null,
+        "province": "伊豆",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1500},
+        "abandoned": {"earliest": 1601, "latest": 1601},
+        "owners": [
+          { "clan": "hojo", "from": 1491, "to": 1590 },
+          { "clan": "tokugawa", "from": 1590, "to": 1601 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.76572, 33.84554] },
+      "properties": {
+        "id": "iyo-matsuyama",
+        "name_ja": "松山城",
+        "reading": "まつやまじょう",
+        "name_en": "Matsuyama Castle",
+        "former_names": [],
+        "description": "関ヶ原の戦いの戦功で加増された加藤嘉明が、1602年に築き始めた平山城。現存12天守の一つである天守は、江戸時代後期の再建。",
+        "wikipedia_ja": "松山城",
+        "official_url": "https://www.matsuyamajo.jp/",
+        "province": "伊予",
+        "type": "平山城",
+        "built": {"earliest": 1602, "latest": 1602},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "kato-yoshiaki", "from": 1602, "to": 1627 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.7475, 35.01417] },
+      "properties": {
+        "id": "nijo",
+        "name_ja": "二条城",
+        "reading": "にじょうじょう",
+        "name_en": "Nijō Castle",
+        "former_names": [],
+        "description": "徳川家康が、京都御所の守護と上洛時の宿所として築いた城。1603年に落成し、のちに徳川慶喜による大政奉還の上奏の舞台となった。",
+        "wikipedia_ja": "二条城",
+        "official_url": null,
+        "province": "山城",
+        "type": "平城",
+        "built": {"earliest": 1601, "latest": 1603},
+        "abandoned": null,
+        "owners": [
+          { "clan": "tokugawa", "from": 1601, "to": 1868 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.172, 34.2276] },
+      "properties": {
+        "id": "wakayama",
+        "name_ja": "和歌山城",
+        "reading": "わかやまじょう",
+        "name_en": "Wakayama Castle",
+        "former_names": [],
+        "description": "豊臣秀長が1585年に築いた城。浅野氏を経て、江戸時代には徳川御三家の一つ、紀州徳川家の居城となった。",
+        "wikipedia_ja": "和歌山城",
+        "official_url": null,
+        "province": "紀伊",
+        "type": "平山城",
+        "built": {"earliest": 1585, "latest": 1585},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "toyotomi", "from": 1585, "to": 1600 },
+          { "clan": "asano", "from": 1600, "to": 1619 },
+          { "clan": "tokugawa", "from": 1619, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.052, 34.3504] },
+      "properties": {
+        "id": "sanuki-takamatsu",
+        "name_ja": "高松城",
+        "reading": "たかまつじょう",
+        "name_en": "Takamatsu Castle",
+        "former_names": [],
+        "description": "讃岐国の領主となった生駒親正が、1588年に築き始めた海城。玉藻城とも呼ばれ、江戸時代に松平頼重が改修した。",
+        "wikipedia_ja": "高松城 (讃岐国)",
+        "official_url": null,
+        "province": "讃岐",
+        "type": "平城",
+        "built": {"earliest": 1588, "latest": 1590},
+        "abandoned": {"earliest": 1869, "latest": 1869},
+        "owners": [
+          { "clan": "ikoma", "from": 1588, "to": 1639 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.78674, 33.84811] },
+      "properties": {
+        "id": "yuzuki",
+        "name_ja": "湯築城",
+        "reading": "ゆづきじょう",
+        "name_en": "Yuzuki Castle",
+        "former_names": [],
+        "description": "伊予国の守護・河野氏の居城。1585年、羽柴秀吉の四国征伐で小早川隆景らの軍に攻められ、約1か月の籠城の後に降伏した。",
+        "wikipedia_ja": "湯築城",
+        "official_url": null,
+        "province": "伊予",
+        "type": "平山城",
+        "built": {"earliest": 1335, "latest": 1335},
+        "abandoned": {"earliest": 1587, "latest": 1587},
+        "owners": [
+          { "clan": "kono", "from": 1335, "to": 1585 },
+          { "clan": "kobayakawa", "from": 1585, "to": 1587 },
+          { "clan": "fukushima", "from": 1587, "to": 1587 }
         ]
       }
     }

@@ -6,7 +6,8 @@
   {"id": "uesugi", "name_ja": "上杉氏", "reading": "うえすぎし", "name_en": "Uesugi", "mark": "上", "color": "#2858cd"},
   {"id": "mori", "name_ja": "毛利氏", "reading": "もうりし", "name_en": "Mōri", "mark": "毛", "color": "#8f208f"},
   {"id": "ikeda", "name_ja": "池田氏", "reading": "いけだし", "name_en": "Ikeda", "mark": "池", "color": "#a57afe"},
-  {"id": "takeda", "name_ja": "武田氏", "reading": "たけだし", "name_en": "Takeda", "mark": "武", "color": "#6b645c"},
+  {"id": "imagawa", "name_ja": "今川氏", "reading": "いまがわし", "name_en": "Imagawa", "mark": "今", "color": "#93c111"},
+  {"id": "takeda", "name_ja": "武田氏", "reading": "たけだし", "name_en": "Takeda", "mark": "武", "color": "#30a06e"},
   {"id": "saito", "name_ja": "斎藤氏", "reading": "さいとうし", "name_en": "Saitō", "mark": "斎", "color": "#6b645c"},
   {"id": "omori", "name_ja": "大森氏", "reading": "おおもりし", "name_en": "Ōmori", "mark": "森", "color": "#6b645c"},
   {"id": "okubo", "name_ja": "大久保氏", "reading": "おおくぼし", "name_en": "Ōkubo", "mark": "久", "color": "#6b645c"},
@@ -22,5 +23,12 @@
   {"id": "ogigayatsu", "name_ja": "扇谷上杉氏", "reading": "おうぎがやつうえすぎし", "name_en": "Ōgigayatsu Uesugi", "mark": "扇", "color": "#6b645c"},
   {"id": "fukuhara", "name_ja": "福原氏", "reading": "ふくはらし", "name_en": "Fukuhara", "mark": "原", "color": "#6b645c"},
   {"id": "hayakawa", "name_ja": "早川氏", "reading": "はやかわし", "name_en": "Hayakawa", "mark": "早", "color": "#6b645c"},
-  {"id": "takenaka", "name_ja": "竹中氏", "reading": "たけなかし", "name_en": "Takenaka", "mark": "竹", "color": "#6b645c"}
+  {"id": "takenaka", "name_ja": "竹中氏", "reading": "たけなかし", "name_en": "Takenaka", "mark": "竹", "color": "#6b645c"},
+  {"id": "asakura", "name_ja": "朝倉氏", "reading": "あさくらし", "name_en": "Asakura", "mark": "朝", "color": "#6b645c"},
+  {"id": "asano", "name_ja": "浅野氏", "reading": "あさのし", "name_en": "Asano", "mark": "浅", "color": "#6b645c"},
+  {"id": "kato", "name_ja": "加藤氏（光泰）", "reading": "かとうし", "name_en": "Katō (Mitsuyasu)", "mark": "加", "color": "#6b645c"},
+  {"id": "kato-yoshiaki", "name_ja": "加藤氏（嘉明）", "reading": "かとうし", "name_en": "Katō (Yoshiaki)", "mark": "嘉", "color": "#6b645c"},
+  {"id": "ikoma", "name_ja": "生駒氏", "reading": "いこまし", "name_en": "Ikoma", "mark": "生", "color": "#6b645c"},
+  {"id": "kono", "name_ja": "河野氏", "reading": "こうのし", "name_en": "Kōno", "mark": "河", "color": "#6b645c"},
+  {"id": "kobayakawa", "name_ja": "小早川氏", "reading": "こばやかわし", "name_en": "Kobayakawa", "mark": "小", "color": "#6b645c"}
 ]

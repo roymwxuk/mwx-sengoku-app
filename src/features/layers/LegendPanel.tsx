@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import type { Clan } from '../../data/clanSchema'
 import { NO_CLAN_COLOR, textColorOn } from '../clans/colors'
-import { REFERENCE_YEAR, type Ownership } from '../clans/ownership'
+import { idsWith, type Statuses } from '../castles/castleStatus'
+import type { Ownership } from '../clans/ownership'
+import type { YearView } from '../years/yearViews'
 import { useLayers } from './layerStore'
 
 const PANEL_ID = 'legend'
@@ -11,18 +13,23 @@ const ROOM_FOR_LEGEND = '(width >= 64rem) and (height >= 40rem)'
 
 interface Props {
   clans: Clan[]
+  view: YearView
   ownership: Ownership
-  /** Some castles have no owner in the year shown */
-  hasUnowned: boolean
+  statuses: Statuses
 }
 
-export function LegendPanel({ clans, ownership, hasUnowned }: Props) {
+export function LegendPanel({ clans, view, ownership, statuses }: Props) {
   const [open, setOpen] = useState(
     () => window.matchMedia(ROOM_FOR_LEGEND).matches,
   )
   const { provinces, clanColors, toggle } = useLayers()
 
   const present = new Set(ownership.values())
+  const hasUnowned = idsWith('standing', statuses).some(
+    (id) => !ownership.has(id),
+  )
+  const hasPlanned = idsWith('planned', statuses).length > 0
+  const hasRuins = idsWith('ruin', statuses).length > 0
 
   return (
     <div className="legend pointer-events-none absolute top-28 right-2.5 flex flex-col items-end gap-2 *:pointer-events-auto">
@@ -62,8 +69,9 @@ export function LegendPanel({ clans, ownership, hasUnowned }: Props) {
         {clanColors && (
           <>
             <h2 className="mt-1 border-t border-sumi/20 pt-2 text-sm">
-              {REFERENCE_YEAR}年の大名家
+              {view.year}年の大名家
             </h2>
+            {view.note && <p className="text-xs">{view.note}</p>}
             <ul className="py-1">
               {clans
                 .filter((clan) => present.has(clan))
@@ -76,12 +84,33 @@ export function LegendPanel({ clans, ownership, hasUnowned }: Props) {
               {hasUnowned && (
                 <li className="flex items-center gap-2 py-1">
                   <ClanMark color={NO_CLAN_COLOR} />
-                  築城前・不明
+                  城主不明
                 </li>
               )}
             </ul>
           </>
         )}
+        {(hasPlanned || hasRuins) && (
+          <ul className="border-t border-sumi/20 py-1">
+            {hasPlanned && (
+              <StatusItem label="築城前">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="8"
+                  strokeWidth="2.6"
+                  strokeDasharray="0 5.0265"
+                />
+              </StatusItem>
+            )}
+            {hasRuins && (
+              <StatusItem label="廃城">
+                <path d="M7 7 17 17M17 7 7 17" strokeWidth="3" />
+              </StatusItem>
+            )}
+          </ul>
+        )}
+
         {provinces && (
           <p className="border-t border-sumi/20 py-2 text-xs leading-relaxed">
             国境:
@@ -99,6 +128,28 @@ export function LegendPanel({ clans, ownership, hasUnowned }: Props) {
         )}
       </section>
     </div>
+  )
+}
+
+function StatusItem({
+  label,
+  children,
+}: {
+  label: string
+  children: ReactNode
+}) {
+  return (
+    <li className="flex items-center gap-2 py-1">
+      <svg
+        aria-hidden="true"
+        viewBox="0 0 24 24"
+        strokeLinecap="round"
+        className="size-6 shrink-0 fill-none stroke-sumi"
+      >
+        {children}
+      </svg>
+      {label}
+    </li>
   )
 }
 
