@@ -1,7 +1,5 @@
 import type { ExpressionSpecification } from 'maplibre-gl'
-import { useEffect, useState } from 'react'
-import { Layer, useMap } from 'react-map-gl/maplibre'
-import { CASTLE_ICONS, ICON_PIXEL_RATIO } from './castleIcons'
+import { Layer } from 'react-map-gl/maplibre'
 
 interface Props {
   source: string
@@ -19,20 +17,6 @@ export function StatusIconLayer({
   selected,
   hovered,
 }: Props) {
-  const { current: map } = useMap()
-  const [ready, setReady] = useState(false)
-
-  useEffect(() => {
-    if (!map) return
-    for (const [id, render] of Object.entries(CASTLE_ICONS)) {
-      if (map.hasImage(id)) continue
-      map.addImage(id, render(), { pixelRatio: ICON_PIXEL_RATIO })
-    }
-    setReady(true)
-  }, [map])
-
-  if (!ready) return null
-
   const scale = (base: number): ExpressionSpecification => [
     'case',
     ['any', selected, hovered],
@@ -43,7 +27,6 @@ export function StatusIconLayer({
   return (
     <Layer
       id="castle-status"
-      beforeId="castle-dots" // under the castles still standing
       type="symbol"
       source={source} // not set by <Source>, which only reaches direct children
       filter={['any', isPlanned, isRuin]}

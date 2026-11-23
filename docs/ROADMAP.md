@@ -115,7 +115,7 @@ Goal: move from 10 to hundreds of castles without breaking anything.
 Goal: it looks and feels like the Sengoku era, and works for everyone.
 
 - [ ] Custom map style: washi-paper background, muted terrain, sumi-ink borders
-- [ ] Castle icons by type (山城 / 平山城 / 平城) instead of circles
+- [x] Castle icons by type (山城 / 平山城 / 平城, and 館) instead of circles; castles not standing in the year shown keep the dotted circle or ✕
 - [ ] Japanese-style fonts (e.g., Noto Serif JP / Shippori Mincho) for headings
 - [ ] i18n: Japanese / English toggle
 - [x] Castle list: all castles in a list; choosing one selects it on the map. A button at the bottom left shows and hides the list — *done when* every castle can be chosen from the list by mouse, touch and keyboard, and the button works on desktop and phone

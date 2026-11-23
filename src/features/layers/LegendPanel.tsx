@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from 'react'
 import type { Clan } from '../../data/clanSchema'
 import { NO_CLAN_COLOR, textColorOn } from '../clans/colors'
+import { CASTLE_SHAPES, SHAPE_SIZE } from '../castles/castleShapes'
 import { idsWith, type Statuses } from '../castles/castleStatus'
 import type { Ownership } from '../clans/ownership'
 import type { YearView } from '../years/yearViews'
@@ -65,6 +66,22 @@ export function LegendPanel({ clans, view, ownership, statuses }: Props) {
           checked={clanColors}
           onChange={() => toggle('clanColors')}
         />
+
+        <h2 className="mt-1 border-t border-sumi/20 pt-2 text-sm">城の種類</h2>
+        <ul className="grid grid-cols-2 py-1">
+          {Object.entries(CASTLE_SHAPES).map(([type, path]) => (
+            <li key={type} className="flex items-center gap-2 py-1">
+              <svg
+                aria-hidden="true"
+                viewBox={`0 0 ${SHAPE_SIZE} ${SHAPE_SIZE}`}
+                className="size-5 shrink-0 fill-sumi"
+              >
+                <path d={path} />
+              </svg>
+              {type}
+            </li>
+          ))}
+        </ul>
 
         {clanColors && (
           <>
