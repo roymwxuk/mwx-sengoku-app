@@ -63,9 +63,12 @@ npm run dev
 
 Every push to `master` is published to GitHub Pages.
 
-## Data licence
+## Licence
 
-The province borders (`public/data/provinces.geojson`) are CC BY-NC 4.0, so **the app with this data may not be used commercially**: 『旧国・旧郡境界データセット』（CODH作成）「幕末明治地勢地図境界データ」（人間文化研究機構作成）を加工. See [data sources](docs/data-sources.md).
+- **Code:** [MIT](LICENSE)
+- **Data:** each file has its own licence; see [`public/data/LICENSE.md`](public/data/LICENSE.md)
+
+The province borders (`public/data/provinces.geojson`) are CC BY-NC 4.0, so **the app with this data may not be used commercially**: 『旧国・旧郡境界データセット』（CODH作成）「幕末明治地勢地図境界データ」（人間文化研究機構作成）を加工.
 
 ## Docs
 
