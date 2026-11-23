@@ -7,6 +7,7 @@ import { useSelection } from './features/castles/selectionStore'
 import { useCastleUrlSync } from './features/castles/useCastleUrlSync'
 import { ownershipIn, type Ownership } from './features/clans/ownership'
 import { LegendPanel } from './features/layers/LegendPanel'
+import { CastleSearch } from './features/search/CastleSearch'
 import { useYearUrlSync } from './features/years/useYearUrlSync'
 import { YearSwitch } from './features/years/YearSwitch'
 import { useYear } from './features/years/yearStore'
@@ -76,6 +77,7 @@ function App() {
         戦国城地図
       </h1>
       <YearSwitch />
+      {castles && <CastleSearch castles={castles} />}
       {state.status === 'error' && (
         <p
           role="alert"

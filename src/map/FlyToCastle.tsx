@@ -1,6 +1,7 @@
 import { useEffect, type RefObject } from 'react'
 import { useMap } from 'react-map-gl/maplibre'
 import type { CastleFeature } from '../data/castleSchema'
+import { useSelection } from '../features/castles/selectionStore'
 
 const CLOSE_UP_ZOOM = 7
 
@@ -12,6 +13,7 @@ interface Props {
 /** Flies to the castle, centring it in the part of the map not under the panel. */
 export function FlyToCastle({ castle, panelRef }: Props) {
   const { current: map } = useMap()
+  const flights = useSelection((s) => s.flights)
 
   useEffect(() => {
     if (!map) return
@@ -20,7 +22,7 @@ export function FlyToCastle({ castle, panelRef }: Props) {
       zoom: Math.max(map.getZoom(), CLOSE_UP_ZOOM),
       offset: offsetFor(panelRef.current, map.getContainer()),
     })
-  }, [map, castle, panelRef])
+  }, [map, castle, panelRef, flights])
 
   return null
 }
