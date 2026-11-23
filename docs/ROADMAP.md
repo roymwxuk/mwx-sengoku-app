@@ -19,8 +19,8 @@ Goal: an empty but deployable project, with key decisions written down.
 - [ ] *(deferred)* Add Vitest with one trivial test — *done when* `npm test` passes
 - [x] Add Tailwind — *done when* a utility class visibly styles the page
 - [x] Set up folder layout: `src/map/`, `src/features/`, `src/data/`, `public/data/`
-- [ ] *(deferred)* CI (GitHub Actions): format check + test + build on every push
-- [ ] *(deferred)* Deploy preview of the empty app (Vercel / Netlify / GitHub Pages) — *done when* a public URL loads
+- [ ] *(deferred)* CI (GitHub Actions): format check + test + build on every push (the deploy workflow only builds `master`)
+- [x] Deploy the app to GitHub Pages (ADR-0008) — *done when* a public URL loads
 
 ## M1 — Map shell
 
@@ -32,7 +32,7 @@ Goal: a full-screen, pannable, zoomable map of Japan.
 - [x] Add navigation controls (zoom buttons, compass reset)
 - [x] Make the layout responsive (map fills viewport on desktop and phone)
 - [x] Add attribution for the map data
-- *Milestone done when:* the deployed URL shows Japan and you can pan and zoom smoothly on desktop and mobile. (Deploy is deferred: checked locally for now.)
+- *Milestone done when:* the deployed URL shows Japan and you can pan and zoom smoothly on desktop and mobile.
 
 ## M2 — Castles on the map
 
