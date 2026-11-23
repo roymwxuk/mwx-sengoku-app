@@ -1332,6 +1332,55 @@
           { "clan": "mizuno", "from": 1615, "to": 1619 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.38431, 34.53794] },
+      "properties": {
+        "id": "kannabe",
+        "name_ja": "神辺城",
+        "reading": "かんなべじょう",
+        "name_en": "Kannabe Castle",
+        "former_names": [{"name_ja": "村尾城", "reading": "むらおじょう", "name_en": "Murao Castle", "until": null}],
+        "description": "神辺平野を見渡す黄葉山の城。1549年、大内氏と毛利氏の軍に長く攻められた山名理興が城を捨て、のちに杉原氏、毛利氏の城となった。1619年に入った水野勝成が福山城を築き、廃城となった。",
+        "wikipedia_ja": "神辺城",
+        "official_url": null,
+        "province": "備後",
+        "type": "山城",
+        "built": {"earliest": 1443, "latest": 1443},
+        "abandoned": {"earliest": 1619, "latest": 1619},
+        "owners": [
+          { "clan": "yamana", "from": 1443, "to": 1549 },
+          { "clan": "ouchi", "from": 1549, "to": 1552 },
+          { "clan": "sugihara", "from": 1552, "to": 1584 },
+          { "clan": "mori", "from": 1584, "to": 1600 },
+          { "clan": "fukushima", "from": 1600, "to": 1619 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.08266, 34.40128] },
+      "properties": {
+        "id": "mihara",
+        "name_ja": "三原城",
+        "reading": "みはらじょう",
+        "name_en": "Mihara Castle",
+        "former_names": [],
+        "description": "小早川隆景が三原湾の小島や中州をつないで築いた、水軍の拠点。1580年から海城として整え、本拠を移した。満潮時には海に浮かぶように見え、浮城とも呼ばれた。",
+        "wikipedia_ja": "三原城",
+        "official_url": null,
+        "province": "備後",
+        "type": "平城",
+        "built": {"earliest": 1567, "latest": 1582},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "kobayakawa", "from": 1567, "to": 1597 },
+          { "clan": "mori", "from": 1597, "to": 1600 },
+          { "clan": "fukushima", "from": 1600, "to": 1619 },
+          { "clan": "asano", "from": 1619, "to": 1871 }
+        ]
+      }
     }
   ]
 }

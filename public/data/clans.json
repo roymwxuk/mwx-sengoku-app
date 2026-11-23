@@ -84,5 +84,8 @@
   {"id": "matsunaga", "name_ja": "松永氏", "reading": "まつながし", "name_en": "Matsunaga", "mark": "松", "color": "#d155fe"},
   {"id": "kizawa", "name_ja": "木沢氏", "reading": "きざわし", "name_en": "Kizawa", "mark": "木", "color": "#a2b287"},
   {"id": "mashita", "name_ja": "増田氏", "reading": "ましたし", "name_en": "Mashita", "mark": "増", "color": "#21ce1a"},
-  {"id": "mizuno", "name_ja": "水野氏", "reading": "みずのし", "name_en": "Mizuno", "mark": "水", "color": "#b93761"}
+  {"id": "mizuno", "name_ja": "水野氏", "reading": "みずのし", "name_en": "Mizuno", "mark": "水", "color": "#b93761"},
+  {"id": "sugihara", "name_ja": "杉原氏", "reading": "すぎはらし", "name_en": "Sugihara", "mark": "杉", "color": "#60b09e"},
+  {"id": "yamana", "name_ja": "山名氏", "reading": "やまなし", "name_en": "Yamana", "mark": "山", "color": "#8d434a"},
+  {"id": "ouchi", "name_ja": "大内氏", "reading": "おおうちし", "name_en": "Ōuchi", "mark": "内", "color": "#fe8d76"}
 ]
