@@ -2,10 +2,10 @@
 
 /* Theme tokens (ADR-0007). Keep in sync with src/map/mapStyle.ts. */
 @theme {
-  --color-washi: #f4ecd8;
+  --color-washi: #faf6ea;
   --color-sumi: #2b2622;
   --color-shu: #9b2d1f;
-  --color-sea: #c5cfca;
+  --color-sea: #dae3df;
   --sheet-height: 42dvh;
   --font-serif:
     'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', ui-serif, serif;
