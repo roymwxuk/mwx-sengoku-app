@@ -5,13 +5,26 @@ import { MAP_FONT, SHU, SUMI, WASHI } from '../../map/mapStyle'
 import { NO_CLAN_COLOR, textColorOn } from '../clans/colors'
 import type { Clan } from '../../data/clanSchema'
 import type { Ownership } from '../clans/ownership'
+import { typeIcon } from './castleIcons'
 import { idsWith, type Statuses } from './castleStatus'
 import { StatusIconLayer } from './StatusIconLayer'
+import { useCastleIcons } from './useCastleIcons'
 
-/** Invisible layer, larger than the dots, so castles are easy to hit by touch. */
+/** Invisible layer, larger than the icons, so castles are easy to hit by touch. */
 export const CASTLE_HIT_LAYER = 'castle-hits'
 
 const SOURCE = 'castles'
+
+/** Centres the clan's mark in the widest part of the shape, in ems */
+const MARK_OFFSET: ExpressionSpecification = [
+  'match',
+  ['get', 'type'],
+  '山城',
+  ['literal', [0, 0.2]],
+  ['平山城', '館'],
+  ['literal', [0, 0.1]],
+  ['literal', [0, 0]],
+]
 
 interface Props {
   castles: CastleCollection
@@ -66,6 +79,9 @@ export function CastleLayers({
   hoveredId,
   selectedId,
 }: Props) {
+  const ready = useCastleIcons()
+  if (!ready) return null
+
   const selected = isCastle(selectedId)
   const hovered = isCastle(hoveredId)
   const isPlanned = isOneOf(idsWith('planned', statuses))
@@ -74,9 +90,9 @@ export function CastleLayers({
   const size = (base: number): ExpressionSpecification => [
     'case',
     selected,
-    base + 3,
+    base * 1.35,
     hovered,
-    base + 2,
+    base * 1.2,
     base,
   ]
 
@@ -93,61 +109,12 @@ export function CastleLayers({
         filter={selected}
         paint={{
           'circle-radius': ownership
-            ? ['interpolate', ['linear'], ['zoom'], 5, 15, 7, 19]
-            : 15,
+            ? ['interpolate', ['linear'], ['zoom'], 5, 15, 7, 22]
+            : 16,
           'circle-color': SHU,
           'circle-opacity': 0.25,
           'circle-stroke-color': SHU,
           'circle-stroke-width': 1.5,
-        }}
-      />
-      <Layer
-        id="castle-dots"
-        type="circle"
-        filter={isStanding}
-        // Castles with an owner go above those without.
-        layout={{
-          'circle-sort-key': [
-            'case',
-            selected,
-            3,
-            hovered,
-            2,
-            ownership ? hasOwner(ownership) : 0,
-          ],
-        }}
-        paint={{
-          'circle-radius': ownership
-            ? ['interpolate', ['linear'], ['zoom'], 5, size(5), 7, size(9)]
-            : size(5),
-          'circle-color': ownership
-            ? byOwner(ownership, (clan) => clan.color, NO_CLAN_COLOR)
-            : ['case', selected, SHU, SUMI],
-          'circle-stroke-color': ownership ? SUMI : WASHI,
-          'circle-stroke-width': 1.5,
-        }}
-      />
-      {/* Always placed, even when invisible, so province names avoid the dots. */}
-      <Layer
-        id="castle-marks"
-        type="symbol"
-        filter={isStanding}
-        layout={{
-          'text-field': byOwner(ownership, (clan) => clan.mark, '城'),
-          'text-font': MAP_FONT,
-          'text-size': ['interpolate', ['linear'], ['zoom'], 6, 10, 7, 13],
-          'text-allow-overlap': true,
-          'text-padding': 4,
-        }}
-        paint={{
-          'text-opacity': ownership
-            ? ['step', ['zoom'], 0, 6, hasOwner(ownership)]
-            : 0,
-          'text-color': byOwner(
-            ownership,
-            (clan) => textColorOn(clan.color),
-            WASHI,
-          ),
         }}
       />
       <StatusIconLayer
@@ -157,6 +124,55 @@ export function CastleLayers({
         selected={selected}
         hovered={hovered}
       />
+      <Layer
+        id="castle-icons"
+        type="symbol"
+        filter={isStanding}
+        layout={{
+          'icon-image': ownership
+            ? typeIcon(
+                byOwner(ownership, (clan) => clan.color, NO_CLAN_COLOR),
+                SUMI,
+              )
+            : typeIcon(['case', selected, SHU, SUMI], WASHI),
+          'icon-size': ownership
+            ? ['interpolate', ['linear'], ['zoom'], 5, size(0.6), 7, size(0.95)]
+            : size(0.65),
+          // Castles with an owner go above those without.
+          'symbol-sort-key': [
+            'case',
+            selected,
+            3,
+            hovered,
+            2,
+            ownership ? hasOwner(ownership) : 0,
+          ],
+          'icon-allow-overlap': true,
+          'icon-padding': 4, // keeps province names away
+        }}
+      />
+      {ownership && (
+        <Layer
+          id="castle-marks"
+          type="symbol"
+          filter={isStanding}
+          minzoom={6}
+          layout={{
+            'text-field': byOwner(ownership, (clan) => clan.mark, ''),
+            'text-font': MAP_FONT,
+            'text-size': ['interpolate', ['linear'], ['zoom'], 6, 10, 7, 13],
+            'text-offset': MARK_OFFSET,
+            'text-allow-overlap': true,
+          }}
+          paint={{
+            'text-color': byOwner(
+              ownership,
+              (clan) => textColorOn(clan.color),
+              WASHI,
+            ),
+          }}
+        />
+      )}
     </Source>
   )
 }
