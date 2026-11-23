@@ -18,3 +18,4 @@ We record significant decisions as ADRs, using the [Michael Nygard format](https
 | [0005](0005-static-geojson-data.md) | Store castle and province data as static GeoJSON | Accepted |
 | [0006](0006-state-zustand-and-url.md) | Client state with Zustand, shareable state in the URL | Accepted |
 | [0007](0007-styling-tailwind.md) | Styling with Tailwind CSS | Accepted |
+| [0008](0008-hosting-github-pages.md) | Host on GitHub Pages | Accepted |
