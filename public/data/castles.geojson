@@ -303,6 +303,28 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.27694, 35.45917] },
+      "properties": {
+        "id": "odani",
+        "name_ja": "小谷城",
+        "reading": "おだにじょう",
+        "name_en": "Odani Castle",
+        "former_names": [],
+        "description": "浅井亮政から三代にわたる、北近江の戦国大名・浅井氏の山城。1573年に織田信長に攻められて落城し、浅井長政が自刃して浅井氏は滅んだ。",
+        "wikipedia_ja": "小谷城",
+        "official_url": null,
+        "province": "近江",
+        "type": "山城",
+        "built": {"earliest": 1516, "latest": 1525},
+        "abandoned": {"earliest": 1575, "latest": 1575},
+        "owners": [
+          { "clan": "azai", "from": 1525, "to": 1573 },
+          { "clan": "toyotomi", "from": 1573, "to": 1575 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [139.37747, 36.31778] },
       "properties": {
         "id": "nitta-kanayama",

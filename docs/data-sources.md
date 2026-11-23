@@ -18,6 +18,7 @@
 - 府内城 and 八王子城: added 2026-11-23 from infobox facts supplied by the project owner, with owners and descriptions from the Japanese Wikipedia articles. 府内城: the article's lead says 平山城, but its infobox and overview say 平城. 八王子城: `built` is 1587 as supplied; the article says 氏照 began it in 1571, or more likely 1578, and made it his base in 1587.
 - 岡城: the one in 豊後; its id is `bungo-oka`, as other castles share the name. 1185 is the traditional date. The article also gives a 1334 expansion by 志賀貞朝, but 『豊後国志』 puts the 志賀氏 in 直入郡 only from 1369. The official site is from Wikidata.
 - 観音寺城: `built` is 1335–1487: 『太平記』 has a fort there in 1335, and the infobox gives 応仁・文明年間 (1467–1487). Wikidata's 1468 falls within that.
+- 小谷城: `built` is 1516–1525: 『浅井三代記』 gives 1516, the article prefers 1523–1524, and it stood by 1525. Wikidata only says the 1520s.
 - 佐倉城: `built` is 1532–1610: the infobox suggests 天文年間, but that work was left unfinished, and the article also mentions a 後北条氏 castle of 1585. 土井利勝 began the present castle in 1610. `abandoned` is the infobox's 1873, when the buildings were cleared for the army.
 - 弘前城: 高岡城 is the former name until 1628. `abandoned` is the infobox's 1871, though the article says it was probably treated as kept in 1873, and the keep survives.
 - 甲府城: `built` is 1583–1585: 家康 is said to have planned it in 1583, and 『甲斐国志』 gives 1585. Most building came later.
@@ -43,6 +44,7 @@
 - 府内城: 福原氏 lost it in 1599 and 竹中氏 in 1634 (both years from general knowledge); owners after 1634 are left out.
 - 岡城: 志賀氏 is listed from 1467, the start of the app's period (they were retainers of 大友氏), to 1593. The year 1871 for 中川氏 is from the article 岡藩.
 - 観音寺城: 六角氏 is listed throughout 1467–1568, although it fell to 京極氏 briefly in 1468 and was given up to the shogun's armies in 1489 and 1491. Possible 織田氏 use after 1568 is left out.
+- 小谷城: 浅井氏 is listed from 1525, the end of its construction range; 亮政 fled it for a time in 1538. 豊臣氏 in 1573–1575 is 羽柴秀吉, before he moved to 長浜城. 浅井氏 is marked 井, as 浅野氏 has 浅. The reading あざい is from general knowledge (also あさい).
 - 新田金山城: 横瀬氏, who took the name 由良 in 1565, are listed as 由良氏 from 1528. They surrendered to 後北条氏 in 1584 and left in 1585.
 - 佐倉城: 千葉氏 is listed from 1555, the end of 天文年間, though the castle was unfinished. Owners in 1590–1610 are left out: the holders of 佐倉 in those years are given in the article 佐倉藩, and they may have used 本佐倉城. Owners after 1633 (the year is from 佐倉藩) are left out.
 - 甲府城: 加藤氏 (1591–1593) and the year 1593 for 浅野氏 are from general knowledge. 徳川氏 covers 義直 and direct rule; owners after 1616 are left out.

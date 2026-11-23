@@ -8,7 +8,7 @@ Links can open a castle directly, e.g. [吉田郡山城](https://roymwxuk.github
 
 ## Current status
 
-_As of 2026-11-23._ The map, castles, detail panel and castle list work, with 26 castles. The interface is in Japanese.
+_As of 2026-11-23._ The map, castles, detail panel and castle list work, with 27 castles. The interface is in Japanese.
 
 | Milestone                        | Status                                  |
 | -------------------------------- | --------------------------------------- |
