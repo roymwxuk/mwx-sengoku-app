@@ -9,3 +9,17 @@
   --font-serif:
     'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', ui-serif, serif;
 }
+
+/* MapLibre's popup, restyled. It must not block clicks on the castle below. */
+.castle-tooltip .maplibregl-popup-content {
+  pointer-events: none;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  color: var(--color-sumi);
+  background: var(--color-washi);
+  border-top: 3px solid var(--color-shu);
+  border-radius: 2px;
+}
+.castle-tooltip .maplibregl-popup-tip {
+  display: none;
+}

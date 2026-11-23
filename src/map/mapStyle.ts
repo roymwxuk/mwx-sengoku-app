@@ -2,8 +2,9 @@ import type { StyleSpecification } from 'maplibre-gl'
 
 // Keep in sync with the theme tokens in src/index.css (ADR-0007).
 const SEA = '#c5cfca'
-const WASHI = '#f4ecd8'
-const SUMI = '#2b2622'
+export const WASHI = '#f4ecd8'
+export const SUMI = '#2b2622'
+export const SHU = '#9b2d1f'
 
 export const mapStyle: StyleSpecification = {
   version: 8,

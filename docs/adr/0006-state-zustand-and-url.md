@@ -1,6 +1,6 @@
 # ADR-0006: Client state with Zustand, shareable state in the URL
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-23
 
 ## Context
@@ -17,6 +17,8 @@ Several parts of the UI share state: selected castle, current year, filters, lay
 ## Decision
 
 Use Zustand for app state. Sync `castle`, `year`, and active filters to URL query params.
+
+Selecting or closing a castle adds a browser history entry. Changes to the year and filters replace the current entry, so dragging the slider doesn't flood the back button.
 
 ## Consequences
 

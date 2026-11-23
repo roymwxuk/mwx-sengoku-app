@@ -1,7 +1,20 @@
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import type { TransformConstrainFunction } from 'maplibre-gl'
-import { Map, NavigationControl } from 'react-map-gl/maplibre'
+import { useState } from 'react'
+import {
+  Map,
+  NavigationControl,
+  type MapLayerMouseEvent,
+} from 'react-map-gl/maplibre'
+import type { CastleCollection, CastleFeature } from '../data/castleSchema'
+import {
+  CASTLE_HIT_LAYER,
+  CastleLayers,
+} from '../features/castles/CastleLayers'
+import { CastleTooltip } from '../features/castles/CastleTooltip'
+import { nearestCastle } from '../features/castles/nearestCastle'
+import { useSelection } from '../features/castles/selectionStore'
 import { mapStyle } from './mapStyle'
 
 /** Kyushu to Hokkaido: what the first view shows. [west, south, east, north] */
@@ -34,7 +47,19 @@ const LOCALE = {
   'AttributionControl.ToggleAttribution': '出典を表示',
 }
 
-export function JapanMap() {
+interface Props {
+  /** null while loading */
+  castles: CastleCollection | null
+}
+
+export function JapanMap({ castles }: Props) {
+  const [hovered, setHovered] = useState<CastleFeature | null>(null)
+  const selectedCastleId = useSelection((s) => s.selectedCastleId)
+  const selectCastle = useSelection((s) => s.selectCastle)
+
+  const castleAt = (event: MapLayerMouseEvent) =>
+    castles && nearestCastle(event, castles)
+
   return (
     <Map
       workerUrl={workerUrl}
@@ -49,7 +74,20 @@ export function JapanMap() {
       maxPitch={0}
       renderWorldCopies={false}
       locale={LOCALE}
+      interactiveLayerIds={[CASTLE_HIT_LAYER]}
+      cursor={hovered ? 'pointer' : undefined}
+      onMouseMove={(event) => setHovered(castleAt(event))}
+      onMouseOut={() => setHovered(null)}
+      onClick={(event) => selectCastle(castleAt(event)?.properties.id ?? null)}
     >
+      {castles && (
+        <CastleLayers
+          castles={castles}
+          hoveredId={hovered?.properties.id ?? null}
+          selectedId={selectedCastleId}
+        />
+      )}
+      {hovered && <CastleTooltip castle={hovered} />}
       <NavigationControl position="top-right" />
     </Map>
   )
