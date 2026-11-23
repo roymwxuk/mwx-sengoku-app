@@ -1,6 +1,6 @@
 # ADR-0002: Frontend-only static SPA (Vite + React + TypeScript)
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-23
 
 ## Context

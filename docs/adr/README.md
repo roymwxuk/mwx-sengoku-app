@@ -12,9 +12,9 @@ We record significant decisions as ADRs, using the [Michael Nygard format](https
 | ADR | Title | Status |
 |---|---|---|
 | [0001](0001-record-architecture-decisions.md) | Record architecture decisions | Accepted |
-| [0002](0002-frontend-only-static-spa.md) | Frontend-only static SPA (Vite + React + TypeScript) | Proposed |
-| [0003](0003-map-engine-maplibre.md) | Use MapLibre GL JS as the map engine | Proposed |
-| [0004](0004-basemap-source.md) | Basemap tile source | Proposed (open) |
+| [0002](0002-frontend-only-static-spa.md) | Frontend-only static SPA (Vite + React + TypeScript) | Accepted |
+| [0003](0003-map-engine-maplibre.md) | Use MapLibre GL JS as the map engine | Accepted |
+| [0004](0004-basemap-source.md) | Basemap tile source | Accepted |
 | [0005](0005-static-geojson-data.md) | Store castle and province data as static GeoJSON | Proposed |
 | [0006](0006-state-zustand-and-url.md) | Client state with Zustand, shareable state in the URL | Proposed |
-| [0007](0007-styling-tailwind.md) | Styling with Tailwind CSS | Proposed |
+| [0007](0007-styling-tailwind.md) | Styling with Tailwind CSS | Accepted |

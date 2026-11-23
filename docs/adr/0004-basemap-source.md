@@ -1,6 +1,6 @@
 # ADR-0004: Basemap tile source
 
-- **Status:** Proposed (open — decide during M1)
+- **Status:** Accepted
 - **Date:** 2026-11-23
 
 ## Context
@@ -16,8 +16,13 @@ MapLibre needs a basemap (land, coastlines, terrain). Modern features (roads, ra
 
 ## Decision
 
-Not decided. Suggested path: start with **option 1** in M1 (fast, no dependencies), move to **option 2** if terrain/hillshade is wanted in M8.
+Use **option 1**: no tiles, only a Japan outline and Lake Biwa as GeoJSON, taken from Natural Earth 1:10m (public domain). If terrain or hillshade is wanted in M8, write a new ADR for **option 2**.
 
 ## Consequences
 
-To be written when the decision is made.
+- No API key, tile server or third-party uptime to depend on; the file is about 130 KB.
+- `scripts/build-basemap.mjs` rebuilds the file from a pinned Natural Earth version (`npm run data:basemap`).
+- The coastline looks angular when zoomed in, and small islands and inlets are simplified. Maximum zoom is limited to 12.
+- The coastline is modern: reclaimed land (e.g., Osaka Bay, Edo) differs from the Sengoku period.
+- Only land that Natural Earth assigns to Japan is drawn, so neighbouring countries and the Kuril Islands appear as sea.
+- No glyph source is configured, so the map can't show text labels yet. Decide on one before adding labels (province labels in M4).

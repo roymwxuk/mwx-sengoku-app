@@ -12,27 +12,27 @@ A frontend-only web app showing a map of 戦国時代 Japan where users can find
 
 Goal: an empty but deployable project, with key decisions written down.
 
-- [ ] Review and accept/reject ADRs 0002–0007
-- [ ] `git init`, add `.gitignore`, first commit
-- [ ] Scaffold Vite + React + TypeScript (`npm create vite@latest`) — *done when* `npm run dev` shows the starter page
-- [ ] Add ESLint + Prettier, `npm run lint` passes
-- [ ] Add Vitest with one trivial test — *done when* `npm test` passes
-- [ ] Add Tailwind — *done when* a utility class visibly styles the page
-- [ ] Set up folder layout: `src/map/`, `src/features/`, `src/data/`, `public/data/`
-- [ ] CI (GitHub Actions): lint + test + build on every push
-- [ ] Deploy preview of the empty app (Vercel / Netlify / GitHub Pages) — *done when* a public URL loads
+- [ ] Review and accept/reject ADRs 0002–0007 (0005 and 0006 remain; decide in M2)
+- [x] `git init`, add `.gitignore`, first commit
+- [x] Scaffold Vite + React + TypeScript (`npm create vite@latest`) — *done when* `npm run dev` shows the starter page
+- [x] Add Prettier, `npm run format:check` passes (ESLint dropped)
+- [ ] *(deferred)* Add Vitest with one trivial test — *done when* `npm test` passes
+- [x] Add Tailwind — *done when* a utility class visibly styles the page
+- [x] Set up folder layout: `src/map/`, `src/features/`, `src/data/`, `public/data/`
+- [ ] *(deferred)* CI (GitHub Actions): format check + test + build on every push
+- [ ] *(deferred)* Deploy preview of the empty app (Vercel / Netlify / GitHub Pages) — *done when* a public URL loads
 
 ## M1 — Map shell
 
 Goal: a full-screen, pannable, zoomable map of Japan.
 
-- [ ] 🔸 Choose the basemap source (ADR-0004)
-- [ ] Install `maplibre-gl` + `react-map-gl`; render a full-screen map
-- [ ] Set initial view on Japan; restrict `maxBounds` and min/max zoom
-- [ ] Add navigation controls (zoom buttons, compass reset)
-- [ ] Make the layout responsive (map fills viewport on desktop and phone)
-- [ ] Add attribution for the map data
-- *Milestone done when:* the deployed URL shows Japan and you can pan and zoom smoothly on desktop and mobile.
+- [x] 🔸 Choose the basemap source (ADR-0004)
+- [x] Install `maplibre-gl` + `react-map-gl`; render a full-screen map
+- [x] Set initial view on Japan; restrict panning (map centre stays near Japan) and min/max zoom
+- [x] Add navigation controls (zoom buttons, compass reset)
+- [x] Make the layout responsive (map fills viewport on desktop and phone)
+- [x] Add attribution for the map data
+- *Milestone done when:* the deployed URL shows Japan and you can pan and zoom smoothly on desktop and mobile. (Deploy is deferred: checked locally for now.)
 
 ## M2 — Castles on the map
 

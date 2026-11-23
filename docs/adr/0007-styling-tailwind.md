@@ -1,6 +1,6 @@
 # ADR-0007: Styling with Tailwind CSS
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-11-23
 
 ## Context
