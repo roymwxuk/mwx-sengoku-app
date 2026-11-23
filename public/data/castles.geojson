@@ -1496,6 +1496,55 @@
           { "clan": "toda", "from": 1587, "to": 1594 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.61611, 35.36194] },
+      "properties": {
+        "id": "ogaki",
+        "name_ja": "大垣城",
+        "reading": "おおがきじょう",
+        "name_en": "Ōgaki Castle",
+        "former_names": [{"name_ja": "牛屋城", "reading": "うしやじょう", "name_en": "Ushiya Castle", "until": null}],
+        "description": "織田氏と斎藤氏が奪い合った、西美濃の要の城。1563年に氏家直元が大きく広げた。関ヶ原の戦いでは石田三成ら西軍の主力が拠点とし、本戦のあと東軍に攻められて開城した。",
+        "wikipedia_ja": "大垣城",
+        "official_url": "https://www.city.ogaki.lg.jp/0000000577.html",
+        "province": "美濃",
+        "type": "平城",
+        "built": {"earliest": 1500, "latest": 1535},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "oda", "from": 1544, "to": 1549 },
+          { "clan": "saito", "from": 1549, "to": 1567 },
+          { "clan": "oda", "from": 1567, "to": 1583 },
+          { "clan": "ikeda", "from": 1583, "to": 1585 },
+          { "clan": "toyotomi", "from": 1585, "to": 1590 },
+          { "clan": "ito", "from": 1590, "to": 1600 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.96139, 35.75333] },
+      "properties": {
+        "id": "gujo-hachiman",
+        "name_ja": "郡上八幡城",
+        "reading": "ぐじょうはちまんじょう",
+        "name_en": "Gujō Hachiman Castle",
+        "former_names": [],
+        "description": "1559年、遠藤盛数が東氏を攻めた際に築いた砦に始まる。1588年から稲葉貞通が大改修した。関ヶ原の戦いの頃に遠藤慶隆が貞通と激しく戦い、戦いのあと城主に戻った。",
+        "wikipedia_ja": "郡上八幡城",
+        "official_url": "https://hachiman-castle.com/",
+        "province": "美濃",
+        "type": "平山城",
+        "built": {"earliest": 1559, "latest": 1559},
+        "abandoned": {"earliest": 1869, "latest": 1871},
+        "owners": [
+          { "clan": "endo", "from": 1559, "to": 1588 },
+          { "clan": "inaba", "from": 1588, "to": 1600 },
+          { "clan": "endo", "from": 1600, "to": 1692 }
+        ]
+      }
     }
   ]
 }
