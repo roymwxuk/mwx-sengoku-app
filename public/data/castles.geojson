@@ -1793,6 +1793,148 @@
           { "clan": "mori", "from": 1557, "to": 1615 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.46805, 33.67973] },
+      "properties": {
+        "id": "tachibanayama",
+        "name_ja": "立花山城",
+        "reading": "たちばなやまじょう",
+        "name_en": "Tachibanayama Castle",
+        "former_names": [],
+        "description": "博多を見下ろす立花山の山城。大友氏と大内氏、毛利氏が奪い合い、立花道雪と養子の統虎（宗茂）が守った。1586年、統虎は島津氏の大軍の侵攻に耐えた。石垣は福岡城へ移されたという。",
+        "wikipedia_ja": "立花山城",
+        "official_url": null,
+        "province": "筑前",
+        "type": "山城",
+        "built": {"earliest": 1330, "latest": 1330},
+        "abandoned": {"earliest": 1601, "latest": 1601},
+        "owners": [
+          { "clan": "tachibana", "from": 1467, "to": 1568 },
+          { "clan": "tachibana", "from": 1571, "to": 1587 },
+          { "clan": "kobayakawa", "from": 1587, "to": 1600 },
+          { "clan": "kuroda", "from": 1600, "to": 1601 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.40083, 33.16072] },
+      "properties": {
+        "id": "yanagawa",
+        "name_ja": "柳川城",
+        "reading": "やながわじょう",
+        "name_en": "Yanagawa Castle",
+        "former_names": [],
+        "description": "蒲池氏が築いた、堀に囲まれた平城。落とすのに3年かかると歌われた。1581年に龍造寺氏の手に渡り、九州平定のあと立花宗茂が入った。城の堀は今も柳川の川下りで親しまれている。",
+        "wikipedia_ja": "柳川城",
+        "official_url": null,
+        "province": "筑後",
+        "type": "平城",
+        "built": {"earliest": 1501, "latest": 1504},
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "kamachi", "from": 1501, "to": 1581 },
+          { "clan": "ryuzoji", "from": 1581, "to": 1587 },
+          { "clan": "tachibana", "from": 1587, "to": 1600 },
+          { "clan": "tanaka", "from": 1601, "to": 1620 },
+          { "clan": "tachibana", "from": 1620, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.30215, 33.24574] },
+      "properties": {
+        "id": "saga",
+        "name_ja": "佐賀城",
+        "reading": "さがじょう",
+        "name_en": "Saga Castle",
+        "former_names": [{"name_ja": "村中城", "reading": "むらなかじょう", "name_en": "Muranaka Castle", "until": 1602}],
+        "description": "龍造寺氏の村中城を、鍋島氏が1602年から広げて佐賀城とした。1570年、籠城する龍造寺方の鍋島直茂が今山に夜襲をかけ、大友氏の大軍を破った。水に沈めて守る「沈み城」とも呼ばれる。",
+        "wikipedia_ja": "佐賀城",
+        "official_url": "https://www.sagajou.jp/",
+        "province": "肥前",
+        "type": "平城",
+        "built": {"earliest": 1185, "latest": 1611},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "ryuzoji", "from": 1467, "to": 1602 },
+          { "clan": "nabeshima", "from": 1602, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.70590, 32.80603] },
+      "properties": {
+        "id": "kumamoto",
+        "name_ja": "熊本城",
+        "reading": "くまもとじょう",
+        "name_en": "Kumamoto Castle",
+        "former_names": [{"name_ja": "千葉城", "reading": "ちばじょう", "name_en": "Chiba Castle", "until": null}, {"name_ja": "隈本城", "reading": "くまもとじょう", "name_en": "Kumamoto Castle", "until": 1607}],
+        "description": "菊池氏の一族の千葉城、鹿子木氏の隈本城に始まる。1588年に入った加藤清正が、1591年から茶臼山一帯に大城郭を築き、1607年に隈本を熊本と改めた。のちに細川氏の居城となった。",
+        "wikipedia_ja": "熊本城",
+        "official_url": "https://castle.kumamoto-guide.jp/",
+        "province": "肥後",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1607},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "jo", "from": 1550, "to": 1587 },
+          { "clan": "sasa", "from": 1587, "to": 1588 },
+          { "clan": "kato-kiyomasa", "from": 1588, "to": 1632 },
+          { "clan": "hosokawa", "from": 1632, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.35030, 31.62911] },
+      "properties": {
+        "id": "obi",
+        "name_ja": "飫肥城",
+        "reading": "おびじょう",
+        "name_en": "Obi Castle",
+        "former_names": [],
+        "description": "島津氏と伊東氏が100年以上にわたって争った、シラス台地の城。1562年に伊東義祐が手に入れ、1576年に島津氏が取り返した。1588年に伊東祐兵が戻り、明治まで伊東氏の城だった。",
+        "wikipedia_ja": "飫肥城",
+        "official_url": null,
+        "province": "日向",
+        "type": "平山城",
+        "built": {"earliest": 1336, "latest": 1458},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "shimazu", "from": 1458, "to": 1562 },
+          { "clan": "ito-hyuga", "from": 1562, "to": 1576 },
+          { "clan": "shimazu", "from": 1576, "to": 1587 },
+          { "clan": "ito-hyuga", "from": 1588, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.87426, 33.88444] },
+      "properties": {
+        "id": "kokura",
+        "name_ja": "小倉城",
+        "reading": "こくらじょう",
+        "name_en": "Kokura Castle",
+        "former_names": [],
+        "description": "1569年に毛利氏が築いた、海に面した城。高橋鑑種、毛利（森）勝信が居城とした。1602年から細川忠興が大きく改築し、のちに小笠原氏の城となった。1866年、長州藩との戦いで自ら焼いた。",
+        "wikipedia_ja": "小倉城",
+        "official_url": null,
+        "province": "豊前",
+        "type": "平城",
+        "built": {"earliest": 1569, "latest": 1609},
+        "abandoned": {"earliest": 1866, "latest": 1866},
+        "owners": [
+          { "clan": "takahashi", "from": 1569, "to": 1587 },
+          { "clan": "mori-katsunobu", "from": 1587, "to": 1600 },
+          { "clan": "hosokawa", "from": 1600, "to": 1632 }
+        ]
+      }
     }
   ]
 }
