@@ -11,7 +11,7 @@
 
 - Each clan has its own colour from `scripts/clan-palette.json`, 100 colours spread as far apart as possible (OKLab) that all give the kanji mark a contrast of at least 4.5:1. `npm run data:check` rejects repeats and other colours.
 - They were assigned by computer so that clans shown in the same year, and neighbours above all, look as different as possible. They aren't historical. The first 9 (織田, 徳川, 羽柴・豊臣, 後北条, 上杉, 毛利, 池田, 今川, 武田) were chosen earlier by hand.
-- For a new clan, use a colour that isn't taken; the check lists those left if given one outside the palette.
+- For a new clan, use a colour that isn't taken; the check lists those left if given one outside the palette. If a spare is too close to a neighbour's, trade with a clan that isn't shown in any year (done for 高遠, 三村, 丹羽 and 蒲生).
 - With this many, some colours look alike, so the kanji mark is still needed to be sure.
 
 ## Notes on castle data
@@ -75,6 +75,9 @@
 - 宇和島城: `built` is 941 (the traditional date of a fort on the site) to 1601, when 藤堂高虎's castle was finished; the infobox gives 1596. 板島丸串城 is the former name until 1617, when the article says 宇和島城 came into use. 鶴島城 is an alternative name. `abandoned` is the infobox's 1871. Coordinates are from the article, as Wikidata's are given to about 1 km.
 - 中村城: the one in 土佐; its id is `tosa-nakamura`, as other castles share the name. `built` is null, as the infobox says unknown. 為松城 is an alternative name. 一条氏 lived in 中村御所 in the town below. Coordinates are from the article, as Wikidata has none.
 - 黒瀬城: `built` is 1551 (the infobox says the late 16th century) to 1565, when its builder 西園寺実充 died; his article implies that he had moved there by 1556, and 『宇和旧記』 that it was finished after him. `abandoned` is null, as no date is given.
+- 大垣城: `built` is 1500–1535: both dates are traditional, and Wikidata has 1535. 牛屋城 was its first name; its `until` is null, as the article doesn't say when it changed. 麋城 and 巨鹿城 are alternative names. `abandoned` is the infobox's 1871.
+- 郡上八幡城: `built` is 1559, the first fort. The article's infobox says 平山城, though its text also calls it a 山城. `abandoned` is the infobox's 1869 to 廃藩置県 (1871). 積翠城 and others are alternative names.
+- 岩村城: `built` is the Kamakura period (1185–1333): the article says its early part, the infobox after 1221, and Wikidata 1185. The mountain castle dates from the 16th century. 霧ヶ城 is an alternative name. `abandoned` is the infobox's 1871 to 1873 (the text).
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -140,5 +143,8 @@
 - 宇和島城: 西園寺氏 is listed from 1467, the start of the app's period, and covers their retainers 家藤氏 and 西園寺宣久. They gave in to 大友氏 for a time in 1560. 戸田氏 in 1587–1594 is the castellan of 戸田勝隆, whose base was 大洲城. 藤堂氏 in 1600–1608 is the castellan 良勝. 徳川氏 in 1613–1614 is direct rule by the shogunate.
 - 中村城: 一条氏 is listed from 1468, when 教房 arrived. Their retainers 為松氏 are said to have built it. 長宗我部氏 in 1574–1600 is first 吉良親貞; later years are inferred, as they held 土佐 until 関ヶ原. 山内氏 (marked 康, from 康豊) is a branch; 1601 is from general knowledge.
 - 黒瀬城: 西園寺氏, its only lords, are listed from 1551, the earliest it can have been built. 戸田氏 in 1587–1594 is the castellan 岩城氏; no owner is listed after 戸田勝隆 died.
+- 大垣城: owners before 1544 are left out, as sources differ. 斎藤氏 in 1549–1567 covers 竹腰氏 and, from 1559, 氏家氏, their retainers; 氏家氏 went over to 織田氏 in 1567 (from general knowledge). 豊臣氏 in 1585–1590 is 一柳直末, who served 秀次. 伊藤氏 is marked 盛, from 盛景 and 盛宗. 西軍's garrison in 1600 and owners after it are left out.
+- 郡上八幡城: 遠藤氏 is marked 慶, from 慶隆. They are listed to 1588, when 稲葉貞通 came; the article says only that 慶隆 was driven out after 本能寺. 1692 and later owners (井上氏, 金森氏, 青山氏) are from general knowledge or left out.
+- 岩村城: 遠山氏 is listed from 1467, the start of the app's period, to 1572, and includes the months under 織田信長's son and おつやの方. 織田氏 in 1575–1582 is 河尻秀隆, then 団忠正. 森氏 in 1582–1599 is 長可 and 忠政. 田丸氏 is marked 丸, as 田中氏 has 田. Owners after 1600 are left out.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
