@@ -14,6 +14,9 @@ import {
 } from '../features/castles/CastleLayers'
 import { CastleTooltip } from '../features/castles/CastleTooltip'
 import { nearestCastle } from '../features/castles/nearestCastle'
+import type { Ownership } from '../features/clans/ownership'
+import { ProvinceLayers } from '../features/layers/ProvinceLayers'
+import { useLayers } from '../features/layers/layerStore'
 import { useSelection } from '../features/castles/selectionStore'
 import { FlyToCastle } from './FlyToCastle'
 import { mapStyle } from './mapStyle'
@@ -51,12 +54,15 @@ const LOCALE = {
 interface Props {
   /** null while loading */
   castles: CastleCollection | null
+  ownership: Ownership
   selected: CastleFeature | null
   panelRef: RefObject<HTMLElement | null>
 }
 
-export function JapanMap({ castles, selected, panelRef }: Props) {
+export function JapanMap({ castles, ownership, selected, panelRef }: Props) {
   const [hovered, setHovered] = useState<CastleFeature | null>(null)
+  const showProvinces = useLayers((s) => s.provinces)
+  const showClans = useLayers((s) => s.clanColors)
   const selectCastle = useSelection((s) => s.selectCastle)
 
   const castleAt = (event: MapLayerMouseEvent) =>
@@ -83,15 +89,22 @@ export function JapanMap({ castles, selected, panelRef }: Props) {
       onMoveStart={() => setHovered(null)}
       onClick={(event) => selectCastle(castleAt(event)?.properties.id ?? null)}
     >
+      <ProvinceLayers visible={showProvinces} />
       {castles && (
         <CastleLayers
           castles={castles}
+          ownership={showClans ? ownership : null}
           hoveredId={hovered?.properties.id ?? null}
           selectedId={selected?.properties.id ?? null}
         />
       )}
       {/* The panel already names the selected castle. */}
-      {hovered && hovered !== selected && <CastleTooltip castle={hovered} />}
+      {hovered && hovered !== selected && (
+        <CastleTooltip
+          castle={hovered}
+          clan={showClans ? ownership.get(hovered.properties.id) : undefined}
+        />
+      )}
       {selected && <FlyToCastle castle={selected} panelRef={panelRef} />}
       <NavigationControl position="top-right" />
     </Map>

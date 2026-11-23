@@ -16,7 +16,9 @@
         "type": "山城",
         "built": {"earliest": 1576, "latest": 1576},
         "abandoned": {"earliest": 1582, "latest": 1585},
-        "owners": []
+        "owners": [
+          { "clan": "oda", "from": 1576, "to": 1585 }
+        ]
       }
     },
     {
@@ -34,7 +36,10 @@
         "type": "平城",
         "built": {"earliest": 1583, "latest": 1583},
         "abandoned": {"earliest": 1868, "latest": 1868},
-        "owners": []
+        "owners": [
+          { "clan": "toyotomi", "from": 1583, "to": 1615 },
+          { "clan": "tokugawa", "from": 1619, "to": 1868 }
+        ]
       }
     },
     {
@@ -52,7 +57,12 @@
         "type": "平山城",
         "built": {"earliest": 1417, "latest": 1418},
         "abandoned": {"earliest": 1871, "latest": 1871},
-        "owners": []
+        "owners": [
+          { "clan": "omori", "from": 1417, "to": 1501 },
+          { "clan": "hojo", "from": 1501, "to": 1590 },
+          { "clan": "okubo", "from": 1590, "to": 1614 },
+          { "clan": "tokugawa", "from": 1614, "to": 1619 }
+        ]
       }
     },
     {
@@ -70,7 +80,10 @@
         "type": "山城",
         "built": {"earliest": 1336, "latest": 1392},
         "abandoned": {"earliest": 1607, "latest": 1607},
-        "owners": []
+        "owners": [
+          { "clan": "uesugi", "from": 1392, "to": 1598 },
+          { "clan": "hori", "from": 1598, "to": 1607 }
+        ]
       }
     },
     {
@@ -88,7 +101,13 @@
         "type": "平山城",
         "built": {"earliest": 1346, "latest": 1347},
         "abandoned": null,
-        "owners": []
+        "owners": [
+          { "clan": "akamatsu", "from": 1467, "to": 1469 },
+          { "clan": "kodera", "from": 1469, "to": 1545 },
+          { "clan": "kuroda", "from": 1545, "to": 1577 },
+          { "clan": "toyotomi", "from": 1577, "to": 1600 },
+          { "clan": "ikeda", "from": 1600, "to": 1617 }
+        ]
       }
     },
     {
@@ -106,7 +125,13 @@
         "type": "山城",
         "built": {"earliest": 1201, "latest": 1201},
         "abandoned": {"earliest": 1600, "latest": 1601},
-        "owners": []
+        "owners": [
+          { "clan": "saito", "from": 1533, "to": 1567 },
+          { "clan": "oda", "from": 1567, "to": 1583 },
+          { "clan": "ikeda", "from": 1583, "to": 1591 },
+          { "clan": "toyotomi", "from": 1591, "to": 1592 },
+          { "clan": "oda", "from": 1592, "to": 1600 }
+        ]
       }
     },
     {
@@ -124,7 +149,11 @@
         "type": "館",
         "built": {"earliest": 1519, "latest": 1519},
         "abandoned": {"earliest": 1590, "latest": 1594},
-        "owners": []
+        "owners": [
+          { "clan": "takeda", "from": 1519, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "tokugawa", "from": 1582, "to": 1590 }
+        ]
       }
     },
     {
@@ -142,7 +171,13 @@
         "type": "平城",
         "built": {"earliest": 1394, "latest": 1405},
         "abandoned": {"earliest": 1610, "latest": 1613},
-        "owners": []
+        "owners": [
+          { "clan": "shiba", "from": 1405, "to": 1478 },
+          { "clan": "oda", "from": 1478, "to": 1590 },
+          { "clan": "toyotomi", "from": 1590, "to": 1595 },
+          { "clan": "fukushima", "from": 1595, "to": 1600 },
+          { "clan": "tokugawa", "from": 1600, "to": 1610 }
+        ]
       }
     },
     {
@@ -160,7 +195,11 @@
         "type": "平山城",
         "built": {"earliest": 1452, "latest": 1455},
         "abandoned": {"earliest": 1873, "latest": 1873},
-        "owners": []
+        "owners": [
+          { "clan": "tokugawa", "from": 1531, "to": 1590 },
+          { "clan": "tanaka", "from": 1590, "to": 1601 },
+          { "clan": "honda", "from": 1602, "to": 1645 }
+        ]
       }
     },
     {
@@ -178,7 +217,12 @@
         "type": "平山城",
         "built": {"earliest": 1457, "latest": 1457},
         "abandoned": null,
-        "owners": []
+        "owners": [
+          { "clan": "ota", "from": 1457, "to": 1486 },
+          { "clan": "ogigayatsu", "from": 1486, "to": 1524 },
+          { "clan": "hojo", "from": 1524, "to": 1590 },
+          { "clan": "tokugawa", "from": 1590, "to": 1868 }
+        ]
       }
     },
     {
@@ -196,7 +240,9 @@
         "type": "山城",
         "built": null,
         "abandoned": {"earliest": 1591, "latest": 1600},
-        "owners": []
+        "owners": [
+          { "clan": "mori", "from": 1467, "to": 1591 }
+        ]
       }
     }
   ]
