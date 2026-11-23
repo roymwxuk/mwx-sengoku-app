@@ -485,6 +485,33 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.42799, 37.59964] },
+      "properties": {
+        "id": "nihonmatsu",
+        "name_ja": "二本松城",
+        "reading": "にほんまつじょう",
+        "name_en": "Nihonmatsu Castle",
+        "former_names": [],
+        "description": "二本松（畠山）氏の居城。1586年に伊達政宗に明け渡され、江戸時代には丹羽氏の二本松藩の藩庁となった。戊辰戦争で落城。霞ヶ城とも呼ばれる。",
+        "wikipedia_ja": "二本松城",
+        "official_url": "https://www.nihonmatsu-ed.jp/nihonmatsujyou/",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1414, "latest": 1443},
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "nihonmatsu", "from": 1443, "to": 1586 },
+          { "clan": "date", "from": 1586, "to": 1591 },
+          { "clan": "gamo", "from": 1591, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1601 },
+          { "clan": "gamo", "from": 1601, "to": 1627 },
+          { "clan": "kato-yoshiaki", "from": 1627, "to": 1643 },
+          { "clan": "niwa", "from": 1643, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [131.61143, 33.24064] },
       "properties": {
         "id": "funai",

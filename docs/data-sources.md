@@ -25,6 +25,7 @@
 - 伊賀上野城: the article is 上野城. `built` is 1585–1596: 筒井定次 arrived in 1585, and 『伊水温故』 says it was finished in 文禄年間 (1592–1596). 仁木氏's residence and 滝川雄利's fort stood on the site before. Its official site is http only, so it isn't listed.
 - 高遠城: `built` is null, as the article doesn't give it; 1547 is the Takeda rebuilding, per 『甲陽軍鑑』.
 - 鹿児島城: `built` is 1601–1604, begun to finished; the infobox gives 1602. 上山城 stood on the hill behind it before. The article is flagged as needing more citations. `abandoned` is the infobox's 1872.
+- 二本松城: added as 霞ヶ城, an alternative name it shares with 丸岡城 and 山形城. `built` is 1414–1443: the article gives 1414 or 嘉吉年間 (1441–1443). Wikidata's 1341 is 畠山氏's earlier residence nearby. The official site, by the city's board of education, is from Wikidata.
 - 甲府城: `built` is 1583–1585: 家康 is said to have planned it in 1583, and 『甲斐国志』 gives 1585. Most building came later.
 - 一乗谷城: part of the article 一乗谷朝倉氏遺跡. `built` is 1336–1392 because the source only says 南北朝時代. Wikidata's coordinates are for the site as a whole, to about 1 km.
 - 韮山城: the construction date is uncertain. `built` is 1469–1500: 『北条五代記』 says it was begun in 文明年間 (1469–1486), and it was complete by about 1500.
@@ -55,6 +56,7 @@
 - 伊賀上野城: 新庄氏 took it briefly in 1600, left out. Both castellans and lords in 1608–1871 were 藤堂氏; the year 1871 is the infobox's end of the castle.
 - 高遠城: 高遠氏 is listed from 1541, the article's first date. 織田氏 in 1582 is uncertain, as the article says its lord then is unknown; 後北条氏's brief hold that year is left out. 保科氏 in 1582–1590 served 徳川氏 (from late 1582). From general knowledge: 1590, when 保科氏 left for 下総; 京極氏 in 1593–1600 (高知, based at 飯田城). 毛利秀頼 in 1590–1593, not of the 毛利氏 of 安芸, is left out, as are owners after 1636 (a year from the article 高遠藩).
 - 鹿児島城: the year 1871 for 島津氏 is 廃藩置県.
+- 二本松城: 二本松氏 is listed from 1443, the end of its construction range. Castellans are listed under 伊達氏, 蒲生氏, 上杉氏 and 加藤氏; 1627–1628 was 松下氏 under 加藤氏. From general knowledge: 1601 for the change from 上杉氏 back to 蒲生氏, and 1871 for 丹羽氏.
 - 甲府城: 加藤氏 (1591–1593) and the year 1593 for 浅野氏 are from general knowledge. 徳川氏 covers 義直 and direct rule; owners after 1616 are left out.
 - 一乗谷城: 朝倉氏 is listed from 1392, the end of its construction range. 織田氏 in 1573–1574 is 桂田長俊, 信長's governor (from general knowledge).
 - 韮山城: 後北条氏 is listed from 1491, following the article (伊勢盛時). 徳川氏 in 1590–1601 is 家康's retainer 内藤信成.
