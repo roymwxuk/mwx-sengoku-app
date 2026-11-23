@@ -76,7 +76,8 @@ export function AboutDialog() {
           </h3>
           <dl className="mt-1 space-y-2 text-sm">
             <Credit label="城と大名家">
-              位置はWikidata（CC0）、名前・種類・年代などの事実は日本語版Wikipediaなどによります。説明文はこのサイトのために書いたものです（MIT）。
+              位置はWikidata（CC0）と一部OpenStreetMap（© OpenStreetMap
+              contributors、ODbL）、名前・種類・年代などの事実は日本語版Wikipediaなどによります。説明文はこのサイトのために書いたものです（MIT）。
             </Credit>
             <Credit label="海岸線と湖">
               Made with Natural Earth（パブリックドメイン）
