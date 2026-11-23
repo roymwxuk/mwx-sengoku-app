@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Vite
+.vite/
+*.local
+
+# Environment files (keep the example)
+.env
+.env.*
+!.env.example
+
+# Tests
+coverage/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Lint / format caches
+.eslintcache
+.prettiercache
+
+# Logs
+logs/
+*.log
+
+# Hosting
+.vercel/
+.netlify/
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
