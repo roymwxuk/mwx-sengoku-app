@@ -69,3 +69,10 @@
     max-height: calc(100dvh - var(--sheet-height) - 14.5rem);
   }
 }
+
+/* Very narrow screens: the year switch moves below the title. */
+@media (width < 22.5rem) {
+  .castle-list-items {
+    max-height: calc(100dvh - var(--list-bottom) - 10.5rem);
+  }
+}

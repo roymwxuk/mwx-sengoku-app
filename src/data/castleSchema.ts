@@ -39,7 +39,7 @@ const castle = z
     built: yearRange.nullable(),
     /** null: never abandoned, or unknown */
     abandoned: yearRange.nullable(),
-    /** Oldest first. In a year of change, the later owner counts. */
+    /** Oldest first. In a year of change, both owners include that year. */
     owners: z
       .array(owner)
       .refine(

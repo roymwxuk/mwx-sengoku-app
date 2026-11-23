@@ -5,14 +5,19 @@ import { MAP_FONT, SHU, SUMI, WASHI } from '../../map/mapStyle'
 import { NO_CLAN_COLOR, textColorOn } from '../clans/colors'
 import type { Clan } from '../../data/clanSchema'
 import type { Ownership } from '../clans/ownership'
+import { idsWith, type Statuses } from './castleStatus'
+import { StatusIconLayer } from './StatusIconLayer'
 
 /** Invisible layer, larger than the dots, so castles are easy to hit by touch. */
 export const CASTLE_HIT_LAYER = 'castle-hits'
+
+const SOURCE = 'castles'
 
 interface Props {
   castles: CastleCollection
   /** null: don't show clans */
   ownership: Ownership | null
+  statuses: Statuses
   hoveredId: string | null
   selectedId: string | null
 }
@@ -21,6 +26,12 @@ const isCastle = (id: string | null): ExpressionSpecification => [
   '==',
   ['get', 'id'],
   id ?? '',
+]
+
+const isOneOf = (ids: string[]): ExpressionSpecification => [
+  'in',
+  ['get', 'id'],
+  ['literal', ids],
 ]
 
 /** Looks up a value by the castle's owner. */
@@ -43,7 +54,7 @@ function byOwner(
 /** 1 for castles with a known owner, otherwise 0 */
 const hasOwner = (ownership: Ownership): ExpressionSpecification => [
   'case',
-  ['in', ['get', 'id'], ['literal', [...ownership.keys()]]],
+  isOneOf([...ownership.keys()]),
   1,
   0,
 ]
@@ -51,11 +62,15 @@ const hasOwner = (ownership: Ownership): ExpressionSpecification => [
 export function CastleLayers({
   castles,
   ownership,
+  statuses,
   hoveredId,
   selectedId,
 }: Props) {
   const selected = isCastle(selectedId)
   const hovered = isCastle(hoveredId)
+  const isPlanned = isOneOf(idsWith('planned', statuses))
+  const isRuin = isOneOf(idsWith('ruin', statuses))
+  const isStanding = isOneOf(idsWith('standing', statuses))
   const size = (base: number): ExpressionSpecification => [
     'case',
     selected,
@@ -66,7 +81,7 @@ export function CastleLayers({
   ]
 
   return (
-    <Source id="castles" type="geojson" data={castles}>
+    <Source id={SOURCE} type="geojson" data={castles}>
       <Layer
         id={CASTLE_HIT_LAYER}
         type="circle"
@@ -89,7 +104,18 @@ export function CastleLayers({
       <Layer
         id="castle-dots"
         type="circle"
-        layout={{ 'circle-sort-key': ['case', selected, 2, hovered, 1, 0] }}
+        filter={isStanding}
+        // Castles with an owner go above those without.
+        layout={{
+          'circle-sort-key': [
+            'case',
+            selected,
+            3,
+            hovered,
+            2,
+            ownership ? hasOwner(ownership) : 0,
+          ],
+        }}
         paint={{
           'circle-radius': ownership
             ? ['interpolate', ['linear'], ['zoom'], 5, size(5), 7, size(9)]
@@ -105,6 +131,7 @@ export function CastleLayers({
       <Layer
         id="castle-marks"
         type="symbol"
+        filter={isStanding}
         layout={{
           'text-field': byOwner(ownership, (clan) => clan.mark, '城'),
           'text-font': MAP_FONT,
@@ -122,6 +149,13 @@ export function CastleLayers({
             WASHI,
           ),
         }}
+      />
+      <StatusIconLayer
+        source={SOURCE}
+        isPlanned={isPlanned}
+        isRuin={isRuin}
+        selected={selected}
+        hovered={hovered}
       />
     </Source>
   )

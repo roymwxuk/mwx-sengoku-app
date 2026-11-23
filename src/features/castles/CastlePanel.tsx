@@ -1,20 +1,20 @@
 import { useEffect, type ReactNode, type Ref } from 'react'
 import type { CastleFeature } from '../../data/castleSchema'
 import type { Clan } from '../../data/clanSchema'
-import { REFERENCE_YEAR } from '../clans/ownership'
 import { googleMapsUrl, wikipediaUrl } from './castleLinks'
 import { formatYears } from './formatYears'
 
 interface Props {
   feature: CastleFeature
-  /** The owner in the reference year */
+  /** The owner in the year shown */
   clan?: Clan
+  year: number
   onClose: () => void
   ref: Ref<HTMLElement>
 }
 
 /** Side panel on wide screens, bottom sheet on phones. */
-export function CastlePanel({ feature, clan, onClose, ref }: Props) {
+export function CastlePanel({ feature, clan, year, onClose, ref }: Props) {
   const castle = feature.properties
 
   useEffect(() => {
@@ -80,7 +80,7 @@ export function CastlePanel({ feature, clan, onClose, ref }: Props) {
           )}
           {clan && (
             <Row label="城主">
-              {clan.name_ja}（{REFERENCE_YEAR}年）
+              {clan.name_ja}（{year}年）
             </Row>
           )}
           <Row label="国">{castle.province}国</Row>

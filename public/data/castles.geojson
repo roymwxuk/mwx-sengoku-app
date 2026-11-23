@@ -205,7 +205,9 @@
         "built": {"earliest": 1452, "latest": 1455},
         "abandoned": {"earliest": 1873, "latest": 1873},
         "owners": [
-          { "clan": "tokugawa", "from": 1531, "to": 1590 },
+          { "clan": "tokugawa", "from": 1531, "to": 1549 },
+          { "clan": "imagawa", "from": 1549, "to": 1560 },
+          { "clan": "tokugawa", "from": 1560, "to": 1590 },
           { "clan": "tanaka", "from": 1590, "to": 1601 },
           { "clan": "honda", "from": 1602, "to": 1645 }
         ]
@@ -252,7 +254,7 @@
         "built": null,
         "abandoned": {"earliest": 1591, "latest": 1600},
         "owners": [
-          { "clan": "mori", "from": 1467, "to": 1591 }
+          { "clan": "mori", "from": 1467, "to": 1600 }
         ]
       }
     },
