@@ -52,13 +52,13 @@ Goal: castles appear as points and can be selected.
 
 Goal: selecting a castle shows its details, and the selection can be shared as a link.
 
-- [ ] Side panel (desktop) / bottom sheet (mobile) showing the selected castle
-- [ ] Fields: names, reading, type, built/abandoned years, province, short description
-- [ ] "Fly to" animation when a castle is selected
-- [ ] Close button + `Esc` key closes the panel
-- [ ] Sync selection to the URL (`?castle=azuchi`); opening the URL restores it
-- [ ] Browser back/forward moves through selection history
-- [ ] Component tests for the panel
+- [x] Side panel (desktop) / bottom sheet (mobile) showing the selected castle
+- [x] Fields: names, reading, former names, type, built/abandoned years, province, short description
+- [x] "Fly to" animation when a castle is selected
+- [x] Close button + `Esc` key closes the panel
+- [x] Sync selection to the URL (`?castle=azuchi`); opening the URL restores it
+- [x] Browser back/forward moves through selection history
+- [ ] *(deferred with Vitest)* Component tests for the panel
 - *Milestone done when:* sharing a URL opens the app with the same castle selected and the panel open.
 
 ## M4 — Provinces (令制国) and clans
