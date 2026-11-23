@@ -73,7 +73,9 @@
 @media (width >= 40rem) {
   .castle-search {
     top: 0.75rem;
-    left: 20.75rem;
+    left: 23.5rem;
+    /* Clear of the zoom buttons. */
+    width: min(16rem, 100vw - 27rem);
   }
 }
 
@@ -90,8 +92,8 @@
   }
 }
 
-/* Very narrow screens: the year switch moves below the title. */
-@media (width < 22.5rem) {
+/* Narrow phones: the year switch moves below the title. */
+@media (width < 24rem) {
   .castle-search {
     top: 7.25rem;
     width: 12rem;

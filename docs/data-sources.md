@@ -66,7 +66,7 @@
 
 ## Notes on castle owners
 
-- Owners come from the same Japanese Wikipedia articles. `from` and `to` are years; in a year of change, the view decides: 1583 shows the last owner; 1560 and 1600 show the first, just before 桶狭間 and 関ヶ原.
+- Owners come from the same Japanese Wikipedia articles. `from` and `to` are years; in a year of change, the view decides: 1583 shows the last owner; 1553, 1560 and 1600 show the first, just before 川中島 (the first battle), 桶狭間 and 関ヶ原.
 - Retainers' castles are listed under the ruling house where the article treats them so (e.g., 甲斐 under 河尻秀隆 is 織田氏). 織田氏 at 清洲城 covers both the 守護代 family and 信長's; 松平氏 is listed as 徳川氏, and 長尾氏 as 上杉氏.
 - 小田原城: the Hōjō took it between 1495 and 1501; 1501 is used.
 - 春日山城: 上杉氏 (with 長尾氏) is listed from 1392, the end of its construction range.
