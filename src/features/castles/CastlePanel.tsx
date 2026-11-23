@@ -60,6 +60,11 @@ export function CastlePanel({ feature, clan, onClose, ref }: Props) {
               </ExternalLink>
             </li>
           )}
+          {castle.official_url && (
+            <li>
+              <ExternalLink href={castle.official_url}>公式サイト</ExternalLink>
+            </li>
+          )}
         </ul>
 
         <dl className="mt-2 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 border-t border-sumi/20 pt-4">

@@ -31,6 +31,8 @@ const castle = z
     description: z.string().min(1).max(200),
     /** Article title on Japanese Wikipedia. null: no article */
     wikipedia_ja: z.string().min(1).nullable(),
+    /** The castle's own site. null: none, or not recorded */
+    official_url: z.url({ protocol: /^https$/ }).nullable(),
     province: z.string().min(1),
     type: z.enum(['山城', '平山城', '平城', '館']),
     /** null: unknown */

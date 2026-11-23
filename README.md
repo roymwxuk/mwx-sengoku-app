@@ -31,7 +31,7 @@ Deferred for now: unit and component tests (Vitest), and CI checks. See the [roa
 - Hover over a castle for its name; click or tap it for details
 - See province borders and names, and who held each castle in 1583; both can be turned off (凡例, top right)
 - Choose a castle from the list (城一覧, bottom left) by mouse, touch or keyboard
-- Open a castle's place in Google Maps, or its Wikipedia article
+- Open a castle's place in Google Maps, its Wikipedia article, or its official site
 - Share a castle as a link, and step through castles with back and forward
 
 ### Known limits
