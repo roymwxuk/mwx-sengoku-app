@@ -1,5 +1,6 @@
 import { useCallback, useRef } from 'react'
 import { useCastles } from './data/useCastles'
+import { CastleList } from './features/castles/CastleList'
 import { CastlePanel } from './features/castles/CastlePanel'
 import { useSelection } from './features/castles/selectionStore'
 import { useCastleUrlSync } from './features/castles/useCastleUrlSync'
@@ -24,6 +25,7 @@ function App() {
       className="relative h-dvh w-full overflow-hidden bg-sea font-serif text-sumi"
     >
       <JapanMap castles={castles} selected={selected} panelRef={panelRef} />
+      {castles && <CastleList castles={castles} />}
       {selected && (
         <CastlePanel
           ref={panelRef}

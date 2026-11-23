@@ -116,6 +116,7 @@ Goal: it looks and feels like the Sengoku era, and works for everyone.
 - [ ] Castle icons by type (山城 / 平山城 / 平城) instead of circles
 - [ ] Japanese-style fonts (e.g., Noto Serif JP / Shippori Mincho) for headings
 - [ ] i18n: Japanese / English toggle
+- [x] Castle list: all castles in a list; choosing one selects it on the map. A button at the bottom left shows and hides the list — *done when* every castle can be chosen from the list by mouse, touch and keyboard, and the button works on desktop and phone
 - [ ] Accessibility: keyboard selection of castles, screen-reader labels, contrast check
 - [ ] Lighthouse score ≥ 90 for performance and accessibility
 - [ ] E2E tests (Playwright): select castle, share URL, timeline, search

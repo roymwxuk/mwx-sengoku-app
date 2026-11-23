@@ -31,3 +31,26 @@
     bottom: var(--sheet-height);
   }
 }
+
+/* Castle list: bottom left, clear of the detail panel, title and map credit. */
+.castle-list {
+  --list-bottom: 0.75rem;
+  bottom: var(--list-bottom);
+}
+.castle-list-items {
+  /* Leaves room for the title above and the toggle button below. */
+  max-height: calc(100dvh - var(--list-bottom) - 8rem);
+}
+@media (width < 40rem) {
+  .castle-list {
+    --list-bottom: 3rem;
+  }
+  [data-panel-open] .castle-list {
+    --list-bottom: calc(var(--sheet-height) + 3rem);
+  }
+}
+@media (width >= 40rem) {
+  [data-panel-open] .castle-list {
+    left: 20.75rem;
+  }
+}
