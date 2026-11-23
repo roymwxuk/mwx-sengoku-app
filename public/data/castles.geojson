@@ -1381,6 +1381,49 @@
           { "clan": "asano", "from": 1619, "to": 1871 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.62249, 33.59496] },
+      "properties": {
+        "id": "oko",
+        "name_ja": "岡豊城",
+        "reading": "おこうじょう",
+        "name_en": "Okō Castle",
+        "former_names": [],
+        "description": "長宗我部氏代々の本拠。国親が力をつけ、子の元親はここから土佐を平定し、1585年に四国を統一した。1591年に浦戸城へ移り、廃城となった。",
+        "wikipedia_ja": "岡豊城",
+        "official_url": null,
+        "province": "土佐",
+        "type": "山城",
+        "built": {"earliest": 1201, "latest": 1400},
+        "abandoned": {"earliest": 1591, "latest": 1591},
+        "owners": [
+          { "clan": "chosokabe", "from": 1467, "to": 1508 },
+          { "clan": "chosokabe", "from": 1511, "to": 1591 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.48006, 33.54942] },
+      "properties": {
+        "id": "tosa-asakura",
+        "name_ja": "朝倉城",
+        "reading": "あさくらじょう",
+        "name_en": "Asakura Castle",
+        "former_names": [],
+        "description": "土佐中央部に進出した本山清茂が築き、最盛期には30を超える支城を従えた城。1562年に長宗我部元親の攻撃を退けたが、翌年、本山茂辰が本山城へ退く際に焼かれた。",
+        "wikipedia_ja": "朝倉城 (土佐国)",
+        "official_url": null,
+        "province": "土佐",
+        "type": "山城",
+        "built": {"earliest": 1532, "latest": 1532},
+        "abandoned": {"earliest": 1563, "latest": 1563},
+        "owners": [
+          { "clan": "motoyama", "from": 1532, "to": 1563 }
+        ]
+      }
     }
   ]
 }
