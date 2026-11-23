@@ -30,5 +30,15 @@
   {"id": "kato-yoshiaki", "name_ja": "加藤氏（嘉明）", "reading": "かとうし", "name_en": "Katō (Yoshiaki)", "mark": "嘉", "color": "#6b645c"},
   {"id": "ikoma", "name_ja": "生駒氏", "reading": "いこまし", "name_en": "Ikoma", "mark": "生", "color": "#6b645c"},
   {"id": "kono", "name_ja": "河野氏", "reading": "こうのし", "name_en": "Kōno", "mark": "河", "color": "#6b645c"},
-  {"id": "kobayakawa", "name_ja": "小早川氏", "reading": "こばやかわし", "name_en": "Kobayakawa", "mark": "小", "color": "#6b645c"}
+  {"id": "kobayakawa", "name_ja": "小早川氏", "reading": "こばやかわし", "name_en": "Kobayakawa", "mark": "小", "color": "#6b645c"},
+  {"id": "amago", "name_ja": "尼子氏", "reading": "あまごし", "name_en": "Amago", "mark": "尼", "color": "#6b645c"},
+  {"id": "kikkawa", "name_ja": "吉川氏", "reading": "きっかわし", "name_en": "Kikkawa", "mark": "吉", "color": "#6b645c"},
+  {"id": "horio", "name_ja": "堀尾氏", "reading": "ほりおし", "name_en": "Horio", "mark": "尾", "color": "#6b645c"},
+  {"id": "sho", "name_ja": "庄氏", "reading": "しょうし", "name_en": "Shō", "mark": "庄", "color": "#6b645c"},
+  {"id": "mimura", "name_ja": "三村氏", "reading": "みむらし", "name_en": "Mimura", "mark": "三", "color": "#6b645c"},
+  {"id": "kanamitsu", "name_ja": "金光氏", "reading": "かなみつし", "name_en": "Kanamitsu", "mark": "金", "color": "#6b645c"},
+  {"id": "ukita", "name_ja": "宇喜多氏", "reading": "うきたし", "name_en": "Ukita", "mark": "宇", "color": "#6b645c"},
+  {"id": "shibata", "name_ja": "新発田氏", "reading": "しばたし", "name_en": "Shibata (Echigo)", "mark": "新", "color": "#6b645c"},
+  {"id": "mizoguchi", "name_ja": "溝口氏", "reading": "みぞぐちし", "name_en": "Mizoguchi", "mark": "溝", "color": "#6b645c"},
+  {"id": "hachisuka", "name_ja": "蜂須賀氏", "reading": "はちすかし", "name_en": "Hachisuka", "mark": "蜂", "color": "#6b645c"}
 ]

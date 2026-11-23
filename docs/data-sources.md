@@ -24,6 +24,11 @@
 - 和歌山城: Wikidata's coordinates are given to about 1 km.
 - 高松城: the one in 讃岐; its id is `sanuki-takamatsu`, as other castles share the name. `built` is 1588 (begun) to 1590 (finished). Wikidata's coordinates are given to about 1 km.
 - 湯築城: coordinates are from the Japanese Wikipedia article, which are more precise than Wikidata's.
+- 月山富田城: `built` is 1185–1396: the article says perhaps about 1185, and Wikidata gives 1396.
+- 備中松山城: `abandoned` is 1873–1874: the article's text gives the 1873 廃城令, and its infobox 1874.
+- 岡山城: 石山城 is the former name until 1597, when 宇喜多秀家 finished rebuilding it around a new 本丸 on the hill 岡山.
+- 徳島城: a small castle (渭山城) stood on the hill from 1385; `built` is the Hachisuka castle. `abandoned` is the infobox's 1869, though the article says it was kept in 1873 and cleared in 1875.
+- 新発田城: `built` is null, as the source says it is unknown (perhaps early Kamakura; Wikidata's 1597 is 溝口氏's arrival).
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -47,5 +52,9 @@
 - 和歌山城: 豊臣氏 in 1585–1600 covers 秀長 and the castellans 桑山重晴 and 一晴. 浅野氏 arrived after 関ヶ原.
 - 高松城: owners after 1639 are left out.
 - 湯築城: 河野氏 is listed throughout 1335–1585, although the castle changed hands at times in the 14th century.
+- 月山富田城: 尼子氏 before 1484 were 京極氏's deputies (守護代). 塩冶氏 held it in 1484–1486, left out. 吉川氏 (広家) in 1591–1600 were a branch of 毛利氏.
+- 備中松山城: the article gives no dates before 1570. 庄氏 from 1533 and 三村氏 from 1561 are from general knowledge. 徳川氏 in 1600–1617 is the shogunate's 城番; owners after 1641 are left out.
+- 岡山城: 金光氏 is listed from 1521, the start of 大永年間. The years 1602 and 1603, and owners after 1632 (still 池田氏), are from general knowledge or left out.
+- 新発田城: 新発田氏 is listed from 1467, the start of the app's period. 溝口氏's end in 1871 is from general knowledge.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
