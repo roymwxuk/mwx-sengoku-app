@@ -68,6 +68,8 @@
 - 信貴山城: `built` is 木沢長政's castle of 1536; the hill was used as a camp in 1460.
 - 筒井城: `built` is null, as the source only says before 1429. Coordinates are from the Japanese Wikipedia article, as Wikidata has none.
 - 郡山城: the one in 大和; its id is `yamato-koriyama`, as other castles share the name. `built` is 1162, when a fort (雁陣之城) is first recorded, to 1583, when 筒井順慶's keep was finished; he began in 1580. `abandoned` is the infobox's 1873.
+- 神辺城: `built` is 1443, when the castle on this hill (黄葉山) is thought to have been begun; 1335, in the infobox, is an earlier, separate castle on 古城山, from an Edo-period text. 村尾城 was its name at the time; its `until` is null, as the articles only say that 神辺城 came in from the late 16th century, or after it was abandoned. 神辺道上城, 紅葉山城 and 楓山城 are alternative names, not former ones. Coordinates are from the article, as Wikidata has none.
+- 三原城: `built` is 1567 (begun, and the infobox) to 1582 (remade as a sea castle from 1580). 浮城 and 玉壺城 are alternative names, not former ones. `abandoned` is the infobox's 1873. The official site on Wikidata no longer exists.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -126,5 +128,7 @@
 - 信貴山城: no owner is listed for 1542–1559, as the article calls it a gap. 1559 is the traditional date for 松永久秀; some scholars and the article 筒井順慶 give November 1560. Its brief captures in 1563 and 1568 are left out.
 - 筒井城: 筒井氏 is listed from 1467, the start of the app's period, although the castle fell to 越智氏 or 古市氏 in 1477, 1483 and 1516. The article 松永久秀 says he took it in August 1559, the article 筒井城の戦い that he made no serious attack then; 筒井氏 is listed until 1565, when he drove out 順慶. From 1568 to 1571 it was 松永氏's again.
 - 郡山城: owners before 1580 are left out: it was held by the 郡山衆, who changed sides often. 増田氏 is 長盛. 徳川氏 in 1600–1615 is 大久保長安 and other officials, and 筒井氏 placed there by 家康 in 1614–1615. Owners after 1619 are left out.
+- 神辺城: 山名氏 is listed from 1443; their lords before 理興 are mostly unknown. 大内氏 in 1549–1552 is the castellan 青景隆著. 杉原氏 is listed from 1552, when 杉原豊後守 went over to 大内氏, following recent research (articles 杉原盛重 and 神辺合戦); older accounts have 山名理興 return in about 1554 and 杉原盛重 follow him in 1557. They served 毛利氏 from 1554. 藤井皓玄's brief capture is left out. 毛利氏 in 1584–1600 is direct rule, then 元康, who moved to 王子山城 in 1598.
+- 三原城: 毛利氏 in 1597–1600: 三原 went back to the main house when 隆景 died (article 毛利輝元). 浅野氏 from 1619 are the 三原 branch, chief retainers of 広島藩; the year 1871 is 廃藩置県.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
