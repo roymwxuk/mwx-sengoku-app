@@ -42,7 +42,7 @@
   {"id": "shimazu", "name_ja": "島津氏", "reading": "しまづし", "name_en": "Shimazu", "mark": "島", "color": "#1fd2fd"},
   {"id": "nihonmatsu", "name_ja": "二本松氏", "reading": "にほんまつし", "name_en": "Nihonmatsu", "mark": "二", "color": "#ffb169"},
   {"id": "date", "name_ja": "伊達氏", "reading": "だてし", "name_en": "Date", "mark": "伊", "color": "#28e174"},
-  {"id": "gamo", "name_ja": "蒲生氏", "reading": "がもうし", "name_en": "Gamō", "mark": "蒲", "color": "#9f89a6"},
+  {"id": "gamo", "name_ja": "蒲生氏", "reading": "がもうし", "name_en": "Gamō", "mark": "蒲", "color": "#9fa645"},
   {"id": "niwa", "name_ja": "丹羽氏", "reading": "にわし", "name_en": "Niwa", "mark": "丹", "color": "#a60a6c"},
   {"id": "asakura", "name_ja": "朝倉氏", "reading": "あさくらし", "name_en": "Asakura", "mark": "朝", "color": "#fe3da7"},
   {"id": "asano", "name_ja": "浅野氏", "reading": "あさのし", "name_en": "Asano", "mark": "浅", "color": "#fe27ee"},
@@ -96,5 +96,7 @@
   {"id": "yamauchi", "name_ja": "山内氏", "reading": "やまうちし", "name_en": "Yamauchi", "mark": "康", "color": "#a44393"},
   {"id": "endo", "name_ja": "遠藤氏", "reading": "えんどうし", "name_en": "Endō", "mark": "慶", "color": "#504765"},
   {"id": "inaba", "name_ja": "稲葉氏", "reading": "いなばし", "name_en": "Inaba", "mark": "稲", "color": "#634cec"},
-  {"id": "ito", "name_ja": "伊藤氏", "reading": "いとうし", "name_en": "Itō", "mark": "盛", "color": "#5f7214"}
+  {"id": "ito", "name_ja": "伊藤氏", "reading": "いとうし", "name_en": "Itō", "mark": "盛", "color": "#5f7214"},
+  {"id": "toyama", "name_ja": "遠山氏", "reading": "とおやまし", "name_en": "Tōyama", "mark": "遠", "color": "#c67595"},
+  {"id": "tamaru", "name_ja": "田丸氏", "reading": "たまるし", "name_en": "Tamaru", "mark": "丸", "color": "#9f89a6"}
 ]

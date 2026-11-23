@@ -1545,6 +1545,31 @@
           { "clan": "endo", "from": 1600, "to": 1692 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.45131, 35.36033] },
+      "properties": {
+        "id": "iwamura",
+        "name_ja": "岩村城",
+        "reading": "いわむらじょう",
+        "name_en": "Iwamura Castle",
+        "former_names": [],
+        "description": "標高717mの山にある、遠山氏の城。城主の病死後、織田信長の叔母おつやの方が差配したが、1572年に武田方へ降った。1575年に織田信忠が攻め落とし、のちに森氏の家老が今の形に改修した。",
+        "wikipedia_ja": "岩村城",
+        "official_url": null,
+        "province": "美濃",
+        "type": "山城",
+        "built": {"earliest": 1185, "latest": 1333},
+        "abandoned": {"earliest": 1871, "latest": 1873},
+        "owners": [
+          { "clan": "toyama", "from": 1467, "to": 1572 },
+          { "clan": "takeda", "from": 1572, "to": 1575 },
+          { "clan": "oda", "from": 1575, "to": 1582 },
+          { "clan": "mori-tadamasa", "from": 1582, "to": 1599 },
+          { "clan": "tamaru", "from": 1599, "to": 1600 }
+        ]
+      }
     }
   ]
 }
