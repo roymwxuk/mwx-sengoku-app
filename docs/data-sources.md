@@ -57,6 +57,10 @@
 - 雑賀城: `built` is 1467–1577: the source only says 戦国時代, and it stood in 1577. `abandoned` is 1577–1585: it probably fell in 1577, and was gone by about 1585.
 - 室町御所: the article is 花の御所. `built` is 1378 (begun) to 1381 (finished). It burned in 1476 and was rebuilt on a smaller scale several times. Coordinates are from the article, as Wikidata has none.
 - 勝瑞城: `built` is 1221–1363: the article gives the early Kamakura period (after 1221), 1338, 1340 and 1363. Excavation suggests that the moated part now called the 本丸 was built just before 1582.
+- 多聞山城: `built` is 1559 (the infobox) to 1564 (Wikidata); other articles give 1562, and houses there were in use by 1561. `abandoned` is 1576 (the infobox) to 1577 (demolished, and Wikidata).
+- 信貴山城: `built` is 木沢長政's castle of 1536; the hill was used as a camp in 1460.
+- 筒井城: `built` is null, as the source only says before 1429. Coordinates are from the Japanese Wikipedia article, as Wikidata has none.
+- 郡山城: the one in 大和; its id is `yamato-koriyama`, as other castles share the name. `built` is 1162, when a fort (雁陣之城) is first recorded, to 1583, when 筒井順慶's keep was finished; he began in 1580. `abandoned` is the infobox's 1873.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -111,5 +115,9 @@
 - 雑賀城: 鈴木氏, its builders and only known lords, are listed from 1467, the earliest it can have been built. They led the 雑賀衆, allies of 本願寺.
 - 室町御所: the shoguns were often away from Kyoto; 足利氏 is listed throughout 1381–1559.
 - 勝瑞城: 細川氏 is listed from 1363, the end of its construction range. 三好氏 in 1552–1582 covers 実休, 長治 and 十河存保. Its capture by 細川真之's side in 1577 and the brief occupation in 1580 are left out.
+- 多聞山城: 織田氏 in 1573–1576 covers the garrisons and 塙直政.
+- 信貴山城: no owner is listed for 1542–1559, as the article calls it a gap. 1559 is the traditional date for 松永久秀; some scholars and the article 筒井順慶 give November 1560. Its brief captures in 1563 and 1568 are left out.
+- 筒井城: 筒井氏 is listed from 1467, the start of the app's period, although the castle fell to 越智氏 or 古市氏 in 1477, 1483 and 1516. The article 松永久秀 says he took it in August 1559, the article 筒井城の戦い that he made no serious attack then; 筒井氏 is listed until 1565, when he drove out 順慶. From 1568 to 1571 it was 松永氏's again.
+- 郡山城: owners before 1580 are left out: it was held by the 郡山衆, who changed sides often. 増田氏 is 長盛. 徳川氏 in 1600–1615 is 大久保長安 and other officials, and 筒井氏 placed there by 家康 in 1614–1615. Owners after 1619 are left out.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.

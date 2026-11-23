@@ -80,5 +80,9 @@
   {"id": "miyoshi", "name_ja": "三好氏", "reading": "みよしし", "name_en": "Miyoshi", "mark": "好", "color": "#6b645c"},
   {"id": "suzuki", "name_ja": "鈴木氏（雑賀衆）", "reading": "すずきし", "name_en": "Suzuki (Saika)", "mark": "鈴", "color": "#6b645c"},
   {"id": "kitabatake", "name_ja": "北畠氏", "reading": "きたばたけし", "name_en": "Kitabatake", "mark": "具", "color": "#6b645c"},
-  {"id": "nakamura", "name_ja": "中村氏", "reading": "なかむらし", "name_en": "Nakamura", "mark": "一", "color": "#6b645c"}
+  {"id": "nakamura", "name_ja": "中村氏", "reading": "なかむらし", "name_en": "Nakamura", "mark": "一", "color": "#6b645c"},
+  {"id": "matsunaga", "name_ja": "松永氏", "reading": "まつながし", "name_en": "Matsunaga", "mark": "松", "color": "#6b645c"},
+  {"id": "kizawa", "name_ja": "木沢氏", "reading": "きざわし", "name_en": "Kizawa", "mark": "木", "color": "#6b645c"},
+  {"id": "mashita", "name_ja": "増田氏", "reading": "ましたし", "name_en": "Mashita", "mark": "増", "color": "#6b645c"},
+  {"id": "mizuno", "name_ja": "水野氏", "reading": "みずのし", "name_en": "Mizuno", "mark": "水", "color": "#6b645c"}
 ]

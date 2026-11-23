@@ -1238,6 +1238,100 @@
           { "clan": "chosokabe", "from": 1582, "to": 1582 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.83144, 34.69444] },
+      "properties": {
+        "id": "tamonyama",
+        "name_ja": "多聞山城",
+        "reading": "たもんやまじょう",
+        "name_en": "Tamonyama Castle",
+        "former_names": [],
+        "description": "松永久秀が、奈良の町を見下ろす丘に築いた城。1573年に織田信長に明け渡され、翌年、信長は城内で正倉院の香木・蘭奢待を切り取らせた。1576年から取り壊された。",
+        "wikipedia_ja": "多聞山城",
+        "official_url": null,
+        "province": "大和",
+        "type": "平山城",
+        "built": {"earliest": 1559, "latest": 1564},
+        "abandoned": {"earliest": 1576, "latest": 1577},
+        "owners": [
+          { "clan": "matsunaga", "from": 1559, "to": 1573 },
+          { "clan": "oda", "from": 1573, "to": 1576 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.66821, 34.61273] },
+      "properties": {
+        "id": "shigisan",
+        "name_ja": "信貴山城",
+        "reading": "しぎさんじょう",
+        "name_en": "Shigisan Castle",
+        "former_names": [],
+        "description": "木沢長政が築き、松永久秀が大和支配の拠点として大規模に広げた山城。1577年、織田信長に背いた久秀が籠城し、織田信忠らの軍に攻められて自害した。",
+        "wikipedia_ja": "信貴山城",
+        "official_url": null,
+        "province": "大和",
+        "type": "山城",
+        "built": {"earliest": 1536, "latest": 1536},
+        "abandoned": {"earliest": 1577, "latest": 1577},
+        "owners": [
+          { "clan": "kizawa", "from": 1536, "to": 1542 },
+          { "clan": "matsunaga", "from": 1559, "to": 1577 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.78281, 34.61997] },
+      "properties": {
+        "id": "tsutsui",
+        "name_ja": "筒井城",
+        "reading": "つついじょう",
+        "name_en": "Tsutsui Castle",
+        "former_names": [],
+        "description": "興福寺の衆徒から戦国大名となった筒井氏の本拠。松永久秀と筒井順慶が奪い合った。1580年、織田信長の破城令で廃城となり、順慶は郡山城へ移った。",
+        "wikipedia_ja": "筒井城",
+        "official_url": null,
+        "province": "大和",
+        "type": "平城",
+        "built": null,
+        "abandoned": {"earliest": 1580, "latest": 1580},
+        "owners": [
+          { "clan": "tsutsui", "from": 1467, "to": 1565 },
+          { "clan": "matsunaga", "from": 1565, "to": 1566 },
+          { "clan": "tsutsui", "from": 1566, "to": 1568 },
+          { "clan": "matsunaga", "from": 1568, "to": 1571 },
+          { "clan": "tsutsui", "from": 1571, "to": 1580 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.77894, 34.65192] },
+      "properties": {
+        "id": "yamato-koriyama",
+        "name_ja": "郡山城",
+        "reading": "こおりやまじょう",
+        "name_en": "Kōriyama Castle",
+        "former_names": [],
+        "description": "筒井順慶が1580年に本拠とし、明智光秀が普請にあたった城。1585年に入った羽柴秀長が、100万石余の居城として大きく広げた。天守台には墓石や石仏も使われている。",
+        "wikipedia_ja": "郡山城 (大和国)",
+        "official_url": null,
+        "province": "大和",
+        "type": "平山城",
+        "built": {"earliest": 1162, "latest": 1583},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "tsutsui", "from": 1580, "to": 1585 },
+          { "clan": "toyotomi", "from": 1585, "to": 1595 },
+          { "clan": "mashita", "from": 1595, "to": 1600 },
+          { "clan": "tokugawa", "from": 1600, "to": 1615 },
+          { "clan": "mizuno", "from": 1615, "to": 1619 }
+        ]
+      }
     }
   ]
 }
