@@ -116,5 +116,7 @@
   {"id": "takahashi", "name_ja": "高橋氏", "reading": "たかはしし", "name_en": "Takahashi", "mark": "橋", "color": "#7d9db5"},
   {"id": "mori-katsunobu", "name_ja": "毛利氏（勝信）", "reading": "もうりし", "name_en": "Mōri (Katsunobu)", "mark": "勝", "color": "#cdc0ff"},
   {"id": "narita", "name_ja": "成田氏", "reading": "なりたし", "name_en": "Narita", "mark": "泰", "color": "#ae0a9f"},
-  {"id": "kimotsuki", "name_ja": "肝付氏", "reading": "きもつきし", "name_en": "Kimotsuki", "mark": "肝", "color": "#421159"}
+  {"id": "kimotsuki", "name_ja": "肝付氏", "reading": "きもつきし", "name_en": "Kimotsuki", "mark": "肝", "color": "#421159"},
+  {"id": "hineno", "name_ja": "日根野氏", "reading": "ひねのし", "name_en": "Hineno", "mark": "根", "color": "#f668c3"},
+  {"id": "suwa", "name_ja": "諏訪氏", "reading": "すわし", "name_en": "Suwa", "mark": "諏", "color": "#0766ad"}
 ]

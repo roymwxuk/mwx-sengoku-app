@@ -101,6 +101,9 @@
 - 忍城: `built` is 1478 (about, per the article) to 1479 (Wikidata); the infobox says the late 15th century. 浮き城 and 亀城 are alternative names. Coordinates are from the article, as Wikidata's are given to about 10 km.
 - 本佐倉城: `built` is 1469–1490: the infobox's 文明年間 starts in 1469, 千葉孝胤 moved in 1484, and the town was laid out in 1490. `abandoned` is 1615, though much of it was pulled down in 1590.
 - 石垣山城: `abandoned` is 1590 (the infobox) to 1591, as tiles of that year show that building went on. 石垣山一夜城 is an alternative name.
+- 吉田城: the one in 三河; its id is `mikawa-yoshida`, as other castles share the name. `built` is 1497 (牧野古白 lived there, per a recent study) to 1505 (traditional, and the infobox). 今橋城 was an early name; its `until` is null, as sources give 1522 or 天文年間 (1532–1555) for the change. Coordinates are from the article, as Wikidata's are given to about 1 km.
+- 高島城: the one by 諏訪湖; its id is `suwa-takashima`, as other castles share the name. `built` is 1592–1598, begun to finished; the infobox gives 1592. 諏訪氏's and 武田氏's older 高島城 was on 茶臼山, north of it, and isn't included.
+- 要害山城: coordinates are from Wikidata, where they are given to about 1 km, but agree with the peak on OpenStreetMap. 積翠山城 is an alternative name.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -190,5 +193,8 @@
 - 延岡城: 高橋氏 is 元種, of 小倉城. Owners after 1613 are left out.
 - 忍城: 成田氏 is marked 泰, from 長泰 and 泰季. They sided with 上杉氏 in 1559–1561 and later 後北条氏. 徳川氏 in 1590–1600 is 松平忠吉; that he left in 1600 is from general knowledge, and later owners are left out.
 - 本佐倉城: 千葉氏 is listed from 1484. 徳川氏 in 1590–1603 is direct rule, then 松平忠輝. 小笠原吉次 is left out; 土井氏 is listed from 1610.
+- 吉田城: owners before 1546 are left out, as 牧野氏, 戸田氏 and 松平氏 took it from each other often. 徳川氏 in 1565–1590 is 酒井忠次. Owners after 1601 are left out.
+- 高島城: 日根野氏 is marked 根.
+- 要害山城: as at 躑躅ヶ崎館, 織田氏 in 1582 is 河尻秀隆 (from general knowledge). 加藤氏 is 光泰; its years and 浅野氏 in 1593–1600 follow 甲府城.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
