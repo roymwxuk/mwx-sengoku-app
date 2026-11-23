@@ -1,7 +1,7 @@
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import type { TransformConstrainFunction } from 'maplibre-gl'
-import { useState } from 'react'
+import { useState, type RefObject } from 'react'
 import {
   Map,
   NavigationControl,
@@ -15,6 +15,7 @@ import {
 import { CastleTooltip } from '../features/castles/CastleTooltip'
 import { nearestCastle } from '../features/castles/nearestCastle'
 import { useSelection } from '../features/castles/selectionStore'
+import { FlyToCastle } from './FlyToCastle'
 import { mapStyle } from './mapStyle'
 
 /** Kyushu to Hokkaido: what the first view shows. [west, south, east, north] */
@@ -50,11 +51,12 @@ const LOCALE = {
 interface Props {
   /** null while loading */
   castles: CastleCollection | null
+  selected: CastleFeature | null
+  panelRef: RefObject<HTMLElement | null>
 }
 
-export function JapanMap({ castles }: Props) {
+export function JapanMap({ castles, selected, panelRef }: Props) {
   const [hovered, setHovered] = useState<CastleFeature | null>(null)
-  const selectedCastleId = useSelection((s) => s.selectedCastleId)
   const selectCastle = useSelection((s) => s.selectCastle)
 
   const castleAt = (event: MapLayerMouseEvent) =>
@@ -78,16 +80,19 @@ export function JapanMap({ castles }: Props) {
       cursor={hovered ? 'pointer' : undefined}
       onMouseMove={(event) => setHovered(castleAt(event))}
       onMouseOut={() => setHovered(null)}
+      onMoveStart={() => setHovered(null)}
       onClick={(event) => selectCastle(castleAt(event)?.properties.id ?? null)}
     >
       {castles && (
         <CastleLayers
           castles={castles}
           hoveredId={hovered?.properties.id ?? null}
-          selectedId={selectedCastleId}
+          selectedId={selected?.properties.id ?? null}
         />
       )}
-      {hovered && <CastleTooltip castle={hovered} />}
+      {/* The panel already names the selected castle. */}
+      {hovered && hovered !== selected && <CastleTooltip castle={hovered} />}
+      {selected && <FlyToCastle castle={selected} panelRef={panelRef} />}
       <NavigationControl position="top-right" />
     </Map>
   )

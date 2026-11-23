@@ -1,12 +1,36 @@
+import { useCallback, useRef } from 'react'
 import { useCastles } from './data/useCastles'
+import { CastlePanel } from './features/castles/CastlePanel'
+import { useSelection } from './features/castles/selectionStore'
+import { useCastleUrlSync } from './features/castles/useCastleUrlSync'
 import { JapanMap } from './map/JapanMap'
 
 function App() {
   const state = useCastles()
+  const castles = state.status === 'ready' ? state.castles : null
+  useCastleUrlSync(castles)
+
+  const panelRef = useRef<HTMLElement>(null)
+  const selectedCastleId = useSelection((s) => s.selectedCastleId)
+  const selectCastle = useSelection((s) => s.selectCastle)
+  const closePanel = useCallback(() => selectCastle(null), [selectCastle])
+
+  const selected =
+    castles?.features.find((c) => c.properties.id === selectedCastleId) ?? null
 
   return (
-    <main className="relative h-dvh w-full overflow-hidden bg-sea font-serif text-sumi">
-      <JapanMap castles={state.status === 'ready' ? state.castles : null} />
+    <main
+      data-panel-open={selected ? '' : undefined}
+      className="relative h-dvh w-full overflow-hidden bg-sea font-serif text-sumi"
+    >
+      <JapanMap castles={castles} selected={selected} panelRef={panelRef} />
+      {selected && (
+        <CastlePanel
+          ref={panelRef}
+          castle={selected.properties}
+          onClose={closePanel}
+        />
+      )}
       <h1 className="pointer-events-none absolute top-3 left-3 border-l-4 border-shu bg-washi/90 px-3 py-2 text-xl tracking-widest shadow-sm">
         戦国城地図
       </h1>

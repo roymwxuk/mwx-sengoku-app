@@ -6,6 +6,7 @@
   --color-sumi: #2b2622;
   --color-shu: #9b2d1f;
   --color-sea: #c5cfca;
+  --sheet-height: 42dvh;
   --font-serif:
     'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', ui-serif, serif;
 }
@@ -22,4 +23,11 @@
 }
 .castle-tooltip .maplibregl-popup-tip {
   display: none;
+}
+
+/* On phones, keep the map credit above the open bottom sheet. */
+@media (width < 40rem) {
+  [data-panel-open] .maplibregl-ctrl-bottom-right {
+    bottom: var(--sheet-height);
+  }
 }

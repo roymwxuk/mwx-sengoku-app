@@ -27,6 +27,8 @@ const castle = z
     id: z.string().regex(/^[a-z]+(-[a-z]+)*$/),
     ...name,
     former_names: z.array(formerName),
+    /** One or two sentences, in Japanese */
+    description: z.string().min(1).max(200),
     province: z.string().min(1),
     type: z.enum(['山城', '平山城', '平城', '館']),
     /** null: unknown */

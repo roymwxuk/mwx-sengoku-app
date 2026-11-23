@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import { castleIdFromUrl } from './castleUrl'
 
 interface SelectionState {
   selectedCastleId: string | null
@@ -6,6 +7,6 @@ interface SelectionState {
 }
 
 export const useSelection = create<SelectionState>()((set) => ({
-  selectedCastleId: null,
+  selectedCastleId: castleIdFromUrl(),
   selectCastle: (id) => set({ selectedCastleId: id }),
 }))
