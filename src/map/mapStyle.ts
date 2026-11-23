@@ -19,8 +19,8 @@ type LngLat = [number, number]
 
 /** The title in brush strokes, in the Sea of Japan. Sizes are in degrees. */
 const LOGO = {
-  center: [134.2, 37.25],
-  width: 3.78,
+  center: [133.75, 36.9],
+  width: 3.3,
   aspect: 4, // of logo.webp
   tilt: 0, // anticlockwise
 }
