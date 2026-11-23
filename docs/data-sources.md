@@ -94,6 +94,13 @@
 - 熊本城: `built` is 1469 (千葉城, the first castle on the hill, and the infobox) to 1607. 隈本城, spelled differently but read the same, is the former name until 1607, when 清正 changed it. 千葉城's `until` is null, so it is never shown. `abandoned` is the infobox's 1874. Coordinates are from the article.
 - 飫肥城: `built` is the Nanboku-chō period (traditional) to 1458, when 新納氏 entered. Coordinates are from the article, as Wikidata's are given to about 1 km.
 - 小倉城: `built` is 1569 to 1609, from 毛利氏's castle to the end of 忠興's rebuilding. Earlier castles are only in an Edo-period text that the article calls unreliable. 勝山城 and 指月城 are alternative names.
+- 知覧城: `built` is the late 12th century (infobox). The article is flagged as needing citations.
+- 志布志城: in 日向's 諸県郡, though now in 鹿児島県. `built` is the 12th century, when the article's first lords appear.
+- 佐土原城: `built` is the mid-14th century to 1543, when it was rebuilt after a fire; Wikidata has 1400. 田島城 is the former name until 1427, when 佐土原城 came into use. 鶴松城 and 松鶴城 were formal names. `abandoned` is the infobox's 1870.
+- 延岡城: `built` is 1601–1603; the infobox gives 1603. 縣城 was its first name; its `until` is null, as the article doesn't say when it changed. 亀井城 is an alternative name. 松尾城, an earlier castle also called 縣城, was elsewhere.
+- 忍城: `built` is 1478 (about, per the article) to 1479 (Wikidata); the infobox says the late 15th century. 浮き城 and 亀城 are alternative names. Coordinates are from the article, as Wikidata's are given to about 10 km.
+- 本佐倉城: `built` is 1469–1490: the infobox's 文明年間 starts in 1469, 千葉孝胤 moved in 1484, and the town was laid out in 1490. `abandoned` is 1615, though much of it was pulled down in 1590.
+- 石垣山城: `abandoned` is 1590 (the infobox) to 1591, as tiles of that year show that building went on. 石垣山一夜城 is an alternative name.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -177,5 +184,11 @@
 - 熊本城: owners before 1550 (出田氏, 鹿子木氏 and 菊池義武) are left out. 城氏 served 大友氏, then 島津氏. 加藤氏 (清正) is a different family from those of 甲府城 and 松山城. 細川氏 here and at 小倉城 is 忠興's line, listed as the same clan as 阿波's.
 - 飫肥城: 島津氏 is listed from 1458 and covers their retainers 新納氏 and the 豊州家 branch. 伊東氏 of 日向 is marked 東, as 伊藤氏 is a different family. The owner in 1587–1588 is left out.
 - 小倉城: 高橋氏 is 鑑種 and 元種; the 毛利氏 who built it are left out. 毛利氏 (勝信), originally 森氏, isn't the family of 安芸, and is marked 勝. 小笠原氏, from 1632, is left out.
+- 知覧城: 島津氏 is their branch 佐多氏, listed from 1467, the start of the app's period.
+- 志布志城: 島津氏 in 1467–1562 covers the branches 新納氏 and, from 1538, 豊州家 (articles 新納氏 and 島津忠朝); 1562 is from the article 肝付兼続.
+- 佐土原城: 1577 and 1578, when 伊東氏 left and 島津氏 came, are from general knowledge. 徳川氏 in 1600–1603 is 庄田三太夫. 島津氏 from 1603 is 以久's line.
+- 延岡城: 高橋氏 is 元種, of 小倉城. Owners after 1613 are left out.
+- 忍城: 成田氏 is marked 泰, from 長泰 and 泰季. They sided with 上杉氏 in 1559–1561 and later 後北条氏. 徳川氏 in 1590–1600 is 松平忠吉; that he left in 1600 is from general knowledge, and later owners are left out.
+- 本佐倉城: 千葉氏 is listed from 1484. 徳川氏 in 1590–1603 is direct rule, then 松平忠輝. 小笠原吉次 is left out; 土井氏 is listed from 1610.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
