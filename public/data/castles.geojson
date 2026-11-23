@@ -391,6 +391,127 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.82889, 35.3] },
+      "properties": {
+        "id": "takeda",
+        "name_ja": "竹田城",
+        "reading": "たけだじょう",
+        "name_en": "Takeda Castle",
+        "former_names": [],
+        "description": "山名宗全が築き、家臣の太田垣氏が守ったと伝わる但馬の山城。羽柴秀長が攻め落とし、赤松広秀が今に残る石垣の城に改めた。雲海に浮かぶ姿で知られる。",
+        "wikipedia_ja": "竹田城",
+        "official_url": "https://www.city.asago.hyogo.jp/site/takeda/",
+        "province": "但馬",
+        "type": "山城",
+        "built": {"earliest": 1431, "latest": 1443},
+        "abandoned": {"earliest": 1600, "latest": 1600},
+        "owners": [
+          { "clan": "otagaki", "from": 1443, "to": 1577 },
+          { "clan": "toyotomi", "from": 1577, "to": 1579 },
+          { "clan": "otagaki", "from": 1579, "to": 1580 },
+          { "clan": "toyotomi", "from": 1580, "to": 1585 },
+          { "clan": "akamatsu", "from": 1585, "to": 1600 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.12719, 34.77009] },
+      "properties": {
+        "id": "iga-ueno",
+        "name_ja": "伊賀上野城",
+        "reading": "いがうえのじょう",
+        "name_en": "Iga Ueno Castle",
+        "former_names": [],
+        "description": "天正伊賀の乱で焼けた寺の跡に、筒井定次が築いた城。1611年から藤堂高虎が大坂方に備えて大改修し、高さ約30mの石垣を築いた。",
+        "wikipedia_ja": "上野城",
+        "official_url": null,
+        "province": "伊賀",
+        "type": "平山城",
+        "built": {"earliest": 1585, "latest": 1596},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "tsutsui", "from": 1585, "to": 1608 },
+          { "clan": "todo", "from": 1608, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.0628, 35.83308] },
+      "properties": {
+        "id": "takato",
+        "name_ja": "高遠城",
+        "reading": "たかとおじょう",
+        "name_en": "Takatō Castle",
+        "former_names": [],
+        "description": "武田氏が伊那へ進出する拠点とした城。1582年、武田勝頼の弟・仁科盛信が織田信忠の大軍を迎え撃ち、城兵とともに討死した。",
+        "wikipedia_ja": "高遠城",
+        "official_url": null,
+        "province": "信濃",
+        "type": "平山城",
+        "built": null,
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "takato", "from": 1541, "to": 1545 },
+          { "clan": "takeda", "from": 1545, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "hoshina", "from": 1582, "to": 1590 },
+          { "clan": "kyogoku", "from": 1593, "to": 1600 },
+          { "clan": "hoshina", "from": 1600, "to": 1636 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.55461, 31.59849] },
+      "properties": {
+        "id": "kagoshima",
+        "name_ja": "鹿児島城",
+        "reading": "かごしまじょう",
+        "name_en": "Kagoshima Castle",
+        "former_names": [],
+        "description": "関ヶ原の戦いの後、島津忠恒（家久）が城山の麓に築いた城。天守を持たない屋形造で、明治維新まで島津氏の居城となった。鶴丸城とも呼ばれる。",
+        "wikipedia_ja": "鹿児島城",
+        "official_url": null,
+        "province": "薩摩",
+        "type": "平山城",
+        "built": {"earliest": 1601, "latest": 1604},
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "shimazu", "from": 1601, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.42799, 37.59964] },
+      "properties": {
+        "id": "nihonmatsu",
+        "name_ja": "二本松城",
+        "reading": "にほんまつじょう",
+        "name_en": "Nihonmatsu Castle",
+        "former_names": [],
+        "description": "二本松（畠山）氏の居城。1586年に伊達政宗に明け渡され、江戸時代には丹羽氏の二本松藩の藩庁となった。戊辰戦争で落城。霞ヶ城とも呼ばれる。",
+        "wikipedia_ja": "二本松城",
+        "official_url": "https://www.nihonmatsu-ed.jp/nihonmatsujyou/",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1414, "latest": 1443},
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "nihonmatsu", "from": 1443, "to": 1586 },
+          { "clan": "date", "from": 1586, "to": 1591 },
+          { "clan": "gamo", "from": 1591, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1601 },
+          { "clan": "gamo", "from": 1601, "to": 1627 },
+          { "clan": "kato-yoshiaki", "from": 1627, "to": 1643 },
+          { "clan": "niwa", "from": 1643, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [131.61143, 33.24064] },
       "properties": {
         "id": "funai",
@@ -608,6 +729,126 @@
           { "clan": "kono", "from": 1335, "to": 1585 },
           { "clan": "kobayakawa", "from": 1585, "to": 1587 },
           { "clan": "fukushima", "from": 1587, "to": 1587 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.18488, 35.36097] },
+      "properties": {
+        "id": "gassan-toda",
+        "name_ja": "月山富田城",
+        "reading": "がっさんとだじょう",
+        "name_en": "Gassan-Toda Castle",
+        "former_names": [],
+        "description": "尼子氏の本拠となった、出雲の山城。1543年に大内・毛利の連合軍を退けたが、1566年に兵糧が尽きて毛利氏に開城した。",
+        "wikipedia_ja": "月山富田城",
+        "official_url": null,
+        "province": "出雲",
+        "type": "山城",
+        "built": {"earliest": 1185, "latest": 1396},
+        "abandoned": {"earliest": 1611, "latest": 1611},
+        "owners": [
+          { "clan": "amago", "from": 1392, "to": 1484 },
+          { "clan": "amago", "from": 1486, "to": 1566 },
+          { "clan": "mori", "from": 1566, "to": 1591 },
+          { "clan": "kikkawa", "from": 1591, "to": 1600 },
+          { "clan": "horio", "from": 1600, "to": 1611 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.62233, 34.80909] },
+      "properties": {
+        "id": "bitchu-matsuyama",
+        "name_ja": "備中松山城",
+        "reading": "びっちゅうまつやまじょう",
+        "name_en": "Bitchū Matsuyama Castle",
+        "former_names": [],
+        "description": "現存天守を持つ唯一の山城。戦国時代に三村元親が一大城塞としたが、1575年に毛利方の小早川隆景が落とし、毛利氏の城となった。",
+        "wikipedia_ja": "備中松山城",
+        "official_url": null,
+        "province": "備中",
+        "type": "山城",
+        "built": {"earliest": 1240, "latest": 1240},
+        "abandoned": {"earliest": 1873, "latest": 1874},
+        "owners": [
+          { "clan": "sho", "from": 1533, "to": 1561 },
+          { "clan": "mimura", "from": 1561, "to": 1570 },
+          { "clan": "sho", "from": 1570, "to": 1571 },
+          { "clan": "mimura", "from": 1571, "to": 1575 },
+          { "clan": "mori", "from": 1575, "to": 1600 },
+          { "clan": "tokugawa", "from": 1600, "to": 1617 },
+          { "clan": "ikeda", "from": 1617, "to": 1641 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.93611, 34.66528] },
+      "properties": {
+        "id": "okayama",
+        "name_ja": "岡山城",
+        "reading": "おかやまじょう",
+        "name_en": "Okayama Castle",
+        "former_names": [{"name_ja": "石山城", "reading": "いしやまじょう", "name_en": "Ishiyama Castle", "until": 1597}],
+        "description": "宇喜多直家が石山城に入って改築し、子の秀家が1590年から1597年の大改修で築き上げた城。烏城とも呼ばれる。",
+        "wikipedia_ja": "岡山城",
+        "official_url": null,
+        "province": "備前",
+        "type": "平山城",
+        "built": {"earliest": 1346, "latest": 1369},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "kanamitsu", "from": 1521, "to": 1570 },
+          { "clan": "ukita", "from": 1570, "to": 1600 },
+          { "clan": "kobayakawa", "from": 1600, "to": 1602 },
+          { "clan": "ikeda", "from": 1603, "to": 1632 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.32541, 37.95547] },
+      "properties": {
+        "id": "shibata",
+        "name_ja": "新発田城",
+        "reading": "しばたじょう",
+        "name_en": "Shibata Castle",
+        "former_names": [],
+        "description": "代々の新発田氏の居城。1581年に上杉景勝に背いた新発田重家が1587年に滅び、のちに溝口秀勝が新たな城を築いた。",
+        "wikipedia_ja": "新発田城",
+        "official_url": null,
+        "province": "越後",
+        "type": "平城",
+        "built": null,
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "shibata", "from": 1467, "to": 1587 },
+          { "clan": "uesugi", "from": 1587, "to": 1597 },
+          { "clan": "mizoguchi", "from": 1597, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.55528, 34.07519] },
+      "properties": {
+        "id": "tokushima",
+        "name_ja": "徳島城",
+        "reading": "とくしまじょう",
+        "name_en": "Tokushima Castle",
+        "former_names": [],
+        "description": "豊臣秀吉の四国征伐の功で阿波を得た蜂須賀家政が築き、1586年に完成した城。明治維新まで徳島藩主・蜂須賀家の居城となった。",
+        "wikipedia_ja": "徳島城",
+        "official_url": null,
+        "province": "阿波",
+        "type": "平山城",
+        "built": {"earliest": 1585, "latest": 1586},
+        "abandoned": {"earliest": 1869, "latest": 1869},
+        "owners": [
+          { "clan": "hachisuka", "from": 1585, "to": 1869 }
         ]
       }
     }
