@@ -2090,6 +2090,126 @@
           { "clan": "toyotomi", "from": 1590, "to": 1591 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.39335, 34.77015] },
+      "properties": {
+        "id": "mikawa-yoshida",
+        "name_ja": "吉田城",
+        "reading": "よしだじょう",
+        "name_en": "Yoshida Castle",
+        "former_names": [{"name_ja": "今橋城", "reading": "いまはしじょう", "name_en": "Imahashi Castle", "until": null}],
+        "description": "豊川に面した、東三河の要の城。牧野氏が築き、戸田氏と奪い合ったのち、1546年に今川氏が手に入れた。1565年に徳川家康が攻略し、酒井忠次を置いた。1590年から池田輝政が大改築した。",
+        "wikipedia_ja": "吉田城 (三河国)",
+        "official_url": null,
+        "province": "三河",
+        "type": "平城",
+        "built": {"earliest": 1497, "latest": 1505},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "imagawa", "from": 1546, "to": 1565 },
+          { "clan": "tokugawa", "from": 1565, "to": 1590 },
+          { "clan": "ikeda", "from": 1590, "to": 1601 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.11202, 36.03979] },
+      "properties": {
+        "id": "suwa-takashima",
+        "name_ja": "高島城",
+        "reading": "たかしまじょう",
+        "name_en": "Takashima Castle",
+        "former_names": [],
+        "description": "日根野高吉が1592年から諏訪湖畔に築いた城。湖に突き出し、「諏訪の浮城」と呼ばれた。軟弱な地盤に木材を筏のように組み、その上に石垣を積んだ。1601年に諏訪氏が戻り、明治まで治めた。",
+        "wikipedia_ja": "高島城",
+        "official_url": "https://www.suwakanko.jp/takashimajo/",
+        "province": "信濃",
+        "type": "平城",
+        "built": {"earliest": 1592, "latest": 1598},
+        "abandoned": {"earliest": 1875, "latest": 1875},
+        "owners": [
+          { "clan": "hineno", "from": 1592, "to": 1601 },
+          { "clan": "suwa", "from": 1601, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.59800, 35.70300] },
+      "properties": {
+        "id": "yogaisan",
+        "name_ja": "要害山城",
+        "reading": "ようがいさんじょう",
+        "name_en": "Yōgaisan Castle",
+        "former_names": [],
+        "description": "武田信虎が1520年に、躑躅ヶ崎館の詰城として築いた山城。今川方の軍が甲府に迫ったとき、信虎の正室がここに避難し、のちの武田信玄を産んだ。武田氏の滅亡後も加藤光泰が改修した。",
+        "wikipedia_ja": "要害山城",
+        "official_url": null,
+        "province": "甲斐",
+        "type": "山城",
+        "built": {"earliest": 1520, "latest": 1520},
+        "abandoned": {"earliest": 1600, "latest": 1600},
+        "owners": [
+          { "clan": "takeda", "from": 1520, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "tokugawa", "from": 1582, "to": 1590 },
+          { "clan": "kato", "from": 1591, "to": 1593 },
+          { "clan": "asano", "from": 1593, "to": 1600 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.36625, 36.85640] },
+      "properties": {
+        "id": "iiyama",
+        "name_ja": "飯山城",
+        "reading": "いいやまじょう",
+        "name_en": "Iiyama Castle",
+        "former_names": [],
+        "description": "千曲川に面した丘の城。1557年、武田氏に追われた高梨政頼が移った。1564年、上杉謙信が武田信玄に備える前線の城として本格的に築き直した。江戸時代は飯山藩の藩庁となった。",
+        "wikipedia_ja": "飯山城",
+        "official_url": null,
+        "province": "信濃",
+        "type": "平山城",
+        "built": {"earliest": 1301, "latest": 1564},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "takanashi", "from": 1557, "to": 1564 },
+          { "clan": "uesugi", "from": 1564, "to": 1579 },
+          { "clan": "takeda", "from": 1579, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "uesugi", "from": 1582, "to": 1598 },
+          { "clan": "mori-tadamasa", "from": 1600, "to": 1603 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.61710, 38.00260] },
+      "properties": {
+        "id": "shiroishi",
+        "name_ja": "白石城",
+        "reading": "しろいしじょう",
+        "name_en": "Shiroishi Castle",
+        "former_names": [],
+        "description": "白石氏の居館に始まる城。1591年から蒲生氏、1598年から上杉氏の城となり、1600年の白石城の戦いで伊達政宗が奪い返した。1602年から片倉氏の城で、一国一城令のあとも存続を認められた。",
+        "wikipedia_ja": "白石城",
+        "official_url": null,
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1185, "latest": 1333},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "date", "from": 1467, "to": 1591 },
+          { "clan": "gamo", "from": 1591, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1599 },
+          { "clan": "date", "from": 1600, "to": 1869 }
+        ]
+      }
     }
   ]
 }
