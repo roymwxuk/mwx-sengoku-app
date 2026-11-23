@@ -7,6 +7,13 @@
 | `public/data/provinces.geojson` | 『旧国・旧郡境界データセット』（CODH作成）「幕末明治地勢地図境界データ」（人間文化研究機構作成）を加工, [doi:10.20676/00000454](https://geoshape.ex.nii.ac.jp/kg/). Retrieved 2026-11-23. Merged, simplified and clipped | **CC BY-NC 4.0: credit required, non-commercial only** (ADR-0009) | `npm run data:provinces` |
 | `public/data/clans.json` | Written for this project | — | Edited by hand; check with `npm run data:check` |
 
+## Clan colours
+
+- Each clan has its own colour from `scripts/clan-palette.json`, 100 colours spread as far apart as possible (OKLab) that all give the kanji mark a contrast of at least 4.5:1. `npm run data:check` rejects repeats and other colours.
+- They were assigned by computer so that clans shown in the same year, and neighbours above all, look as different as possible. They aren't historical. The first 9 (織田, 徳川, 羽柴・豊臣, 後北条, 上杉, 毛利, 池田, 今川, 武田) were chosen earlier by hand.
+- For a new clan, use a colour that isn't taken; the check lists those left if given one outside the palette.
+- With this many, some colours look alike, so the kanji mark is still needed to be sure.
+
 ## Notes on castle data
 
 - Descriptions are original Japanese text written from the same sources; English is planned with the language toggle (M8).

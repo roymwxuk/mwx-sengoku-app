@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises'
 import { z } from 'zod'
 import { castleCollection } from '../src/data/castleSchema.ts'
 import { clanList } from '../src/data/clanSchema.ts'
+import palette from './clan-palette.json' with { type: 'json' }
 
 const directory = process.argv[2] ?? 'public/data'
 const problems: string[] = []
@@ -27,6 +28,18 @@ const provinceLabels = z.object({
 const castles = await check('castles.geojson', castleCollection)
 const clans = await check('clans.json', clanList)
 const provinces = await check('provinces.geojson', provinceLabels)
+
+if (clans) {
+  const used = new Set(clans.map((c) => c.color))
+  const unused = palette.filter((color) => !used.has(color))
+  for (const clan of clans) {
+    if (!palette.includes(clan.color)) {
+      problems.push(
+        `clan "${clan.id}": ${clan.color} is not in clan-palette.json; unused: ${unused.join(', ')}`,
+      )
+    }
+  }
+}
 
 if (castles && clans && provinces) {
   const clanIds = new Set(clans.map((c) => c.id))
