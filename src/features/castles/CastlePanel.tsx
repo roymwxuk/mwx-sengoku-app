@@ -1,21 +1,25 @@
 import { useEffect, type ReactNode, type Ref } from 'react'
+import { ExternalLink } from '../../components/ExternalLink'
 import type { CastleFeature } from '../../data/castleSchema'
 import type { Clan } from '../../data/clanSchema'
+import type { YearView } from '../years/yearViews'
 import { googleMapsUrl, wikipediaUrl } from './castleLinks'
+import { nameIn } from './castleName'
 import { formatYears } from './formatYears'
 
 interface Props {
   feature: CastleFeature
   /** The owner in the year shown */
   clan?: Clan
-  year: number
+  view: YearView
   onClose: () => void
   ref: Ref<HTMLElement>
 }
 
 /** Side panel on wide screens, bottom sheet on phones. */
-export function CastlePanel({ feature, clan, year, onClose, ref }: Props) {
+export function CastlePanel({ feature, clan, view, onClose, ref }: Props) {
   const castle = feature.properties
+  const name = nameIn(view, castle)
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -36,14 +40,14 @@ export function CastlePanel({ feature, clan, year, onClose, ref }: Props) {
         key={castle.id}
         className="h-full overflow-y-auto px-5 pt-4 pb-6 sm:pt-20"
       >
-        <p className="pr-12 text-sm">{castle.reading}</p>
+        <p className="pr-12 text-sm">{name.reading}</p>
         <h2
           id="castle-name"
           className="pr-12 text-3xl leading-tight tracking-wide"
         >
-          {castle.name_ja}
+          {name.name_ja}
         </h2>
-        <p className="mt-1 text-sm">{castle.name_en}</p>
+        <p className="mt-1 text-sm">{name.name_en}</p>
 
         <p className="mt-4 leading-relaxed">{castle.description}</p>
 
@@ -68,6 +72,11 @@ export function CastlePanel({ feature, clan, year, onClose, ref }: Props) {
         </ul>
 
         <dl className="mt-2 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 border-t border-sumi/20 pt-4">
+          {name !== castle && (
+            <Row label="後の名">
+              {castle.name_ja}（{castle.reading}）
+            </Row>
+          )}
           {castle.former_names.length > 0 && (
             <Row label="旧名">
               {castle.former_names.map((former) => (
@@ -80,7 +89,7 @@ export function CastlePanel({ feature, clan, year, onClose, ref }: Props) {
           )}
           {clan && (
             <Row label="城主">
-              {clan.name_ja}（{year}年）
+              {clan.name_ja}（{view.year}年）
             </Row>
           )}
           <Row label="国">{castle.province}国</Row>
@@ -112,20 +121,5 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
       <dt className="text-shu">{label}</dt>
       <dd>{children}</dd>
     </>
-  )
-}
-
-function ExternalLink({ href, children }: { href: string; children: string }) {
-  return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noreferrer"
-      className="inline-flex min-h-11 items-center gap-1 text-shu underline underline-offset-4 hover:text-sumi focus-visible:outline-2 focus-visible:outline-shu"
-    >
-      {children}
-      <span aria-hidden="true">↗</span>
-      <span className="sr-only">（新しいタブで開く）</span>
-    </a>
   )
 }

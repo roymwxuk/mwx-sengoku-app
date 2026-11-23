@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import type { CastleCollection } from '../../data/castleSchema'
+import type { YearView } from '../years/yearViews'
+import { nameIn } from './castleName'
 import { useSelection } from './selectionStore'
 
 /** Below this width the open list could cover the castle that was chosen. */
@@ -7,7 +9,12 @@ const ROOM_FOR_LIST = '(width >= 64rem)'
 
 const LIST_ID = 'castle-list'
 
-export function CastleList({ castles }: { castles: CastleCollection }) {
+interface Props {
+  castles: CastleCollection
+  view: YearView
+}
+
+export function CastleList({ castles, view }: Props) {
   const [open, setOpen] = useState(false)
   const toggleRef = useRef<HTMLButtonElement>(null)
   const currentRef = useRef<HTMLButtonElement>(null)
@@ -43,10 +50,7 @@ export function CastleList({ castles }: { castles: CastleCollection }) {
   }
 
   return (
-    <div
-      onKeyDown={onKeyDown}
-      className="castle-list pointer-events-none absolute left-3 flex flex-col-reverse items-start gap-2 *:pointer-events-auto"
-    >
+    <div onKeyDown={onKeyDown} className="relative">
       <button
         ref={toggleRef}
         type="button"
@@ -68,10 +72,11 @@ export function CastleList({ castles }: { castles: CastleCollection }) {
         id={LIST_ID}
         aria-label="城一覧"
         hidden={!open}
-        className="castle-list-items w-64 overflow-y-auto overscroll-contain bg-washi shadow-lg"
+        className="castle-list-items absolute bottom-full left-0 mb-2 w-64 overflow-y-auto overscroll-contain bg-washi shadow-lg"
       >
         <ul>
           {sorted.map((castle) => {
+            const name = nameIn(view, castle)
             const current = castle.id === selectedCastleId
             return (
               <li
@@ -92,6 +97,11 @@ export function CastleList({ castles }: { castles: CastleCollection }) {
                     </span>
                     <span className="text-sm">{castle.province}国</span>
                   </span>
+                  {name !== castle && (
+                    <span className="block text-xs">
+                      {view.year}年の名 {name.name_ja}
+                    </span>
+                  )}
                 </button>
               </li>
             )

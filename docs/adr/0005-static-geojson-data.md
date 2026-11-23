@@ -22,7 +22,7 @@ The castle schema allows for how uncertain the history is:
 
 - **Dates** are ranges, `{ earliest, latest }`, because sources disagree or are vague. An exact year has equal ends. `built: null` means unknown; `abandoned: null` means never abandoned, or unknown.
 - **Ownership** is a list from the start, `owners: [{ clan, from, to }]`, so the timeline (M5) needs no migration. It stays empty until clans are added (M4).
-- **Renamed castles** use their best-known Sengoku name, with earlier names in `former_names` (e.g., 稲葉山城 → 岐阜城).
+- **Renamed castles** use their best-known Sengoku name, with earlier names in `former_names` (e.g., 稲葉山城 → 岐阜城). In the years before `until`, the app shows the first former name listed that fits, so put the one to show first.
 - **Type** is 山城, 平山城, 平城 or 館. 館 covers residences such as 躑躅ヶ崎館.
 
 ## Consequences
