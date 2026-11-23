@@ -114,5 +114,7 @@
   {"id": "kato-kiyomasa", "name_ja": "加藤氏（清正）", "reading": "かとうし", "name_en": "Katō (Kiyomasa)", "mark": "清", "color": "#7d84f5"},
   {"id": "ito-hyuga", "name_ja": "伊東氏", "reading": "いとうし", "name_en": "Itō (Hyūga)", "mark": "東", "color": "#84beb8"},
   {"id": "takahashi", "name_ja": "高橋氏", "reading": "たかはしし", "name_en": "Takahashi", "mark": "橋", "color": "#7d9db5"},
-  {"id": "mori-katsunobu", "name_ja": "毛利氏（勝信）", "reading": "もうりし", "name_en": "Mōri (Katsunobu)", "mark": "勝", "color": "#cdc0ff"}
+  {"id": "mori-katsunobu", "name_ja": "毛利氏（勝信）", "reading": "もうりし", "name_en": "Mōri (Katsunobu)", "mark": "勝", "color": "#cdc0ff"},
+  {"id": "narita", "name_ja": "成田氏", "reading": "なりたし", "name_en": "Narita", "mark": "泰", "color": "#ae0a9f"},
+  {"id": "kimotsuki", "name_ja": "肝付氏", "reading": "きもつきし", "name_en": "Kimotsuki", "mark": "肝", "color": "#421159"}
 ]

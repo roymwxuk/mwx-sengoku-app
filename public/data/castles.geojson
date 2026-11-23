@@ -1935,6 +1935,161 @@
           { "clan": "hosokawa", "from": 1600, "to": 1632 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.44372, 31.36744] },
+      "properties": {
+        "id": "chiran",
+        "name_ja": "知覧城",
+        "reading": "ちらんじょう",
+        "name_en": "Chiran Castle",
+        "former_names": [],
+        "description": "シラス台地を深い空堀で区切った山城。平安時代末に知覧忠信が築き、のちに島津氏の一族、佐多氏の居城となった。1420年、伊集院氏の一族から島津久豊が取り返した。1615年に焼け、廃城となった。",
+        "wikipedia_ja": "知覧城",
+        "official_url": null,
+        "province": "薩摩",
+        "type": "山城",
+        "built": {"earliest": 1151, "latest": 1200},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "shimazu", "from": 1467, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.10739, 31.48292] },
+      "properties": {
+        "id": "shibushi",
+        "name_ja": "志布志城",
+        "reading": "しぶしじょう",
+        "name_en": "Shibushi Castle",
+        "former_names": [],
+        "description": "内城、松尾城、高城、新城の四つの城からなる山城。城主は次々と変わり、1538年に島津氏の分家の豊州家、1562年に肝付氏が手に入れた。1577年から島津氏の直轄地となった。",
+        "wikipedia_ja": "志布志城",
+        "official_url": null,
+        "province": "日向",
+        "type": "山城",
+        "built": {"earliest": 1101, "latest": 1200},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "shimazu", "from": 1467, "to": 1562 },
+          { "clan": "kimotsuki", "from": 1562, "to": 1577 },
+          { "clan": "shimazu", "from": 1577, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.42383, 32.04783] },
+      "properties": {
+        "id": "sadowara",
+        "name_ja": "佐土原城",
+        "reading": "さどわらじょう",
+        "name_en": "Sadowara Castle",
+        "former_names": [{"name_ja": "田島城", "reading": "たじまじょう", "name_en": "Tajima Castle", "until": 1427}],
+        "description": "伊東氏の城で、伊東四十八城の一つ。伊東氏が豊後へ去ったあと、島津家久が入り、子の豊久が継いだ。豊久は関ヶ原の戦いで討死した。日本でもっとも南の天守台の跡が見つかっている。",
+        "wikipedia_ja": "佐土原城",
+        "official_url": null,
+        "province": "日向",
+        "type": "山城",
+        "built": {"earliest": 1350, "latest": 1543},
+        "abandoned": {"earliest": 1870, "latest": 1870},
+        "owners": [
+          { "clan": "ito-hyuga", "from": 1427, "to": 1577 },
+          { "clan": "shimazu", "from": 1578, "to": 1600 },
+          { "clan": "tokugawa", "from": 1600, "to": 1603 },
+          { "clan": "shimazu", "from": 1603, "to": 1870 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.66297, 32.58056] },
+      "properties": {
+        "id": "nobeoka",
+        "name_ja": "延岡城",
+        "reading": "のべおかじょう",
+        "name_en": "Nobeoka Castle",
+        "former_names": [{"name_ja": "縣城", "reading": "あがたじょう", "name_en": "Agata Castle", "until": null}],
+        "description": "1587年に縣（延岡）を与えられた高橋元種が、1601年から築いた城。川にはさまれた丘に建ち、城下町も整えた。「千人殺し」と呼ばれる高い石垣が残る。",
+        "wikipedia_ja": "延岡城",
+        "official_url": null,
+        "province": "日向",
+        "type": "平山城",
+        "built": {"earliest": 1601, "latest": 1603},
+        "abandoned": {"earliest": 1870, "latest": 1870},
+        "owners": [
+          { "clan": "takahashi", "from": 1601, "to": 1613 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.45288, 36.13715] },
+      "properties": {
+        "id": "oshi",
+        "name_ja": "忍城",
+        "reading": "おしじょう",
+        "name_en": "Oshi Castle",
+        "former_names": [],
+        "description": "成田氏が沼地に築いた平城で、関東七名城の一つ。1590年、石田三成らの水攻めに耐え、小田原城が先に落ちるまで開城しなかったことから、「浮き城」と呼ばれた。",
+        "wikipedia_ja": "忍城",
+        "official_url": null,
+        "province": "武蔵",
+        "type": "平城",
+        "built": {"earliest": 1478, "latest": 1479},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "narita", "from": 1478, "to": 1590 },
+          { "clan": "tokugawa", "from": 1590, "to": 1600 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.25901, 35.72754] },
+      "properties": {
+        "id": "moto-sakura",
+        "name_ja": "本佐倉城",
+        "reading": "もとさくらじょう",
+        "name_en": "Moto-Sakura Castle",
+        "former_names": [],
+        "description": "千葉氏の後期の本拠で、9代にわたる居城。三方を湿地に囲まれていた。千葉氏が小田原征伐のあと改易されると徳川氏に接収され、1615年に佐倉城へ移って廃城となった。",
+        "wikipedia_ja": "本佐倉城",
+        "official_url": null,
+        "province": "下総",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1490},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "chiba", "from": 1484, "to": 1590 },
+          { "clan": "tokugawa", "from": 1590, "to": 1603 },
+          { "clan": "doi", "from": 1610, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.12699, 35.23531] },
+      "properties": {
+        "id": "ishigakiyama",
+        "name_ja": "石垣山城",
+        "reading": "いしがきやまじょう",
+        "name_en": "Ishigakiyama Castle",
+        "former_names": [],
+        "description": "1590年の小田原征伐で、豊臣秀吉が小田原城を見下ろす山に80日ほどで築いた総石垣の城。一夜で現れたように見せたという話から一夜城と呼ばれる。完成のおよそ10日後に北条氏が降伏した。",
+        "wikipedia_ja": "石垣山城",
+        "official_url": null,
+        "province": "相模",
+        "type": "山城",
+        "built": {"earliest": 1590, "latest": 1590},
+        "abandoned": {"earliest": 1590, "latest": 1591},
+        "owners": [
+          { "clan": "toyotomi", "from": 1590, "to": 1591 }
+        ]
+      }
     }
   ]
 }
