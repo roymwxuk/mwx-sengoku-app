@@ -1424,6 +1424,78 @@
           { "clan": "motoyama", "from": 1532, "to": 1563 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.56524, 33.21948] },
+      "properties": {
+        "id": "uwajima",
+        "name_ja": "宇和島城",
+        "reading": "うわじまじょう",
+        "name_en": "Uwajima Castle",
+        "former_names": [{"name_ja": "板島丸串城", "reading": "いたじままるぐしじょう", "name_en": "Itajima Marugushi Castle", "until": 1617}],
+        "description": "西園寺氏の板島丸串城を、1596年から藤堂高虎が近世の城に造りかえた、海に面した城。のちに伊達秀宗が入り、宇和島伊達家の居城となった。現存する天守は伊達家が建てたもの。",
+        "wikipedia_ja": "宇和島城",
+        "official_url": "https://www.city.uwajima.ehime.jp/site/uwajima-jo/",
+        "province": "伊予",
+        "type": "平山城",
+        "built": {"earliest": 941, "latest": 1601},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "saionji", "from": 1467, "to": 1585 },
+          { "clan": "kobayakawa", "from": 1585, "to": 1587 },
+          { "clan": "toda", "from": 1587, "to": 1594 },
+          { "clan": "todo", "from": 1595, "to": 1608 },
+          { "clan": "tomita", "from": 1608, "to": 1613 },
+          { "clan": "tokugawa", "from": 1613, "to": 1614 },
+          { "clan": "date", "from": 1614, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.92934, 32.99694] },
+      "properties": {
+        "id": "tosa-nakamura",
+        "name_ja": "中村城",
+        "reading": "なかむらじょう",
+        "name_en": "Nakamura Castle",
+        "former_names": [],
+        "description": "四万十川と後川にはさまれた丘の城。応仁の乱を避けて京都から下った公家の一条氏が、中村を本拠に土佐西部を治めた。1574年に一条兼定が去り、長宗我部氏の城となった。",
+        "wikipedia_ja": "中村城 (土佐国)",
+        "official_url": null,
+        "province": "土佐",
+        "type": "平山城",
+        "built": null,
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "ichijo", "from": 1468, "to": 1574 },
+          { "clan": "chosokabe", "from": 1574, "to": 1600 },
+          { "clan": "yamauchi", "from": 1601, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.50639, 33.35936] },
+      "properties": {
+        "id": "kurose",
+        "name_ja": "黒瀬城",
+        "reading": "くろせじょう",
+        "name_en": "Kurose Castle",
+        "former_names": [],
+        "description": "標高350mの黒瀬山にあった、伊予西園寺氏の本拠。西園寺実充が松葉城から移った。1584年に西園寺公広が長宗我部元親に降り、翌年には小早川隆景に降ったが、1587年まで在城を許された。",
+        "wikipedia_ja": "黒瀬城",
+        "official_url": null,
+        "province": "伊予",
+        "type": "山城",
+        "built": {"earliest": 1551, "latest": 1565},
+        "abandoned": null,
+        "owners": [
+          { "clan": "saionji", "from": 1551, "to": 1587 },
+          { "clan": "toda", "from": 1587, "to": 1594 }
+        ]
+      }
     }
   ]
 }
