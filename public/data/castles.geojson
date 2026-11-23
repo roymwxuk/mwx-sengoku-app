@@ -2186,6 +2186,30 @@
           { "clan": "mori-tadamasa", "from": 1600, "to": 1603 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.61710, 38.00260] },
+      "properties": {
+        "id": "shiroishi",
+        "name_ja": "白石城",
+        "reading": "しろいしじょう",
+        "name_en": "Shiroishi Castle",
+        "former_names": [],
+        "description": "白石氏の居館に始まる城。1591年から蒲生氏、1598年から上杉氏の城となり、1600年の白石城の戦いで伊達政宗が奪い返した。1602年から片倉氏の城で、一国一城令のあとも存続を認められた。",
+        "wikipedia_ja": "白石城",
+        "official_url": null,
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1185, "latest": 1333},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "date", "from": 1467, "to": 1591 },
+          { "clan": "gamo", "from": 1591, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1599 },
+          { "clan": "date", "from": 1600, "to": 1869 }
+        ]
+      }
     }
   ]
 }
