@@ -69,26 +69,20 @@ Goal: historical context on the map.
 - [x] Simplify the polygons (mapshaper) to keep the file small (target < 500 KB; result 110 KB)
 - [x] Render province borders + labels
 - [x] Add `clans.json` (id, name, colour, one-kanji mark; 家紋 icon later)
-- [x] Fill in `owners` for castles; colour markers by clan (in 1583, until the timeline in M5)
+- [x] Fill in `owners` for castles; colour markers by clan (in 1583 at first; by year since M5)
 - [x] Legend showing clan colours
 - [x] Layer toggle: provinces on/off, clan colours on/off
 - *Milestone done when:* provinces are visible and castles are coloured by their owning clan.
 
-## M5 — Timeline
+## M5 — Years
 
-Goal: see how the map changes from 1467 to 1615.
+Goal: see how the map changes between key years from 1553 to 1614.
 
-- [ ] Check that `owners` covers 1467–1615 for every castle (the schema is already in place, ADR-0005); fill the gaps listed in `docs/data-sources.md`
 - [x] Choose colours for more clans: each has its own, from a palette of 160 (`scripts/clan-palette.json`)
-- [x] Switch between 1553 (just before the first 川中島), 1560 (just before 桶狭間), 1583, 1600 (just before 関ヶ原) and 1614 (just before 大坂冬の陣), in the URL as `?year=1600`; castles not built yet are dotted circles, abandoned ones ✕; the slider will replace the switch
-- [ ] Year slider UI (1467–1615) stored in Zustand + URL (`?year=1560`)
+- [x] Switch between 1553 (just before the first 川中島), 1560 (just before 桶狭間), 1583, 1600 (just before 関ヶ原) and 1614 (just before 大坂冬の陣), in the URL as `?year=1600`; castles not built yet are dotted circles, abandoned ones ✕
+- [x] Colour castles by their owner in the selected year (the five on the switch)
 - [x] Show a castle's former name in the years it was used (大坂城 is 石山御坊 in 1553 and 1560), in the panel, tooltip and list
-- [ ] Filter castles by year (exists between `built` and `abandoned`)
-- [ ] Colour castles by their owner in the selected year
-- [ ] Optional: colour provinces by their dominant clan
-- [ ] Play/pause button to animate through the years
-- [ ] Highlight key events (桶狭間 1560, 本能寺 1582, 関ヶ原 1600) on the slider
-- *Milestone done when:* moving the slider visibly changes which castles exist and who owns them.
+- *Milestone done when:* switching the year visibly changes which castles exist and who owns them.
 
 ## M6 — Search & filters
 
@@ -117,18 +111,16 @@ Goal: it looks and feels like the Sengoku era, and works for everyone.
 
 - [ ] Custom map style: washi-paper background, muted terrain, sumi-ink borders
 - [x] Castle icons by type (山城 / 平山城 / 平城, and 館) instead of circles; castles not standing in the year shown keep the dotted circle or ✕
-- [ ] Japanese-style fonts (e.g., Noto Serif JP / Shippori Mincho) for headings
 - [ ] i18n: Japanese / English toggle
 - [x] Castle list: all castles in a list; choosing one selects it on the map. A button at the bottom left shows and hides the list — *done when* every castle can be chosen from the list by mouse, touch and keyboard, and the button works on desktop and phone
 - [x] Link to Google Maps in the detail panel, built from the castle's coordinates (no API key) — *done when* every castle's link opens Google Maps at its location in a new tab
 - [x] Link to Wikipedia in the detail panel; store each castle's article title in `castles.geojson` (Japanese article; add English with the toggle) — *done when* every castle's link opens the right article in a new tab
 - [ ] Accessibility: keyboard selection of castles, screen-reader labels, contrast check
 - [ ] Lighthouse score ≥ 90 for performance and accessibility
-- [ ] E2E tests (Playwright): select castle, share URL, timeline, search
+- [ ] E2E tests (Playwright): select castle, share URL, year switch, search
 
 ## M9 — v1.0 release
 
-- [ ] Custom domain (optional)
 - [x] About dialog (概要, bottom left) with data credits, licences and a link to GitHub
 - [ ] Error boundary + "data failed to load" state
 - [ ] Tag `v1.0.0`, write release notes
@@ -137,6 +129,11 @@ Goal: it looks and feels like the Sengoku era, and works for everyone.
 
 ## Later / ideas (not planned)
 
+- Every year from 1467 to 1615 instead of five:
+  - Check that `owners` covers every year for every castle; fill the gaps listed in `docs/data-sources.md`
+  - Year slider instead of the switch, with a play/pause button and key events (桶狭間 1560, 本能寺 1582, 関ヶ原 1600)
+  - Hide castles that don't exist in the year, rather than marking them
+- Colour provinces by their dominant clan (needs province shapes, and more castles to judge by)
 - Battles and campaign routes as animated lines
 - Daimyō profiles and clan family trees
 - 家紋 icons for clans

@@ -14,7 +14,7 @@ export const DEFAULT_VIEW: YearView = {
   at: 'end',
 }
 
-/** The years that can be shown until the timeline exists (M5). */
+/** The years that can be shown. */
 export const YEAR_VIEWS: readonly YearView[] = [
   {
     year: 1553,
