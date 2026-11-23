@@ -6,7 +6,7 @@ An interactive map of 戦国時代 Japan for finding and exploring castles.
 
 **Live site: <https://roymwxuk.github.io/mwx-sengoku-app/>**
 
-[![The app showing central Japan in 1553, with 室町御所 in the detail panel](docs/app-screenshot.png)](https://roymwxuk.github.io/mwx-sengoku-app/)
+[![The app showing central Japan in 1560, with 石山御坊 (later 大坂城) in the detail panel](docs/app-screenshot.png)](https://roymwxuk.github.io/mwx-sengoku-app/)
 
 Links can open a castle or a year directly, e.g. [吉田郡山城](https://roymwxuk.github.io/mwx-sengoku-app/?castle=yoshida-koriyama), [大坂城 in 1560 (石山御坊)](https://roymwxuk.github.io/mwx-sengoku-app/?castle=osaka&year=1560) or [Japan in 1614](https://roymwxuk.github.io/mwx-sengoku-app/?year=1614).
 

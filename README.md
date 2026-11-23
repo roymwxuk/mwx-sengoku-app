@@ -6,7 +6,7 @@
 
 **公開サイト: <https://roymwxuk.github.io/mwx-sengoku-app/>**
 
-[![戦国城地図の画面: 1553年の畿内周辺。詳細パネルに室町御所を表示](docs/app-screenshot.png)](https://roymwxuk.github.io/mwx-sengoku-app/)
+[![戦国城地図の画面: 1560年の畿内周辺。詳細パネルに石山御坊（のちの大坂城）を表示](docs/app-screenshot.png)](https://roymwxuk.github.io/mwx-sengoku-app/)
 
 城や年を直接開くリンクも使えます（例: [吉田郡山城](https://roymwxuk.github.io/mwx-sengoku-app/?castle=yoshida-koriyama)、[1560年の大坂城（石山御坊）](https://roymwxuk.github.io/mwx-sengoku-app/?castle=osaka&year=1560)、[1614年の日本](https://roymwxuk.github.io/mwx-sengoku-app/?year=1614)）。
 
