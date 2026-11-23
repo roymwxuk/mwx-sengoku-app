@@ -260,6 +260,137 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.40807, 32.96922] },
+      "properties": {
+        "id": "bungo-oka",
+        "name_ja": "岡城",
+        "reading": "おかじょう",
+        "name_en": "Oka Castle",
+        "former_names": [],
+        "description": "1586年、志賀親次が島津軍を幾度も退けた豊後の山城。1594年に入った中川秀成が大規模に改修し、明治維新まで岡藩主・中川家の居城となった。",
+        "wikipedia_ja": "岡城 (豊後国)",
+        "official_url": "https://okajou.jp/",
+        "province": "豊後",
+        "type": "山城",
+        "built": {"earliest": 1185, "latest": 1185},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "shiga", "from": 1467, "to": 1593 },
+          { "clan": "nakagawa", "from": 1594, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.15778, 35.14603] },
+      "properties": {
+        "id": "kannonji",
+        "name_ja": "観音寺城",
+        "reading": "かんのんじじょう",
+        "name_en": "Kannonji Castle",
+        "former_names": [],
+        "description": "近江守護・六角氏の本拠となった、繖山の山城。安土城より早く総石垣を備えた。1568年、織田信長の上洛軍に支城を落とされ、六角氏は戦わずに城を捨てた。",
+        "wikipedia_ja": "観音寺城",
+        "official_url": null,
+        "province": "近江",
+        "type": "山城",
+        "built": {"earliest": 1335, "latest": 1487},
+        "abandoned": {"earliest": 1568, "latest": 1568},
+        "owners": [
+          { "clan": "rokkaku", "from": 1467, "to": 1568 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.27694, 35.45917] },
+      "properties": {
+        "id": "odani",
+        "name_ja": "小谷城",
+        "reading": "おだにじょう",
+        "name_en": "Odani Castle",
+        "former_names": [],
+        "description": "浅井亮政から三代にわたる、北近江の戦国大名・浅井氏の山城。1573年に織田信長に攻められて落城し、浅井長政が自刃して浅井氏は滅んだ。",
+        "wikipedia_ja": "小谷城",
+        "official_url": null,
+        "province": "近江",
+        "type": "山城",
+        "built": {"earliest": 1516, "latest": 1525},
+        "abandoned": {"earliest": 1575, "latest": 1575},
+        "owners": [
+          { "clan": "azai", "from": 1525, "to": 1573 },
+          { "clan": "toyotomi", "from": 1573, "to": 1575 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.37747, 36.31778] },
+      "properties": {
+        "id": "nitta-kanayama",
+        "name_ja": "新田金山城",
+        "reading": "にったかなやまじょう",
+        "name_en": "Nitta-Kanayama Castle",
+        "former_names": [],
+        "description": "岩松家純が1469年に築いた城。のちに家臣の横瀬（由良）氏が実権を握り、上杉謙信とも戦った。関東の山城には珍しく石垣を多用する。",
+        "wikipedia_ja": "新田金山城",
+        "official_url": null,
+        "province": "上野",
+        "type": "山城",
+        "built": {"earliest": 1469, "latest": 1469},
+        "abandoned": {"earliest": 1590, "latest": 1590},
+        "owners": [
+          { "clan": "iwamatsu", "from": 1469, "to": 1528 },
+          { "clan": "yura", "from": 1528, "to": 1585 },
+          { "clan": "hojo", "from": 1585, "to": 1590 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.21672, 35.72199] },
+      "properties": {
+        "id": "sakura",
+        "name_ja": "佐倉城",
+        "reading": "さくらじょう",
+        "name_en": "Sakura Castle",
+        "former_names": [],
+        "description": "千葉氏が築城を試みながら未完に終わった地に、土井利勝が1610年から築いた城。石垣を用いず、江戸時代には佐倉藩の藩庁が置かれた。",
+        "wikipedia_ja": "佐倉城",
+        "official_url": null,
+        "province": "下総",
+        "type": "平山城",
+        "built": {"earliest": 1532, "latest": 1610},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "chiba", "from": 1555, "to": 1590 },
+          { "clan": "doi", "from": 1610, "to": 1633 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.46381, 40.60804] },
+      "properties": {
+        "id": "hirosaki",
+        "name_ja": "弘前城",
+        "reading": "ひろさきじょう",
+        "name_en": "Hirosaki Castle",
+        "former_names": [{"name_ja": "高岡城", "reading": "たかおかじょう", "name_en": "Takaoka Castle", "until": 1628}],
+        "description": "津軽為信が構想し、子の信枚が1611年に完成させた城。弘前藩主・津軽家の居城となった。1810年に建て直された現在の天守は、現存12天守の一つ。",
+        "wikipedia_ja": "弘前城",
+        "official_url": null,
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1610, "latest": 1611},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "tsugaru", "from": 1610, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [131.61143, 33.24064] },
       "properties": {
         "id": "funai",
