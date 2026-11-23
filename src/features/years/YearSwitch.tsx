@@ -8,7 +8,7 @@ export function YearSwitch() {
     <div
       role="group"
       aria-label="年を選ぶ"
-      className="absolute top-16 left-3 flex bg-washi/90 shadow-sm min-[24rem]:top-3 min-[24rem]:left-[9.75rem]"
+      className="absolute top-16 left-3 flex bg-washi/90 shadow-sm min-[28rem]:top-3 min-[28rem]:left-[9.75rem]"
     >
       {YEAR_VIEWS.map((option) => (
         <button

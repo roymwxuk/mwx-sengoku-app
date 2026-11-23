@@ -9,7 +9,7 @@
 
 ## Clan colours
 
-- Each clan has its own colour from `scripts/clan-palette.json`, 130 colours spread as far apart as possible (OKLab; the first 100, then 30 more between them) that all give the kanji mark a contrast of at least 4.5:1. `npm run data:check` rejects repeats and other colours.
+- Each clan has its own colour from `scripts/clan-palette.json`, 160 colours spread as far apart as possible (OKLab; the first 100, then 60 more between them) that all give the kanji mark a contrast of at least 4.5:1. `npm run data:check` rejects repeats and other colours.
 - They were assigned by computer so that clans shown in the same year, and neighbours above all, look as different as possible. They aren't historical. The first 9 (織田, 徳川, 羽柴・豊臣, 後北条, 上杉, 毛利, 池田, 今川, 武田) were chosen earlier by hand.
 - For a new clan, use a colour that isn't taken; the check lists those left if given one outside the palette. If a spare is too close to a neighbour's, trade with a clan that isn't shown in any year (done for 高遠, 三村, 丹羽 and 蒲生).
 - With this many, some colours look alike, so the kanji mark is still needed to be sure.
@@ -111,13 +111,20 @@
 - 白河小峰城: `built` is 1340 (an Edo-period text, and the infobox) to 1632, when 丹羽氏's rebuilding ended.
 - 箕輪城: `built` is 1512–1526, from two accounts; the infobox gives 1512.
 - 小諸城: `built` is 1487 (大井氏) to 1554 (武田氏); the infobox gives 1554. `abandoned` is the infobox's 1873. 穴城, 酔月城 and others are alternative names.
-- Alternative names mentioned in these notes are mostly not in the data; `other_names` (別名) so far has only 千代田城 (江戸城, asked for by the project owner), 鶴ヶ城 (若松城) and 小峰城 (白河小峰城).
+- 山中城: `built` is 永禄年間 (1558–1570). Coordinates are from the article, as Wikidata's are given to about 1 km.
+- 掛川城: `built` is 1469 (文明年間, on a hill nearby) to 1513, when it moved to the present hill.
+- 犬山城: `built` is 1469 (a fort, and Wikidata) to 1537 (the infobox).
+- 松坂城: now also written 松阪城. `abandoned` is the infobox's 1871.
+- 彦根城: `built` is 1603–1622, begun to finished; the infobox gives 1604. `abandoned` is the infobox's 1874, although the keep survives.
+- 伏見城: `built` is 1592–1597, from 秀吉's residence at 指月 to his castle at 木幡山, 1 km away, where the point is; it was rebuilt in about 1602. `abandoned` is 1619 (decided) to 1623 (the infobox).
+- 岩国城: `built` is 1601 (the infobox) to 1608. 横山城 is an alternative name.
+- Alternative names mentioned in these notes are mostly not in the data; `other_names` (別名) so far has only 千代田城 (江戸城, asked for by the project owner), 鶴ヶ城 (若松城), 小峰城 (白河小峰城), 松阪城 (松坂城), 金亀城 (彦根城) and 白帝城 (犬山城).
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
 ## Notes on castle owners
 
-- Owners come from the same Japanese Wikipedia articles. `from` and `to` are years; in a year of change, the view decides: 1583 shows the last owner; 1553, 1560 and 1600 show the first, just before 川中島 (the first battle), 桶狭間 and 関ヶ原.
+- Owners come from the same Japanese Wikipedia articles. `from` and `to` are years; in a year of change, the view decides: 1583 and 1614 (just before 大坂冬の陣, late in the year) show the last owner; 1553, 1560 and 1600 show the first, just before 川中島 (the first battle), 桶狭間 and 関ヶ原.
 - Retainers' castles are listed under the ruling house where the article treats them so (e.g., 甲斐 under 河尻秀隆 is 織田氏). 織田氏 at 清洲城 covers both the 守護代 family and 信長's; 松平氏 is listed as 徳川氏, and 長尾氏 as 上杉氏.
 - 小田原城: the Hōjō took it between 1495 and 1501; 1501 is used.
 - 春日山城: 上杉氏 (with 長尾氏) is listed from 1392, the end of its construction range.
@@ -209,7 +216,14 @@
 - 根城: 南部氏 is the 根城 (八戸) branch, under 三戸's main line from 1590, listed from 1467, the start of the app's period.
 - 若松城: 蘆名氏 is listed from 1467, the start of the app's period. 加藤氏 is 嘉明's family and 保科氏 that of 高遠城, later 松平氏.
 - 白河小峰城: 結城氏 of 白河 is listed from 1467. The dates of 蒲生氏 and 上杉氏 follow 若松城, as the article gives none. Owners after 1643 (from general knowledge) are left out.
-- 箕輪城: 長野氏 is marked 業, from 業正. 徳川氏 in 1590–1598 is 井伊直政.
+- 箕輪城: 長野氏 is marked 業, from 業正. 井伊氏 in 1590–1598 is 直政.
 - 小諸城: 大井氏, before 1554, are left out, as the article doesn't say when 武田氏 took it. 織田氏 in 1582 is 滝川一益's deputy 道家正栄. 徳川氏 in 1582–1590 is 依田氏. Owners after 1622 are left out.
+- 掛川城: 今川氏 is their castellans 朝比奈氏, 徳川氏 石川氏. 松平氏 in 1601–1617 is 定勝 and 定行 (article 掛川藩). Later owners are left out.
+- 犬山城: 織田氏 covers the 岩倉 family, 信康, 信清, 信長's men and 信雄. 豊臣氏 in 1584–1587 is 秀吉's side, and in 1590–1595 三好吉房. 徳川氏 in 1601–1617 is 小笠原吉次 (for 松平忠吉), 平岩親吉 and 尾張藩. 成瀬氏, from 1617, are left out.
+- 松坂城: 服部一忠, 1590–1595, is left out. 徳川氏 from 1619 is 紀州藩.
+- 彦根城: 井伊氏 is listed from 1603, when building began.
+- 伏見城: 徳川家康 held it from 1599 on 豊臣氏's behalf. It fell to 西軍 in August 1600, between the year's start and 関ヶ原; the 1600 view shows 徳川氏.
+- For the 1614 view, from the articles of the domains (浜松藩, 大垣藩, 岩村藩, 三河吉田藩, 飯山藩, 延岡藩) and of 花房職秀: 松平氏 (諸家) stands for the branch families 桜井 (浜松城), 大給 (岩村城), 竹谷 and 深溝 (吉田城) and 久松 (掛川城). 水野氏 at 浜松城 (重央, from general knowledge) is listed with 郡山城's. 石川氏 (三河) at 大垣城 is 康通, 家成 and 忠総. 堀氏 at 飯山城 is 直寄, of 春日山城's 堀氏's chief retainers. 忍城 is listed as 徳川氏 to 1633, as no lord is given between 1600 and then. 皆川広照 at 飯山城, 1603–1609, is left out.
+- 宇和島城: 伊達秀宗 was given it at the end of 1614 and entered in 1615; it is listed from 1615, so that the 1614 view, before 大坂冬の陣, shows 徳川氏.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.

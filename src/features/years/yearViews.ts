@@ -35,4 +35,10 @@ export const YEAR_VIEWS: readonly YearView[] = [
     at: 'start',
     note: '関ヶ原の戦いの直前',
   },
+  {
+    year: 1614,
+    label: '冬の陣',
+    at: 'end', // the siege was in the last months
+    note: '大坂冬の陣の直前',
+  },
 ]
