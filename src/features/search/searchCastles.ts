@@ -11,14 +11,15 @@ interface Term {
 }
 
 interface IndexedName {
-  name_ja: string
+  /** null: the castle's main name. Otherwise how it's shown, e.g. 旧名 稲葉山城 */
+  label: string | null
   japanese: Term[]
   romaji: Term[]
 }
 
 interface IndexedCastle {
   castle: Castle
-  /** The current name, then former names */
+  /** The main name, then former and other names */
   names: IndexedName[]
 }
 
@@ -26,8 +27,8 @@ export type SearchIndex = IndexedCastle[]
 
 export interface SearchResult {
   castle: Castle
-  /** Set if the castle was found by this former name */
-  formerName: string | null
+  /** Set if the castle was found by a former or other name */
+  nameLabel: string | null
 }
 
 const READING_SUFFIX = /(じょう|やかた)$/
@@ -40,14 +41,17 @@ const ROMAJI_QUERY_SUFFIX = new RegExp(
   `(${['jo', 'yakata', 'castle', 'residence'].map(foldRomaji).join('|')})$`,
 )
 
-function indexName({ name_ja, reading, name_en }: Name): IndexedName {
+function indexName(
+  { name_ja, reading, name_en }: Name,
+  kind?: '旧名' | '別名',
+): IndexedName {
   const kanji = foldJapanese(name_ja)
   const readingSuffix = READING_SUFFIX.exec(reading)?.[0] ?? ''
   const readingBase = reading.slice(0, reading.length - readingSuffix.length)
   const english = name_en.replace(ENGLISH_SUFFIX, '')
   const base = foldRomaji(english)
   return {
-    name_ja,
+    label: kind ? `${kind} ${name_ja}` : null,
     japanese: [
       // Not split: typing only 城 finds every castle.
       { full: kanji, base: kanji },
@@ -66,7 +70,11 @@ function indexName({ name_ja, reading, name_en }: Name): IndexedName {
 export function buildIndex(castles: CastleCollection): SearchIndex {
   return castles.features.map(({ properties: castle }) => ({
     castle,
-    names: [castle, ...castle.former_names].map(indexName),
+    names: [
+      indexName(castle),
+      ...castle.former_names.map((name) => indexName(name, '旧名')),
+      ...(castle.other_names ?? []).map((name) => indexName(name, '別名')),
+    ],
   }))
 }
 
@@ -104,16 +112,16 @@ function findAll(
   const found: (SearchResult & { score: number })[] = []
   for (const { castle, names } of index) {
     let best = Infinity
-    let formerName: string | null = null
-    for (const [i, name] of names.entries()) {
+    let nameLabel: string | null = null
+    for (const name of names) {
       for (const term of isRomaji ? name.romaji : name.japanese) {
         const score = scoreOf(term)
         if (score === null || score >= best) continue
         best = score
-        formerName = i > 0 ? name.name_ja : null
+        nameLabel = name.label
       }
     }
-    if (best < Infinity) found.push({ castle, formerName, score: best })
+    if (best < Infinity) found.push({ castle, nameLabel, score: best })
   }
   return found.sort(
     (a, b) =>

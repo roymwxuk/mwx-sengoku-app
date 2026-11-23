@@ -2,10 +2,10 @@
 
 /* Theme tokens (ADR-0007). Keep in sync with src/map/mapStyle.ts. */
 @theme {
-  --color-washi: #f4ecd8;
+  --color-washi: #faf6ea;
   --color-sumi: #2b2622;
   --color-shu: #9b2d1f;
-  --color-sea: #c5cfca;
+  --color-sea: #dae3df;
   --sheet-height: 42dvh;
   --font-serif:
     'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', ui-serif, serif;
@@ -74,9 +74,9 @@
 @media (width >= 40rem) {
   .castle-search {
     top: 0.75rem;
-    left: 23.5rem;
+    left: 26.75rem;
     /* Clear of the zoom buttons. */
-    width: min(16rem, 100vw - 27rem);
+    width: min(16rem, 100vw - 30.25rem);
   }
 }
 
@@ -94,7 +94,7 @@
 }
 
 /* Narrow phones: the year switch moves below the title. */
-@media (width < 24rem) {
+@media (width < 28rem) {
   .castle-search {
     top: 7.25rem;
     width: 12rem;

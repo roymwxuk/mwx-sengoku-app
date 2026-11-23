@@ -225,6 +225,7 @@
         "reading": "えどじょう",
         "name_en": "Edo Castle",
         "former_names": [],
+        "other_names": [{"name_ja": "千代田城", "reading": "ちよだじょう", "name_en": "Chiyoda Castle"}],
         "description": "太田道灌が1457年に築いた城。扇谷上杉氏や後北条氏などを経て、1590年から徳川氏の居城となった。",
         "wikipedia_ja": "江戸城",
         "official_url": null,
@@ -1101,7 +1102,9 @@
         "owners": [
           { "clan": "imagawa", "from": 1514, "to": 1568 },
           { "clan": "tokugawa", "from": 1568, "to": 1590 },
-          { "clan": "horio", "from": 1590, "to": 1600 }
+          { "clan": "horio", "from": 1590, "to": 1600 },
+          { "clan": "matsudaira", "from": 1601, "to": 1609 },
+          { "clan": "mizuno", "from": 1609, "to": 1619 }
         ]
       }
     },
@@ -1448,7 +1451,7 @@
           { "clan": "todo", "from": 1595, "to": 1608 },
           { "clan": "tomita", "from": 1608, "to": 1613 },
           { "clan": "tokugawa", "from": 1613, "to": 1614 },
-          { "clan": "date", "from": 1614, "to": 1871 }
+          { "clan": "date", "from": 1615, "to": 1871 }
         ]
       }
     },
@@ -1494,6 +1497,1408 @@
         "owners": [
           { "clan": "saionji", "from": 1551, "to": 1587 },
           { "clan": "toda", "from": 1587, "to": 1594 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.61611, 35.36194] },
+      "properties": {
+        "id": "ogaki",
+        "name_ja": "大垣城",
+        "reading": "おおがきじょう",
+        "name_en": "Ōgaki Castle",
+        "former_names": [{"name_ja": "牛屋城", "reading": "うしやじょう", "name_en": "Ushiya Castle", "until": null}],
+        "description": "織田氏と斎藤氏が奪い合った、西美濃の要の城。1563年に氏家直元が大きく広げた。関ヶ原の戦いでは石田三成ら西軍の主力が拠点とし、本戦のあと東軍に攻められて開城した。",
+        "wikipedia_ja": "大垣城",
+        "official_url": "https://www.city.ogaki.lg.jp/0000000577.html",
+        "province": "美濃",
+        "type": "平城",
+        "built": {"earliest": 1500, "latest": 1535},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "oda", "from": 1544, "to": 1549 },
+          { "clan": "saito", "from": 1549, "to": 1567 },
+          { "clan": "oda", "from": 1567, "to": 1583 },
+          { "clan": "ikeda", "from": 1583, "to": 1585 },
+          { "clan": "toyotomi", "from": 1585, "to": 1590 },
+          { "clan": "ito", "from": 1590, "to": 1600 },
+          { "clan": "ishikawa-mikawa", "from": 1601, "to": 1616 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.96139, 35.75333] },
+      "properties": {
+        "id": "gujo-hachiman",
+        "name_ja": "郡上八幡城",
+        "reading": "ぐじょうはちまんじょう",
+        "name_en": "Gujō Hachiman Castle",
+        "former_names": [],
+        "description": "1559年、遠藤盛数が東氏を攻めた際に築いた砦に始まる。1588年から稲葉貞通が大改修した。関ヶ原の戦いの頃に遠藤慶隆が貞通と激しく戦い、戦いのあと城主に戻った。",
+        "wikipedia_ja": "郡上八幡城",
+        "official_url": "https://hachiman-castle.com/",
+        "province": "美濃",
+        "type": "平山城",
+        "built": {"earliest": 1559, "latest": 1559},
+        "abandoned": {"earliest": 1869, "latest": 1871},
+        "owners": [
+          { "clan": "endo", "from": 1559, "to": 1588 },
+          { "clan": "inaba", "from": 1588, "to": 1600 },
+          { "clan": "endo", "from": 1600, "to": 1692 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.45131, 35.36033] },
+      "properties": {
+        "id": "iwamura",
+        "name_ja": "岩村城",
+        "reading": "いわむらじょう",
+        "name_en": "Iwamura Castle",
+        "former_names": [],
+        "description": "標高717mの山にある、遠山氏の城。城主の病死後、織田信長の叔母おつやの方が差配したが、1572年に武田方へ降った。1575年に織田信忠が攻め落とし、のちに森氏の家老が今の形に改修した。",
+        "wikipedia_ja": "岩村城",
+        "official_url": null,
+        "province": "美濃",
+        "type": "山城",
+        "built": {"earliest": 1185, "latest": 1333},
+        "abandoned": {"earliest": 1871, "latest": 1873},
+        "owners": [
+          { "clan": "toyama", "from": 1467, "to": 1572 },
+          { "clan": "takeda", "from": 1572, "to": 1575 },
+          { "clan": "oda", "from": 1575, "to": 1582 },
+          { "clan": "mori-tadamasa", "from": 1582, "to": 1599 },
+          { "clan": "tamaru", "from": 1599, "to": 1600 },
+          { "clan": "matsudaira", "from": 1601, "to": 1638 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.39822, 35.33658] },
+      "properties": {
+        "id": "wakasa-oniga",
+        "name_ja": "若桜鬼ヶ城",
+        "reading": "わかさおにがじょう",
+        "name_en": "Wakasa Oniga Castle",
+        "former_names": [],
+        "description": "播磨と但馬への街道を押さえた山城。矢部氏代々の居城だったが、1575年に尼子氏再興をめざす山中幸盛らが奪った。のちに木下重堅、山崎家盛が入り、石垣の城となった。",
+        "wikipedia_ja": "若桜鬼ヶ城",
+        "official_url": null,
+        "province": "因幡",
+        "type": "山城",
+        "built": {"earliest": 1200, "latest": 1200},
+        "abandoned": {"earliest": 1617, "latest": 1617},
+        "owners": [
+          { "clan": "yabe", "from": 1467, "to": 1575 },
+          { "clan": "amago", "from": 1575, "to": 1576 },
+          { "clan": "kinoshita", "from": 1581, "to": 1600 },
+          { "clan": "yamazaki", "from": 1600, "to": 1617 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.32398, 35.42530] },
+      "properties": {
+        "id": "yonago",
+        "name_ja": "米子城",
+        "reading": "よなごじょう",
+        "name_en": "Yonago Castle",
+        "former_names": [],
+        "description": "中海に面した城。戦国時代は飯山の砦で、山名氏、尼子氏、毛利氏が争った。1591年に吉川広家が湊山で築城を始め、1600年に伯耆を得た中村一忠が完成させた。",
+        "wikipedia_ja": "米子城",
+        "official_url": null,
+        "province": "伯耆",
+        "type": "平山城",
+        "built": {"earliest": 1470, "latest": 1609},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "yamana", "from": 1470, "to": 1524 },
+          { "clan": "amago", "from": 1524, "to": 1562 },
+          { "clan": "yamana", "from": 1562, "to": 1569 },
+          { "clan": "mori", "from": 1569, "to": 1591 },
+          { "clan": "kikkawa", "from": 1591, "to": 1600 },
+          { "clan": "nakamura", "from": 1600, "to": 1609 },
+          { "clan": "kato", "from": 1610, "to": 1617 },
+          { "clan": "ikeda", "from": 1617, "to": 1869 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.07333, 34.90290] },
+      "properties": {
+        "id": "hamada",
+        "name_ja": "浜田城",
+        "reading": "はまだじょう",
+        "name_en": "Hamada Castle",
+        "former_names": [],
+        "description": "1619年に石見に入った古田重治が、翌年から築いた城。西国の長州藩に備える要となった。1866年、第二次長州征伐で長州藩に攻められ、城を捨てた藩兵が火を放って焼けた。",
+        "wikipedia_ja": "浜田城",
+        "official_url": null,
+        "province": "石見",
+        "type": "平山城",
+        "built": {"earliest": 1620, "latest": 1623},
+        "abandoned": {"earliest": 1866, "latest": 1866},
+        "owners": [
+          { "clan": "furuta", "from": 1619, "to": 1648 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.82204, 34.69300] },
+      "properties": {
+        "id": "bitchu-takamatsu",
+        "name_ja": "備中高松城",
+        "reading": "びっちゅうたかまつじょう",
+        "name_en": "Bitchū Takamatsu Castle",
+        "former_names": [],
+        "description": "低湿地に囲まれた平城。1582年、羽柴秀吉が堤防を築いて水攻めにした。本能寺の変を知った秀吉は毛利方と和睦し、城主の清水宗治は切腹した。",
+        "wikipedia_ja": "高松城 (備中国)",
+        "official_url": null,
+        "province": "備中",
+        "type": "平城",
+        "built": null,
+        "abandoned": {"earliest": 1615, "latest": 1617},
+        "owners": [
+          { "clan": "ishikawa", "from": 1561, "to": 1575 },
+          { "clan": "mori", "from": 1575, "to": 1582 },
+          { "clan": "ukita", "from": 1582, "to": 1600 },
+          { "clan": "hanabusa", "from": 1600, "to": 1617 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.97556, 34.42017] },
+      "properties": {
+        "id": "niitakayama",
+        "name_ja": "新高山城",
+        "reading": "にいたかやまじょう",
+        "name_en": "Niitakayama Castle",
+        "former_names": [],
+        "description": "小早川隆景が1552年に砦を広げて本拠とした、沼田川に面した山城。1561年には毛利元就と隆元が訪れた。三原城を築く際に廃城となり、石垣の石も三原城へ運ばれた。",
+        "wikipedia_ja": "新高山城",
+        "official_url": null,
+        "province": "安芸",
+        "type": "山城",
+        "built": {"earliest": 1276, "latest": 1552},
+        "abandoned": {"earliest": 1596, "latest": 1596},
+        "owners": [
+          { "clan": "kobayakawa", "from": 1467, "to": 1596 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.48044, 34.18411] },
+      "properties": {
+        "id": "ouchi-yakata",
+        "name_ja": "大内氏館",
+        "reading": "おおうちしやかた",
+        "name_en": "Ōuchi Residence",
+        "former_names": [],
+        "description": "周防・長門を本拠とした大内氏の居館。京都をまねた町づくりで、山口は「西の京都」と呼ばれて栄えた。1556年に毛利氏が攻め込み、大内義長が山口を離れて役目を終えた。",
+        "wikipedia_ja": "大内氏館",
+        "official_url": null,
+        "province": "周防",
+        "type": "館",
+        "built": {"earliest": 1360, "latest": 1450},
+        "abandoned": {"earliest": 1556, "latest": 1557},
+        "owners": [
+          { "clan": "ouchi", "from": 1467, "to": 1557 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.46250, 34.18425] },
+      "properties": {
+        "id": "konomine",
+        "name_ja": "高嶺城",
+        "reading": "こうのみねじょう",
+        "name_en": "Kōnomine Castle",
+        "former_names": [],
+        "description": "大内氏館の背後の山城。大内義長が1556年から築いたが、未完成のまま翌年、毛利氏に追われて捨てた。毛利氏が完成させ、山口支配の拠点とした。1569年には大内輝弘の攻撃に耐えた。",
+        "wikipedia_ja": "高嶺城",
+        "official_url": null,
+        "province": "周防",
+        "type": "山城",
+        "built": {"earliest": 1556, "latest": 1569},
+        "abandoned": {"earliest": 1615, "latest": 1638},
+        "owners": [
+          { "clan": "ouchi", "from": 1556, "to": 1557 },
+          { "clan": "mori", "from": 1557, "to": 1638 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.72731, 34.08367] },
+      "properties": {
+        "id": "suo-wakayama",
+        "name_ja": "若山城",
+        "reading": "わかやまじょう",
+        "name_en": "Wakayama Castle",
+        "former_names": [],
+        "description": "大内氏の重臣、陶氏の本城。1551年、陶隆房（晴賢）はここで挙兵し、主君の大内義隆を自害に追い込んだ。晴賢が厳島の戦いで敗れたのち、毛利氏が廃城とした。",
+        "wikipedia_ja": "若山城",
+        "official_url": null,
+        "province": "周防",
+        "type": "山城",
+        "built": {"earliest": 1350, "latest": 1470},
+        "abandoned": {"earliest": 1557, "latest": 1557},
+        "owners": [
+          { "clan": "sue", "from": 1470, "to": 1557 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.97017, 34.03264] },
+      "properties": {
+        "id": "nagato-katsuyama",
+        "name_ja": "勝山城",
+        "reading": "かつやまじょう",
+        "name_en": "Katsuyama Castle",
+        "former_names": [],
+        "description": "標高400mの勝山にあった、大内氏の重臣内藤氏の城。1557年、毛利氏に追われた大内義長と内藤隆世が立てこもり、隆世は自刃、城を出た義長もまもなく自害して大内氏は滅んだ。",
+        "wikipedia_ja": "勝山城 (長門国)",
+        "official_url": null,
+        "province": "長門",
+        "type": "山城",
+        "built": {"earliest": 1378, "latest": 1521},
+        "abandoned": null,
+        "owners": [
+          { "clan": "ouchi", "from": 1521, "to": 1557 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.99389, 33.98931] },
+      "properties": {
+        "id": "kushizaki",
+        "name_ja": "櫛崎城",
+        "reading": "くしざきじょう",
+        "name_en": "Kushizaki Castle",
+        "former_names": [],
+        "description": "関門海峡を望む半島の城。大内氏の重臣だった内藤隆春が築いた。関ヶ原の戦いのあと毛利秀元が長府藩の居城としたが、1615年の一国一城令で取り壊された。",
+        "wikipedia_ja": "櫛崎城",
+        "official_url": null,
+        "province": "長門",
+        "type": "平山城",
+        "built": null,
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "mori", "from": 1557, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.46805, 33.67973] },
+      "properties": {
+        "id": "tachibanayama",
+        "name_ja": "立花山城",
+        "reading": "たちばなやまじょう",
+        "name_en": "Tachibanayama Castle",
+        "former_names": [],
+        "description": "博多を見下ろす立花山の山城。大友氏と大内氏、毛利氏が奪い合い、立花道雪と養子の統虎（宗茂）が守った。1586年、統虎は島津氏の大軍の侵攻に耐えた。石垣は福岡城へ移されたという。",
+        "wikipedia_ja": "立花山城",
+        "official_url": null,
+        "province": "筑前",
+        "type": "山城",
+        "built": {"earliest": 1330, "latest": 1330},
+        "abandoned": {"earliest": 1601, "latest": 1601},
+        "owners": [
+          { "clan": "tachibana", "from": 1467, "to": 1568 },
+          { "clan": "tachibana", "from": 1571, "to": 1587 },
+          { "clan": "kobayakawa", "from": 1587, "to": 1600 },
+          { "clan": "kuroda", "from": 1600, "to": 1601 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.40083, 33.16072] },
+      "properties": {
+        "id": "yanagawa",
+        "name_ja": "柳川城",
+        "reading": "やながわじょう",
+        "name_en": "Yanagawa Castle",
+        "former_names": [],
+        "description": "蒲池氏が築いた、堀に囲まれた平城。落とすのに3年かかると歌われた。1581年に龍造寺氏の手に渡り、九州平定のあと立花宗茂が入った。城の堀は今も柳川の川下りで親しまれている。",
+        "wikipedia_ja": "柳川城",
+        "official_url": null,
+        "province": "筑後",
+        "type": "平城",
+        "built": {"earliest": 1501, "latest": 1504},
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "kamachi", "from": 1501, "to": 1581 },
+          { "clan": "ryuzoji", "from": 1581, "to": 1587 },
+          { "clan": "tachibana", "from": 1587, "to": 1600 },
+          { "clan": "tanaka", "from": 1601, "to": 1620 },
+          { "clan": "tachibana", "from": 1620, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.30215, 33.24574] },
+      "properties": {
+        "id": "saga",
+        "name_ja": "佐賀城",
+        "reading": "さがじょう",
+        "name_en": "Saga Castle",
+        "former_names": [{"name_ja": "村中城", "reading": "むらなかじょう", "name_en": "Muranaka Castle", "until": 1602}],
+        "description": "龍造寺氏の村中城を、鍋島氏が1602年から広げて佐賀城とした。1570年、籠城する龍造寺方の鍋島直茂が今山に夜襲をかけ、大友氏の大軍を破った。水に沈めて守る「沈み城」とも呼ばれる。",
+        "wikipedia_ja": "佐賀城",
+        "official_url": "https://www.sagajou.jp/",
+        "province": "肥前",
+        "type": "平城",
+        "built": {"earliest": 1185, "latest": 1611},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "ryuzoji", "from": 1467, "to": 1602 },
+          { "clan": "nabeshima", "from": 1602, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.70590, 32.80603] },
+      "properties": {
+        "id": "kumamoto",
+        "name_ja": "熊本城",
+        "reading": "くまもとじょう",
+        "name_en": "Kumamoto Castle",
+        "former_names": [{"name_ja": "千葉城", "reading": "ちばじょう", "name_en": "Chiba Castle", "until": null}, {"name_ja": "隈本城", "reading": "くまもとじょう", "name_en": "Kumamoto Castle", "until": 1607}],
+        "description": "菊池氏の一族の千葉城、鹿子木氏の隈本城に始まる。1588年に入った加藤清正が、1591年から茶臼山一帯に大城郭を築き、1607年に隈本を熊本と改めた。のちに細川氏の居城となった。",
+        "wikipedia_ja": "熊本城",
+        "official_url": "https://castle.kumamoto-guide.jp/",
+        "province": "肥後",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1607},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "jo", "from": 1550, "to": 1587 },
+          { "clan": "sasa", "from": 1587, "to": 1588 },
+          { "clan": "kato-kiyomasa", "from": 1588, "to": 1632 },
+          { "clan": "hosokawa", "from": 1632, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.35030, 31.62911] },
+      "properties": {
+        "id": "obi",
+        "name_ja": "飫肥城",
+        "reading": "おびじょう",
+        "name_en": "Obi Castle",
+        "former_names": [],
+        "description": "島津氏と伊東氏が100年以上にわたって争った、シラス台地の城。1562年に伊東義祐が手に入れ、1576年に島津氏が取り返した。1588年に伊東祐兵が戻り、明治まで伊東氏の城だった。",
+        "wikipedia_ja": "飫肥城",
+        "official_url": null,
+        "province": "日向",
+        "type": "平山城",
+        "built": {"earliest": 1336, "latest": 1458},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "shimazu", "from": 1458, "to": 1562 },
+          { "clan": "ito-hyuga", "from": 1562, "to": 1576 },
+          { "clan": "shimazu", "from": 1576, "to": 1587 },
+          { "clan": "ito-hyuga", "from": 1588, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.87426, 33.88444] },
+      "properties": {
+        "id": "kokura",
+        "name_ja": "小倉城",
+        "reading": "こくらじょう",
+        "name_en": "Kokura Castle",
+        "former_names": [],
+        "description": "1569年に毛利氏が築いた、海に面した城。高橋鑑種、毛利（森）勝信が居城とした。1602年から細川忠興が大きく改築し、のちに小笠原氏の城となった。1866年、長州藩との戦いで自ら焼いた。",
+        "wikipedia_ja": "小倉城",
+        "official_url": null,
+        "province": "豊前",
+        "type": "平城",
+        "built": {"earliest": 1569, "latest": 1609},
+        "abandoned": {"earliest": 1866, "latest": 1866},
+        "owners": [
+          { "clan": "takahashi", "from": 1569, "to": 1587 },
+          { "clan": "mori-katsunobu", "from": 1587, "to": 1600 },
+          { "clan": "hosokawa", "from": 1600, "to": 1632 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.44372, 31.36744] },
+      "properties": {
+        "id": "chiran",
+        "name_ja": "知覧城",
+        "reading": "ちらんじょう",
+        "name_en": "Chiran Castle",
+        "former_names": [],
+        "description": "シラス台地を深い空堀で区切った山城。平安時代末に知覧忠信が築き、のちに島津氏の一族、佐多氏の居城となった。1420年、伊集院氏の一族から島津久豊が取り返した。1615年に焼け、廃城となった。",
+        "wikipedia_ja": "知覧城",
+        "official_url": null,
+        "province": "薩摩",
+        "type": "山城",
+        "built": {"earliest": 1151, "latest": 1200},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "shimazu", "from": 1467, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.10739, 31.48292] },
+      "properties": {
+        "id": "shibushi",
+        "name_ja": "志布志城",
+        "reading": "しぶしじょう",
+        "name_en": "Shibushi Castle",
+        "former_names": [],
+        "description": "内城、松尾城、高城、新城の四つの城からなる山城。城主は次々と変わり、1538年に島津氏の分家の豊州家、1562年に肝付氏が手に入れた。1577年から島津氏の直轄地となった。",
+        "wikipedia_ja": "志布志城",
+        "official_url": null,
+        "province": "日向",
+        "type": "山城",
+        "built": {"earliest": 1101, "latest": 1200},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "shimazu", "from": 1467, "to": 1562 },
+          { "clan": "kimotsuki", "from": 1562, "to": 1577 },
+          { "clan": "shimazu", "from": 1577, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.42383, 32.04783] },
+      "properties": {
+        "id": "sadowara",
+        "name_ja": "佐土原城",
+        "reading": "さどわらじょう",
+        "name_en": "Sadowara Castle",
+        "former_names": [{"name_ja": "田島城", "reading": "たじまじょう", "name_en": "Tajima Castle", "until": 1427}],
+        "description": "伊東氏の城で、伊東四十八城の一つ。伊東氏が豊後へ去ったあと、島津家久が入り、子の豊久が継いだ。豊久は関ヶ原の戦いで討死した。日本でもっとも南の天守台の跡が見つかっている。",
+        "wikipedia_ja": "佐土原城",
+        "official_url": null,
+        "province": "日向",
+        "type": "山城",
+        "built": {"earliest": 1350, "latest": 1543},
+        "abandoned": {"earliest": 1870, "latest": 1870},
+        "owners": [
+          { "clan": "ito-hyuga", "from": 1427, "to": 1577 },
+          { "clan": "shimazu", "from": 1578, "to": 1600 },
+          { "clan": "tokugawa", "from": 1600, "to": 1603 },
+          { "clan": "shimazu", "from": 1603, "to": 1870 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.66297, 32.58056] },
+      "properties": {
+        "id": "nobeoka",
+        "name_ja": "延岡城",
+        "reading": "のべおかじょう",
+        "name_en": "Nobeoka Castle",
+        "former_names": [{"name_ja": "縣城", "reading": "あがたじょう", "name_en": "Agata Castle", "until": null}],
+        "description": "1587年に縣（延岡）を与えられた高橋元種が、1601年から築いた城。川にはさまれた丘に建ち、城下町も整えた。「千人殺し」と呼ばれる高い石垣が残る。",
+        "wikipedia_ja": "延岡城",
+        "official_url": null,
+        "province": "日向",
+        "type": "平山城",
+        "built": {"earliest": 1601, "latest": 1603},
+        "abandoned": {"earliest": 1870, "latest": 1870},
+        "owners": [
+          { "clan": "takahashi", "from": 1601, "to": 1613 },
+          { "clan": "arima", "from": 1614, "to": 1691 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.45288, 36.13715] },
+      "properties": {
+        "id": "oshi",
+        "name_ja": "忍城",
+        "reading": "おしじょう",
+        "name_en": "Oshi Castle",
+        "former_names": [],
+        "description": "成田氏が沼地に築いた平城で、関東七名城の一つ。1590年、石田三成らの水攻めに耐え、小田原城が先に落ちるまで開城しなかったことから、「浮き城」と呼ばれた。",
+        "wikipedia_ja": "忍城",
+        "official_url": null,
+        "province": "武蔵",
+        "type": "平城",
+        "built": {"earliest": 1478, "latest": 1479},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "narita", "from": 1478, "to": 1590 },
+          { "clan": "tokugawa", "from": 1590, "to": 1633 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.25901, 35.72754] },
+      "properties": {
+        "id": "moto-sakura",
+        "name_ja": "本佐倉城",
+        "reading": "もとさくらじょう",
+        "name_en": "Moto-Sakura Castle",
+        "former_names": [],
+        "description": "千葉氏の後期の本拠で、9代にわたる居城。三方を湿地に囲まれていた。千葉氏が小田原征伐のあと改易されると徳川氏に接収され、1615年に佐倉城へ移って廃城となった。",
+        "wikipedia_ja": "本佐倉城",
+        "official_url": null,
+        "province": "下総",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1490},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "chiba", "from": 1484, "to": 1590 },
+          { "clan": "tokugawa", "from": 1590, "to": 1603 },
+          { "clan": "doi", "from": 1610, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.12699, 35.23531] },
+      "properties": {
+        "id": "ishigakiyama",
+        "name_ja": "石垣山城",
+        "reading": "いしがきやまじょう",
+        "name_en": "Ishigakiyama Castle",
+        "former_names": [],
+        "description": "1590年の小田原征伐で、豊臣秀吉が小田原城を見下ろす山に80日ほどで築いた総石垣の城。一夜で現れたように見せたという話から一夜城と呼ばれる。完成のおよそ10日後に北条氏が降伏した。",
+        "wikipedia_ja": "石垣山城",
+        "official_url": null,
+        "province": "相模",
+        "type": "山城",
+        "built": {"earliest": 1590, "latest": 1590},
+        "abandoned": {"earliest": 1590, "latest": 1591},
+        "owners": [
+          { "clan": "toyotomi", "from": 1590, "to": 1591 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.39335, 34.77015] },
+      "properties": {
+        "id": "mikawa-yoshida",
+        "name_ja": "吉田城",
+        "reading": "よしだじょう",
+        "name_en": "Yoshida Castle",
+        "former_names": [{"name_ja": "今橋城", "reading": "いまはしじょう", "name_en": "Imahashi Castle", "until": null}],
+        "description": "豊川に面した、東三河の要の城。牧野氏が築き、戸田氏と奪い合ったのち、1546年に今川氏が手に入れた。1565年に徳川家康が攻略し、酒井忠次を置いた。1590年から池田輝政が大改築した。",
+        "wikipedia_ja": "吉田城 (三河国)",
+        "official_url": null,
+        "province": "三河",
+        "type": "平城",
+        "built": {"earliest": 1497, "latest": 1505},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "imagawa", "from": 1546, "to": 1565 },
+          { "clan": "tokugawa", "from": 1565, "to": 1590 },
+          { "clan": "ikeda", "from": 1590, "to": 1601 },
+          { "clan": "matsudaira", "from": 1601, "to": 1632 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.11202, 36.03979] },
+      "properties": {
+        "id": "suwa-takashima",
+        "name_ja": "高島城",
+        "reading": "たかしまじょう",
+        "name_en": "Takashima Castle",
+        "former_names": [],
+        "description": "日根野高吉が1592年から諏訪湖畔に築いた城。湖に突き出し、「諏訪の浮城」と呼ばれた。軟弱な地盤に木材を筏のように組み、その上に石垣を積んだ。1601年に諏訪氏が戻り、明治まで治めた。",
+        "wikipedia_ja": "高島城",
+        "official_url": "https://www.suwakanko.jp/takashimajo/",
+        "province": "信濃",
+        "type": "平城",
+        "built": {"earliest": 1592, "latest": 1598},
+        "abandoned": {"earliest": 1875, "latest": 1875},
+        "owners": [
+          { "clan": "hineno", "from": 1592, "to": 1601 },
+          { "clan": "suwa", "from": 1601, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.59800, 35.70300] },
+      "properties": {
+        "id": "yogaisan",
+        "name_ja": "要害山城",
+        "reading": "ようがいさんじょう",
+        "name_en": "Yōgaisan Castle",
+        "former_names": [],
+        "description": "武田信虎が1520年に、躑躅ヶ崎館の詰城として築いた山城。今川方の軍が甲府に迫ったとき、信虎の正室がここに避難し、のちの武田信玄を産んだ。武田氏の滅亡後も加藤光泰が改修した。",
+        "wikipedia_ja": "要害山城",
+        "official_url": null,
+        "province": "甲斐",
+        "type": "山城",
+        "built": {"earliest": 1520, "latest": 1520},
+        "abandoned": {"earliest": 1600, "latest": 1600},
+        "owners": [
+          { "clan": "takeda", "from": 1520, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "tokugawa", "from": 1582, "to": 1590 },
+          { "clan": "kato", "from": 1591, "to": 1593 },
+          { "clan": "asano", "from": 1593, "to": 1600 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.36625, 36.85640] },
+      "properties": {
+        "id": "iiyama",
+        "name_ja": "飯山城",
+        "reading": "いいやまじょう",
+        "name_en": "Iiyama Castle",
+        "former_names": [],
+        "description": "千曲川に面した丘の城。1557年、武田氏に追われた高梨政頼が移った。1564年、上杉謙信が武田信玄に備える前線の城として本格的に築き直した。江戸時代は飯山藩の藩庁となった。",
+        "wikipedia_ja": "飯山城",
+        "official_url": null,
+        "province": "信濃",
+        "type": "平山城",
+        "built": {"earliest": 1301, "latest": 1564},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "takanashi", "from": 1557, "to": 1564 },
+          { "clan": "uesugi", "from": 1564, "to": 1579 },
+          { "clan": "takeda", "from": 1579, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "uesugi", "from": 1582, "to": 1598 },
+          { "clan": "mori-tadamasa", "from": 1600, "to": 1603 },
+          { "clan": "hori", "from": 1610, "to": 1616 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.61710, 38.00260] },
+      "properties": {
+        "id": "shiroishi",
+        "name_ja": "白石城",
+        "reading": "しろいしじょう",
+        "name_en": "Shiroishi Castle",
+        "former_names": [],
+        "description": "白石氏の居館に始まる城。1591年から蒲生氏、1598年から上杉氏の城となり、1600年の白石城の戦いで伊達政宗が奪い返した。1602年から片倉氏の城で、一国一城令のあとも存続を認められた。",
+        "wikipedia_ja": "白石城",
+        "official_url": null,
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1185, "latest": 1333},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "date", "from": 1467, "to": 1591 },
+          { "clan": "gamo", "from": 1591, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1599 },
+          { "clan": "date", "from": 1600, "to": 1869 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.45961, 40.50619] },
+      "properties": {
+        "id": "nejo",
+        "name_ja": "根城",
+        "reading": "ねじょう",
+        "name_en": "Ne Castle",
+        "former_names": [],
+        "description": "1334年、南部師行が南朝方の「根本となる城」という願いを込めて名付けた。のちに八戸氏とも呼ばれた根城南部氏の本拠。1592年に豊臣秀吉の命で城は壊されたが、館は1627年まで残った。",
+        "wikipedia_ja": "根城",
+        "official_url": "https://visithachinohe.com/spot/shiseki-nejo-no-hiroba/",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1334, "latest": 1334},
+        "abandoned": {"earliest": 1592, "latest": 1627},
+        "owners": [
+          { "clan": "nanbu", "from": 1467, "to": 1627 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.92972, 37.48778] },
+      "properties": {
+        "id": "aizu-wakamatsu",
+        "name_ja": "若松城",
+        "reading": "わかまつじょう",
+        "name_en": "Wakamatsu Castle",
+        "former_names": [{"name_ja": "黒川城", "reading": "くろかわじょう", "name_en": "Kurokawa Castle", "until": 1592}],
+        "other_names": [{"name_ja": "鶴ヶ城", "reading": "つるがじょう", "name_en": "Tsuruga Castle"}],
+        "description": "蘆名氏の黒川城に始まる。1589年に伊達政宗が奪い、翌年入った蒲生氏郷が大改築して町を若松と名付けた。上杉景勝を経て、江戸時代は会津藩の政庁となり、戊辰戦争で籠城戦の舞台となった。",
+        "wikipedia_ja": "若松城",
+        "official_url": "https://www.tsurugajo.com/tsurugajo/",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1384, "latest": 1593},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "ashina", "from": 1467, "to": 1589 },
+          { "clan": "date", "from": 1589, "to": 1590 },
+          { "clan": "gamo", "from": 1590, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1601 },
+          { "clan": "gamo", "from": 1601, "to": 1627 },
+          { "clan": "kato-yoshiaki", "from": 1627, "to": 1643 },
+          { "clan": "hoshina", "from": 1643, "to": 1868 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.21358, 37.13262] },
+      "properties": {
+        "id": "shirakawa-komine",
+        "name_ja": "白河小峰城",
+        "reading": "しらかわこみねじょう",
+        "name_en": "Shirakawa Komine Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "小峰城", "reading": "こみねじょう", "name_en": "Komine Castle"}],
+        "description": "1340年に結城親朝が築いたとされる城。白河結城氏が1590年に改易されると、蒲生氏、上杉氏の城となった。丹羽長重が1632年までに総石垣の城に改築した。戊辰戦争で落城し、大半が焼けた。",
+        "wikipedia_ja": "白河小峰城",
+        "official_url": "https://www.city.shirakawa.fukushima.jp/page/page001390.html",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1340, "latest": 1632},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "yuki-shirakawa", "from": 1467, "to": 1590 },
+          { "clan": "gamo", "from": 1590, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1601 },
+          { "clan": "gamo", "from": 1601, "to": 1627 },
+          { "clan": "niwa", "from": 1627, "to": 1643 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.95096, 36.40495] },
+      "properties": {
+        "id": "minowa",
+        "name_ja": "箕輪城",
+        "reading": "みのわじょう",
+        "name_en": "Minowa Castle",
+        "former_names": [],
+        "description": "長野氏の本拠。長野業正は武田信玄の侵攻をたびたび退けたが、子の業盛の代の1566年に落城した。その後は武田氏、織田氏、後北条氏が支配し、1590年に井伊直政が入って近世の城に改めた。",
+        "wikipedia_ja": "箕輪城",
+        "official_url": "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html",
+        "province": "上野",
+        "type": "平山城",
+        "built": {"earliest": 1512, "latest": 1526},
+        "abandoned": {"earliest": 1598, "latest": 1598},
+        "owners": [
+          { "clan": "nagano", "from": 1512, "to": 1566 },
+          { "clan": "takeda", "from": 1566, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "hojo", "from": 1582, "to": 1590 },
+          { "clan": "ii", "from": 1590, "to": 1598 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.41725, 36.32734] },
+      "properties": {
+        "id": "komoro",
+        "name_ja": "小諸城",
+        "reading": "こもろじょう",
+        "name_en": "Komoro Castle",
+        "former_names": [],
+        "description": "浅間山のふもとの深い谷と千曲川の断崖を生かした城。城下町より低いところにあり、「穴城」とも呼ばれる。武田信玄が1554年に整え、1590年から仙石秀久が石垣の城に改めた。",
+        "wikipedia_ja": "小諸城",
+        "official_url": "https://www.city.komoro.lg.jp/kaikoen/",
+        "province": "信濃",
+        "type": "平山城",
+        "built": {"earliest": 1487, "latest": 1554},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "takeda", "from": 1554, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "tokugawa", "from": 1582, "to": 1590 },
+          { "clan": "sengoku", "from": 1590, "to": 1622 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.99242, 35.15640] },
+      "properties": {
+        "id": "yamanaka",
+        "name_ja": "山中城",
+        "reading": "やまなかじょう",
+        "name_en": "Yamanaka Castle",
+        "former_names": [],
+        "description": "後北条氏が小田原の西の守りとして、東海道を取り込んで築いた山城。畝を残した堀で知られる。1590年、小田原征伐で豊臣秀次の大軍に攻められ、わずか半日で落ちた。",
+        "wikipedia_ja": "山中城",
+        "official_url": null,
+        "province": "伊豆",
+        "type": "山城",
+        "built": {"earliest": 1558, "latest": 1570},
+        "abandoned": {"earliest": 1590, "latest": 1590},
+        "owners": [
+          { "clan": "hojo", "from": 1558, "to": 1590 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.01473, 34.77542] },
+      "properties": {
+        "id": "kakegawa",
+        "name_ja": "掛川城",
+        "reading": "かけがわじょう",
+        "name_en": "Kakegawa Castle",
+        "former_names": [],
+        "description": "今川氏の重臣朝比奈氏が築いた城。1569年、逃げ込んだ今川氏真が徳川家康に開城し、戦国大名としての今川氏は終わった。1590年に入った山内一豊が、天守を備えた城に広げた。",
+        "wikipedia_ja": "掛川城",
+        "official_url": "https://kakegawajo.com/",
+        "province": "遠江",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1513},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "imagawa", "from": 1469, "to": 1569 },
+          { "clan": "tokugawa", "from": 1569, "to": 1590 },
+          { "clan": "yamauchi", "from": 1590, "to": 1600 },
+          { "clan": "matsudaira", "from": 1601, "to": 1617 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.93917, 35.38833] },
+      "properties": {
+        "id": "inuyama",
+        "name_ja": "犬山城",
+        "reading": "いぬやまじょう",
+        "name_en": "Inuyama Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "白帝城", "reading": "はくていじょう", "name_en": "Hakutei Castle"}],
+        "description": "木曽川を見下ろす丘の城。1537年に織田信康が今の場所に築いた。1584年、池田恒興が奇襲で奪い、小牧・長久手の戦いで豊臣秀吉の拠点となった。現存天守は国宝。白帝城とも呼ばれる。",
+        "wikipedia_ja": "犬山城",
+        "official_url": "https://inuyamajo.jp/",
+        "province": "尾張",
+        "type": "平山城",
+        "built": {"earliest": 1469, "latest": 1537},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "oda", "from": 1469, "to": 1584 },
+          { "clan": "ikeda", "from": 1584, "to": 1584 },
+          { "clan": "toyotomi", "from": 1584, "to": 1587 },
+          { "clan": "oda", "from": 1587, "to": 1590 },
+          { "clan": "toyotomi", "from": 1590, "to": 1595 },
+          { "clan": "ishikawa-sadakiyo", "from": 1595, "to": 1600 },
+          { "clan": "tokugawa", "from": 1601, "to": 1617 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.52583, 34.70917] },
+      "properties": {
+        "id": "matsusaka",
+        "name_ja": "松坂城",
+        "reading": "まつさかじょう",
+        "name_en": "Matsusaka Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "松阪城", "reading": "まつさかじょう", "name_en": "Matsusaka Castle"}],
+        "description": "蒲生氏郷が1588年に四五百森に築いた城。楽市楽座を設け、商人を移して、商都松阪の礎を築いた。氏郷が会津へ移ったのち、服部一忠、古田重勝らが入り、1619年から紀州藩の城となった。",
+        "wikipedia_ja": "松坂城",
+        "official_url": "https://www.city.matsusaka.mie.jp/site/kanko/matsusakajoato.html",
+        "province": "伊勢",
+        "type": "平山城",
+        "built": {"earliest": 1588, "latest": 1588},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "gamo", "from": 1588, "to": 1590 },
+          { "clan": "furuta", "from": 1595, "to": 1619 },
+          { "clan": "tokugawa", "from": 1619, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.25167, 35.27639] },
+      "properties": {
+        "id": "hikone",
+        "name_ja": "彦根城",
+        "reading": "ひこねじょう",
+        "name_en": "Hikone Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "金亀城", "reading": "こんきじょう", "name_en": "Konki Castle"}],
+        "description": "井伊直政の遺志を継ぎ、1603年から琵琶湖のほとりの彦根山に築かれた井伊氏の城。12を超える大名が手伝った天下普請で、1622年に完成した。現存天守は国宝。金亀城とも呼ばれる。",
+        "wikipedia_ja": "彦根城",
+        "official_url": "https://hikonecastle.com/",
+        "province": "近江",
+        "type": "平山城",
+        "built": {"earliest": 1603, "latest": 1622},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "ii", "from": 1603, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.77686, 34.93950] },
+      "properties": {
+        "id": "fushimi",
+        "name_ja": "伏見城",
+        "reading": "ふしみじょう",
+        "name_en": "Fushimi Castle",
+        "former_names": [],
+        "description": "豊臣秀吉が1592年から指月に築き、地震で倒れると木幡山に築き直して、1598年にここで没した。1600年、関ヶ原の戦いの前に鳥居元忠が守り、落城した。家康が再建し、将軍宣下を受けた。",
+        "wikipedia_ja": "伏見城",
+        "official_url": null,
+        "province": "山城",
+        "type": "平山城",
+        "built": {"earliest": 1592, "latest": 1597},
+        "abandoned": {"earliest": 1619, "latest": 1623},
+        "owners": [
+          { "clan": "toyotomi", "from": 1592, "to": 1599 },
+          { "clan": "tokugawa", "from": 1599, "to": 1623 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.17423, 34.17526] },
+      "properties": {
+        "id": "iwakuni",
+        "name_ja": "岩国城",
+        "reading": "いわくにじょう",
+        "name_en": "Iwakuni Castle",
+        "former_names": [],
+        "description": "関ヶ原の戦いのあと岩国に移った吉川広家が、横山の上に築いた城。1608年に完成したが、わずか7年後、一国一城令で取り壊された。",
+        "wikipedia_ja": "岩国城",
+        "official_url": null,
+        "province": "周防",
+        "type": "山城",
+        "built": {"earliest": 1601, "latest": 1608},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "kikkawa", "from": 1601, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.54100, 33.50940] },
+      "properties": {
+        "id": "ozu",
+        "name_ja": "大洲城",
+        "reading": "おおずじょう",
+        "name_en": "Ōzu Castle",
+        "former_names": [{"name_ja": "地蔵ヶ嶽城", "reading": "じぞうがだけじょう", "name_en": "Jizōgadake Castle", "until": null}, {"name_ja": "大津城", "reading": "おおつじょう", "name_en": "Ōtsu Castle", "until": null}],
+        "description": "肱川に面した城で、伊予宇都宮氏が築いた。家臣の大野直之に奪われたのち、小早川隆景、戸田勝隆を経て、1595年に入った藤堂高虎と、次の脇坂安治が近世の城に整えた。",
+        "wikipedia_ja": "大洲城",
+        "official_url": null,
+        "province": "伊予",
+        "type": "平山城",
+        "built": {"earliest": 1331, "latest": 1331},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "utsunomiya", "from": 1467, "to": 1573 },
+          { "clan": "ono", "from": 1573, "to": 1585 },
+          { "clan": "kobayakawa", "from": 1585, "to": 1587 },
+          { "clan": "toda", "from": 1587, "to": 1594 },
+          { "clan": "todo", "from": 1595, "to": 1609 },
+          { "clan": "wakisaka", "from": 1609, "to": 1617 },
+          { "clan": "kato", "from": 1617, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.96000, 37.04556] },
+      "properties": {
+        "id": "komaruyama",
+        "name_ja": "小丸山城",
+        "reading": "こまるやまじょう",
+        "name_en": "Komaruyama Castle",
+        "former_names": [],
+        "description": "七尾城の不便を嫌った前田利家が、1582年に七尾の港近くに築いた城。川と海を堀とし、能登の水軍の本部でもあった。利家が金沢へ移ったあとも前田氏の城だった。",
+        "wikipedia_ja": "小丸山城",
+        "official_url": null,
+        "province": "能登",
+        "type": "平山城",
+        "built": {"earliest": 1582, "latest": 1582},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "maeda", "from": 1582, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.22090, 36.06546] },
+      "properties": {
+        "id": "kitanosho",
+        "name_ja": "北ノ庄城",
+        "reading": "きたのしょうじょう",
+        "name_en": "Kitanoshō Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "福井城", "reading": "ふくいじょう", "name_en": "Fukui Castle"}],
+        "description": "柴田勝家が1575年から築いた、九重の天守を持つ城。1583年、勝家は羽柴秀吉に攻められ、妻の市とともに自害した。1601年から結城秀康が跡地に新しい城を築き、のちに福井城と呼ばれた。",
+        "wikipedia_ja": "福井城",
+        "official_url": null,
+        "province": "越前",
+        "type": "平城",
+        "built": {"earliest": 1575, "latest": 1606},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "shibata-katsuie", "from": 1575, "to": 1583 },
+          { "clan": "niwa", "from": 1583, "to": 1585 },
+          { "clan": "hori", "from": 1585, "to": 1598 },
+          { "clan": "kobayakawa", "from": 1598, "to": 1599 },
+          { "clan": "aoki", "from": 1599, "to": 1600 },
+          { "clan": "matsudaira", "from": 1601, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.27210, 36.15235] },
+      "properties": {
+        "id": "maruoka",
+        "name_ja": "丸岡城",
+        "reading": "まるおかじょう",
+        "name_en": "Maruoka Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "霞ヶ城", "reading": "かすみがじょう", "name_en": "Kasumiga Castle"}],
+        "description": "柴田勝家の甥の勝豊が、1576年に築いた城。現存する天守は寛永年間のものとみられる。大蛇が霞を吹いて城を隠したという伝説から、霞ヶ城とも呼ばれる。",
+        "wikipedia_ja": "丸岡城",
+        "official_url": "https://maruoka-castle.jp/",
+        "province": "越前",
+        "type": "平山城",
+        "built": {"earliest": 1576, "latest": 1576},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "shibata-katsuie", "from": 1576, "to": 1583 },
+          { "clan": "niwa", "from": 1583, "to": 1585 },
+          { "clan": "aoyama", "from": 1585, "to": 1600 },
+          { "clan": "matsudaira", "from": 1600, "to": 1612 },
+          { "clan": "honda", "from": 1612, "to": 1695 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.60111, 36.36611] },
+      "properties": {
+        "id": "torigoe",
+        "name_ja": "鳥越城",
+        "reading": "とりごえじょう",
+        "name_en": "Torigoe Castle",
+        "former_names": [],
+        "description": "白山麓の門徒、山内衆が織田信長に抵抗した山城。1580年に柴田勝家の軍に落とされたあとも戦いは続いたが、1582年に佐久間盛政が鎮圧し、300人余りが処刑された。",
+        "wikipedia_ja": "鳥越城",
+        "official_url": null,
+        "province": "加賀",
+        "type": "山城",
+        "built": {"earliest": 1573, "latest": 1573},
+        "abandoned": {"earliest": 1582, "latest": 1582},
+        "owners": [
+          { "clan": "honganji", "from": 1573, "to": 1580 },
+          { "clan": "oda", "from": 1580, "to": 1582 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.21100, 36.69330] },
+      "properties": {
+        "id": "toyama",
+        "name_ja": "富山城",
+        "reading": "とやまじょう",
+        "name_en": "Toyama Castle",
+        "former_names": [],
+        "description": "神通川のほとりに神保長職が築かせた城。上杉謙信に攻められ、のちに佐々成政が城主となった。1585年、成政は豊臣秀吉の大軍に囲まれて降伏した。前田利長が隠居城としたが1609年に焼けた。",
+        "wikipedia_ja": "富山城",
+        "official_url": null,
+        "province": "越中",
+        "type": "平城",
+        "built": {"earliest": 1543, "latest": 1543},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "jinbo", "from": 1543, "to": 1559 },
+          { "clan": "uesugi", "from": 1560, "to": 1578 },
+          { "clan": "jinbo", "from": 1578, "to": 1582 },
+          { "clan": "sasa", "from": 1582, "to": 1587 },
+          { "clan": "maeda", "from": 1595, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.04177, 36.65215] },
+      "properties": {
+        "id": "masuyama",
+        "name_ja": "増山城",
+        "reading": "ますやまじょう",
+        "name_en": "Masuyama Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "和田城", "reading": "わだじょう", "name_en": "Wada Castle"}],
+        "description": "神保氏の要の山城。1560年、富山城を追われた神保長職が逃げ込んだ。1576年に上杉謙信が攻め落とし、1581年に織田方が焼き討ちした。佐々成政、前田氏の家臣が守った。",
+        "wikipedia_ja": "増山城",
+        "official_url": null,
+        "province": "越中",
+        "type": "山城",
+        "built": {"earliest": 1363, "latest": 1363},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "jinbo", "from": 1543, "to": 1576 },
+          { "clan": "uesugi", "from": 1576, "to": 1581 },
+          { "clan": "sasa", "from": 1581, "to": 1585 },
+          { "clan": "maeda", "from": 1585, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.39800, 36.81330] },
+      "properties": {
+        "id": "uozu",
+        "name_ja": "魚津城",
+        "reading": "うおづじょう",
+        "name_en": "Uozu Castle",
+        "former_names": [],
+        "description": "椎名氏が築いたと伝わる平城で、のちに上杉氏の越中支配の拠点となった。1582年、柴田勝家らに囲まれて落城したが、本能寺の変で織田軍が引き揚げ、上杉軍が取り戻した。",
+        "wikipedia_ja": "魚津城",
+        "official_url": null,
+        "province": "越中",
+        "type": "平城",
+        "built": {"earliest": 1335, "latest": 1335},
+        "abandoned": {"earliest": 1615, "latest": 1624},
+        "owners": [
+          { "clan": "shiina", "from": 1467, "to": 1568 },
+          { "clan": "uesugi", "from": 1568, "to": 1583 },
+          { "clan": "sasa", "from": 1583, "to": 1587 },
+          { "clan": "maeda", "from": 1595, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.58120, 35.01356] },
+      "properties": {
+        "id": "tanba-kameyama",
+        "name_ja": "丹波亀山城",
+        "reading": "たんばかめやまじょう",
+        "name_en": "Tanba Kameyama Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "亀岡城", "reading": "かめおかじょう", "name_en": "Kameoka Castle"}],
+        "description": "明智光秀が丹波攻略の拠点として築いた城。1582年、光秀はここから本能寺へ向かった。のちに豊臣一門や前田玄以が入り、1610年、藤堂高虎の縄張りで五重の天守が完成した。",
+        "wikipedia_ja": "亀山城 (丹波国)",
+        "official_url": null,
+        "province": "丹波",
+        "type": "平山城",
+        "built": {"earliest": 1577, "latest": 1578},
+        "abandoned": {"earliest": 1877, "latest": 1877},
+        "owners": [
+          { "clan": "akechi", "from": 1577, "to": 1582 },
+          { "clan": "toyotomi", "from": 1582, "to": 1595 },
+          { "clan": "maeda-geni", "from": 1595, "to": 1602 },
+          { "clan": "okabe", "from": 1609, "to": 1621 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.25572, 35.06178] },
+      "properties": {
+        "id": "yakami",
+        "name_ja": "八上城",
+        "reading": "やかみじょう",
+        "name_en": "Yakami Castle",
+        "former_names": [],
+        "description": "丹波の国人、波多野氏の本拠の山城。1557年に松永久秀に奪われ、1566年に取り返した。1575年から明智光秀に攻められ、1579年に兵糧攻めで落城し、波多野氏は滅んだ。",
+        "wikipedia_ja": "八上城",
+        "official_url": null,
+        "province": "丹波",
+        "type": "山城",
+        "built": {"earliest": 1508, "latest": 1508},
+        "abandoned": {"earliest": 1608, "latest": 1609},
+        "owners": [
+          { "clan": "hatano", "from": 1508, "to": 1557 },
+          { "clan": "matsunaga", "from": 1557, "to": 1566 },
+          { "clan": "hatano", "from": 1566, "to": 1579 },
+          { "clan": "akechi", "from": 1579, "to": 1582 },
+          { "clan": "maeda-geni", "from": 1602, "to": 1608 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.10406, 35.17917] },
+      "properties": {
+        "id": "kuroi",
+        "name_ja": "黒井城",
+        "reading": "くろいじょう",
+        "name_en": "Kuroi Castle",
+        "former_names": [],
+        "description": "「丹波の赤鬼」と呼ばれた赤井（荻野）直正の山城。1576年、波多野氏と挟み撃ちにして明智光秀を退けた。直正の死後、1579年に落城し、光秀の重臣斎藤利三が入った。",
+        "wikipedia_ja": "黒井城",
+        "official_url": null,
+        "province": "丹波",
+        "type": "山城",
+        "built": {"earliest": 1334, "latest": 1338},
+        "abandoned": {"earliest": 1584, "latest": 1601},
+        "owners": [
+          { "clan": "akai", "from": 1554, "to": 1579 },
+          { "clan": "akechi", "from": 1579, "to": 1582 },
+          { "clan": "horio", "from": 1582, "to": 1584 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.62092, 34.84276] },
+      "properties": {
+        "id": "takatsuki",
+        "name_ja": "高槻城",
+        "reading": "たかつきじょう",
+        "name_en": "Takatsuki Castle",
+        "former_names": [],
+        "description": "入江氏の居城だったが織田信長に滅ぼされ、和田惟政、次いで高山右近が城主となった。キリシタンの右近は教会を建て、領民の6割以上が信者となった。大坂の陣では徳川方の補給基地となった。",
+        "wikipedia_ja": "高槻城",
+        "official_url": null,
+        "province": "摂津",
+        "type": "平城",
+        "built": {"earliest": 991, "latest": 1527},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "irie", "from": 1527, "to": 1569 },
+          { "clan": "wada", "from": 1569, "to": 1573 },
+          { "clan": "takayama", "from": 1573, "to": 1585 },
+          { "clan": "toyotomi", "from": 1585, "to": 1600 },
+          { "clan": "tokugawa", "from": 1600, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.42089, 34.78129] },
+      "properties": {
+        "id": "itami",
+        "name_ja": "伊丹城",
+        "reading": "いたみじょう",
+        "name_en": "Itami Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "有岡城", "reading": "ありおかじょう", "name_en": "Arioka Castle"}],
+        "description": "伊丹氏の城。1574年に荒木村重が攻め落とし、大改修して有岡城と改めた。1578年に村重が織田信長に背くと、翌年、長い籠城の末に落城した。黒田官兵衛が幽閉された城でもある。",
+        "wikipedia_ja": "伊丹城",
+        "official_url": null,
+        "province": "摂津",
+        "type": "平城",
+        "built": {"earliest": 1336, "latest": 1392},
+        "abandoned": {"earliest": 1583, "latest": 1583},
+        "owners": [
+          { "clan": "itami", "from": 1467, "to": 1574 },
+          { "clan": "araki", "from": 1574, "to": 1579 },
+          { "clan": "oda", "from": 1579, "to": 1580 },
+          { "clan": "ikeda", "from": 1580, "to": 1583 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.73906, 35.48820] },
+      "properties": {
+        "id": "nochiseyama",
+        "name_ja": "後瀬山城",
+        "reading": "のちせやまじょう",
+        "name_en": "Nochiseyama Castle",
+        "former_names": [],
+        "description": "1522年に若狭国守護の武田元光が築いた山城。1568年、朝倉義景が武田元明を越前へ連れ去った。1573年に丹羽長秀が入って石垣の城に改め、小浜城が完成する1642年まで使われた。",
+        "wikipedia_ja": "後瀬山城",
+        "official_url": null,
+        "province": "若狭",
+        "type": "山城",
+        "built": {"earliest": 1522, "latest": 1522},
+        "abandoned": {"earliest": 1642, "latest": 1642},
+        "owners": [
+          { "clan": "takeda-wakasa", "from": 1522, "to": 1568 },
+          { "clan": "asakura", "from": 1568, "to": 1573 },
+          { "clan": "niwa", "from": 1573, "to": 1585 },
+          { "clan": "asano", "from": 1587, "to": 1593 },
+          { "clan": "kinoshita-iesada", "from": 1594, "to": 1600 },
+          { "clan": "kyogoku", "from": 1600, "to": 1634 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.96611, 35.61361] },
+      "properties": {
+        "id": "kuniyoshi",
+        "name_ja": "国吉城",
+        "reading": "くによしじょう",
+        "name_en": "Kuniyoshi Castle",
+        "former_names": [],
+        "description": "若狭と越前の境を守った山城。若狭武田氏の重臣粟屋勝久が1556年に築き、朝倉氏の来襲をたびたび退けたと伝わる。1570年、越前へ向かう織田信長が入り、勝久をほめた。",
+        "wikipedia_ja": "国吉城",
+        "official_url": null,
+        "province": "若狭",
+        "type": "山城",
+        "built": {"earliest": 1556, "latest": 1556},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "awaya", "from": 1556, "to": 1583 },
+          { "clan": "toyotomi", "from": 1583, "to": 1585 },
+          { "clan": "kinoshita-iesada", "from": 1594, "to": 1600 },
+          { "clan": "kyogoku", "from": 1600, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.55290, 35.49458] },
+      "properties": {
+        "id": "takahama",
+        "name_ja": "高浜城",
+        "reading": "たかはまじょう",
+        "name_en": "Takahama Castle",
+        "former_names": [],
+        "description": "逸見昌経が1565年に若狭の海辺に築いた城。昌経はのちに織田信長に仕えた。1581年に溝口秀勝、その後は堀尾吉晴、山内一豊、木下利房らが城主となった。",
+        "wikipedia_ja": null,
+        "official_url": null,
+        "province": "若狭",
+        "type": "平山城",
+        "built": {"earliest": 1565, "latest": 1565},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "henmi", "from": 1565, "to": 1581 },
+          { "clan": "mizoguchi", "from": 1581, "to": 1583 },
+          { "clan": "horio", "from": 1583, "to": 1585 },
+          { "clan": "yamauchi", "from": 1585, "to": 1585 },
+          { "clan": "kinoshita-iesada", "from": 1594, "to": 1600 },
+          { "clan": "kyogoku", "from": 1600, "to": 1615 }
         ]
       }
     }

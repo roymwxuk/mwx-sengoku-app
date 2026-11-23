@@ -10,7 +10,7 @@ export function ExternalLink({
       href={href}
       target="_blank"
       rel="noreferrer"
-      className="inline-flex min-h-11 items-center gap-1 text-shu underline underline-offset-4 hover:text-sumi focus-visible:outline-2 focus-visible:outline-shu"
+      className="inline-flex min-h-11 items-center gap-1 text-[0.6875rem] text-shu underline underline-offset-4 hover:text-sumi focus-visible:outline-2 focus-visible:outline-shu"
     >
       {children}
       <span aria-hidden="true">↗</span>

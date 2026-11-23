@@ -44,12 +44,12 @@ export function AboutDialog() {
             戦国城地図について
           </h2>
           <p className="mt-3">
-            戦国時代の日本の城を探して調べられる地図です。1553年、1560年、1583年、1600年の城と城主を見比べられます。
+            戦国時代の日本の城を探して調べられる地図です。1553年、1560年、1583年、1600年、1614年の城と城主を見比べられます。
           </p>
           <p className="mt-2">
             城のデータは、歴史面での確認がまだ必要です。誤りに気づいたら、GitHubでお知らせください。
           </p>
-          <p className="mt-2">
+          <p className="mt-2 text-xs">
             制作: {AUTHOR}{' '}
             <ExternalLink href={`https://github.com/${AUTHOR}`}>
               GitHub
@@ -73,7 +73,8 @@ export function AboutDialog() {
           </h3>
           <dl className="mt-1 space-y-2 text-sm">
             <Credit label="城と大名家">
-              位置はWikidata（CC0）、名前・種類・年代などの事実は日本語版Wikipediaなどによります。説明文はこのサイトのために書いたものです（MIT）。
+              位置はWikidata（CC0）と一部OpenStreetMap（© OpenStreetMap
+              contributors、ODbL）、名前・種類・年代などの事実は日本語版Wikipediaなどによります。説明文はこのサイトのために書いたものです（MIT）。
             </Credit>
             <Credit label="海岸線と湖">
               Made with Natural Earth（パブリックドメイン）

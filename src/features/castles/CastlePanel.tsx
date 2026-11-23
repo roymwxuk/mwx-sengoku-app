@@ -52,7 +52,7 @@ export function CastlePanel({ feature, clan, view, onClose, ref }: Props) {
 
         <p className="mt-4 leading-relaxed">{castle.description}</p>
 
-        <ul className="mt-2 flex flex-wrap gap-x-4 text-xs">
+        <ul className="mt-2 flex flex-wrap gap-x-4">
           <li>
             <ExternalLink href={googleMapsUrl(feature.geometry.coordinates)}>
               Googleマップ
@@ -84,6 +84,15 @@ export function CastlePanel({ feature, clan, view, onClose, ref }: Props) {
                 <p key={former.name_ja}>
                   {former.name_ja}（{former.reading}）
                   {former.until && ` 〜${former.until}年`}
+                </p>
+              ))}
+            </Row>
+          )}
+          {castle.other_names && (
+            <Row label="別名">
+              {castle.other_names.map((other) => (
+                <p key={other.name_ja}>
+                  {other.name_ja}（{other.reading}）
                 </p>
               ))}
             </Row>
