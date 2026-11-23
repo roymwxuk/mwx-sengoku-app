@@ -118,7 +118,22 @@
 - 彦根城: `built` is 1603–1622, begun to finished; the infobox gives 1604. `abandoned` is the infobox's 1874, although the keep survives.
 - 伏見城: `built` is 1592–1597, from 秀吉's residence at 指月 to his castle at 木幡山, 1 km away, where the point is; it was rebuilt in about 1602. `abandoned` is 1619 (decided) to 1623 (the infobox).
 - 岩国城: `built` is 1601 (the infobox) to 1608. 横山城 is an alternative name.
-- Alternative names mentioned in these notes are mostly not in the data; `other_names` (別名) so far has only 千代田城 (江戸城, asked for by the project owner), 鶴ヶ城 (若松城), 小峰城 (白河小峰城), 松阪城 (松坂城), 金亀城 (彦根城) and 白帝城 (犬山城).
+- 大洲城: 1331 is the traditional date. 地蔵ヶ嶽城 and 大津城 are earlier names; their `until` is null, as the article gives no exact years (脇坂氏's time, 1609–1617, for 大洲, and that is disputed). Its official site is http only, so it isn't listed. Coordinates are from Wikidata, where they are given to about 1 km.
+- 小丸山城: coordinates are from the article, as Wikidata has none.
+- 北ノ庄城: the article is 福井城, its name from 1624; `other_names` has it. `built` is 1575–1606, from 柴田勝家's castle to the end of 結城秀康's on the same site; the infobox gives 1575. The point is 福井城.
+- 丸岡城: `abandoned` is the infobox's 1871, although the keep survives.
+- 鳥越城: `built` is about 1573. `abandoned` is 1582, when it last fell; no source gives a date of abandonment. Coordinates are from Wikidata, where they are given to about 1 km, as are those of 富山城, 増山城 and 魚津城.
+- 富山城: `built` is about 1543. It was pulled down in 1585 and burned in 1609, but used again after both. 安住城 and 浮城 are alternative names.
+- 増山城: `built` is 1363, the first record of it (as 和田城).
+- 魚津城: 1335 is the traditional date. `abandoned` is 元和年間 (1615–1624), per the infobox.
+- 丹波亀山城: the article is 亀山城 (丹波国); its id is `tanba-kameyama`. `built` is 1577–1578. `abandoned` is the infobox's 1877.
+- 八上城: `abandoned` is 1608 (the text) to 1609 (the infobox).
+- 黒井城: `built` is 建武年間 (1334–1338). `abandoned` is 1584 (the infobox) to 1601, as the text has a lord after 関ヶ原.
+- 高槻城: `built` is the late 10th century (the infobox, traditional) to 1527, its first record.
+- 伊丹城: `built` is the Nanboku-chō period. 有岡城 was its name from 1574.
+- 後瀬山城: coordinates are from Wikidata, where they are given to about 1 km, but agree with the article.
+- 高浜城: the one in 若狭. It has no article on Japanese Wikipedia, so `wikipedia_ja` is null; dates are from 逸見昌経 (built 1565), 溝口秀勝, 堀尾吉晴, 山内一豊, 木下利房 and 高浜町 (abandoned under the 一国一城令, 1615). Its type is from general knowledge. The point is 城山公園 on [OpenStreetMap](https://www.openstreetmap.org/way/1005821557) (© OpenStreetMap contributors, ODbL).
+- Alternative names mentioned in these notes are mostly not in the data; `other_names` (別名) so far has only 千代田城 (江戸城, asked for by the project owner), 鶴ヶ城 (若松城), 小峰城 (白河小峰城), 松阪城 (松坂城), 金亀城 (彦根城), 白帝城 (犬山城), 福井城 (北ノ庄城), 霞ヶ城 (丸岡城), 和田城 (増山城), 亀岡城 (丹波亀山城) and 有岡城 (伊丹城).
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -225,5 +240,20 @@
 - 伏見城: 徳川家康 held it from 1599 on 豊臣氏's behalf. It fell to 西軍 in August 1600, between the year's start and 関ヶ原; the 1600 view shows 徳川氏.
 - For the 1614 view, from the articles of the domains (浜松藩, 大垣藩, 岩村藩, 三河吉田藩, 飯山藩, 延岡藩) and of 花房職秀: 松平氏 (諸家) stands for the branch families 桜井 (浜松城), 大給 (岩村城), 竹谷 and 深溝 (吉田城) and 久松 (掛川城). 水野氏 at 浜松城 (重央, from general knowledge) is listed with 郡山城's. 石川氏 (三河) at 大垣城 is 康通, 家成 and 忠総. 堀氏 at 飯山城 is 直寄, of 春日山城's 堀氏's chief retainers. 忍城 is listed as 徳川氏 to 1633, as no lord is given between 1600 and then. 皆川広照 at 飯山城, 1603–1609, is left out.
 - 宇和島城: 伊達秀宗 was given it at the end of 1614 and entered in 1615; it is listed from 1615, so that the 1614 view, before 大坂冬の陣, shows 徳川氏.
+- 大洲城: 宇都宮氏 of 伊予 is listed from 1467, the start of the app's period, to 1573, for the article's 天正初年, when 大野直之 drove them out. 1587, 1594 and 1595 follow 宇和島城. 加藤氏 is 光泰's family, and 戸田氏 勝隆's.
+- 北ノ庄城: 堀氏 in 1585–1598 and 小早川秀秋 in 1598–1599 are from general knowledge. 松平氏 from 1601 is the 越前 branch. 青木氏 is marked 矩, from 一矩.
+- 丸岡城: 柴田氏 is 勝豊, then 安井家清. 丹羽氏 in 1583–1585 is 青山宗勝, listed in his own name after. 松平氏 in 1600–1612 is 今村盛次, for 結城秀康 and 松平忠直. 本多氏 is 成重's family, listed with 岡崎城's.
+- 鳥越城: 本願寺 is the 山内衆. 織田氏 in 1580–1582 held it with interruptions.
+- 富山城: 上杉謙信 took it in spring 1560, before 桶狭間 (the month is from general knowledge), so 神保氏 is listed only to 1559 for the 1560 view to be right. It changed hands often in 1560–1578; 上杉氏 is listed throughout. 佐々氏 to 1587 is from 魚津城's article; 前田氏 is listed from 1595, when they were given 新川郡.
+- 増山城: 神保氏 is listed from 1543, when they are known at 富山城; the 一向一揆 held it in 1572. 佐々氏 in 1581–1585 is 佐々成政's men, and 前田氏 中川光重 and others.
+- 魚津城: 椎名氏 is listed from 1467, the start of the app's period, to 1568, when 椎名康胤 turned against 上杉氏 (from general knowledge). 織田氏 held it for days in June 1582, left out.
+- 丹波亀山城: 豊臣氏 in 1582–1595 is the two 秀勝 and 秀秋. 前田氏 (玄以) from 1595 to 1602 is from general knowledge, and is listed as his own, not 加賀's. The owner in 1602–1609 is left out.
+- 八上城: 明智氏 in 1579–1582 is 明智光忠. 前田氏 (玄以) in 1602–1608 is 茂勝. Owners in 1582–1602 are left out.
+- 黒井城: 赤井氏 is marked 荻, from 荻野, the name 直正 took. 1554, when he killed 荻野秋清, is from general knowledge; 荻野氏 before it is left out. 明智氏 is 斎藤利三. 堀尾氏 is listed to 1584; the lord after 関ヶ原 (川勝秀氏) is left out.
+- 高槻城: 入江氏 is listed from 1527, the first record, and served 三好氏. 豊臣氏 in 1585–1600 covers deputies and 新庄直頼, and 徳川氏 in 1600–1615 deputies and 青山忠成.
+- 伊丹城: 伊丹氏 is listed from 1467, the start of the app's period, and is marked 親, from 親興 (from general knowledge).
+- 後瀬山城: 朝倉氏 is listed in 1568–1573, after they took 武田元明 away. 1585 for the end of 丹羽氏 and 1587–1593 for 浅野氏 are from general knowledge; 1594 is from 木下利房. 木下氏 (家定) is 勝俊, and 京極氏 高次 and 忠高; 1634 is from general knowledge.
+- 国吉城: 粟屋氏 served 若狭武田氏. 豊臣氏 in 1583–1585 is 木村定光; his end isn't given. 木下氏 and 京極氏 are inferred from 後瀬山城, as they were given the district.
+- 高浜城: 堀尾氏 in 1583–1585 and 山内氏 in 1585 are from their articles; owners in 1585–1594 are left out. 京極氏 is inferred from 後瀬山城.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
