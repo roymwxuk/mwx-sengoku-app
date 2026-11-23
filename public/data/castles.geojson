@@ -225,6 +225,7 @@
         "reading": "えどじょう",
         "name_en": "Edo Castle",
         "former_names": [],
+        "other_names": [{"name_ja": "千代田城", "reading": "ちよだじょう", "name_en": "Chiyoda Castle"}],
         "description": "太田道灌が1457年に築いた城。扇谷上杉氏や後北条氏などを経て、1590年から徳川氏の居城となった。",
         "wikipedia_ja": "江戸城",
         "official_url": null,
@@ -2208,6 +2209,130 @@
           { "clan": "gamo", "from": 1591, "to": 1598 },
           { "clan": "uesugi", "from": 1598, "to": 1599 },
           { "clan": "date", "from": 1600, "to": 1869 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.45961, 40.50619] },
+      "properties": {
+        "id": "nejo",
+        "name_ja": "根城",
+        "reading": "ねじょう",
+        "name_en": "Ne Castle",
+        "former_names": [],
+        "description": "1334年、南部師行が南朝方の「根本となる城」という願いを込めて名付けた。のちに八戸氏とも呼ばれた根城南部氏の本拠。1592年に豊臣秀吉の命で城は壊されたが、館は1627年まで残った。",
+        "wikipedia_ja": "根城",
+        "official_url": "https://visithachinohe.com/spot/shiseki-nejo-no-hiroba/",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1334, "latest": 1334},
+        "abandoned": {"earliest": 1592, "latest": 1627},
+        "owners": [
+          { "clan": "nanbu", "from": 1467, "to": 1627 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.92972, 37.48778] },
+      "properties": {
+        "id": "aizu-wakamatsu",
+        "name_ja": "若松城",
+        "reading": "わかまつじょう",
+        "name_en": "Wakamatsu Castle",
+        "former_names": [{"name_ja": "黒川城", "reading": "くろかわじょう", "name_en": "Kurokawa Castle", "until": 1592}],
+        "other_names": [{"name_ja": "鶴ヶ城", "reading": "つるがじょう", "name_en": "Tsuruga Castle"}],
+        "description": "蘆名氏の黒川城に始まる。1589年に伊達政宗が奪い、翌年入った蒲生氏郷が大改築して町を若松と名付けた。上杉景勝を経て、江戸時代は会津藩の政庁となり、戊辰戦争で籠城戦の舞台となった。",
+        "wikipedia_ja": "若松城",
+        "official_url": "https://www.tsurugajo.com/tsurugajo/",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1384, "latest": 1593},
+        "abandoned": {"earliest": 1874, "latest": 1874},
+        "owners": [
+          { "clan": "ashina", "from": 1467, "to": 1589 },
+          { "clan": "date", "from": 1589, "to": 1590 },
+          { "clan": "gamo", "from": 1590, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1601 },
+          { "clan": "gamo", "from": 1601, "to": 1627 },
+          { "clan": "kato-yoshiaki", "from": 1627, "to": 1643 },
+          { "clan": "hoshina", "from": 1643, "to": 1868 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.21358, 37.13262] },
+      "properties": {
+        "id": "shirakawa-komine",
+        "name_ja": "白河小峰城",
+        "reading": "しらかわこみねじょう",
+        "name_en": "Shirakawa Komine Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "小峰城", "reading": "こみねじょう", "name_en": "Komine Castle"}],
+        "description": "1340年に結城親朝が築いたとされる城。白河結城氏が1590年に改易されると、蒲生氏、上杉氏の城となった。丹羽長重が1632年までに総石垣の城に改築した。戊辰戦争で落城し、大半が焼けた。",
+        "wikipedia_ja": "白河小峰城",
+        "official_url": "https://www.city.shirakawa.fukushima.jp/page/page001390.html",
+        "province": "陸奥",
+        "type": "平山城",
+        "built": {"earliest": 1340, "latest": 1632},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "yuki-shirakawa", "from": 1467, "to": 1590 },
+          { "clan": "gamo", "from": 1590, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1601 },
+          { "clan": "gamo", "from": 1601, "to": 1627 },
+          { "clan": "niwa", "from": 1627, "to": 1643 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.95096, 36.40495] },
+      "properties": {
+        "id": "minowa",
+        "name_ja": "箕輪城",
+        "reading": "みのわじょう",
+        "name_en": "Minowa Castle",
+        "former_names": [],
+        "description": "長野氏の本拠。長野業正は武田信玄の侵攻をたびたび退けたが、子の業盛の代の1566年に落城した。その後は武田氏、織田氏、後北条氏が支配し、1590年に井伊直政が入って近世の城に改めた。",
+        "wikipedia_ja": "箕輪城",
+        "official_url": "https://www.city.takasaki.gunma.jp/site/cultural-assets/6450.html",
+        "province": "上野",
+        "type": "平山城",
+        "built": {"earliest": 1512, "latest": 1526},
+        "abandoned": {"earliest": 1598, "latest": 1598},
+        "owners": [
+          { "clan": "nagano", "from": 1512, "to": 1566 },
+          { "clan": "takeda", "from": 1566, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "hojo", "from": 1582, "to": 1590 },
+          { "clan": "tokugawa", "from": 1590, "to": 1598 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.41725, 36.32734] },
+      "properties": {
+        "id": "komoro",
+        "name_ja": "小諸城",
+        "reading": "こもろじょう",
+        "name_en": "Komoro Castle",
+        "former_names": [],
+        "description": "浅間山のふもとの深い谷と千曲川の断崖を生かした城。城下町より低いところにあり、「穴城」とも呼ばれる。武田信玄が1554年に整え、1590年から仙石秀久が石垣の城に改めた。",
+        "wikipedia_ja": "小諸城",
+        "official_url": "https://www.city.komoro.lg.jp/kaikoen/",
+        "province": "信濃",
+        "type": "平山城",
+        "built": {"earliest": 1487, "latest": 1554},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "takeda", "from": 1554, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "tokugawa", "from": 1582, "to": 1590 },
+          { "clan": "sengoku", "from": 1590, "to": 1622 }
         ]
       }
     }

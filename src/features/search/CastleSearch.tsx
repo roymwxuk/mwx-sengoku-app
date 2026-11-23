@@ -135,7 +135,7 @@ export function CastleSearch({ castles }: { castles: CastleCollection }) {
           hidden={!showResults || results.length === 0}
         >
           {showResults &&
-            results.map(({ castle, formerName }, i) => (
+            results.map(({ castle, nameLabel }, i) => (
               <li
                 key={castle.id}
                 ref={i === activeIndex ? activeRef : undefined}
@@ -154,8 +154,8 @@ export function CastleSearch({ castles }: { castles: CastleCollection }) {
                   </span>
                   <span className="text-sm">{castle.province}国</span>
                 </span>
-                {formerName && (
-                  <span className="block text-xs">旧名 {formerName}</span>
+                {nameLabel && (
+                  <span className="block text-xs">{nameLabel}</span>
                 )}
               </li>
             ))}
