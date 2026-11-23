@@ -50,15 +50,12 @@ export function AboutDialog() {
             城のデータは、歴史面での確認がまだ必要です。誤りに気づいたら、GitHubでお知らせください。
           </p>
           <p className="mt-2 text-xs">
-            制作:{' '}
+            制作: {AUTHOR}{' '}
             <ExternalLink href={`https://github.com/${AUTHOR}`}>
-              {AUTHOR}
+              GitHub
             </ExternalLink>
           </p>
           <ul className="flex flex-wrap gap-x-5">
-            <li>
-              <ExternalLink href={GITHUB}>GitHub</ExternalLink>
-            </li>
             <li>
               <ExternalLink href={`${GITHUB}/issues`}>
                 誤りを知らせる
