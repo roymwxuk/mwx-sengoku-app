@@ -39,7 +39,7 @@
   {"id": "takato", "name_ja": "高遠氏", "reading": "たかとおし", "name_en": "Takatō", "mark": "高", "color": "#be91ce"},
   {"id": "hoshina", "name_ja": "保科氏", "reading": "ほしなし", "name_en": "Hoshina", "mark": "保", "color": "#afd640"},
   {"id": "kyogoku", "name_ja": "京極氏", "reading": "きょうごくし", "name_en": "Kyōgoku", "mark": "京", "color": "#96f468"},
-  {"id": "shimazu", "name_ja": "島津氏", "reading": "しまづし", "name_en": "Shimazu", "mark": "島", "color": "#1fd2fd"},
+  {"id": "shimazu", "name_ja": "島津氏", "reading": "しまづし", "name_en": "Shimazu", "mark": "島", "color": "#565d20"},
   {"id": "nihonmatsu", "name_ja": "二本松氏", "reading": "にほんまつし", "name_en": "Nihonmatsu", "mark": "二", "color": "#ffb169"},
   {"id": "date", "name_ja": "伊達氏", "reading": "だてし", "name_en": "Date", "mark": "伊", "color": "#28e174"},
   {"id": "gamo", "name_ja": "蒲生氏", "reading": "がもうし", "name_en": "Gamō", "mark": "蒲", "color": "#9fa645"},
@@ -104,5 +104,15 @@
   {"id": "kinoshita", "name_ja": "木下氏（重堅）", "reading": "きのしたし", "name_en": "Kinoshita (Shigekata)", "mark": "堅", "color": "#06790b"},
   {"id": "yamazaki", "name_ja": "山崎氏", "reading": "やまざきし", "name_en": "Yamazaki", "mark": "崎", "color": "#30aefe"},
   {"id": "furuta", "name_ja": "古田氏", "reading": "ふるたし", "name_en": "Furuta", "mark": "古", "color": "#1009f2"},
-  {"id": "ishikawa", "name_ja": "石川氏（備中）", "reading": "いしかわし", "name_en": "Ishikawa (Bitchū)", "mark": "石", "color": "#fe535c"}
+  {"id": "ishikawa", "name_ja": "石川氏（備中）", "reading": "いしかわし", "name_en": "Ishikawa (Bitchū)", "mark": "石", "color": "#fe535c"},
+  {"id": "tachibana", "name_ja": "立花氏", "reading": "たちばなし", "name_en": "Tachibana", "mark": "立", "color": "#fe8d76"},
+  {"id": "kamachi", "name_ja": "蒲池氏", "reading": "かまちし", "name_en": "Kamachi", "mark": "鎮", "color": "#6a08e3"},
+  {"id": "ryuzoji", "name_ja": "龍造寺氏", "reading": "りゅうぞうじし", "name_en": "Ryūzōji", "mark": "龍", "color": "#1fd2fd"},
+  {"id": "nabeshima", "name_ja": "鍋島氏", "reading": "なべしまし", "name_en": "Nabeshima", "mark": "鍋", "color": "#821568"},
+  {"id": "jo", "name_ja": "城氏", "reading": "じょうし", "name_en": "Jō", "mark": "城", "color": "#75e42a"},
+  {"id": "sasa", "name_ja": "佐々氏", "reading": "さっさし", "name_en": "Sassa", "mark": "成", "color": "#acc36b"},
+  {"id": "kato-kiyomasa", "name_ja": "加藤氏（清正）", "reading": "かとうし", "name_en": "Katō (Kiyomasa)", "mark": "清", "color": "#7d84f5"},
+  {"id": "ito-hyuga", "name_ja": "伊東氏", "reading": "いとうし", "name_en": "Itō (Hyūga)", "mark": "東", "color": "#84beb8"},
+  {"id": "takahashi", "name_ja": "高橋氏", "reading": "たかはしし", "name_en": "Takahashi", "mark": "橋", "color": "#7d9db5"},
+  {"id": "mori-katsunobu", "name_ja": "毛利氏（勝信）", "reading": "もうりし", "name_en": "Mōri (Katsunobu)", "mark": "勝", "color": "#cdc0ff"}
 ]
