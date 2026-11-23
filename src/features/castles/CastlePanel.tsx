@@ -88,6 +88,15 @@ export function CastlePanel({ feature, clan, view, onClose, ref }: Props) {
               ))}
             </Row>
           )}
+          {castle.other_names && (
+            <Row label="別名">
+              {castle.other_names.map((other) => (
+                <p key={other.name_ja}>
+                  {other.name_ja}（{other.reading}）
+                </p>
+              ))}
+            </Row>
+          )}
           {clan && (
             <Row label="城主">
               <ClanName clan={clan} />（{view.year}年）

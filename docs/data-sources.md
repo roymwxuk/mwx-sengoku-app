@@ -106,6 +106,7 @@
 - 要害山城: coordinates are from Wikidata, where they are given to about 1 km, but agree with the peak on OpenStreetMap. 積翠山城 is an alternative name.
 - 飯山城: `built` is the early 14th century, when 泉氏 lived there, to 1564, when 上杉謙信 rebuilt it; the infobox says 室町時代. `abandoned` is 廃藩置県 (1871), as the article only says that the buildings went after it. Coordinates are from the article.
 - 白石城: `built` is the Kamakura period (infobox); the article says that its origin is unknown. 益岡城 is an alternative name.
+- Alternative names mentioned in these notes are mostly not in the data; `other_names` (別名) so far has only 千代田城 (江戸城, asked for by the project owner), 鶴ヶ城 (若松城) and 小峰城 (白河小峰城).
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 

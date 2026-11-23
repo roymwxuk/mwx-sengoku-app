@@ -225,6 +225,7 @@
         "reading": "えどじょう",
         "name_en": "Edo Castle",
         "former_names": [],
+        "other_names": [{"name_ja": "千代田城", "reading": "ちよだじょう", "name_en": "Chiyoda Castle"}],
         "description": "太田道灌が1457年に築いた城。扇谷上杉氏や後北条氏などを経て、1590年から徳川氏の居城となった。",
         "wikipedia_ja": "江戸城",
         "official_url": null,

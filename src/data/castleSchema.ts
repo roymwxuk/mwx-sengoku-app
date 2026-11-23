@@ -27,6 +27,8 @@ const castle = z
     id: z.string().regex(/^[a-z]+(-[a-z]+)*$/),
     ...name,
     former_names: z.array(formerName),
+    /** Names used alongside the main one */
+    other_names: z.array(z.strictObject(name)).optional(),
     /** One or two sentences, in Japanese */
     description: z.string().min(1).max(200),
     /** Article title on Japanese Wikipedia. null: no article */
