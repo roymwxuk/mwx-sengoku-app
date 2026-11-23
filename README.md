@@ -6,6 +6,8 @@
 
 **公開サイト: <https://roymwxuk.github.io/mwx-sengoku-app/>**
 
+[![戦国城地図の画面: 1553年の畿内周辺。詳細パネルに室町御所を表示](docs/app-screenshot.png)](https://roymwxuk.github.io/mwx-sengoku-app/)
+
 城を直接開くリンクも使えます（例: [吉田郡山城](https://roymwxuk.github.io/mwx-sengoku-app/?castle=yoshida-koriyama)）。
 
 ## 現在の状況
