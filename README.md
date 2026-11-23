@@ -1,78 +1,80 @@
 # 戦国城地図 — Sengoku Castle Map
 
-An interactive map of 戦国時代 Japan for finding and exploring castles.
+**日本語** | [English](README.en.md)
 
-**Live site: <https://roymwxuk.github.io/mwx-sengoku-app/>**
+戦国時代の日本の城を探して調べられる、インタラクティブな地図です。
 
-Links can open a castle directly, e.g. [吉田郡山城](https://roymwxuk.github.io/mwx-sengoku-app/?castle=yoshida-koriyama).
+**公開サイト: <https://roymwxuk.github.io/mwx-sengoku-app/>**
 
-## Current status
+城を直接開くリンクも使えます（例: [吉田郡山城](https://roymwxuk.github.io/mwx-sengoku-app/?castle=yoshida-koriyama)）。
 
-_As of 2026-11-23._ The map, castles, detail panel, castle list and search work, with 58 castles. The interface is in Japanese.
+## 現在の状況
 
-| Milestone                        | Status                               |
-| -------------------------------- | ------------------------------------ |
-| M0 Foundations                   | Done, except deferred items          |
-| M1 Map of Japan                  | Done                                 |
-| M2 Castles on the map            | Done, except deferred items          |
-| M3 Detail panel, shareable links | Done, except deferred items          |
-| M4 Provinces (令制国) and clans  | Done                                 |
-| M5 Timeline 1467–1615            | In progress: 1553–1600 switch done   |
-| M6 Search and filters            | In progress: search done             |
-| M7 Data growth                   | In progress: 58 castles              |
-| M8 Sengoku look and polish       | In progress: castle list, links done |
-| M9 v1.0 release                  | Not started                          |
+_2026年11月23日現在。_ 地図、城、詳細パネル、城一覧、検索が使えます。収録数は58城です。画面は日本語です。
 
-Deferred for now: unit and component tests (Vitest), and CI checks. See the [roadmap](docs/ROADMAP.md) for details.
+| マイルストーン                  | 状況                                   |
+| ------------------------------- | -------------------------------------- |
+| M0 土台                         | 完了（見送り項目を除く）               |
+| M1 日本地図                     | 完了                                   |
+| M2 地図上の城                   | 完了（見送り項目を除く）               |
+| M3 詳細パネル、共有できるリンク | 完了（見送り項目を除く）               |
+| M4 令制国と大名家               | 完了                                   |
+| M5 年表（1467〜1615年）         | 進行中: 1553〜1600年の年切り替えが完了 |
+| M6 検索と絞り込み               | 進行中: 検索が完了                     |
+| M7 データの拡充                 | 進行中: 58城                           |
+| M8 戦国らしい見た目と仕上げ     | 進行中: 城一覧とリンクが完了           |
+| M9 v1.0の公開                   | 未着手                                 |
 
-### What works today
+単体・コンポーネントテスト（Vitest）とCIでのチェックは、当面見送っています。詳しくは[ロードマップ](docs/ROADMAP.md)（英語）をご覧ください。
 
-- Pan and zoom a map of Japan on desktop and phone
-- Hover over a castle for its name; click or tap it for details
-- See province borders and names, and who held each castle in 1553 (just before 川中島), 1560 (just before 桶狭間), 1583 or 1600 (just before 関ヶ原); both can be turned off (凡例, top right)
-- Search for a castle in kanji, kana or romaji (城を検索), by current or former name; small typos are fine
-- Choose a castle from the list (城一覧, bottom left) by mouse, touch or keyboard
-- Open a castle's place in Google Maps, its Wikipedia article, or its official site
-- Share a castle as a link, and step through castles with back and forward
+### できること
 
-### Known limits
+- パソコンでもスマートフォンでも、日本地図を動かしたり拡大・縮小したりできます
+- 城にカーソルを合わせると名前が、クリックまたはタップすると詳細が表示されます
+- 令制国の境界と国名、1553年（第一次川中島の戦いの直前）、1560年（桶狭間の戦いの直前）、1583年、1600年（関ヶ原の戦いの直前）の城主を表示します。どちらも右上の「凡例」で消せます
+- 「城を検索」から、漢字・かな・ローマ字で城を探せます。旧名にも対応し、多少の入力ミスがあっても見つかります
+- 左下の「城一覧」から、マウス・タッチ・キーボードで城を選べます
+- 城の場所をGoogleマップで、解説をWikipediaや公式サイトで開けます
+- 城をリンクで共有でき、ブラウザの「戻る」「進む」で城を行き来できます
 
-- The coastline is modern and simplified, so it looks angular up close
-- No terrain yet, and clan colours show 1553, 1560, 1583 and 1600 only
-- Province borders are late-Edo
-- Castle data still needs a historical review; see [data sources](docs/data-sources.md)
+### 既知の制限
 
-## Development
+- 海岸線は現代のものを簡略化しているため、拡大すると角張って見えます
+- 地形はまだ表示できません。大名家の色は1553年、1560年、1583年、1600年のみです
+- 令制国の境界は江戸時代末期のものです
+- 城のデータは、歴史面での確認がまだ必要です。[データの出典](docs/data-sources.md)（英語）をご覧ください
 
-Vite, React, TypeScript, Tailwind CSS, MapLibre GL JS and Zustand. There is no backend; all data is static files. The deploy build uses Node.js 24.
+## 開発
+
+Vite、React、TypeScript、Tailwind CSS、MapLibre GL JS、Zustandを使っています。バックエンドはなく、データはすべて静的ファイルです。公開用のビルドにはNode.js 24を使います。
 
 ```sh
 npm ci
 npm run dev
 ```
 
-| Command                  | What it does                               |
-| ------------------------ | ------------------------------------------ |
-| `npm run dev`            | Start the dev server                       |
-| `npm run build`          | Type-check and build for production        |
-| `npm run preview`        | Serve the production build locally         |
-| `npm run format`         | Format the code with Prettier              |
-| `npm run format:check`   | Check the formatting                       |
-| `npm run data:check`     | Validate the castle and clan data          |
-| `npm run data:basemap`   | Rebuild the map outline from Natural Earth |
-| `npm run data:provinces` | Rebuild the province borders from CODH     |
+| コマンド                 | 内容                                   |
+| ------------------------ | -------------------------------------- |
+| `npm run dev`            | 開発サーバーを起動する                 |
+| `npm run build`          | 型チェックをして、公開用にビルドする   |
+| `npm run preview`        | 公開用のビルドを手元で表示する         |
+| `npm run format`         | Prettierでコードを整形する             |
+| `npm run format:check`   | 整形済みかどうかを確認する             |
+| `npm run data:check`     | 城と大名家のデータを検証する           |
+| `npm run data:basemap`   | Natural Earthから日本の輪郭を作り直す  |
+| `npm run data:provinces` | CODHのデータから令制国の境界を作り直す |
 
-Every push to `master` is published to GitHub Pages.
+`master`にプッシュするたびに、GitHub Pagesへ公開されます。
 
-## Licence
+## ライセンス
 
-- **Code:** [MIT](LICENSE)
-- **Data:** each file has its own licence; see [`public/data/LICENSE.md`](public/data/LICENSE.md)
+- **コード:** [MIT](LICENSE)
+- **データ:** ファイルごとにライセンスが異なります。[`public/data/LICENSE.md`](public/data/LICENSE.md)（英語）をご覧ください
 
-The province borders (`public/data/provinces.geojson`) are CC BY-NC 4.0, so **the app with this data may not be used commercially**: 『旧国・旧郡境界データセット』（CODH作成）「幕末明治地勢地図境界データ」（人間文化研究機構作成）を加工.
+令制国の境界（`public/data/provinces.geojson`）はCC BY-NC 4.0です。そのため、**このデータを含むアプリの商用利用はできません**。出典: 『旧国・旧郡境界データセット』（CODH作成）「幕末明治地勢地図境界データ」（人間文化研究機構作成）を加工
 
-## Docs
+## ドキュメント（英語）
 
-- [Roadmap](docs/ROADMAP.md)
-- [Architecture decisions](docs/adr/README.md)
-- [Data sources and licences](docs/data-sources.md)
+- [ロードマップ](docs/ROADMAP.md)
+- [設計上の決定（ADR）](docs/adr/README.md)
+- [データの出典とライセンス](docs/data-sources.md)
