@@ -17,6 +17,12 @@ export const DEFAULT_VIEW: YearView = {
 /** The years that can be shown until the timeline exists (M5). */
 export const YEAR_VIEWS: readonly YearView[] = [
   {
+    year: 1553,
+    label: '川中島',
+    at: 'start',
+    note: '第一次川中島の戦いの直前',
+  },
+  {
     year: 1560,
     label: '桶狭間',
     at: 'start',
