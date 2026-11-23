@@ -21,6 +21,10 @@
 - 小谷城: `built` is 1516–1525: 『浅井三代記』 gives 1516, the article prefers 1523–1524, and it stood by 1525. Wikidata only says the 1520s.
 - 佐倉城: `built` is 1532–1610: the infobox suggests 天文年間, but that work was left unfinished, and the article also mentions a 後北条氏 castle of 1585. 土井利勝 began the present castle in 1610. `abandoned` is the infobox's 1873, when the buildings were cleared for the army.
 - 弘前城: 高岡城 is the former name until 1628. `abandoned` is the infobox's 1871, though the article says it was probably treated as kept in 1873, and the keep survives.
+- 竹田城: the one in 但馬 (たけだ), not 豊後竹田城 (たけた), which is 岡城. `built` is 1431–1443: the infobox gives 1431, and the article's text and Wikidata 1443, both traditional. Coordinates are from the Japanese Wikipedia article, as Wikidata's are given to about 1 km. The official site is the one in both the article and Wikidata.
+- 伊賀上野城: the article is 上野城. `built` is 1585–1596: 筒井定次 arrived in 1585, and 『伊水温故』 says it was finished in 文禄年間 (1592–1596). 仁木氏's residence and 滝川雄利's fort stood on the site before. Its official site is http only, so it isn't listed.
+- 高遠城: `built` is null, as the article doesn't give it; 1547 is the Takeda rebuilding, per 『甲陽軍鑑』.
+- 鹿児島城: `built` is 1601–1604, begun to finished; the infobox gives 1602. 上山城 stood on the hill behind it before. The article is flagged as needing more citations. `abandoned` is the infobox's 1872.
 - 甲府城: `built` is 1583–1585: 家康 is said to have planned it in 1583, and 『甲斐国志』 gives 1585. Most building came later.
 - 一乗谷城: part of the article 一乗谷朝倉氏遺跡. `built` is 1336–1392 because the source only says 南北朝時代. Wikidata's coordinates are for the site as a whole, to about 1 km.
 - 韮山城: the construction date is uncertain. `built` is 1469–1500: 『北条五代記』 says it was begun in 文明年間 (1469–1486), and it was complete by about 1500.
@@ -47,6 +51,10 @@
 - 小谷城: 浅井氏 is listed from 1525, the end of its construction range; 亮政 fled it for a time in 1538. 豊臣氏 in 1573–1575 is 羽柴秀吉, before he moved to 長浜城. 浅井氏 is marked 井, as 浅野氏 has 浅. The reading あざい is from general knowledge (also あさい).
 - 新田金山城: 横瀬氏, who took the name 由良 in 1565, are listed as 由良氏 from 1528. They surrendered to 後北条氏 in 1584 and left in 1585.
 - 佐倉城: 千葉氏 is listed from 1555, the end of 天文年間, though the castle was unfinished. Owners in 1590–1610 are left out: the holders of 佐倉 in those years are given in the article 佐倉藩, and they may have used 本佐倉城. Owners after 1633 (the year is from 佐倉藩) are left out.
+- 竹田城: 太田垣氏, retainers of 山名氏, are listed from 1443, the end of its construction range. 荻野直正 held it briefly in 1575, left out. 豊臣氏 in 1577–1579 and 1580–1585 is 羽柴秀長, then 桑山重晴. 赤松氏 from 1585 is 赤松広秀 (斎村政広).
+- 伊賀上野城: 新庄氏 took it briefly in 1600, left out. Both castellans and lords in 1608–1871 were 藤堂氏; the year 1871 is the infobox's end of the castle.
+- 高遠城: 高遠氏 is listed from 1541, the article's first date. 織田氏 in 1582 is uncertain, as the article says its lord then is unknown; 後北条氏's brief hold that year is left out. 保科氏 in 1582–1590 served 徳川氏 (from late 1582). From general knowledge: 1590, when 保科氏 left for 下総; 京極氏 in 1593–1600 (高知, based at 飯田城). 毛利秀頼 in 1590–1593, not of the 毛利氏 of 安芸, is left out, as are owners after 1636 (a year from the article 高遠藩).
+- 鹿児島城: the year 1871 for 島津氏 is 廃藩置県.
 - 甲府城: 加藤氏 (1591–1593) and the year 1593 for 浅野氏 are from general knowledge. 徳川氏 covers 義直 and direct rule; owners after 1616 are left out.
 - 一乗谷城: 朝倉氏 is listed from 1392, the end of its construction range. 織田氏 in 1573–1574 is 桂田長俊, 信長's governor (from general knowledge).
 - 韮山城: 後北条氏 is listed from 1491, following the article (伊勢盛時). 徳川氏 in 1590–1601 is 家康's retainer 内藤信成.

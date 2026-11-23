@@ -391,6 +391,100 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.82889, 35.3] },
+      "properties": {
+        "id": "takeda",
+        "name_ja": "竹田城",
+        "reading": "たけだじょう",
+        "name_en": "Takeda Castle",
+        "former_names": [],
+        "description": "山名宗全が築き、家臣の太田垣氏が守ったと伝わる但馬の山城。羽柴秀長が攻め落とし、赤松広秀が今に残る石垣の城に改めた。雲海に浮かぶ姿で知られる。",
+        "wikipedia_ja": "竹田城",
+        "official_url": "https://www.city.asago.hyogo.jp/site/takeda/",
+        "province": "但馬",
+        "type": "山城",
+        "built": {"earliest": 1431, "latest": 1443},
+        "abandoned": {"earliest": 1600, "latest": 1600},
+        "owners": [
+          { "clan": "otagaki", "from": 1443, "to": 1577 },
+          { "clan": "toyotomi", "from": 1577, "to": 1579 },
+          { "clan": "otagaki", "from": 1579, "to": 1580 },
+          { "clan": "toyotomi", "from": 1580, "to": 1585 },
+          { "clan": "akamatsu", "from": 1585, "to": 1600 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.12719, 34.77009] },
+      "properties": {
+        "id": "iga-ueno",
+        "name_ja": "伊賀上野城",
+        "reading": "いがうえのじょう",
+        "name_en": "Iga Ueno Castle",
+        "former_names": [],
+        "description": "天正伊賀の乱で焼けた寺の跡に、筒井定次が築いた城。1611年から藤堂高虎が大坂方に備えて大改修し、高さ約30mの石垣を築いた。",
+        "wikipedia_ja": "上野城",
+        "official_url": null,
+        "province": "伊賀",
+        "type": "平山城",
+        "built": {"earliest": 1585, "latest": 1596},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "tsutsui", "from": 1585, "to": 1608 },
+          { "clan": "todo", "from": 1608, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.0628, 35.83308] },
+      "properties": {
+        "id": "takato",
+        "name_ja": "高遠城",
+        "reading": "たかとおじょう",
+        "name_en": "Takatō Castle",
+        "former_names": [],
+        "description": "武田氏が伊那へ進出する拠点とした城。1582年、武田勝頼の弟・仁科盛信が織田信忠の大軍を迎え撃ち、城兵とともに討死した。",
+        "wikipedia_ja": "高遠城",
+        "official_url": null,
+        "province": "信濃",
+        "type": "平山城",
+        "built": null,
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "takato", "from": 1541, "to": 1545 },
+          { "clan": "takeda", "from": 1545, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "hoshina", "from": 1582, "to": 1590 },
+          { "clan": "kyogoku", "from": 1593, "to": 1600 },
+          { "clan": "hoshina", "from": 1600, "to": 1636 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.55461, 31.59849] },
+      "properties": {
+        "id": "kagoshima",
+        "name_ja": "鹿児島城",
+        "reading": "かごしまじょう",
+        "name_en": "Kagoshima Castle",
+        "former_names": [],
+        "description": "関ヶ原の戦いの後、島津忠恒（家久）が城山の麓に築いた城。天守を持たない屋形造で、明治維新まで島津氏の居城となった。鶴丸城とも呼ばれる。",
+        "wikipedia_ja": "鹿児島城",
+        "official_url": null,
+        "province": "薩摩",
+        "type": "平山城",
+        "built": {"earliest": 1601, "latest": 1604},
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "shimazu", "from": 1601, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [131.61143, 33.24064] },
       "properties": {
         "id": "funai",
