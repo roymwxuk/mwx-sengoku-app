@@ -1,7 +1,8 @@
 import { useRef, type ReactNode } from 'react'
 import { ExternalLink } from '../../components/ExternalLink'
 
-const GITHUB = 'https://github.com/roymwxuk/mwx-sengoku-app'
+const AUTHOR = 'roymwxuk'
+const GITHUB = `https://github.com/${AUTHOR}/mwx-sengoku-app`
 
 /** A button, and the dialog it opens: what the site is, credits and GitHub */
 export function AboutDialog() {
@@ -48,7 +49,13 @@ export function AboutDialog() {
           <p className="mt-2">
             城のデータは、歴史面での確認がまだ必要です。誤りに気づいたら、GitHubでお知らせください。
           </p>
-          <ul className="mt-2 flex flex-wrap gap-x-5">
+          <p className="mt-2">
+            制作:{' '}
+            <ExternalLink href={`https://github.com/${AUTHOR}`}>
+              {AUTHOR}
+            </ExternalLink>
+          </p>
+          <ul className="flex flex-wrap gap-x-5">
             <li>
               <ExternalLink href={GITHUB}>GitHub</ExternalLink>
             </li>
