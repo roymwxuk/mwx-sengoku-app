@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "data:basemap": "node scripts/build-basemap.mjs",
-    "data:check": "node scripts/check-castles.ts"
+    "data:check": "node scripts/check-data.ts",
+    "data:provinces": "node scripts/build-provinces.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^6.19.0",

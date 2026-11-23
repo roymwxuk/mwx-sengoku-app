@@ -6,6 +6,15 @@ export const WASHI = '#f4ecd8'
 export const SUMI = '#2b2622'
 export const SHU = '#9b2d1f'
 
+// Fonts on the viewer's device: without a glyph server, MapLibre draws text
+// with these (ADR-0010). Keep in sync with --font-serif in src/index.css.
+export const MAP_FONT = [
+  'Hiragino Mincho ProN',
+  'Yu Mincho',
+  'Noto Serif JP',
+  'serif',
+]
+
 export const mapStyle: StyleSpecification = {
   version: 8,
   sources: {

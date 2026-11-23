@@ -8,7 +8,7 @@ Links can open a castle directly, e.g. [吉田郡山城](https://roymwxuk.github
 
 ## Current status
 
-_As of 2026-11-23._ The map, castles, detail panel and castle list work, with 11 castles. The interface is in Japanese.
+_As of 2026-11-23._ The map, castles, detail panel and castle list work, with 13 castles. The interface is in Japanese.
 
 | Milestone                        | Status                               |
 | -------------------------------- | ------------------------------------ |
@@ -16,7 +16,7 @@ _As of 2026-11-23._ The map, castles, detail panel and castle list work, with 11
 | M1 Map of Japan                  | Done                                 |
 | M2 Castles on the map            | Done, except deferred items          |
 | M3 Detail panel, shareable links | Done, except deferred items          |
-| M4 Provinces (令制国) and clans  | Not started                          |
+| M4 Provinces (令制国) and clans  | Done                                 |
 | M5 Timeline 1467–1615            | Not started                          |
 | M6 Search and filters            | Not started                          |
 | M7 Data growth                   | Not started                          |
@@ -29,6 +29,7 @@ Deferred for now: unit and component tests (Vitest), and CI checks. See the [roa
 
 - Pan and zoom a map of Japan on desktop and phone
 - Hover over a castle for its name; click or tap it for details
+- See province borders and names, and who held each castle in 1583; both can be turned off (凡例, top right)
 - Choose a castle from the list (城一覧, bottom left) by mouse, touch or keyboard
 - Open a castle's place in Google Maps, or its Wikipedia article
 - Share a castle as a link, and step through castles with back and forward
@@ -36,7 +37,8 @@ Deferred for now: unit and component tests (Vitest), and CI checks. See the [roa
 ### Known limits
 
 - The coastline is modern and simplified, so it looks angular up close
-- No terrain, province borders or clan colours yet
+- No terrain yet, and clan colours show 1583 only
+- Province borders are late-Edo
 - Castle data still needs a historical review; see [data sources](docs/data-sources.md)
 
 ## Development
@@ -48,17 +50,22 @@ npm ci
 npm run dev
 ```
 
-| Command                | What it does                               |
-| ---------------------- | ------------------------------------------ |
-| `npm run dev`          | Start the dev server                       |
-| `npm run build`        | Type-check and build for production        |
-| `npm run preview`      | Serve the production build locally         |
-| `npm run format`       | Format the code with Prettier              |
-| `npm run format:check` | Check the formatting                       |
-| `npm run data:check`   | Validate `public/data/castles.geojson`     |
-| `npm run data:basemap` | Rebuild the map outline from Natural Earth |
+| Command                  | What it does                               |
+| ------------------------ | ------------------------------------------ |
+| `npm run dev`            | Start the dev server                       |
+| `npm run build`          | Type-check and build for production        |
+| `npm run preview`        | Serve the production build locally         |
+| `npm run format`         | Format the code with Prettier              |
+| `npm run format:check`   | Check the formatting                       |
+| `npm run data:check`     | Validate the castle and clan data          |
+| `npm run data:basemap`   | Rebuild the map outline from Natural Earth |
+| `npm run data:provinces` | Rebuild the province borders from CODH     |
 
 Every push to `master` is published to GitHub Pages.
+
+## Data licence
+
+The province borders (`public/data/provinces.geojson`) are CC BY-NC 4.0, so **the app with this data may not be used commercially**: 『旧国・旧郡境界データセット』（CODH作成）「幕末明治地勢地図境界データ」（人間文化研究機構作成）を加工. See [data sources](docs/data-sources.md).
 
 ## Docs
 

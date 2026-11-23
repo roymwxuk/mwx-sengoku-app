@@ -37,7 +37,13 @@ const castle = z
     built: yearRange.nullable(),
     /** null: never abandoned, or unknown */
     abandoned: yearRange.nullable(),
-    owners: z.array(owner),
+    /** Oldest first. In a year of change, the later owner counts. */
+    owners: z
+      .array(owner)
+      .refine(
+        (list) => list.every((o, i) => i === 0 || list[i - 1].from <= o.from),
+        'owners are not in order',
+      ),
   })
   .refine(
     (c) => !c.built || !c.abandoned || c.built.latest <= c.abandoned.earliest,

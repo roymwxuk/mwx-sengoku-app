@@ -19,3 +19,5 @@ We record significant decisions as ADRs, using the [Michael Nygard format](https
 | [0006](0006-state-zustand-and-url.md) | Client state with Zustand, shareable state in the URL | Accepted |
 | [0007](0007-styling-tailwind.md) | Styling with Tailwind CSS | Accepted |
 | [0008](0008-hosting-github-pages.md) | Host on GitHub Pages | Accepted |
+| [0009](0009-province-boundaries.md) | Province boundaries from CODH (CC BY-NC) | Accepted |
+| [0010](0010-map-labels-local-fonts.md) | Draw map labels with local fonts | Accepted |

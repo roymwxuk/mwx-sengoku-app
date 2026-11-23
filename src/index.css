@@ -41,16 +41,31 @@
   /* Leaves room for the title above and the toggle button below. */
   max-height: calc(100dvh - var(--list-bottom) - 8rem);
 }
-@media (width < 40rem) {
+@media (width < 48rem) {
   .castle-list {
-    --list-bottom: 3rem;
+    --list-bottom: 4rem;
   }
+}
+@media (width < 40rem) {
   [data-panel-open] .castle-list {
-    --list-bottom: calc(var(--sheet-height) + 3rem);
+    --list-bottom: calc(var(--sheet-height) + 4rem);
   }
 }
 @media (width >= 40rem) {
   [data-panel-open] .castle-list {
     left: 20.75rem;
+  }
+}
+
+/* Legend: top right, below the zoom buttons and above the map credit. */
+.legend-items {
+  max-height: calc(100dvh - 13.5rem);
+}
+@media (width < 40rem) {
+  .legend-items {
+    max-height: calc(100dvh - 14.5rem);
+  }
+  [data-panel-open] .legend-items {
+    max-height: calc(100dvh - var(--sheet-height) - 14.5rem);
   }
 }

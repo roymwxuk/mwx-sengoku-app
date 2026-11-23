@@ -65,20 +65,21 @@ Goal: selecting a castle shows its details, and the selection can be shared as a
 
 Goal: historical context on the map.
 
-- [ ] 🔸 Find a licensed source for 令制国 boundary data (ADR-0005); record the source and licence in `docs/data-sources.md`
-- [ ] Simplify the polygons (mapshaper) to keep the file small (target < 500 KB)
-- [ ] Render province borders + labels
-- [ ] Add `clans.json` (id, name, colour, 家紋 icon later)
-- [ ] Fill in `owners` for castles; colour markers by clan
-- [ ] Legend showing clan colours
-- [ ] Layer toggle: provinces on/off, clan colours on/off
+- [x] 🔸 Find a licensed source for 令制国 boundary data (ADR-0005); record the source and licence in `docs/data-sources.md`
+- [x] Simplify the polygons (mapshaper) to keep the file small (target < 500 KB; result 110 KB)
+- [x] Render province borders + labels
+- [x] Add `clans.json` (id, name, colour, one-kanji mark; 家紋 icon later)
+- [x] Fill in `owners` for castles; colour markers by clan (in 1583, until the timeline in M5)
+- [x] Legend showing clan colours
+- [x] Layer toggle: provinces on/off, clan colours on/off
 - *Milestone done when:* provinces are visible and castles are coloured by their owning clan.
 
 ## M5 — Timeline
 
 Goal: see how the map changes from 1467 to 1615.
 
-- [ ] Check that `owners` covers 1467–1615 for every castle (the schema is already in place, ADR-0005)
+- [ ] Check that `owners` covers 1467–1615 for every castle (the schema is already in place, ADR-0005); fill the gaps listed in `docs/data-sources.md`
+- [ ] Choose colours for clans outside 1583 (they are all grey now; about 8 colours can be told apart)
 - [ ] Year slider UI (1467–1615) stored in Zustand + URL (`?year=1560`)
 - [ ] Filter castles by year (exists between `built` and `abandoned`)
 - [ ] Colour castles by their owner in the selected year
