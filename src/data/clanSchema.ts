@@ -9,6 +9,7 @@ const clan = z.strictObject({
   name_en: z.string().min(1),
   /** One kanji drawn on the castle, so clans aren't told apart by colour only */
   mark: z.string().length(1),
+  /** One of scripts/clan-palette.json */
   color: z.string().regex(/^#[0-9a-f]{6}$/),
 })
 
@@ -19,5 +20,6 @@ export const clanList = z
   .min(1)
   .refine((list) => isUnique(list.map((c) => c.id)), 'duplicate id')
   .refine((list) => isUnique(list.map((c) => c.mark)), 'duplicate mark')
+  .refine((list) => isUnique(list.map((c) => c.color)), 'duplicate color')
 
 export type Clan = z.infer<typeof clan>
