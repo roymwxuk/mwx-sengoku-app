@@ -123,7 +123,7 @@ Goal: it looks and feels like the Sengoku era, and works for everyone.
 
 - [x] About dialog (概要, bottom left) with data credits, licences and a link to GitHub
 - [ ] Error boundary + "data failed to load" state
-- [ ] Tag `v1.0.0`, write release notes
+- [x] Tag `v1.0.0`, write release notes
 
 ---
 

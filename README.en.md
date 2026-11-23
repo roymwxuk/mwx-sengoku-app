@@ -14,18 +14,18 @@ Links can open a castle or a year directly, e.g. [吉田郡山城](https://roymw
 
 _As of 2026-11-23._ The map, castles, year switch, detail panel, castle list and search work, with 124 castles and 153 clans. The interface is in Japanese.
 
-| Milestone                        | Status                                      |
-| -------------------------------- | ------------------------------------------- |
-| M0 Foundations                   | Done, except deferred items                 |
-| M1 Map of Japan                  | Done                                        |
-| M2 Castles on the map            | Done, except deferred items                 |
-| M3 Detail panel, shareable links | Done, except deferred items                 |
-| M4 Provinces (令制国) and clans  | Done                                        |
-| M5 Years                         | Done: five years, 1553–1614                 |
-| M6 Search and filters            | In progress: search done                    |
-| M7 Data growth                   | In progress: 124 castles                    |
-| M8 Sengoku look and polish       | In progress: castle list, links, icons done |
-| M9 v1.0 release                  | In progress: about dialog done              |
+| Milestone                        | Status                                        |
+| -------------------------------- | --------------------------------------------- |
+| M0 Foundations                   | Done, except deferred items                   |
+| M1 Map of Japan                  | Done                                          |
+| M2 Castles on the map            | Done, except deferred items                   |
+| M3 Detail panel, shareable links | Done, except deferred items                   |
+| M4 Provinces (令制国) and clans  | Done                                          |
+| M5 Years                         | Done: five years, 1553–1614                   |
+| M6 Search and filters            | In progress: search done                      |
+| M7 Data growth                   | In progress: 124 castles                      |
+| M8 Sengoku look and polish       | In progress: castle list, links, icons done   |
+| M9 v1.0 release                  | v1.0.0 released, except better error handling |
 
 Deferred for now: unit and component tests (Vitest), and CI checks. See the [roadmap](docs/ROADMAP.md) for details.
 
