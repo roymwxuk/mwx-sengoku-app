@@ -49,11 +49,12 @@ export function AboutDialog() {
           <p className="mt-2">
             城のデータは、歴史面での確認がまだ必要です。誤りに気づいたら、GitHubでお知らせください。
           </p>
-          <p className="mt-2 text-xs">
-            制作: {AUTHOR}{' '}
+          <p className="mt-2 flex flex-wrap items-center gap-x-2 text-xs">
+            制作:
             <ExternalLink href={`https://github.com/${AUTHOR}`}>
-              GitHub
+              {AUTHOR}
             </ExternalLink>
+            <ExternalLink href={GITHUB}>GitHub</ExternalLink>
           </p>
           <ul className="flex flex-wrap gap-x-5">
             <li>
