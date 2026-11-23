@@ -11,6 +11,8 @@ const clan = z.strictObject({
   mark: z.string().length(1),
   /** One of scripts/clan-palette.json */
   color: z.string().regex(/^#[0-9a-f]{6}$/),
+  /** Article title on Japanese Wikipedia */
+  wikipedia_ja: z.string().min(1).optional(),
 })
 
 const isUnique = (values: string[]) => new Set(values).size === values.length
