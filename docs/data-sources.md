@@ -72,6 +72,9 @@
 - 三原城: `built` is 1567 (begun, and the infobox) to 1582 (remade as a sea castle from 1580). 浮城 and 玉壺城 are alternative names, not former ones. `abandoned` is the infobox's 1873. The official site on Wikidata no longer exists.
 - 岡豊城: `built` is 1201–1400: excavation suggests the 13th–14th century, and the infobox says 13th. 豊岡城, in an Edo-period text, isn't listed, as the source doesn't say when the name changed. 元親 moved to 大高坂山城 in 1588 and back; the castle was abandoned in 1591.
 - 朝倉城: the one in 土佐; its id is `tosa-asakura`, as other castles share the name. `built` is about 1532 (the article and infobox are unsure). 重松城 is an alternative name, not a former one.
+- 宇和島城: `built` is 941 (the traditional date of a fort on the site) to 1601, when 藤堂高虎's castle was finished; the infobox gives 1596. 板島丸串城 is the former name until 1617, when the article says 宇和島城 came into use. 鶴島城 is an alternative name. `abandoned` is the infobox's 1871. Coordinates are from the article, as Wikidata's are given to about 1 km.
+- 中村城: the one in 土佐; its id is `tosa-nakamura`, as other castles share the name. `built` is null, as the infobox says unknown. 為松城 is an alternative name. 一条氏 lived in 中村御所 in the town below. Coordinates are from the article, as Wikidata has none.
+- 黒瀬城: `built` is 1551 (the infobox says the late 16th century) to 1565, when its builder 西園寺実充 died; his article implies that he had moved there by 1556, and 『宇和旧記』 that it was finished after him. `abandoned` is null, as no date is given.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -134,5 +137,8 @@
 - 三原城: 毛利氏 in 1597–1600: 三原 went back to the main house when 隆景 died (article 毛利輝元). 浅野氏 from 1619 are the 三原 branch, chief retainers of 広島藩; the year 1871 is 廃藩置県.
 - 岡豊城: 長宗我部氏 is listed from 1467, the start of the app's period. It fell in 1508 to 本山氏 and their allies; 1511, when 兼序 came back, follows recent research, and the traditional date is 1518, under 国親.
 - 朝倉城: 本山氏 is marked 茂, as 本多氏 has 本 (from 清茂 and 茂辰).
+- 宇和島城: 西園寺氏 is listed from 1467, the start of the app's period, and covers their retainers 家藤氏 and 西園寺宣久. They gave in to 大友氏 for a time in 1560. 戸田氏 in 1587–1594 is the castellan of 戸田勝隆, whose base was 大洲城. 藤堂氏 in 1600–1608 is the castellan 良勝. 徳川氏 in 1613–1614 is direct rule by the shogunate.
+- 中村城: 一条氏 is listed from 1468, when 教房 arrived. Their retainers 為松氏 are said to have built it. 長宗我部氏 in 1574–1600 is first 吉良親貞; later years are inferred, as they held 土佐 until 関ヶ原. 山内氏 (marked 康, from 康豊) is a branch; 1601 is from general knowledge.
+- 黒瀬城: 西園寺氏, its only lords, are listed from 1551, the earliest it can have been built. 戸田氏 in 1587–1594 is the castellan 岩城氏; no owner is listed after 戸田勝隆 died.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.

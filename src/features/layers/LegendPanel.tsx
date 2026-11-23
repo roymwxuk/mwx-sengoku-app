@@ -1,5 +1,6 @@
 import { useState, type ReactNode } from 'react'
 import type { Clan } from '../../data/clanSchema'
+import { ClanName } from '../clans/ClanName'
 import { NO_CLAN_COLOR, textColorOn } from '../clans/colors'
 import { CASTLE_SHAPES, SHAPE_SIZE } from '../castles/castleShapes'
 import { idsWith, type Statuses } from '../castles/castleStatus'
@@ -95,7 +96,7 @@ export function LegendPanel({ clans, view, ownership, statuses }: Props) {
                 .map((clan) => (
                   <li key={clan.id} className="flex items-center gap-2 py-1">
                     <ClanMark color={clan.color} mark={clan.mark} />
-                    {clan.name_ja}
+                    <ClanName clan={clan} />
                   </li>
                 ))}
               {hasUnowned && (

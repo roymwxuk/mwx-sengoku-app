@@ -2,6 +2,7 @@ import { useEffect, type ReactNode, type Ref } from 'react'
 import { ExternalLink } from '../../components/ExternalLink'
 import type { CastleFeature } from '../../data/castleSchema'
 import type { Clan } from '../../data/clanSchema'
+import { ClanName } from '../clans/ClanName'
 import type { YearView } from '../years/yearViews'
 import { googleMapsUrl, wikipediaUrl } from './castleLinks'
 import { nameIn } from './castleName'
@@ -89,7 +90,7 @@ export function CastlePanel({ feature, clan, view, onClose, ref }: Props) {
           )}
           {clan && (
             <Row label="城主">
-              {clan.name_ja}（{view.year}年）
+              <ClanName clan={clan} />（{view.year}年）
             </Row>
           )}
           <Row label="国">{castle.province}国</Row>

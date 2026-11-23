@@ -71,7 +71,7 @@
   {"id": "torii", "name_ja": "鳥居氏", "reading": "とりいし", "name_en": "Torii", "mark": "鳥", "color": "#a75340"},
   {"id": "murakami", "name_ja": "村上氏", "reading": "むらかみし", "name_en": "Murakami", "mark": "村", "color": "#f564fd"},
   {"id": "mori-tadamasa", "name_ja": "森氏", "reading": "もりし", "name_en": "Mori (Tadamasa)", "mark": "忠", "color": "#eca5fe"},
-  {"id": "kanamori", "name_ja": "金森氏", "reading": "かなもりし", "name_en": "Kanamori", "mark": "近", "color": "#3492fe"},
+  {"id": "kanamori", "name_ja": "金森氏", "reading": "かなもりし", "name_en": "Kanamori", "mark": "近", "color": "#3492fe", "wikipedia_ja": "金森氏"},
   {"id": "honganji", "name_ja": "本願寺", "reading": "ほんがんじ", "name_en": "Hongan-ji", "mark": "願", "color": "#10fc23"},
   {"id": "maeda", "name_ja": "前田氏", "reading": "まえだし", "name_en": "Maeda", "mark": "前", "color": "#114a10"},
   {"id": "hatakeyama", "name_ja": "畠山氏（能登）", "reading": "はたけやまし", "name_en": "Hatakeyama (Noto)", "mark": "畠", "color": "#931a45"},
@@ -88,5 +88,10 @@
   {"id": "sugihara", "name_ja": "杉原氏", "reading": "すぎはらし", "name_en": "Sugihara", "mark": "杉", "color": "#60b09e"},
   {"id": "yamana", "name_ja": "山名氏", "reading": "やまなし", "name_en": "Yamana", "mark": "山", "color": "#8d434a"},
   {"id": "ouchi", "name_ja": "大内氏", "reading": "おおうちし", "name_en": "Ōuchi", "mark": "内", "color": "#fe8d76"},
-  {"id": "motoyama", "name_ja": "本山氏", "reading": "もとやまし", "name_en": "Motoyama", "mark": "茂", "color": "#cfaf21"}
+  {"id": "motoyama", "name_ja": "本山氏", "reading": "もとやまし", "name_en": "Motoyama", "mark": "茂", "color": "#cfaf21"},
+  {"id": "saionji", "name_ja": "西園寺氏", "reading": "さいおんじし", "name_en": "Saionji", "mark": "西", "color": "#cc8e6f"},
+  {"id": "ichijo", "name_ja": "一条氏", "reading": "いちじょうし", "name_en": "Ichijō", "mark": "条", "color": "#5a469d"},
+  {"id": "toda", "name_ja": "戸田氏", "reading": "とだし", "name_en": "Toda", "mark": "戸", "color": "#859be0"},
+  {"id": "tomita", "name_ja": "富田氏", "reading": "とみたし", "name_en": "Tomita", "mark": "富", "color": "#d4b088"},
+  {"id": "yamauchi", "name_ja": "山内氏", "reading": "やまうちし", "name_en": "Yamauchi", "mark": "康", "color": "#a44393"}
 ]
