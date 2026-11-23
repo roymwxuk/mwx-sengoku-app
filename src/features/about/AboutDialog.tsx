@@ -49,7 +49,7 @@ export function AboutDialog() {
           <p className="mt-2">
             城のデータは、歴史面での確認がまだ必要です。誤りに気づいたら、GitHubでお知らせください。
           </p>
-          <p className="mt-2">
+          <p className="mt-2 text-xs">
             制作:{' '}
             <ExternalLink href={`https://github.com/${AUTHOR}`}>
               {AUTHOR}
