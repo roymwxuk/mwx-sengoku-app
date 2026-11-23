@@ -57,6 +57,26 @@
   }
 }
 
+/* Search: right of the year switch and detail panel; on phones, below them. */
+.castle-search {
+  top: 4rem;
+}
+.castle-search-results {
+  /* On phones, short enough to stay above the keyboard. */
+  max-height: min(24rem, 40dvh);
+}
+@media (width < 40rem) {
+  .castle-list-items {
+    max-height: calc(100dvh - var(--list-bottom) - 10.5rem);
+  }
+}
+@media (width >= 40rem) {
+  .castle-search {
+    top: 0.75rem;
+    left: 20.75rem;
+  }
+}
+
 /* Legend: top right, below the zoom buttons and above the map credit. */
 .legend-items {
   max-height: calc(100dvh - 13.5rem);
@@ -72,7 +92,11 @@
 
 /* Very narrow screens: the year switch moves below the title. */
 @media (width < 22.5rem) {
+  .castle-search {
+    top: 7.25rem;
+    width: 12rem;
+  }
   .castle-list-items {
-    max-height: calc(100dvh - var(--list-bottom) - 10.5rem);
+    max-height: calc(100dvh - var(--list-bottom) - 13.75rem);
   }
 }

@@ -93,11 +93,11 @@ Goal: see how the map changes from 1467 to 1615.
 
 Goal: find castles quickly.
 
-- [ ] Search box with fuzzy match on kanji, kana reading, and romaji
-- [ ] Selecting a result flies to and selects the castle
+- [x] Search box with fuzzy match on kanji, kana reading, and romaji
+- [x] Selecting a result flies to and selects the castle
 - [ ] Filter by castle type, clan, province
 - [ ] Marker clustering at low zoom (needed once the dataset grows)
-- [ ] Keyboard navigation for search results
+- [x] Keyboard navigation for search results
 - *Milestone done when:* typing "おだわら" or "odawara" finds 小田原城.
 
 ## M7 — Data growth
