@@ -15,6 +15,10 @@ export const MAP_FONT = [
   'serif',
 ]
 
+// The title in brush strokes, in the Sea of Japan. The image is 4:1; keep the
+// corners so on the map (Web Mercator), or it will look stretched.
+const LOGO = { west: 129, east: 137.4, north: 40.502, south: 38.886 }
+
 export const mapStyle: StyleSpecification = {
   version: 8,
   sources: {
@@ -24,9 +28,25 @@ export const mapStyle: StyleSpecification = {
       attribution:
         '<a href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">Made with Natural Earth</a>',
     },
+    logo: {
+      type: 'image',
+      url: `${import.meta.env.BASE_URL}logo.webp`,
+      coordinates: [
+        [LOGO.west, LOGO.north],
+        [LOGO.east, LOGO.north],
+        [LOGO.east, LOGO.south],
+        [LOGO.west, LOGO.south],
+      ],
+    },
   },
   layers: [
     { id: 'sea', type: 'background', paint: { 'background-color': SEA } },
+    {
+      id: 'logo', // under the land
+      type: 'raster',
+      source: 'logo',
+      paint: { 'raster-opacity': 0.85, 'raster-fade-duration': 0 },
+    },
     {
       id: 'land',
       type: 'fill',
