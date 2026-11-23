@@ -106,6 +106,11 @@
 - 要害山城: coordinates are from Wikidata, where they are given to about 1 km, but agree with the peak on OpenStreetMap. 積翠山城 is an alternative name.
 - 飯山城: `built` is the early 14th century, when 泉氏 lived there, to 1564, when 上杉謙信 rebuilt it; the infobox says 室町時代. `abandoned` is 廃藩置県 (1871), as the article only says that the buildings went after it. Coordinates are from the article.
 - 白石城: `built` is the Kamakura period (infobox); the article says that its origin is unknown. 益岡城 is an alternative name.
+- 根城: `abandoned` is 1592, when the castle was pulled down on 秀吉's orders, to 1627, when 八戸氏 left the residence.
+- 若松城: the one in 会津; its id is `aizu-wakamatsu`. `built` is 1384 (traditional, and the infobox) to 1593, when 氏郷's keep was finished. 黒川城 is the former name until 1592, when he began his castle and renamed the town. `abandoned` is the infobox's 1874.
+- 白河小峰城: `built` is 1340 (an Edo-period text, and the infobox) to 1632, when 丹羽氏's rebuilding ended.
+- 箕輪城: `built` is 1512–1526, from two accounts; the infobox gives 1512.
+- 小諸城: `built` is 1487 (大井氏) to 1554 (武田氏); the infobox gives 1554. `abandoned` is the infobox's 1873. 穴城, 酔月城 and others are alternative names.
 - Alternative names mentioned in these notes are mostly not in the data; `other_names` (別名) so far has only 千代田城 (江戸城, asked for by the project owner), 鶴ヶ城 (若松城) and 小峰城 (白河小峰城).
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
@@ -201,5 +206,10 @@
 - 要害山城: as at 躑躅ヶ崎館, 織田氏 in 1582 is 河尻秀隆 (from general knowledge). 加藤氏 is 光泰; its years and 浅野氏 in 1593–1600 follow 甲府城.
 - 飯山城: owners before 1557 (泉氏, then a branch castle of 高梨氏) are left out, as no dates are given. 高梨氏 were allies of 上杉氏. 織田氏 in 1582 is 森長可. 上杉氏 in 1582–1598 is the castellan 岩井信能. 石川光吉 (a 豊臣 deputy) and 関一政, 1598–1600, are left out. 森氏 in 1600–1603 is 忠政, who was given the district in 1600 (from general knowledge). Owners after 1603 are left out.
 - 白石城: 伊達氏 is listed from 1467, the start of the app's period, and covers 白石氏, who came under them at an unknown date. 蒲生氏 is 蒲生郷成, 上杉氏 甘糟景継. 伊達氏 took it in July 1600, before 関ヶ原, so 上杉氏 is listed only to 1599 for the 1600 view to be right. 伊達氏 from 1600 is 石川昭光, then 片倉氏 from 1602.
+- 根城: 南部氏 is the 根城 (八戸) branch, under 三戸's main line from 1590, listed from 1467, the start of the app's period.
+- 若松城: 蘆名氏 is listed from 1467, the start of the app's period. 加藤氏 is 嘉明's family and 保科氏 that of 高遠城, later 松平氏.
+- 白河小峰城: 結城氏 of 白河 is listed from 1467. The dates of 蒲生氏 and 上杉氏 follow 若松城, as the article gives none. Owners after 1643 (from general knowledge) are left out.
+- 箕輪城: 長野氏 is marked 業, from 業正. 徳川氏 in 1590–1598 is 井伊直政.
+- 小諸城: 大井氏, before 1554, are left out, as the article doesn't say when 武田氏 took it. 織田氏 in 1582 is 滝川一益's deputy 道家正栄. 徳川氏 in 1582–1590 is 依田氏. Owners after 1622 are left out.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
