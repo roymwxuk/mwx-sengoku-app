@@ -19,5 +19,8 @@
   {"id": "tanaka", "name_ja": "田中氏", "reading": "たなかし", "name_en": "Tanaka", "mark": "田", "color": "#6b645c"},
   {"id": "honda", "name_ja": "本多氏", "reading": "ほんだし", "name_en": "Honda", "mark": "本", "color": "#6b645c"},
   {"id": "ota", "name_ja": "太田氏", "reading": "おおたし", "name_en": "Ōta", "mark": "太", "color": "#6b645c"},
-  {"id": "ogigayatsu", "name_ja": "扇谷上杉氏", "reading": "おうぎがやつうえすぎし", "name_en": "Ōgigayatsu Uesugi", "mark": "扇", "color": "#6b645c"}
+  {"id": "ogigayatsu", "name_ja": "扇谷上杉氏", "reading": "おうぎがやつうえすぎし", "name_en": "Ōgigayatsu Uesugi", "mark": "扇", "color": "#6b645c"},
+  {"id": "fukuhara", "name_ja": "福原氏", "reading": "ふくはらし", "name_en": "Fukuhara", "mark": "原", "color": "#6b645c"},
+  {"id": "hayakawa", "name_ja": "早川氏", "reading": "はやかわし", "name_en": "Hayakawa", "mark": "早", "color": "#6b645c"},
+  {"id": "takenaka", "name_ja": "竹中氏", "reading": "たけなかし", "name_en": "Takenaka", "mark": "竹", "color": "#6b645c"}
 ]

@@ -244,6 +244,48 @@
           { "clan": "mori", "from": 1467, "to": 1591 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.61143, 33.24064] },
+      "properties": {
+        "id": "funai",
+        "name_ja": "府内城",
+        "reading": "ふないじょう",
+        "name_en": "Funai Castle",
+        "former_names": [],
+        "description": "豊臣秀吉の家臣・福原直高が1597年に築き始め、関ヶ原の戦いの後に入った竹中重利が完成させた城。江戸時代には府内藩の藩庁が置かれた。",
+        "wikipedia_ja": "府内城",
+        "province": "豊後",
+        "type": "平城",
+        "built": {"earliest": 1597, "latest": 1597},
+        "abandoned": {"earliest": 1872, "latest": 1872},
+        "owners": [
+          { "clan": "fukuhara", "from": 1597, "to": 1599 },
+          { "clan": "hayakawa", "from": 1599, "to": 1601 },
+          { "clan": "takenaka", "from": 1601, "to": 1634 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.25222, 35.65306] },
+      "properties": {
+        "id": "hachioji",
+        "name_ja": "八王子城",
+        "reading": "はちおうじじょう",
+        "name_en": "Hachiōji Castle",
+        "former_names": [],
+        "description": "北条氏康の三男・氏照が築き、1587年に本拠とした山城。小田原城の支城として関東の西を守り、1590年に落城した。",
+        "wikipedia_ja": "八王子城",
+        "province": "武蔵",
+        "type": "山城",
+        "built": {"earliest": 1587, "latest": 1587},
+        "abandoned": {"earliest": 1590, "latest": 1590},
+        "owners": [
+          { "clan": "hojo", "from": 1587, "to": 1590 }
+        ]
+      }
     }
   ]
 }
