@@ -1228,6 +1228,7 @@
         "reading": "しょうずいじょう",
         "name_en": "Shōzui Castle",
         "former_names": [],
+        "other_names": [{"name_ja": "勝瑞城館", "reading": "しょうずいじょうかん", "name_en": "Shōzui Castle Residence"}],
         "description": "阿波の守護・細川氏の居館で、のちに三好氏の本拠となった城。1552年に三好実休が主君の細川氏之を討って奪った。1582年、長宗我部元親に攻められて廃城となった。",
         "wikipedia_ja": "勝瑞城",
         "official_url": null,
@@ -2995,6 +2996,59 @@
           { "clan": "sanada", "from": 1582, "to": 1589 },
           { "clan": "hojo", "from": 1589, "to": 1590 },
           { "clan": "sanada", "from": 1590, "to": 1681 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.37078, 34.45882] },
+      "properties": {
+        "id": "kishiwada",
+        "name_ja": "岸和田城",
+        "reading": "きしわだじょう",
+        "name_en": "Kishiwada Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "千亀利城", "reading": "ちきりじょう", "name_en": "Chikiri Castle"}],
+        "description": "和泉の要の城。1558年に三好長慶の弟たちが入り、三好実休が大改修した。1583年に羽柴秀吉が中村一氏を置き、翌年、根来衆や雑賀衆の大軍を退けた。小出秀政が五重の天守を上げ、江戸時代は岸和田藩の藩庁となった。",
+        "wikipedia_ja": "岸和田城",
+        "official_url": "https://www.city.kishiwada.lg.jp/page/36-kishiwadajyo.html",
+        "province": "和泉",
+        "type": "平城",
+        "built": {"earliest": 1394, "latest": 1558},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "matsura-izumi", "from": 1549, "to": 1558 },
+          { "clan": "miyoshi", "from": 1558, "to": 1562 },
+          { "clan": "matsura-izumi", "from": 1562, "to": 1577 },
+          { "clan": "oda", "from": 1577, "to": 1583 },
+          { "clan": "nakamura", "from": 1583, "to": 1585 },
+          { "clan": "koide", "from": 1585, "to": 1619 },
+          { "clan": "matsudaira", "from": 1619, "to": 1640 },
+          { "clan": "okabe", "from": 1640, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.65367, 34.72641] },
+      "properties": {
+        "id": "kawachi-iimori",
+        "name_ja": "飯盛城",
+        "reading": "いいもりじょう",
+        "name_en": "Iimori Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "飯盛山城", "reading": "いいもりやまじょう", "name_en": "Iimoriyama Castle"}],
+        "description": "生駒山地の北西、標高約316mの飯盛山に築かれた大規模な山城。木沢長政、安見宗房が居城とし、1560年に三好長慶が入って大改修した。長慶はここで畿内を治め、1564年に没した。発掘で大規模な石垣が見つかっている。",
+        "wikipedia_ja": "飯盛山城",
+        "official_url": "https://www.city.shijonawate.lg.jp/site/bunkazai-shiseki/1857.html",
+        "province": "河内",
+        "type": "山城",
+        "built": {"earliest": 1334, "latest": 1531},
+        "abandoned": {"earliest": 1576, "latest": 1576},
+        "owners": [
+          { "clan": "kizawa", "from": 1531, "to": 1542 },
+          { "clan": "yasumi", "from": 1551, "to": 1560 },
+          { "clan": "miyoshi", "from": 1560, "to": 1568 }
         ]
       }
     }

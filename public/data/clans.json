@@ -154,5 +154,8 @@
   {"id": "kinoshita-iesada", "name_ja": "木下氏（家定）", "reading": "きのしたし", "name_en": "Kinoshita (Iesada)", "mark": "房", "color": "#acc36b"},
   {"id": "anekoji", "name_ja": "三木・姉小路氏", "reading": "みつき・あねこうじし", "name_en": "Mitsuki / Anekōji", "mark": "姉", "color": "#3e3aa4"},
   {"id": "numata", "name_ja": "沼田氏", "reading": "ぬまたし", "name_en": "Numata", "mark": "沼", "color": "#da8b97"},
-  {"id": "sanada", "name_ja": "真田氏", "reading": "さなだし", "name_en": "Sanada", "mark": "真", "color": "#9fa645"}
+  {"id": "sanada", "name_ja": "真田氏", "reading": "さなだし", "name_en": "Sanada", "mark": "真", "color": "#9fa645"},
+  {"id": "matsura-izumi", "name_ja": "松浦氏（和泉）", "reading": "まつらし", "name_en": "Matsura (Izumi)", "mark": "浦", "color": "#d3a4da"},
+  {"id": "koide", "name_ja": "小出氏", "reading": "こいでし", "name_en": "Koide", "mark": "出", "color": "#39346c"},
+  {"id": "yasumi", "name_ja": "安見氏", "reading": "やすみし", "name_en": "Yasumi", "mark": "見", "color": "#5e3dc4"}
 ]
