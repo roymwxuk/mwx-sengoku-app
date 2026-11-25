@@ -15,7 +15,7 @@
   {"id": "akamatsu", "name_ja": "赤松氏", "reading": "あかまつし", "name_en": "Akamatsu", "mark": "赤", "color": "#4b15f8"},
   {"id": "kodera", "name_ja": "小寺氏", "reading": "こでらし", "name_en": "Kodera", "mark": "寺", "color": "#d96e62"},
   {"id": "kuroda", "name_ja": "黒田氏", "reading": "くろだし", "name_en": "Kuroda", "mark": "黒", "color": "#f26908"},
-  {"id": "shiba", "name_ja": "斯波氏", "reading": "しばし", "name_en": "Shiba", "mark": "斯", "color": "#889171"},
+  {"id": "shiba", "name_ja": "斯波氏", "reading": "しばし", "name_en": "Shiba", "mark": "斯", "color": "#c16eeb"},
   {"id": "fukushima", "name_ja": "福島氏", "reading": "ふくしまし", "name_en": "Fukushima", "mark": "福", "color": "#0c1096"},
   {"id": "tanaka", "name_ja": "田中氏", "reading": "たなかし", "name_en": "Tanaka", "mark": "田", "color": "#b40dcd"},
   {"id": "honda", "name_ja": "本多氏", "reading": "ほんだし", "name_en": "Honda", "mark": "本", "color": "#b93761"},
@@ -157,5 +157,7 @@
   {"id": "sanada", "name_ja": "真田氏", "reading": "さなだし", "name_en": "Sanada", "mark": "真", "color": "#9fa645"},
   {"id": "matsura-izumi", "name_ja": "松浦氏（和泉）", "reading": "まつらし", "name_en": "Matsura (Izumi)", "mark": "浦", "color": "#d3a4da"},
   {"id": "koide", "name_ja": "小出氏", "reading": "こいでし", "name_en": "Koide", "mark": "出", "color": "#39346c"},
-  {"id": "yasumi", "name_ja": "安見氏", "reading": "やすみし", "name_en": "Yasumi", "mark": "見", "color": "#5e3dc4"}
+  {"id": "yasumi", "name_ja": "安見氏", "reading": "やすみし", "name_en": "Yasumi", "mark": "見", "color": "#5e3dc4"},
+  {"id": "bessho", "name_ja": "別所氏", "reading": "べっしょし", "name_en": "Bessho", "mark": "別", "color": "#889171"},
+  {"id": "goto", "name_ja": "後藤氏", "reading": "ごとうし", "name_en": "Gotō", "mark": "後", "color": "#193700"}
 ]

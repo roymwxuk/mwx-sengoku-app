@@ -78,7 +78,7 @@ Goal: historical context on the map.
 
 Goal: see how the map changes between key years from 1553 to 1614.
 
-- [x] Choose colours for more clans: each has its own, from a palette of 160 (`scripts/clan-palette.json`)
+- [x] Choose colours for more clans: each has its own, from a palette of 180 (`scripts/clan-palette.json`)
 - [x] Switch between 1553 (just before the first 川中島), 1560 (just before 桶狭間), 1583, 1600 (just before 関ヶ原) and 1614 (just before 大坂冬の陣), in the URL as `?year=1600`; castles not built yet are dotted circles, abandoned ones ✕
 - [x] Colour castles by their owner in the selected year (the five on the switch)
 - [x] Show a castle's former name in the years it was used (大坂城 is 石山御坊 in 1553 and 1560), in the panel, tooltip and list
