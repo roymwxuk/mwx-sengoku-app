@@ -2901,6 +2901,73 @@
           { "clan": "kyogoku", "from": 1600, "to": 1615 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.32494, 34.97635] },
+      "properties": {
+        "id": "kozuki",
+        "name_ja": "上月城",
+        "reading": "こうづきじょう",
+        "name_en": "Kōzuki Castle",
+        "former_names": [],
+        "description": "播磨の西の端、毛利方と織田方が争った山城。1577年に羽柴秀吉が赤松氏から攻め落とし、尼子勝久と山中幸盛を入れた。翌年、毛利の大軍に囲まれて降伏し、勝久は自害、尼子氏再興の望みは絶えた。",
+        "wikipedia_ja": "上月城",
+        "official_url": null,
+        "province": "播磨",
+        "type": "山城",
+        "built": {"earliest": 1336, "latest": 1336},
+        "abandoned": {"earliest": 1578, "latest": 1578},
+        "owners": [
+          { "clan": "akamatsu", "from": 1557, "to": 1577 },
+          { "clan": "amago", "from": 1577, "to": 1578 },
+          { "clan": "mori", "from": 1578, "to": 1578 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.21136, 35.88067] },
+      "properties": {
+        "id": "sakurabora",
+        "name_ja": "桜洞城",
+        "reading": "さくらぼらじょう",
+        "name_en": "Sakurabora Castle",
+        "former_names": [],
+        "description": "南飛騨から勢力を広げた三木氏の本拠。三木直頼が築いたと伝わり、孫の自綱（姉小路頼綱）が1579年に松倉城へ移ったあとは支城となった。1585年、羽柴秀吉の命を受けた金森長近に攻められて落城した。",
+        "wikipedia_ja": "桜洞城",
+        "official_url": null,
+        "province": "飛騨",
+        "type": "平山城",
+        "built": null,
+        "abandoned": {"earliest": 1585, "latest": 1585},
+        "owners": [
+          { "clan": "anekoji", "from": 1516, "to": 1585 },
+          { "clan": "kanamori", "from": 1585, "to": 1585 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.2341, 36.1261] },
+      "properties": {
+        "id": "hida-matsukura",
+        "name_ja": "松倉城",
+        "reading": "まつくらじょう",
+        "name_en": "Matsukura Castle",
+        "former_names": [],
+        "description": "標高857mの松倉山にある、姉小路頼綱（三木自綱）の山城。頼綱は飛騨の大半を従え、子の秀綱に譲った。1585年、金森長近の軍に囲まれ、寝返りが出て落城した。金森氏が改修したが、高山城を築いて廃城とした。",
+        "wikipedia_ja": "松倉城 (飛騨国)",
+        "official_url": null,
+        "province": "飛騨",
+        "type": "山城",
+        "built": {"earliest": 1579, "latest": 1579},
+        "abandoned": {"earliest": 1588, "latest": 1588},
+        "owners": [
+          { "clan": "anekoji", "from": 1579, "to": 1585 },
+          { "clan": "kanamori", "from": 1585, "to": 1588 }
+        ]
+      }
     }
   ]
 }

@@ -134,6 +134,9 @@
 - 後瀬山城: coordinates are from Wikidata, where they are given to about 1 km, but agree with the article.
 - 高浜城: the one in 若狭. It has no article on Japanese Wikipedia, so `wikipedia_ja` is null; dates are from 逸見昌経 (built 1565), 溝口秀勝, 堀尾吉晴, 山内一豊, 木下利房 and 高浜町 (abandoned under the 一国一城令, 1615). Its type is from general knowledge. The point is 城山公園 on [OpenStreetMap](https://www.openstreetmap.org/way/1005821557) (© OpenStreetMap contributors, ODbL).
 - Alternative names mentioned in these notes are mostly not in the data; `other_names` (別名) so far has only 千代田城 (江戸城, asked for by the project owner), 鶴ヶ城 (若松城), 小峰城 (白河小峰城), 松阪城 (松坂城), 金亀城 (彦根城), 白帝城 (犬山城), 福井城 (北ノ庄城), 霞ヶ城 (丸岡城), 和田城 (増山城), 亀岡城 (丹波亀山城) and 有岡城 (伊丹城).
+- 上月城: added 2026-11-25 from the castle's article and 上月城の戦い; both are flagged as needing more citations. Coordinates are from Wikidata, about 130 m from the article's.
+- 桜洞城: added 2026-11-25. `built` is null, as the infobox says it is unknown: 三木直頼 (died 1554) is said to have built it, but another view has his grandfather 久頼 (died 1471) there already. The type is the infobox's 平山城, though the text describes a residence. `abandoned` is the infobox's 1585; the text says it followed the building of 萩原諏訪城, in the same year. Coordinates are from the article: Wikidata's are about 1.7 km to the east, away from the railway said to cross the site. 冬城 is an alternative name, not listed as no source gives its reading.
+- 松倉城: the one in 飛騨, added 2026-11-25; its id is `hida-matsukura`, as other castles share the name. 夏城 is an alternative name, not listed as no source gives its reading.
 - 姫路城 and 江戸城: `abandoned` is null. Wikidata gives 1869 as the end date for 江戸城, when it became the imperial residence.
 - Provinces (令制国) were filled in from general knowledge where the source didn't state them.
 
@@ -255,5 +258,7 @@
 - 後瀬山城: 朝倉氏 is listed in 1568–1573, after they took 武田元明 away. 1585 for the end of 丹羽氏 and 1587–1593 for 浅野氏 are from general knowledge; 1594 is from 木下利房. 木下氏 (家定) is 勝俊, and 京極氏 高次 and 忠高; 1634 is from general knowledge.
 - 国吉城: 粟屋氏 served 若狭武田氏. 豊臣氏 in 1583–1585 is 木村定光; his end isn't given. 木下氏 and 京極氏 are inferred from 後瀬山城, as they were given the district.
 - 高浜城: 堀尾氏 in 1583–1585 and 山内氏 in 1585 are from their articles; owners in 1585–1594 are left out. 京極氏 is inferred from 後瀬山城.
+- 上月城: owners before 1557 are left out, as 赤松氏 and 山名氏 fought over it. 赤松氏 from 1557 is 政元 and 政範. 宇喜多氏 (上月景貞) held it briefly between 羽柴秀吉's two attacks, left out: the castle's article puts this before 尼子勝久 came, the battle's after. 毛利氏 in 1578 is the siege that ended it; neither article says who held the site afterwards.
+- 桜洞城, 松倉城: 三木氏 of 飛騨 (みつき) took the name 姉小路 in 1560; both names are in one entry, marked 姉. They are listed at 桜洞城 from 1516, when 直頼 became head (article 三木重頼), although it isn't known when he built it. The castellan 信綱 was killed in 1579 or 1583, and later lords aren't known. 松倉城 passed to 秀綱 (article 姉小路秀綱). 金森氏 at 桜洞城 in 1585 is the attack that ended it.
 - Known gaps: 岐阜城 before 1533; 岡崎城 before 1531; 躑躅ヶ崎館 after 1590.
 - From general knowledge: 大久保氏 at 小田原城 from 1590; that 田中氏 left 岡崎城 in 1601; and clan readings and English names.
