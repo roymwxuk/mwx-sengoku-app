@@ -1,9 +1,11 @@
-import { useState, type ReactNode } from 'react'
+import { useRef, useState, type ReactNode } from 'react'
 import type { Clan } from '../../data/clanSchema'
-import { ClanName } from '../clans/ClanName'
+import { useClanFilter } from '../clans/clanFilterStore'
 import { NO_CLAN_COLOR, textColorOn } from '../clans/colors'
 import { CASTLE_SHAPES, SHAPE_SIZE } from '../castles/castleShapes'
+import { wikipediaUrl } from '../castles/castleLinks'
 import { idsWith, type Statuses } from '../castles/castleStatus'
+import { useSelection } from '../castles/selectionStore'
 import type { Ownership } from '../clans/ownership'
 import type { YearView } from '../years/yearViews'
 import { useLayers } from './layerStore'
@@ -24,7 +26,10 @@ export function LegendPanel({ clans, view, ownership, statuses }: Props) {
   const [open, setOpen] = useState(
     () => window.matchMedia(ROOM_FOR_LEGEND).matches,
   )
+  const toggleRef = useRef<HTMLButtonElement>(null)
   const { provinces, clanColors, toggle } = useLayers()
+  const { clanId, setClanId } = useClanFilter()
+  const filterClan = clans.find((clan) => clan.id === clanId)
 
   const present = new Set(ownership.values())
   const hasUnowned = idsWith('standing', statuses).some(
@@ -33,9 +38,26 @@ export function LegendPanel({ clans, view, ownership, statuses }: Props) {
   const hasPlanned = idsWith('planned', statuses).length > 0
   const hasRuins = idsWith('ruin', statuses).length > 0
 
+  function toggleFilter(clan: Clan) {
+    if (clan.id === clanId) {
+      setClanId(null)
+      return
+    }
+    // Otherwise another clan's castle would stay on the map.
+    const { selectedCastleId, selectCastle } = useSelection.getState()
+    if (selectedCastleId && ownership.get(selectedCastleId) !== clan) {
+      selectCastle(null)
+    }
+    setClanId(clan.id)
+  }
+
   return (
-    <div className="legend pointer-events-none absolute top-28 right-2.5 flex flex-col items-end gap-2 *:pointer-events-auto">
+    <div
+      data-filtered={filterClan ? '' : undefined}
+      className="legend pointer-events-none absolute top-28 right-2.5 flex flex-col items-end gap-2 *:pointer-events-auto"
+    >
       <button
+        ref={toggleRef}
         type="button"
         aria-expanded={open}
         aria-controls={PANEL_ID}
@@ -50,6 +72,17 @@ export function LegendPanel({ clans, view, ownership, statuses }: Props) {
           ▾
         </span>
       </button>
+
+      {filterClan && (
+        <FilterChip
+          clan={filterClan}
+          count={[...ownership.values()].filter((c) => c === filterClan).length}
+          onClear={() => {
+            setClanId(null)
+            toggleRef.current?.focus() // the chip is about to disappear
+          }}
+        />
+      )}
 
       <section
         id={PANEL_ID}
@@ -94,9 +127,27 @@ export function LegendPanel({ clans, view, ownership, statuses }: Props) {
               {clans
                 .filter((clan) => present.has(clan))
                 .map((clan) => (
-                  <li key={clan.id} className="flex items-center gap-2 py-1">
-                    <ClanMark color={clan.color} mark={clan.mark} />
-                    <ClanName clan={clan} />
+                  <li key={clan.id} className="-mx-2 flex items-center">
+                    <button
+                      type="button"
+                      aria-pressed={clan === filterClan}
+                      onClick={() => toggleFilter(clan)}
+                      className="flex grow cursor-pointer items-center gap-2 px-2 py-1 text-left hover:text-shu focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-shu aria-pressed:bg-shu/10 aria-pressed:text-shu"
+                    >
+                      <ClanMark color={clan.color} mark={clan.mark} />
+                      {clan.name_ja}
+                    </button>
+                    {clan.wikipedia_ja && (
+                      <a
+                        href={wikipediaUrl(clan.wikipedia_ja)}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${clan.name_ja}（Wikipedia、新しいタブで開く）`}
+                        className="px-2 py-1 hover:text-shu focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-shu"
+                      >
+                        <span aria-hidden="true">↗</span>
+                      </a>
+                    )}
                   </li>
                 ))}
               {hasUnowned && (
@@ -146,6 +197,31 @@ export function LegendPanel({ clans, view, ownership, statuses }: Props) {
         )}
       </section>
     </div>
+  )
+}
+
+interface FilterChipProps {
+  clan: Clan
+  /** How many castles it holds in the year shown */
+  count: number
+  onClear: () => void
+}
+
+/** Says that castles are hidden, even while the legend is closed. */
+function FilterChip({ clan, count, onClear }: FilterChipProps) {
+  return (
+    <button
+      type="button"
+      aria-label={`${clan.name_ja}のみ表示中、${count}城。すべての城を表示`}
+      onClick={onClear}
+      className="flex h-11 cursor-pointer items-center gap-2 bg-washi px-3 whitespace-nowrap shadow-md hover:text-shu focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-shu"
+    >
+      <ClanMark color={clan.color} mark={clan.mark} />
+      {clan.name_ja}のみ（{count}城）
+      <span aria-hidden="true" className="text-2xl leading-none">
+        ×
+      </span>
+    </button>
   )
 }
 

@@ -7,7 +7,10 @@ import { CastlePanel } from './features/castles/CastlePanel'
 import { statusesIn, type Statuses } from './features/castles/castleStatus'
 import { useSelection } from './features/castles/selectionStore'
 import { useCastleUrlSync } from './features/castles/useCastleUrlSync'
+import { useClanFilter } from './features/clans/clanFilterStore'
+import { filterByClan } from './features/clans/filterByClan'
 import { ownershipIn, type Ownership } from './features/clans/ownership'
+import { useClanFilterUrlSync } from './features/clans/useClanFilterUrlSync'
 import { LegendPanel } from './features/layers/LegendPanel'
 import { CastleSearch } from './features/search/CastleSearch'
 import { useYearUrlSync } from './features/years/useYearUrlSync'
@@ -25,6 +28,7 @@ function App() {
   const provinceReadings = useProvinceReadings()
   useCastleUrlSync(castles)
   useYearUrlSync()
+  useClanFilterUrlSync(data?.clans ?? null)
 
   const view = useYear((s) => s.view)
 
@@ -43,6 +47,12 @@ function App() {
     [castles, view],
   )
 
+  const clanId = useClanFilter((s) => s.clanId)
+  const shownCastles = useMemo(
+    () => castles && filterByClan(castles, clanId, ownership, selectedCastleId),
+    [castles, clanId, ownership, selectedCastleId],
+  )
+
   const selected =
     castles?.features.find((c) => c.properties.id === selectedCastleId) ?? null
 
@@ -52,7 +62,7 @@ function App() {
       className="relative h-dvh w-full overflow-hidden bg-sea font-serif text-sumi"
     >
       <JapanMap
-        castles={castles}
+        castles={shownCastles}
         view={view}
         ownership={ownership}
         statuses={statuses}
@@ -82,7 +92,7 @@ function App() {
       </h1>
       <YearSwitch />
       <div className="bottom-bar pointer-events-none absolute left-3 flex gap-2 *:pointer-events-auto">
-        {castles && <CastleList castles={castles} view={view} />}
+        {shownCastles && <CastleList castles={shownCastles} view={view} />}
         <AboutDialog />
       </div>
       {castles && <CastleSearch castles={castles} />}
