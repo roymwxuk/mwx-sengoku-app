@@ -11,7 +11,7 @@ export function nameIn({ year, at }: YearView, castle: Castle): CastleName {
   if (castle.built && year < castle.built.earliest) return castle
   const former = castle.former_names.find(
     ({ until }) =>
-      until !== null && (at === 'start' ? year <= until : year < until),
+      until !== null && (at === 'end' ? year < until : year <= until),
   )
   return former ?? castle
 }

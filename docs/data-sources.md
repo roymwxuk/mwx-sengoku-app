@@ -11,7 +11,7 @@
 
 - Each clan has its own colour from `scripts/clan-palette.json`, 180 colours spread as far apart as possible (OKLab; the first 100, then 80 more between them) that all give the kanji mark a contrast of at least 4.5:1. `npm run data:check` rejects repeats and other colours.
 - They were assigned by computer so that clans shown in the same year, and neighbours above all, look as different as possible. They aren't historical. The first 9 (織田, 徳川, 羽柴・豊臣, 後北条, 上杉, 毛利, 池田, 今川, 武田) were chosen earlier by hand.
-- For a new clan, use a colour that isn't taken; the check lists those left if given one outside the palette. If a spare is too close to a neighbour's, trade with a clan that isn't shown in any year (done for 高遠, 三村, 丹羽, 蒲生 and 斯波).
+- For a new clan, use a colour that isn't taken; the check lists those left if given one outside the palette. If a spare is too close to a neighbour's, trade with a clan that isn't shown in any year (done for 高遠, 三村, 丹羽, 蒲生 and 斯波). When 1582 took the place of 1583, 明智, 溝口, 粟屋 and 柴田 were given spares, as they were close to neighbours.
 - With this many, some colours look alike, so the kanji mark is still needed to be sure.
 
 ## Notes on castle data
@@ -151,7 +151,9 @@
 
 ## Notes on castle owners
 
-- Owners come from the same Japanese Wikipedia articles. `from` and `to` are years; in a year of change, the view decides: 1583 and 1614 (just before 大坂冬の陣, late in the year) show the last owner; 1553, 1560 and 1600 show the first, just before 川中島 (the first battle), 桶狭間 and 関ヶ原.
+- Owners come from the same Japanese Wikipedia articles. `from` and `to` are years; in a year of change, the view decides: 1614 (just before 大坂冬の陣, late in the year) shows the last owner; 1553, 1560 and 1600 show the first, just before 川中島 (the first battle), 桶狭間 and 関ヶ原.
+- 1582 is just before 本能寺 (2 June), after 武田氏 fell in March. Owners who came in after it that year are marked `after_honnoji`, and the view shows the last of the others. Where the articles give no date, they were marked from the order of events: all of 武田氏's lands had passed to 織田氏 and 徳川氏 by then, and changed hands again only after 信長's death. 1582 took the place of 1583 (its last owners) on 2026-11-25; notes on 1583 are kept.
+- In the 1582 view, castles abandoned in 1582 still stand, as `abandoned` has only a year. 那古野城 (perhaps abandoned by 1555) and 鳥越城 (which last fell that March) are shown as 織田氏's. 魚津城 fell to 織田氏 on 3 June, so it is 上杉氏's, and 備中高松城, under siege, is 毛利氏's. 小丸山城, begun that year in an unknown month, is shown as 前田氏's.
 - Retainers' castles are listed under the ruling house where the article treats them so (e.g., 甲斐 under 河尻秀隆 is 織田氏). 織田氏 at 清洲城 covers both the 守護代 family and 信長's; 松平氏 is listed as 徳川氏, and 長尾氏 as 上杉氏.
 - 小田原城: the Hōjō took it between 1495 and 1501; 1501 is used.
 - 春日山城: 上杉氏 (with 長尾氏) is listed from 1392, the end of its construction range.
@@ -189,7 +191,7 @@
 - 久保田城: 佐竹氏 is listed from 1603, when building began. The year 1871 is 廃藩置県.
 - 土崎湊城: 安東氏 is listed from 1467, the start of the app's period, and covers the 湊 and 檜山 branches, joined in 1570, and 秋田氏, the name taken by 実季. Its brief capture by 豊島氏's side in 1589 is left out. 佐竹氏 entered in 1602.
 - 山形城: 最上氏 is listed from 1357, the end of its construction range, as 斯波氏 of 出羽 took that name. Owners after 1643 are left out.
-- 葛尾城: 村上氏 is listed from 1501, the first date found for them there. They lost it in April 1553, retook it that month and left it for good in August. Later years are inferred from who held the district (埴科郡 and 川中島), as little is known of the castle itself: 武田氏 to 1582, 上杉氏 from 1582 (article 山浦景国), and 森氏 from 1600, whose castellan held it that year. 織田氏's brief hold in 1582 and 田丸氏 in 1598–1600 are left out. The years 1598 (上杉氏's move to 会津) and 1603 (森氏's to 美作) are from general knowledge. 森氏 (忠政) isn't 毛利氏.
+- 葛尾城: 村上氏 is listed from 1501, the first date found for them there. They lost it in April 1553, retook it that month and left it for good in August. Later years are inferred from who held the district (埴科郡 and 川中島), as little is known of the castle itself: 武田氏 to 1582, 上杉氏 from 1582 (article 山浦景国), and 森氏 from 1600, whose castellan held it that year. 織田氏 in 1582 is 森長可, who was given 埴科郡 and three other districts that March (article 甲州征伐). 田丸氏 in 1598–1600 is left out. The years 1598 (上杉氏's move to 会津) and 1603 (森氏's to 美作) are from general knowledge. 森氏 (忠政) isn't 毛利氏.
 - 高山城: 金森氏 is listed from 1588, when building began. 前田氏 of 加賀 kept it for the shogunate in 1692–1695, left out.
 - 金沢城: 本願寺 in 1546–1580 is the 加賀一向一揆. 織田氏 in 1580–1583 is 佐久間盛政. The year 1871 for 前田氏 is 廃藩置県.
 - 七尾城: 畠山氏 is listed from 1429, the end of its construction range. 温井氏 and 三宅氏, who drove out 上杉氏's castellan in 1579, are left out. 織田氏 is listed from 1580, when 長連龍 took it (articles 長連龍 and 三宅長盛), and is 菅屋長頼 in 1581; 前田利家 was given 能登 that August. In 1583 it was held by 前田氏's castellan 安勝. 畠山氏 of 二本松 is listed as 二本松氏.
@@ -256,7 +258,7 @@
 - 北ノ庄城: 堀氏 in 1585–1598 and 小早川秀秋 in 1598–1599 are from general knowledge. 松平氏 from 1601 is the 越前 branch. 青木氏 is marked 矩, from 一矩.
 - 丸岡城: 柴田氏 is 勝豊, then 安井家清. 丹羽氏 in 1583–1585 is 青山宗勝, listed in his own name after. 松平氏 in 1600–1612 is 今村盛次, for 結城秀康 and 松平忠直. 本多氏 is 成重's family, listed with 岡崎城's.
 - 鳥越城: 本願寺 is the 山内衆. 織田氏 in 1580–1582 held it with interruptions.
-- 富山城: 上杉謙信 took it in spring 1560, before 桶狭間 (the month is from general knowledge), so 神保氏 is listed only to 1559 for the 1560 view to be right. It changed hands often in 1560–1578; 上杉氏 is listed throughout. 佐々氏 to 1587 is from 魚津城's article; 前田氏 is listed from 1595, when they were given 新川郡.
+- 富山城: 上杉謙信 took it in spring 1560, before 桶狭間 (the month is from general knowledge), so 神保氏 is listed only to 1559 for the 1560 view to be right. It changed hands often in 1560–1578; 上杉氏 is listed throughout. 神保長住 was driven out in March 1582 by 上杉氏's allies, and 佐々成政 became lord when 織田氏 took it back that month. 佐々氏 to 1587 is from 魚津城's article; 前田氏 is listed from 1595, when they were given 新川郡.
 - 増山城: 神保氏 is listed from 1543, when they are known at 富山城; the 一向一揆 held it in 1572. 佐々氏 in 1581–1585 is 佐々成政's men, and 前田氏 中川光重 and others.
 - 魚津城: 椎名氏 is listed from 1467, the start of the app's period, to 1568, when 椎名康胤 turned against 上杉氏 (from general knowledge). 織田氏 held it for days in June 1582, left out.
 - 丹波亀山城: 豊臣氏 in 1582–1595 is the two 秀勝 and 秀秋. 前田氏 (玄以) from 1595 to 1602 is from general knowledge, and is listed as his own, not 加賀's. The owner in 1602–1609 is left out.

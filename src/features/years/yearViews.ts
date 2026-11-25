@@ -1,17 +1,21 @@
 export interface YearView {
   year: number
   label: string
-  /** Owners often change within a year: show the first or the last of them. */
-  at: 'start' | 'end'
+  /**
+   * Owners often change within a year: show the first or the last of them, or
+   * the last before 本能寺.
+   */
+  at: 'start' | 'honnoji' | 'end'
   /** Explains the moment shown */
   note?: string
 }
 
 /** Not kept in the URL */
 export const DEFAULT_VIEW: YearView = {
-  year: 1583,
-  label: '天正11年',
-  at: 'end',
+  year: 1582,
+  label: '本能寺',
+  at: 'honnoji', // 武田氏 had fallen in March
+  note: '本能寺の変の直前',
 }
 
 /** The years that can be shown. */

@@ -19,8 +19,18 @@ const name = {
 const formerName = z.strictObject({ ...name, until: year.nullable() })
 
 const owner = z
-  .strictObject({ clan: z.string().min(1), from: year, to: year.nullable() })
+  .strictObject({
+    clan: z.string().min(1),
+    from: year,
+    to: year.nullable(),
+    /** Came in after 本能寺 (2 June 1582), so isn't in the 1582 view */
+    after_honnoji: z.literal(true).optional(),
+  })
   .refine((o) => o.to === null || o.from <= o.to, 'from is after to')
+  .refine(
+    (o) => !o.after_honnoji || o.from === 1582,
+    'after_honnoji is for 1582',
+  )
 
 const castle = z
   .strictObject({
