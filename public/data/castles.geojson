@@ -2968,6 +2968,35 @@
           { "clan": "kanamori", "from": 1585, "to": 1588 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.03903, 36.64872] },
+      "properties": {
+        "id": "numata",
+        "name_ja": "沼田城",
+        "reading": "ぬまたじょう",
+        "name_en": "Numata Castle",
+        "former_names": [{"name_ja": "倉内城", "reading": "くらうちじょう", "name_en": "Kurauchi Castle", "until": null}],
+        "description": "沼田顕泰が築いた、北関東の要の城。上杉、北条、武田の各氏が争い、1580年に真田昌幸の調略で武田方が手に入れた。1589年、秀吉の裁定で北条氏に渡ったが、翌年真田氏に戻り、信幸が五層の天守を建てたと伝わる。",
+        "wikipedia_ja": "沼田城",
+        "official_url": null,
+        "province": "上野",
+        "type": "平山城",
+        "built": {"earliest": 1529, "latest": 1532},
+        "abandoned": {"earliest": 1682, "latest": 1682},
+        "owners": [
+          { "clan": "numata", "from": 1532, "to": 1559 },
+          { "clan": "hojo", "from": 1559, "to": 1560 },
+          { "clan": "uesugi", "from": 1560, "to": 1578 },
+          { "clan": "hojo", "from": 1578, "to": 1580 },
+          { "clan": "takeda", "from": 1580, "to": 1582 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "sanada", "from": 1582, "to": 1589 },
+          { "clan": "hojo", "from": 1589, "to": 1590 },
+          { "clan": "sanada", "from": 1590, "to": 1681 }
+        ]
+      }
     }
   ]
 }
