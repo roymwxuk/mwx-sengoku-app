@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { CastleCollection } from './castleSchema'
 import type { Clan } from './clanSchema'
+import { fetchJson } from './fetchJson'
 
 export interface MapData {
   castles: CastleCollection
@@ -11,14 +12,6 @@ type MapDataState =
   | { status: 'loading' }
   | { status: 'ready'; data: MapData }
   | { status: 'error' }
-
-async function fetchJson<T>(name: string, signal: AbortSignal): Promise<T> {
-  const response = await fetch(`${import.meta.env.BASE_URL}data/${name}`, {
-    signal,
-  })
-  if (!response.ok) throw new Error(`${name}: HTTP ${response.status}`)
-  return response.json()
-}
 
 export function useMapData(): MapDataState {
   const [state, setState] = useState<MapDataState>({ status: 'loading' })

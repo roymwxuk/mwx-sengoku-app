@@ -21,7 +21,16 @@ async function check<T>(name: string, schema: z.ZodType<T>) {
 
 const provinceLabels = z.object({
   features: z.array(
-    z.object({ properties: z.object({ name_ja: z.string().optional() }) }),
+    z.object({
+      properties: z.discriminatedUnion('kind', [
+        z.object({ kind: z.literal('border') }),
+        z.object({
+          kind: z.literal('label'),
+          name_ja: z.string().min(1),
+          reading: z.string().regex(/^[ぁ-んー]+$/, 'must be hiragana'),
+        }),
+      ]),
+    }),
   ),
 })
 
@@ -44,7 +53,9 @@ if (clans) {
 if (castles && clans && provinces) {
   const clanIds = new Set(clans.map((c) => c.id))
   const provinceNames = new Set(
-    provinces.features.map((f) => f.properties.name_ja),
+    provinces.features.flatMap(({ properties }) =>
+      properties.kind === 'label' ? [properties.name_ja] : [],
+    ),
   )
   for (const { properties: castle } of castles.features) {
     for (const { clan } of castle.owners) {

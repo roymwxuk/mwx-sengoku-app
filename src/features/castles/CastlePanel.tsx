@@ -12,13 +12,22 @@ interface Props {
   feature: CastleFeature
   /** The owner in the year shown */
   clan?: Clan
+  /** Missing until loaded */
+  provinceReading?: string
   view: YearView
   onClose: () => void
   ref: Ref<HTMLElement>
 }
 
 /** Side panel on wide screens, bottom sheet on phones. */
-export function CastlePanel({ feature, clan, view, onClose, ref }: Props) {
+export function CastlePanel({
+  feature,
+  clan,
+  provinceReading,
+  view,
+  onClose,
+  ref,
+}: Props) {
   const castle = feature.properties
   const name = nameIn(view, castle)
 
@@ -72,7 +81,7 @@ export function CastlePanel({ feature, clan, view, onClose, ref }: Props) {
           )}
         </ul>
 
-        <dl className="mt-2 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 border-t border-sumi/20 pt-4">
+        <dl className="mt-2 grid grid-cols-[auto_1fr] items-baseline gap-x-4 gap-y-2 border-t border-sumi/20 pt-4">
           {name !== castle && (
             <Row label="後の名">
               {castle.name_ja}（{castle.reading}）
@@ -102,7 +111,17 @@ export function CastlePanel({ feature, clan, view, onClose, ref }: Props) {
               <ClanName clan={clan} />（{view.year}年）
             </Row>
           )}
-          <Row label="国">{castle.province}国</Row>
+          <Row label="国">
+            {provinceReading ? (
+              <ruby>
+                {castle.province}
+                <rt>{provinceReading}</rt>
+              </ruby>
+            ) : (
+              castle.province
+            )}
+            国
+          </Row>
           <Row label="種類">{castle.type}</Row>
           <Row label="築城">
             {castle.built ? formatYears(castle.built) : '不明'}

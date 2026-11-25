@@ -1,5 +1,6 @@
 import { useCallback, useMemo, useRef } from 'react'
 import { useMapData } from './data/useMapData'
+import { useProvinceReadings } from './data/useProvinceReadings'
 import { AboutDialog } from './features/about/AboutDialog'
 import { CastleList } from './features/castles/CastleList'
 import { CastlePanel } from './features/castles/CastlePanel'
@@ -21,6 +22,7 @@ function App() {
   const state = useMapData()
   const data = state.status === 'ready' ? state.data : null
   const castles = data?.castles ?? null
+  const provinceReadings = useProvinceReadings()
   useCastleUrlSync(castles)
   useYearUrlSync()
 
@@ -70,6 +72,7 @@ function App() {
           ref={panelRef}
           feature={selected}
           clan={ownership.get(selected.properties.id)}
+          provinceReading={provinceReadings.get(selected.properties.province)}
           view={view}
           onClose={closePanel}
         />
