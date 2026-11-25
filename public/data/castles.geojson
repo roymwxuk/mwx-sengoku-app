@@ -3051,6 +3051,101 @@
           { "clan": "miyoshi", "from": 1560, "to": 1568 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.58806, 34.88083] },
+      "properties": {
+        "id": "akutagawasan",
+        "name_ja": "芥川山城",
+        "reading": "あくたがわさんじょう",
+        "name_en": "Akutagawasan Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "芥川城", "reading": "あくたがわじょう", "name_en": "Akutagawa Castle"}],
+        "description": "三方を芥川に囲まれた三好山の山城。細川高国が築き、細川晴元も拠点とした。1553年、三好長慶が背いた芥川孫十郎から取り返して居城とし、1560年に飯盛城へ移るまで畿内を治めた。1568年に足利義昭と織田信長が入った。",
+        "wikipedia_ja": "芥川山城",
+        "official_url": "https://www.city.takatsuki.osaka.jp/site/history/4560.html",
+        "province": "摂津",
+        "type": "山城",
+        "built": {"earliest": 1515, "latest": 1516},
+        "abandoned": {"earliest": 1573, "latest": 1573},
+        "owners": [
+          { "clan": "hosokawa", "from": 1516, "to": 1549 },
+          { "clan": "miyoshi", "from": 1549, "to": 1568 },
+          { "clan": "wada", "from": 1568, "to": 1573 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.98786, 34.79987] },
+      "properties": {
+        "id": "harima-miki",
+        "name_ja": "三木城",
+        "reading": "みきじょう",
+        "name_en": "Miki Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "別所城", "reading": "べっしょじょう", "name_en": "Bessho Castle"}],
+        "description": "東播磨を治めた別所氏の本拠。1578年、別所長治が織田信長に背いて籠城し、羽柴秀吉は支城を落として囲み、兵糧を断った。「三木の干殺し」と呼ばれる。1580年、長治らは城兵の助命を条件に自害した。",
+        "wikipedia_ja": "三木城",
+        "official_url": "https://www.city.miki.lg.jp/site/mikirekishishiryokan/13387.html",
+        "province": "播磨",
+        "type": "平山城",
+        "built": {"earliest": 1488, "latest": 1492},
+        "abandoned": {"earliest": 1615, "latest": 1617},
+        "owners": [
+          { "clan": "bessho", "from": 1492, "to": 1580 },
+          { "clan": "toyotomi", "from": 1580, "to": 1585 },
+          { "clan": "nakagawa", "from": 1585, "to": 1594 },
+          { "clan": "toyotomi", "from": 1594, "to": 1600 },
+          { "clan": "ikeda", "from": 1600, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.52031, 33.52594] },
+      "properties": {
+        "id": "chikuzen-iwaya",
+        "name_ja": "岩屋城",
+        "reading": "いわやじょう",
+        "name_en": "Iwaya Castle",
+        "former_names": [],
+        "description": "大宰府を見下ろす四王寺山の中腹の城。大友氏の武将、高橋鑑種が築いたと伝わる。1586年、高橋紹運が七百余名で島津の大軍を迎え撃ち、半月にわたって守ったのち、城兵とともに全滅した。",
+        "wikipedia_ja": "岩屋城",
+        "official_url": null,
+        "province": "筑前",
+        "type": "山城",
+        "built": {"earliest": 1532, "latest": 1559},
+        "abandoned": {"earliest": 1586, "latest": 1586},
+        "owners": [
+          { "clan": "takahashi", "from": 1559, "to": 1567 },
+          { "clan": "takahashi", "from": 1569, "to": 1586 },
+          { "clan": "shimazu", "from": 1586, "to": 1586 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [134.14419, 35.01131] },
+      "properties": {
+        "id": "mitsuboshi",
+        "name_ja": "三星城",
+        "reading": "みつぼしじょう",
+        "name_en": "Mitsuboshi Castle",
+        "former_names": [],
+        "description": "東美作の国人、後藤氏の居城。三つに分かれた山の峰が名の由来という。後藤勝基は尼子氏から離れ、東美作の大半を従えた。1579年、宇喜多直家の軍に攻められ、内応した者の火で落城し、勝基は落ちのびた先で自害した。",
+        "wikipedia_ja": "三星城",
+        "official_url": null,
+        "province": "美作",
+        "type": "山城",
+        "built": {"earliest": 1161, "latest": 1163},
+        "abandoned": {"earliest": 1579, "latest": 1579},
+        "owners": [
+          { "clan": "goto", "from": 1467, "to": 1579 },
+          { "clan": "ukita", "from": 1579, "to": 1579 }
+        ]
+      }
     }
   ]
 }
