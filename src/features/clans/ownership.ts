@@ -7,7 +7,10 @@ export type Ownership = ReadonlyMap<string, Clan>
 
 function ownerIdIn(castle: Castle, { year, at }: YearView): string | undefined {
   const owners = castle.owners.filter(
-    ({ from, to }) => from <= year && (to === null || year <= to),
+    ({ from, to, after_honnoji }) =>
+      from <= year &&
+      (to === null || year <= to) &&
+      !(at === 'honnoji' && after_honnoji),
   )
   return owners.at(at === 'start' ? 0 : -1)?.clan
 }

@@ -34,7 +34,7 @@ Deferred for now: unit and component tests (Vitest), and CI checks. See the [roa
 - Pan and zoom a map of Japan on desktop and phone
 - Hover over a castle for its name; click or tap it for details
 - Tell a castle's type (山城, 平山城, 平城 or 館) from the shape of its icon; those not built yet in the year shown are dotted circles, and abandoned ones ✕
-- Switch between five years at the top: 1553 (just before 川中島), 1560 (just before 桶狭間), 1583, 1600 (just before 関ヶ原) and 1614 (just before 大坂冬の陣)
+- Switch between five years at the top: 1553 (just before 川中島), 1560 (just before 桶狭間), 1582 (just before 本能寺), 1600 (just before 関ヶ原) and 1614 (just before 大坂冬の陣)
 - See who held each castle that year, by the clan's colour and kanji; castles whose owner isn't known are grey (城主不明)
 - Click a clan in the legend (凡例, top right) to show only the castles it held that year; click it again, or the × below 凡例, to show all
 - See province borders and names; these and the clan colours can be turned off (凡例, top right)

@@ -41,7 +41,7 @@
         "owners": [
           { "clan": "honganji", "from": 1496, "to": 1580 },
           { "clan": "oda", "from": 1580, "to": 1582 },
-          { "clan": "ikeda", "from": 1582, "to": 1583 },
+          { "clan": "ikeda", "from": 1582, "to": 1583, "after_honnoji": true },
           { "clan": "toyotomi", "from": 1583, "to": 1615 },
           { "clan": "tokugawa", "from": 1619, "to": 1868 }
         ]
@@ -162,7 +162,7 @@
         "owners": [
           { "clan": "takeda", "from": 1519, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
-          { "clan": "tokugawa", "from": 1582, "to": 1590 }
+          { "clan": "tokugawa", "from": 1582, "to": 1590, "after_honnoji": true }
         ]
       }
     },
@@ -460,7 +460,7 @@
           { "clan": "takato", "from": 1541, "to": 1545 },
           { "clan": "takeda", "from": 1545, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
-          { "clan": "hoshina", "from": 1582, "to": 1590 },
+          { "clan": "hoshina", "from": 1582, "to": 1590, "after_honnoji": true },
           { "clan": "kyogoku", "from": 1593, "to": 1600 },
           { "clan": "hoshina", "from": 1600, "to": 1636 }
         ]
@@ -1006,7 +1006,8 @@
         "owners": [
           { "clan": "murakami", "from": 1501, "to": 1553 },
           { "clan": "takeda", "from": 1553, "to": 1582 },
-          { "clan": "uesugi", "from": 1582, "to": 1598 },
+          { "clan": "oda", "from": 1582, "to": 1582 },
+          { "clan": "uesugi", "from": 1582, "to": 1598, "after_honnoji": true },
           { "clan": "mori-tadamasa", "from": 1600, "to": 1603 }
         ]
       }
@@ -1239,7 +1240,7 @@
         "owners": [
           { "clan": "hosokawa", "from": 1363, "to": 1552 },
           { "clan": "miyoshi", "from": 1552, "to": 1582 },
-          { "clan": "chosokabe", "from": 1582, "to": 1582 }
+          { "clan": "chosokabe", "from": 1582, "to": 1582, "after_honnoji": true }
         ]
       }
     },
@@ -1571,7 +1572,7 @@
           { "clan": "toyama", "from": 1467, "to": 1572 },
           { "clan": "takeda", "from": 1572, "to": 1575 },
           { "clan": "oda", "from": 1575, "to": 1582 },
-          { "clan": "mori-tadamasa", "from": 1582, "to": 1599 },
+          { "clan": "mori-tadamasa", "from": 1582, "to": 1599, "after_honnoji": true },
           { "clan": "tamaru", "from": 1599, "to": 1600 },
           { "clan": "matsudaira", "from": 1601, "to": 1638 }
         ]
@@ -1669,7 +1670,7 @@
         "owners": [
           { "clan": "ishikawa", "from": 1561, "to": 1575 },
           { "clan": "mori", "from": 1575, "to": 1582 },
-          { "clan": "ukita", "from": 1582, "to": 1600 },
+          { "clan": "ukita", "from": 1582, "to": 1600, "after_honnoji": true },
           { "clan": "hanabusa", "from": 1600, "to": 1617 }
         ]
       }
@@ -2164,7 +2165,7 @@
         "owners": [
           { "clan": "takeda", "from": 1520, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
-          { "clan": "tokugawa", "from": 1582, "to": 1590 },
+          { "clan": "tokugawa", "from": 1582, "to": 1590, "after_honnoji": true },
           { "clan": "kato", "from": 1591, "to": 1593 },
           { "clan": "asano", "from": 1593, "to": 1600 }
         ]
@@ -2191,7 +2192,7 @@
           { "clan": "uesugi", "from": 1564, "to": 1579 },
           { "clan": "takeda", "from": 1579, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
-          { "clan": "uesugi", "from": 1582, "to": 1598 },
+          { "clan": "uesugi", "from": 1582, "to": 1598, "after_honnoji": true },
           { "clan": "mori-tadamasa", "from": 1600, "to": 1603 },
           { "clan": "hori", "from": 1610, "to": 1616 }
         ]
@@ -2316,7 +2317,7 @@
           { "clan": "nagano", "from": 1512, "to": 1566 },
           { "clan": "takeda", "from": 1566, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
-          { "clan": "hojo", "from": 1582, "to": 1590 },
+          { "clan": "hojo", "from": 1582, "to": 1590, "after_honnoji": true },
           { "clan": "ii", "from": 1590, "to": 1598 }
         ]
       }
@@ -2340,7 +2341,7 @@
         "owners": [
           { "clan": "takeda", "from": 1554, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
-          { "clan": "tokugawa", "from": 1582, "to": 1590 },
+          { "clan": "tokugawa", "from": 1582, "to": 1590, "after_honnoji": true },
           { "clan": "sengoku", "from": 1590, "to": 1622 }
         ]
       }
@@ -2723,7 +2724,7 @@
         "abandoned": {"earliest": 1877, "latest": 1877},
         "owners": [
           { "clan": "akechi", "from": 1577, "to": 1582 },
-          { "clan": "toyotomi", "from": 1582, "to": 1595 },
+          { "clan": "toyotomi", "from": 1582, "to": 1595, "after_honnoji": true },
           { "clan": "maeda-geni", "from": 1595, "to": 1602 },
           { "clan": "okabe", "from": 1609, "to": 1621 }
         ]
@@ -2773,7 +2774,7 @@
         "owners": [
           { "clan": "akai", "from": 1554, "to": 1579 },
           { "clan": "akechi", "from": 1579, "to": 1582 },
-          { "clan": "horio", "from": 1582, "to": 1584 }
+          { "clan": "horio", "from": 1582, "to": 1584, "after_honnoji": true }
         ]
       }
     },
@@ -2993,7 +2994,7 @@
           { "clan": "hojo", "from": 1578, "to": 1580 },
           { "clan": "takeda", "from": 1580, "to": 1582 },
           { "clan": "oda", "from": 1582, "to": 1582 },
-          { "clan": "sanada", "from": 1582, "to": 1589 },
+          { "clan": "sanada", "from": 1582, "to": 1589, "after_honnoji": true },
           { "clan": "hojo", "from": 1589, "to": 1590 },
           { "clan": "sanada", "from": 1590, "to": 1681 }
         ]
@@ -3187,7 +3188,7 @@
         "abandoned": {"earliest": 1586, "latest": 1587},
         "owners": [
           { "clan": "akechi", "from": 1571, "to": 1582 },
-          { "clan": "niwa", "from": 1582, "to": 1583 },
+          { "clan": "niwa", "from": 1582, "to": 1583, "after_honnoji": true },
           { "clan": "toyotomi", "from": 1583, "to": 1583 },
           { "clan": "asano", "from": 1583, "to": 1586 }
         ]
