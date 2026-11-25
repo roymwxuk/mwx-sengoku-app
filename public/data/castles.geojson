@@ -3146,6 +3146,52 @@
           { "clan": "ukita", "from": 1579, "to": 1579 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.53244, 34.60531] },
+      "properties": {
+        "id": "matsugashima",
+        "name_ja": "松ヶ島城",
+        "reading": "まつがしまじょう",
+        "name_en": "Matsugashima Castle",
+        "former_names": [],
+        "description": "1580年、田丸城が焼けたため、織田信雄が築いて移った城。信雄の家臣、津川義冬らが守った。小牧・長久手の戦いで羽柴方に開城し、蒲生氏郷が入った。氏郷が1588年に松坂城を築いて城下町を移し、廃城となった。",
+        "wikipedia_ja": "松ヶ島城",
+        "official_url": "https://www.city.matsusaka.mie.jp/site/culture-info/matsugashimajyoato.html",
+        "province": "伊勢",
+        "type": "平城",
+        "built": {"earliest": 1580, "latest": 1580},
+        "abandoned": {"earliest": 1588, "latest": 1588},
+        "owners": [
+          { "clan": "oda", "from": 1580, "to": 1584 },
+          { "clan": "gamo", "from": 1584, "to": 1588 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.87715, 35.05983] },
+      "properties": {
+        "id": "omi-sakamoto",
+        "name_ja": "坂本城",
+        "reading": "さかもとじょう",
+        "name_en": "Sakamoto Castle",
+        "former_names": [],
+        "description": "比叡山焼き討ちののち、明智光秀が織田信長の命で琵琶湖畔に築いた水城。1582年、光秀が山崎の戦いに敗れると、明智秀満が火を放って落城したという。丹羽長秀が再建したが、1586年、豊臣秀吉が大津城を築かせて廃城とした。",
+        "wikipedia_ja": "坂本城",
+        "official_url": null,
+        "province": "近江",
+        "type": "平城",
+        "built": {"earliest": 1571, "latest": 1572},
+        "abandoned": {"earliest": 1586, "latest": 1587},
+        "owners": [
+          { "clan": "akechi", "from": 1571, "to": 1582 },
+          { "clan": "niwa", "from": 1582, "to": 1583 },
+          { "clan": "toyotomi", "from": 1583, "to": 1583 },
+          { "clan": "asano", "from": 1583, "to": 1586 }
+        ]
+      }
     }
   ]
 }
