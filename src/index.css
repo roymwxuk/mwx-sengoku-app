@@ -81,15 +81,23 @@
 }
 
 /* Legend: top right, below the zoom buttons and above the map credit. */
+.legend {
+  --filter-chip: 0rem;
+}
+.legend[data-filtered] {
+  --filter-chip: 3.25rem; /* with the gap below it */
+}
 .legend-items {
-  max-height: calc(100dvh - 13.5rem);
+  max-height: calc(100dvh - 13.5rem - var(--filter-chip));
 }
 @media (width < 40rem) {
   .legend-items {
-    max-height: calc(100dvh - 14.5rem);
+    max-height: calc(100dvh - 14.5rem - var(--filter-chip));
   }
   [data-panel-open] .legend-items {
-    max-height: calc(100dvh - var(--sheet-height) - 14.5rem);
+    max-height: calc(
+      100dvh - var(--sheet-height) - 14.5rem - var(--filter-chip)
+    );
   }
 }
 

@@ -74,6 +74,7 @@ export function CastleList({ castles, view }: Props) {
         hidden={!open}
         className="castle-list-items absolute bottom-full left-0 mb-2 w-64 overflow-y-auto overscroll-contain bg-washi shadow-lg"
       >
+        {sorted.length === 0 && <p className="px-4 py-3">城がありません</p>}
         <ul>
           {sorted.map((castle) => {
             const name = nameIn(view, castle)

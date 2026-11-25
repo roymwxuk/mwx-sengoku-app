@@ -90,7 +90,8 @@ Goal: find castles quickly.
 
 - [x] Search box with fuzzy match on kanji, kana reading, and romaji
 - [x] Selecting a result flies to and selects the castle
-- [ ] Filter by castle type, clan, province
+- [x] Filter by clan, from the legend
+- [ ] Filter by castle type, province
 - [ ] Marker clustering at low zoom (needed once the dataset grows)
 - [x] Keyboard navigation for search results
 - *Milestone done when:* typing "おだわら" or "odawara" finds 小田原城.

@@ -22,7 +22,7 @@ _As of 2026-11-25._ The map, castles, year switch, detail panel, castle list and
 | M3 Detail panel, shareable links | Done, except deferred items                   |
 | M4 Provinces (令制国) and clans  | Done                                          |
 | M5 Years                         | Done: five years, 1553–1614                   |
-| M6 Search and filters            | In progress: search done                      |
+| M6 Search and filters            | In progress: search, clan filter done         |
 | M7 Data growth                   | In progress: 134 castles                      |
 | M8 Sengoku look and polish       | In progress: castle list, links, icons done   |
 | M9 v1.0 release                  | v1.0.0 released, except better error handling |
@@ -36,13 +36,14 @@ Deferred for now: unit and component tests (Vitest), and CI checks. See the [roa
 - Tell a castle's type (山城, 平山城, 平城 or 館) from the shape of its icon; those not built yet in the year shown are dotted circles, and abandoned ones ✕
 - Switch between five years at the top: 1553 (just before 川中島), 1560 (just before 桶狭間), 1583, 1600 (just before 関ヶ原) and 1614 (just before 大坂冬の陣)
 - See who held each castle that year, by the clan's colour and kanji; castles whose owner isn't known are grey (城主不明)
+- Click a clan in the legend (凡例, top right) to show only the castles it held that year; click it again, or the × below 凡例, to show all
 - See province borders and names; these and the clan colours can be turned off (凡例, top right)
 - Search for a castle in kanji, kana or romaji (城を検索), by current, former or other name; small typos are fine
 - See a castle under its former name in the years it was used (大坂城 is 石山御坊 in 1560)
 - Choose a castle from the list (城一覧, bottom left) by mouse, touch or keyboard
 - Open a castle's place in Google Maps, and its Wikipedia article or official site if it has one
 - See credits, licences and a link to GitHub (概要, bottom left)
-- Share a castle and year as a link, and step through castles with back and forward
+- Share a castle, year and clan filter as a link, and step through castles with back and forward
 
 ### Known limits
 

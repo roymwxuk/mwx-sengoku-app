@@ -54,7 +54,7 @@ const LOCALE = {
 }
 
 interface Props {
-  /** null while loading */
+  /** Those to show. null while loading */
   castles: CastleCollection | null
   view: YearView
   ownership: Ownership
@@ -111,13 +111,15 @@ export function JapanMap({
         />
       )}
       {/* The panel already names the selected castle. */}
-      {hovered && hovered !== selected && (
-        <CastleTooltip
-          castle={hovered}
-          view={view}
-          clan={showClans ? ownership.get(hovered.properties.id) : undefined}
-        />
-      )}
+      {hovered &&
+        hovered !== selected &&
+        castles?.features.includes(hovered) && (
+          <CastleTooltip
+            castle={hovered}
+            view={view}
+            clan={showClans ? ownership.get(hovered.properties.id) : undefined}
+          />
+        )}
       {selected && <FlyToCastle castle={selected} panelRef={panelRef} />}
       <NavigationControl position="top-right" />
     </Map>
