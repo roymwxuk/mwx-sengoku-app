@@ -20,6 +20,7 @@ import { ProvinceLayers } from '../features/layers/ProvinceLayers'
 import { useLayers } from '../features/layers/layerStore'
 import { useSelection } from '../features/castles/selectionStore'
 import type { YearView } from '../features/years/yearViews'
+import { FitToClan } from './FitToClan'
 import { FlyToCastle } from './FlyToCastle'
 import { mapStyle } from './mapStyle'
 
@@ -61,6 +62,8 @@ interface Props {
   statuses: Statuses
   selected: CastleFeature | null
   panelRef: RefObject<HTMLElement | null>
+  legendRef: RefObject<HTMLElement | null>
+  bottomBarRef: RefObject<HTMLElement | null>
 }
 
 export function JapanMap({
@@ -70,6 +73,8 @@ export function JapanMap({
   statuses,
   selected,
   panelRef,
+  legendRef,
+  bottomBarRef,
 }: Props) {
   const [hovered, setHovered] = useState<CastleFeature | null>(null)
   const showProvinces = useLayers((s) => s.provinces)
@@ -121,6 +126,14 @@ export function JapanMap({
           />
         )}
       {selected && <FlyToCastle castle={selected} panelRef={panelRef} />}
+      {castles && (
+        <FitToClan
+          castles={castles}
+          panelRef={panelRef}
+          legendRef={legendRef}
+          bottomBarRef={bottomBarRef}
+        />
+      )}
       <NavigationControl position="top-right" />
     </Map>
   )

@@ -90,7 +90,7 @@ Goal: find castles quickly.
 
 - [x] Search box with fuzzy match on kanji, kana reading, and romaji
 - [x] Selecting a result flies to and selects the castle
-- [x] Filter by clan, from the legend
+- [x] Filter by clan, from the legend; the map fits the clan's castles
 - [ ] Filter by castle type, province
 - [ ] Marker clustering at low zoom (needed once the dataset grows)
 - [x] Keyboard navigation for search results

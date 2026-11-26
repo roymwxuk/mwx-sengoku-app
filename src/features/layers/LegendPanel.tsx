@@ -1,4 +1,4 @@
-import { useRef, useState, type ReactNode } from 'react'
+import { useRef, useState, type ReactNode, type RefObject } from 'react'
 import type { Clan } from '../../data/clanSchema'
 import { useClanFilter } from '../clans/clanFilterStore'
 import { NO_CLAN_COLOR, textColorOn } from '../clans/colors'
@@ -20,15 +20,17 @@ interface Props {
   view: YearView
   ownership: Ownership
   statuses: Statuses
+  /** So the map can keep castles out from under the legend */
+  ref: RefObject<HTMLDivElement | null>
 }
 
-export function LegendPanel({ clans, view, ownership, statuses }: Props) {
+export function LegendPanel({ clans, view, ownership, statuses, ref }: Props) {
   const [open, setOpen] = useState(
     () => window.matchMedia(ROOM_FOR_LEGEND).matches,
   )
   const toggleRef = useRef<HTMLButtonElement>(null)
   const { provinces, clanColors, toggle } = useLayers()
-  const { clanId, setClanId } = useClanFilter()
+  const { clanId, setClanId, focusClan } = useClanFilter()
   const filterClan = clans.find((clan) => clan.id === clanId)
 
   const present = new Set(ownership.values())
@@ -48,11 +50,12 @@ export function LegendPanel({ clans, view, ownership, statuses }: Props) {
     if (selectedCastleId && ownership.get(selectedCastleId) !== clan) {
       selectCastle(null)
     }
-    setClanId(clan.id)
+    focusClan(clan.id)
   }
 
   return (
     <div
+      ref={ref}
       data-filtered={filterClan ? '' : undefined}
       className="legend pointer-events-none absolute top-28 right-2.5 flex flex-col items-end gap-2 *:pointer-events-auto"
     >

@@ -38,6 +38,8 @@ function App() {
   )
 
   const panelRef = useRef<HTMLElement>(null)
+  const legendRef = useRef<HTMLDivElement>(null)
+  const bottomBarRef = useRef<HTMLDivElement>(null)
   const selectedCastleId = useSelection((s) => s.selectedCastleId)
   const selectCastle = useSelection((s) => s.selectCastle)
   const closePanel = useCallback(() => selectCastle(null), [selectCastle])
@@ -68,6 +70,8 @@ function App() {
         statuses={statuses}
         selected={selected}
         panelRef={panelRef}
+        legendRef={legendRef}
+        bottomBarRef={bottomBarRef}
       />
       {data && (
         <LegendPanel
@@ -75,6 +79,7 @@ function App() {
           view={view}
           ownership={ownership}
           statuses={statuses}
+          ref={legendRef}
         />
       )}
       {selected && (
@@ -91,7 +96,10 @@ function App() {
         戦国城地図
       </h1>
       <YearSwitch />
-      <div className="bottom-bar pointer-events-none absolute left-3 flex gap-2 *:pointer-events-auto">
+      <div
+        ref={bottomBarRef}
+        className="bottom-bar pointer-events-none absolute left-3 flex gap-2 *:pointer-events-auto"
+      >
         {shownCastles && <CastleList castles={shownCastles} view={view} />}
         <AboutDialog />
       </div>
