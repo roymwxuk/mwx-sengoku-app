@@ -66,18 +66,18 @@ npm ci
 npm run dev
 ```
 
-| コマンド                 | 内容                                   |
-| ------------------------ | -------------------------------------- |
-| `npm run dev`            | 開発サーバーを起動する                 |
-| `npm run build`          | 型チェックをして、公開用にビルドする   |
-| `npm run preview`        | 公開用のビルドを手元で表示する         |
-| `npm run format`         | Prettierでコードを整形する             |
-| `npm run format:check`   | 整形済みかどうかを確認する             |
-| `npm run data:check`     | 城と大名家のデータを検証する           |
-| `npm run data:basemap`   | Natural Earthから日本の輪郭を作り直す  |
-| `npm run data:provinces` | CODHのデータから令制国の境界を作り直す |
+| コマンド                 | 内容                                                        |
+| ------------------------ | ----------------------------------------------------------- |
+| `npm run dev`            | 開発サーバーを起動する                                      |
+| `npm run build`          | 型チェックをして、公開用にビルドし、`sitemap.xml`を書き出す |
+| `npm run preview`        | 公開用のビルドを手元で表示する                              |
+| `npm run format`         | Prettierでコードを整形する                                  |
+| `npm run format:check`   | 整形済みかどうかを確認する                                  |
+| `npm run data:check`     | 城と大名家のデータを検証する                                |
+| `npm run data:basemap`   | Natural Earthから日本の輪郭を作り直す                       |
+| `npm run data:provinces` | CODHのデータから令制国の境界を作り直す                      |
 
-`master`にプッシュするたびに、GitHub Pagesへ公開されます。
+`master`にプッシュするたびに、GitHub Pagesへ公開されます。ビルド時に、検索エンジン向けの[`sitemap.xml`](https://roymwxuk.github.io/mwx-sengoku-app/sitemap.xml)をデータから書き出します。地図、各年、各年に城を持っていた大名家ごとの表示を載せています。
 
 ### 城を追加するには
 

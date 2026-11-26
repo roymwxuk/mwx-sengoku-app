@@ -66,18 +66,18 @@ npm ci
 npm run dev
 ```
 
-| Command                  | What it does                               |
-| ------------------------ | ------------------------------------------ |
-| `npm run dev`            | Start the dev server                       |
-| `npm run build`          | Type-check and build for production        |
-| `npm run preview`        | Serve the production build locally         |
-| `npm run format`         | Format the code with Prettier              |
-| `npm run format:check`   | Check the formatting                       |
-| `npm run data:check`     | Validate the castle and clan data          |
-| `npm run data:basemap`   | Rebuild the map outline from Natural Earth |
-| `npm run data:provinces` | Rebuild the province borders from CODH     |
+| Command                  | What it does                                             |
+| ------------------------ | -------------------------------------------------------- |
+| `npm run dev`            | Start the dev server                                     |
+| `npm run build`          | Type-check, build for production and write `sitemap.xml` |
+| `npm run preview`        | Serve the production build locally                       |
+| `npm run format`         | Format the code with Prettier                            |
+| `npm run format:check`   | Check the formatting                                     |
+| `npm run data:check`     | Validate the castle and clan data                        |
+| `npm run data:basemap`   | Rebuild the map outline from Natural Earth               |
+| `npm run data:provinces` | Rebuild the province borders from CODH                   |
 
-Every push to `master` is published to GitHub Pages.
+Every push to `master` is published to GitHub Pages. The build writes [`sitemap.xml`](https://roymwxuk.github.io/mwx-sengoku-app/sitemap.xml) for search engines, from the data: the map, each year, and each clan in the years it held castles.
 
 ### Adding a castle
 
