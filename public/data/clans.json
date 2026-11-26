@@ -165,5 +165,8 @@
   {"id": "inatomi", "name_ja": "稲富氏", "reading": "いなとみし", "name_en": "Inatomi", "mark": "祐", "color": "#78af00"},
   {"id": "ota-kii", "name_ja": "太田氏（紀伊）", "reading": "おおたし", "name_en": "Ōta (Kii)", "mark": "左", "color": "#14cb6c"},
   {"id": "oda-hitachi", "name_ja": "小田氏", "reading": "おだし", "name_en": "Oda (Hitachi)", "mark": "治", "color": "#c34600"},
-  {"id": "edo", "name_ja": "江戸氏", "reading": "えどし", "name_en": "Edo", "mark": "江", "color": "#057d8c"}
+  {"id": "edo", "name_ja": "江戸氏", "reading": "えどし", "name_en": "Edo", "mark": "江", "color": "#057d8c"},
+  {"id": "kanbe", "name_ja": "神戸氏", "reading": "かんべし", "name_en": "Kanbe", "mark": "澄", "color": "#461e32"},
+  {"id": "tawara", "name_ja": "田原氏", "reading": "たわらし", "name_en": "Tawara", "mark": "綱", "color": "#a5cddc"},
+  {"id": "ichiyanagi", "name_ja": "一柳氏", "reading": "ひとつやなぎし", "name_en": "Hitotsuyanagi", "mark": "柳", "color": "#00373c"}
 ]

@@ -3329,6 +3329,99 @@
           { "clan": "satake", "from": 1335, "to": 1602 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.57743, 34.87910] },
+      "properties": {
+        "id": "kanbe",
+        "name_ja": "神戸城",
+        "reading": "かんべじょう",
+        "name_en": "Kanbe Castle",
+        "former_names": [],
+        "description": "北伊勢の国人、神戸氏の居城。天文年間に神戸具盛が築いた。1568年、織田信長に攻められて和睦し、その三男の信孝を養子に迎えた。信孝は5重6階の天守を築いたが、1595年に解体されて桑名城へ移された。江戸時代は神戸藩の藩庁が置かれた。",
+        "wikipedia_ja": "神戸城",
+        "official_url": null,
+        "province": "伊勢",
+        "type": "平城",
+        "built": {"earliest": 1532, "latest": 1555},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "kanbe", "from": 1555, "to": 1571 },
+          { "clan": "oda", "from": 1571, "to": 1590 },
+          { "clan": "toyotomi", "from": 1590, "to": 1600 },
+          { "clan": "ichiyanagi", "from": 1601, "to": 1636 },
+          { "clan": "tokugawa", "from": 1636, "to": 1651 },
+          { "clan": "ishikawa-mikawa", "from": 1651, "to": 1732 },
+          { "clan": "honda", "from": 1732, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.02056, 36.74917] },
+      "properties": {
+        "id": "etchu-takaoka",
+        "name_ja": "高岡城",
+        "reading": "たかおかじょう",
+        "name_en": "Takaoka Castle",
+        "former_names": [],
+        "description": "隠居した前田利長が、居城の富山城を火事で失ったのち、関野の地に築いた城。利長は地名を高岡と改めて入った。縄張りは高山右近と伝わる。利長は1614年に没し、翌年の一国一城令で廃城となったが、加賀藩はその後も蔵を置いて城跡を保った。",
+        "wikipedia_ja": "高岡城",
+        "official_url": "https://www.e-tmm.info/siro.htm",
+        "province": "越中",
+        "type": "平城",
+        "built": {"earliest": 1609, "latest": 1609},
+        "abandoned": {"earliest": 1615, "latest": 1638},
+        "owners": [
+          { "clan": "maeda", "from": 1609, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.61667, 34.96472] },
+      "properties": {
+        "id": "ise-hamada",
+        "name_ja": "浜田城",
+        "reading": "はまだじょう",
+        "name_en": "Hamada Castle",
+        "former_names": [],
+        "description": "赤堀三家の一つ、田原氏の居城。1470年に田原忠秀が築いた。忠秀は東海道を海寄りに移し、市場を整えたといい、四日市の名もこの頃に生まれたとされる。1575年、織田信長の家臣、滝川一益に攻められて落城し、田原元綱は討死した。",
+        "wikipedia_ja": "浜田城 (伊勢国)",
+        "official_url": null,
+        "province": "伊勢",
+        "type": "平城",
+        "built": {"earliest": 1470, "latest": 1470},
+        "abandoned": {"earliest": 1575, "latest": 1584},
+        "owners": [
+          { "clan": "tawara", "from": 1470, "to": 1575 },
+          { "clan": "oda", "from": 1575, "to": 1575 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.196, 36.1092] },
+      "properties": {
+        "id": "hachigata",
+        "name_ja": "鉢形城",
+        "reading": "はちがたじょう",
+        "name_en": "Hachigata Castle",
+        "former_names": [],
+        "description": "荒川と深沢川が刻んだ断崖の上の城。1476年、主家の山内上杉氏に背いた長尾景春が築き、のちに上杉顕定が拠点とした。後北条氏の北条氏邦が整え、北関東を治める拠点とした。1590年の小田原征伐では前田利家らの大軍に囲まれ、1か月の籠城ののち開城した。",
+        "wikipedia_ja": "鉢形城",
+        "official_url": "https://www.town.yorii.saitama.jp/site/rekishikan/kouenannai.html",
+        "province": "武蔵",
+        "type": "平山城",
+        "built": {"earliest": 1476, "latest": 1476},
+        "abandoned": {"earliest": 1590, "latest": 1590},
+        "owners": [
+          { "clan": "uesugi", "from": 1478, "to": 1525 },
+          { "clan": "hojo", "from": 1564, "to": 1590 },
+          { "clan": "toyotomi", "from": 1590, "to": 1590 }
+        ]
+      }
     }
   ]
 }
