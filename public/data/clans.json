@@ -160,5 +160,7 @@
   {"id": "yasumi", "name_ja": "安見氏", "reading": "やすみし", "name_en": "Yasumi", "mark": "見", "color": "#5e3dc4"},
   {"id": "bessho", "name_ja": "別所氏", "reading": "べっしょし", "name_en": "Bessho", "mark": "別", "color": "#889171"},
   {"id": "goto", "name_ja": "後藤氏", "reading": "ごとうし", "name_en": "Gotō", "mark": "後", "color": "#193700"},
-  {"id": "makino", "name_ja": "牧野氏", "reading": "まきのし", "name_en": "Makino", "mark": "牧", "color": "#876e05"}
+  {"id": "makino", "name_ja": "牧野氏", "reading": "まきのし", "name_en": "Makino", "mark": "牧", "color": "#876e05"},
+  {"id": "isshiki", "name_ja": "一色氏", "reading": "いっしきし", "name_en": "Isshiki", "mark": "色", "color": "#e1004b"},
+  {"id": "inatomi", "name_ja": "稲富氏", "reading": "いなとみし", "name_en": "Inatomi", "mark": "祐", "color": "#78af00"}
 ]

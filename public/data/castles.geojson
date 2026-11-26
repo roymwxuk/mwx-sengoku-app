@@ -3218,6 +3218,29 @@
           { "clan": "makino", "from": 1668, "to": 1871 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.14665, 35.56500] },
+      "properties": {
+        "id": "yuminoki",
+        "name_ja": "弓木城",
+        "reading": "ゆみのきじょう",
+        "name_en": "Yuminoki Castle",
+        "former_names": [],
+        "description": "丹後一色氏の家臣、稲富氏の山城。1579年、一色義定がここに拠って細川藤孝・忠興の攻撃を退け、和睦して居城とした。1582年、義定が宮津城で謀殺されると、細川氏に降った。",
+        "wikipedia_ja": "弓木城",
+        "official_url": "https://www.kyoto-be.ne.jp/bunkazai/cms/?p=2099",
+        "province": "丹後",
+        "type": "山城",
+        "built": {"earliest": 1300, "latest": 1333},
+        "abandoned": {"earliest": 1582, "latest": 1582},
+        "owners": [
+          { "clan": "inatomi", "from": 1467, "to": 1579 },
+          { "clan": "isshiki", "from": 1579, "to": 1582 },
+          { "clan": "hosokawa", "from": 1582, "to": 1582, "after_honnoji": true }
+        ]
+      }
     }
   ]
 }
