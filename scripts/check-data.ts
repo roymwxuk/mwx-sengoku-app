@@ -1,5 +1,5 @@
 // Validates the files in public/data/. Run with: npm run data:check
-import { readFile } from 'node:fs/promises'
+import { access, readFile } from 'node:fs/promises'
 import { z } from 'zod'
 import { castleCollection } from '../src/data/castleSchema.ts'
 import { clanList } from '../src/data/clanSchema.ts'
@@ -66,6 +66,11 @@ if (castles && clans && provinces) {
     if (!provinceNames.has(castle.province)) {
       problems.push(
         `castle "${castle.id}": unknown province "${castle.province}"`,
+      )
+    }
+    if (castle.image) {
+      await access(`${directory}/../image/${castle.image}`).catch(() =>
+        problems.push(`castle "${castle.id}": no image "${castle.image}"`),
       )
     }
   }

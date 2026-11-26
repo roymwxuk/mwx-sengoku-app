@@ -14,6 +14,11 @@
 - For a new clan, use a colour that isn't taken; the check lists those left if given one outside the palette. If a spare is too close to a neighbour's, trade with a clan that isn't shown in any year (done for 高遠, 三村, 丹羽, 蒲生 and 斯波). When 1582 took the place of 1583, 明智, 溝口, 粟屋 and 柴田 were given spares, as they were close to neighbours.
 - With this many, some colours look alike, so the kanji mark is still needed to be sure.
 
+## Castle images
+
+- A castle's `image` is a file in `public/image/`, shown at the bottom of its panel with the caption 「AI生成画像」. They are AI generated, not historical. Save them as WebP, 960 px wide (`cwebp -q 80 -resize 960 0`); `npm run data:check` rejects a missing file.
+- 伊賀上野城: added 2026-11-26.
+
 ## Notes on castle data
 
 - Descriptions are original Japanese text written from the same sources; English is planned with the language toggle (M8).

@@ -130,6 +130,22 @@ export function CastlePanel({
             <Row label="廃城">{formatYears(castle.abandoned)}</Row>
           )}
         </dl>
+
+        {castle.image && (
+          <figure className="mt-6">
+            <img
+              src={`${import.meta.env.BASE_URL}image/${castle.image}`}
+              alt={`${castle.name_ja}の絵`}
+              width={960}
+              height={640}
+              loading="lazy"
+              className="h-auto w-full"
+            />
+            <figcaption className="mt-1 text-right text-xs text-sumi/60">
+              AI生成画像
+            </figcaption>
+          </figure>
+        )}
       </div>
 
       <button
