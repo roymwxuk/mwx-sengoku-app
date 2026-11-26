@@ -3193,6 +3193,30 @@
           { "clan": "asano", "from": 1583, "to": 1586 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.33098, 35.44578] },
+      "properties": {
+        "id": "tango-tanabe",
+        "name_ja": "田辺城",
+        "reading": "たなべじょう",
+        "name_en": "Tanabe Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "舞鶴城", "reading": "ぶがくじょう", "name_en": "Bugaku Castle"}],
+        "description": "細川藤孝（幽斎）が天正年間に築いた、丹後支配の拠点となる平城。1600年、幽斎は西軍に囲まれながら籠城を続け、後陽成天皇の勅使の仲介で開城した。その後は京極氏、牧野氏の居城となった。",
+        "wikipedia_ja": "田辺城 (丹後国)",
+        "official_url": "https://www.city.maizuru.kyoto.jp/kyouiku/0000012192.html",
+        "province": "丹後",
+        "type": "平城",
+        "built": {"earliest": 1581, "latest": 1582},
+        "abandoned": {"earliest": 1873, "latest": 1873},
+        "owners": [
+          { "clan": "hosokawa", "from": 1581, "to": 1600 },
+          { "clan": "kyogoku", "from": 1600, "to": 1668 },
+          { "clan": "makino", "from": 1668, "to": 1871 }
+        ]
+      }
     }
   ]
 }
