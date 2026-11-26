@@ -170,5 +170,6 @@
   {"id": "tawara", "name_ja": "田原氏", "reading": "たわらし", "name_en": "Tawara", "mark": "綱", "color": "#a5cddc"},
   {"id": "ichiyanagi", "name_ja": "一柳氏", "reading": "ひとつやなぎし", "name_en": "Hitotsuyanagi", "mark": "柳", "color": "#00373c"},
   {"id": "watanabe-iyo", "name_ja": "渡辺氏（伊予）", "reading": "わたなべし", "name_en": "Watanabe (Iyo)", "mark": "渡", "color": "#3c64f0"},
-  {"id": "otomo", "name_ja": "大友氏", "reading": "おおともし", "name_en": "Ōtomo", "mark": "友", "color": "#6cba6f"}
+  {"id": "otomo", "name_ja": "大友氏", "reading": "おおともし", "name_en": "Ōtomo", "mark": "友", "color": "#6cba6f"},
+  {"id": "noshima-murakami", "name_ja": "能島村上氏", "reading": "のしまむらかみし", "name_en": "Noshima Murakami", "mark": "能", "color": "#915aaa"}
 ]
