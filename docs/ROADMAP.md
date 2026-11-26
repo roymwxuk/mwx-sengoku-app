@@ -103,7 +103,7 @@ Goal: move from 10 to hundreds of castles without breaking anything.
 - [ ] Write `docs/data-sources.md` (sources, licences, how to add a castle)
 - [ ] Add castles in batches (e.g., by region), each batch validated by CI
 - [ ] Measure load time; split or lazy-load data if `castles.geojson` > 1 MB
-- [ ] Add images (public-domain/CC only) with credit lines
+- [x] Castle images: AI generated, captioned 「AI生成画像」, in `public/image/` as WebP (see `docs/data-sources.md`); one so far. Historical images (public-domain/CC, with credit lines) were the first plan
 - *Milestone done when:* 200+ castles load in under 2 s on a mid-range phone over 4G.
 
 ## M8 — Sengoku look & polish
@@ -122,7 +122,7 @@ Goal: it looks and feels like the Sengoku era, and works for everyone.
 
 ## M9 — v1.0 release
 
-- [x] About dialog (概要, bottom left) with data credits, licences and a link to GitHub
+- [x] About dialog (概要, bottom left) with data credits, licences, the version (linked to its release) and a link to GitHub
 - [ ] Error boundary + "data failed to load" state
 - [x] Tag `v1.0.0`, write release notes
 
