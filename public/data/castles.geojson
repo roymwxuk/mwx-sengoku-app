@@ -3241,6 +3241,28 @@
           { "clan": "hosokawa", "from": 1582, "to": 1582, "after_honnoji": true }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.19602, 34.23055] },
+      "properties": {
+        "id": "kii-ota",
+        "name_ja": "太田城",
+        "reading": "おおたじょう",
+        "name_en": "Ōta Castle",
+        "former_names": [],
+        "description": "紀伊国造の紀氏が築いたと伝わる平城で、雑賀衆のうち宮郷衆を率いた太田左近が拠った。1585年、羽柴秀吉は城の周りに堤を築いて紀ノ川の水を引き入れ、約1か月の水攻めで開城させた。",
+        "wikipedia_ja": "太田城 (紀伊国)",
+        "official_url": null,
+        "province": "紀伊",
+        "type": "平城",
+        "built": {"earliest": 1489, "latest": 1492},
+        "abandoned": {"earliest": 1585, "latest": 1585},
+        "owners": [
+          { "clan": "ota-kii", "from": 1576, "to": 1585 },
+          { "clan": "toyotomi", "from": 1585, "to": 1585 }
+        ]
+      }
     }
   ]
 }
