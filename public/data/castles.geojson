@@ -3632,6 +3632,28 @@
           { "clan": "uesugi", "from": 1598, "to": 1871 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.95222, 33.89528] },
+      "properties": {
+        "id": "akagi",
+        "name_ja": "赤木城",
+        "reading": "あかぎじょう",
+        "name_en": "Akagi Castle",
+        "former_names": [],
+        "description": "熊野の北山郷の丘に築かれた城。北山一揆を鎮めた豊臣秀長の命で、1589年頃に藤堂高虎が築いたとされる。尾根に曲輪を連ねる中世山城の形に、高い石垣や枡形虎口など近世の技法を合わせる。1615年、再び起きた一揆の残党が捕らえられ、近くの峠で処刑された。",
+        "wikipedia_ja": "赤木城",
+        "official_url": null,
+        "province": "紀伊",
+        "type": "平山城",
+        "built": {"earliest": 1589, "latest": 1589},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "toyotomi", "from": 1589, "to": 1600 },
+          { "clan": "asano", "from": 1600, "to": 1615 }
+        ]
+      }
     }
   ]
 }
