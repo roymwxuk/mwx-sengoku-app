@@ -3543,6 +3543,28 @@
           { "clan": "kuroda", "from": 1601, "to": 1615 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.08083, 34.18278] },
+      "properties": {
+        "id": "noshima",
+        "name_ja": "能島城",
+        "reading": "のしまじょう",
+        "name_en": "Noshima Castle",
+        "former_names": [],
+        "description": "芸予諸島の宮窪瀬戸に浮かぶ小島全体を城とした、村上水軍の一派、能島村上氏の水軍城。島を囲む激しい潮流を天然の堀とし、行き交う船から帆別銭を取って海を押さえた。1588年、豊臣秀吉の海賊停止令で水軍の時代が終わり、廃城となった。",
+        "wikipedia_ja": "能島",
+        "official_url": null,
+        "province": "伊予",
+        "type": "平山城",
+        "built": {"earliest": 1336, "latest": 1392},
+        "abandoned": {"earliest": 1588, "latest": 1588},
+        "owners": [
+          { "clan": "noshima-murakami", "from": 1467, "to": 1585 },
+          { "clan": "kobayakawa", "from": 1585, "to": 1588 }
+        ]
+      }
     }
   ]
 }
