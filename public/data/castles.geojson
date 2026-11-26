@@ -3263,6 +3263,72 @@
           { "clan": "toyotomi", "from": 1585, "to": 1585 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.11089, 36.15056] },
+      "properties": {
+        "id": "hitachi-oda",
+        "name_ja": "小田城",
+        "reading": "おだじょう",
+        "name_en": "Oda Castle",
+        "former_names": [],
+        "description": "八田知家が築いたと伝わる、小田氏代々の本拠。戦国時代、小田氏治は佐竹氏や上杉謙信、後北条氏と戦って落城と奪還を繰り返したが、手這坂の戦いの後に佐竹氏に奪われ、取り戻せなかった。",
+        "wikipedia_ja": "小田城",
+        "official_url": "https://www.city.tsukuba.lg.jp/kankobunka/bunka/rekishi/1001640.html",
+        "province": "常陸",
+        "type": "平城",
+        "built": {"earliest": 1185, "latest": 1185},
+        "abandoned": {"earliest": 1602, "latest": 1602},
+        "owners": [
+          { "clan": "oda-hitachi", "from": 1185, "to": 1569 },
+          { "clan": "satake", "from": 1569, "to": 1602 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.47833, 36.37278] },
+      "properties": {
+        "id": "mito",
+        "name_ja": "水戸城",
+        "reading": "みとじょう",
+        "name_en": "Mito Castle",
+        "former_names": [{"name_ja": "馬場城", "reading": "ばばじょう", "name_en": "Baba Castle", "until": 1590}],
+        "description": "大掾氏の一族、馬場資幹が築いた城。1427年から江戸氏の居城となり、1590年に佐竹氏が奪って本拠を太田城から移した。1609年からは水戸徳川家の居城となった。",
+        "wikipedia_ja": "水戸城",
+        "official_url": null,
+        "province": "常陸",
+        "type": "平山城",
+        "built": {"earliest": 1190, "latest": 1198},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "edo", "from": 1427, "to": 1590 },
+          { "clan": "satake", "from": 1590, "to": 1602 },
+          { "clan": "tokugawa", "from": 1602, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.51935, 36.54614] },
+      "properties": {
+        "id": "hitachi-ota",
+        "name_ja": "太田城",
+        "reading": "おおたじょう",
+        "name_en": "Ōta Castle",
+        "former_names": [],
+        "description": "藤原通延が築いたと伝わる平山城で、佐竹氏が代々の本拠とした。関東七名城の一つ。佐竹義宣が水戸城に本拠を移し、1602年に佐竹氏が秋田へ移されると廃城となった。",
+        "wikipedia_ja": "太田城 (常陸国)",
+        "official_url": null,
+        "province": "常陸",
+        "type": "平山城",
+        "built": {"earliest": 1109, "latest": 1109},
+        "abandoned": {"earliest": 1602, "latest": 1602},
+        "owners": [
+          { "clan": "satake", "from": 1335, "to": 1602 }
+        ]
+      }
     }
   ]
 }
