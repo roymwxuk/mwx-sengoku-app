@@ -45,6 +45,11 @@ const castle = z
     wikipedia_ja: z.string().min(1).nullable(),
     /** The castle's own site. null: none, or not recorded */
     official_url: z.url({ protocol: /^https$/ }).nullable(),
+    /** File in public/image/, shown at the bottom of the panel. All are AI generated. */
+    image: z
+      .string()
+      .regex(/^[a-z]+(-[a-z]+)*\.webp$/)
+      .optional(),
     province: z.string().min(1),
     type: z.enum(['山城', '平山城', '平城', '館']),
     /** null: unknown */
