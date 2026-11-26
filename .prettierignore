@@ -4,3 +4,5 @@ package-lock.json
 docs
 public/data
 .claude
+# Google Search Console verification; must stay byte for byte
+public/google*.html
