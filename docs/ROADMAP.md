@@ -118,6 +118,7 @@ Goal: it looks and feels like the Sengoku era, and works for everyone.
 - [x] Link to Wikipedia in the detail panel; store each castle's article title in `castles.geojson` (Japanese article; add English with the toggle) — *done when* every castle's link opens the right article in a new tab
 - [ ] Accessibility: keyboard selection of castles, screen-reader labels, contrast check
 - [ ] Lighthouse score ≥ 90 for performance and accessibility
+- [x] `sitemap.xml` for search engines, written by `npm run build` (`scripts/build-sitemap.ts`): the map, each year, and each clan in the years it held castles
 - [ ] E2E tests (Playwright): select castle, share URL, year switch, search
 
 ## M9 — v1.0 release
