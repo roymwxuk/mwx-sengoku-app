@@ -3422,6 +3422,127 @@
           { "clan": "toyotomi", "from": 1590, "to": 1590 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [137.42756, 34.97244] },
+      "properties": {
+        "id": "furumiya",
+        "name_ja": "古宮城",
+        "reading": "ふるみやじょう",
+        "name_en": "Furumiya Castle",
+        "former_names": [],
+        "description": "三河北東部の作手盆地にある、小さな丘の上の城。武田信玄が馬場信春に命じて築かせたと伝わり、徳川家康と争う拠点とされた。1575年の長篠の戦いで武田氏が退いた頃に廃城となったとみられる。武田氏の築城術を示す土塁や堀がよく残る。",
+        "wikipedia_ja": "古宮城",
+        "official_url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/furumiyajyoato.html",
+        "province": "三河",
+        "type": "平山城",
+        "built": {"earliest": 1571, "latest": 1571},
+        "abandoned": {"earliest": 1575, "latest": 1575},
+        "owners": [
+          { "clan": "takeda", "from": 1571, "to": 1575 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.50766, 34.71777] },
+      "properties": {
+        "id": "tsu",
+        "name_ja": "津城",
+        "reading": "つじょう",
+        "name_en": "Tsu Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "安濃津城", "reading": "あのつじょう", "name_en": "Anotsu Castle"}],
+        "description": "安濃川と岩田川に挟まれた城。長野氏の一族、細野氏が築いた。1568年の織田信長の伊勢侵攻ののち織田信包が入り、5重の天守を建てた。1600年、東軍の富田信高が西軍の大軍に囲まれて開城した。1608年に藤堂高虎が入って大きく改修し、津藩の藩庁とした。",
+        "wikipedia_ja": "津城",
+        "official_url": null,
+        "province": "伊勢",
+        "type": "平城",
+        "built": {"earliest": 1558, "latest": 1568},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "oda", "from": 1568, "to": 1594 },
+          { "clan": "tomita", "from": 1595, "to": 1608 },
+          { "clan": "todo", "from": 1608, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.62792, 34.49083] },
+      "properties": {
+        "id": "tamaru",
+        "name_ja": "田丸城",
+        "reading": "たまるじょう",
+        "name_en": "Tamaru Castle",
+        "former_names": [],
+        "description": "南北朝時代に北畠親房らが南朝方の拠点として築いたと伝わる城。のちに北畠氏の一族、田丸氏の居城となった。1575年、北畠氏の養子となった織田信雄が3層の天守を備えた城に改め、翌年ここで北畠一門を討った（三瀬の変）。江戸時代は紀州藩の城代が置かれた。",
+        "wikipedia_ja": "田丸城",
+        "official_url": null,
+        "province": "伊勢",
+        "type": "平山城",
+        "built": {"earliest": 1336, "latest": 1342},
+        "abandoned": {"earliest": 1868, "latest": 1873},
+        "owners": [
+          { "clan": "kitabatake", "from": 1467, "to": 1575 },
+          { "clan": "oda", "from": 1575, "to": 1584 },
+          { "clan": "gamo", "from": 1584, "to": 1590 },
+          { "clan": "inaba", "from": 1590, "to": 1616 },
+          { "clan": "todo", "from": 1617, "to": 1619 },
+          { "clan": "tokugawa", "from": 1619, "to": 1871 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.70861, 33.22361] },
+      "properties": {
+        "id": "kagomori",
+        "name_ja": "河後森城",
+        "reading": "かごもりじょう",
+        "name_en": "Kagomori Castle",
+        "former_names": [],
+        "description": "川に囲まれた馬蹄形の丘の上の山城。南伊予の渡辺氏が代々の居城とした。1580年頃、城主の近習が長宗我部氏に寝返って城を奪った。のちに藤堂高虎は天守を宇和島城へ移した。1614年に伊達秀宗の家老が入ったが、翌年の一国一城令で廃城となった。",
+        "wikipedia_ja": "河後森城",
+        "official_url": "https://www.town.matsuno.ehime.jp/site/kagomorijou/",
+        "province": "伊予",
+        "type": "山城",
+        "built": {"earliest": 1196, "latest": 1196},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "watanabe-iyo", "from": 1467, "to": 1580 },
+          { "clan": "chosokabe", "from": 1580, "to": 1585 },
+          { "clan": "kobayakawa", "from": 1585, "to": 1587 },
+          { "clan": "toda", "from": 1587, "to": 1594 },
+          { "clan": "todo", "from": 1595, "to": 1608 },
+          { "clan": "tomita", "from": 1608, "to": 1613 },
+          { "clan": "date", "from": 1614, "to": 1615 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.78844, 33.73944] },
+      "properties": {
+        "id": "chikuzen-takatori",
+        "name_ja": "鷹取城",
+        "reading": "たかとりじょう",
+        "name_en": "Takatori Castle",
+        "former_names": [],
+        "description": "福智山の支峰、標高633メートルの鷹取山の上の城。戦国時代は大友氏の家臣、毛利（森）鎮実が城主だった。1600年に筑前を得た黒田長政が、豊前との国境を守る筑前六端城の一つとして築き直し、母里友信を入れた。1615年の一国一城令で廃城となった。",
+        "wikipedia_ja": "鷹取城",
+        "official_url": "https://nogata-virtualmuseum.jp/assets.php?no=71",
+        "province": "筑前",
+        "type": "山城",
+        "built": {"earliest": 1046, "latest": 1046},
+        "abandoned": {"earliest": 1615, "latest": 1615},
+        "owners": [
+          { "clan": "otomo", "from": 1542, "to": 1587 },
+          { "clan": "kobayakawa", "from": 1587, "to": 1600 },
+          { "clan": "kuroda", "from": 1601, "to": 1615 }
+        ]
+      }
     }
   ]
 }
