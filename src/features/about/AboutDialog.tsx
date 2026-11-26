@@ -1,4 +1,5 @@
 import { useRef, type ReactNode } from 'react'
+import { version } from '../../../package.json'
 import { ExternalLink } from '../../components/ExternalLink'
 
 const AUTHOR = 'roymwxuk'
@@ -55,6 +56,9 @@ export function AboutDialog() {
               {AUTHOR}
             </ExternalLink>
             <ExternalLink href={GITHUB}>GitHub</ExternalLink>
+            <ExternalLink href={`${GITHUB}/releases/tag/v${version}`}>
+              {`v${version}`}
+            </ExternalLink>
           </p>
           <ul className="flex flex-wrap gap-x-5">
             <li>
