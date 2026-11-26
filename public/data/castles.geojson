@@ -3565,6 +3565,73 @@
           { "clan": "kobayakawa", "from": 1585, "to": 1588 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.16282, 34.70236] },
+      "properties": {
+        "id": "iga-maruyama",
+        "name_ja": "丸山城",
+        "reading": "まるやまじょう",
+        "name_en": "Maruyama Castle",
+        "former_names": [],
+        "description": "伊賀盆地の中央、丸い独立した丘に築かれた城。1576年に北畠具教が築き始めた。1578年、伊賀を狙う織田信雄の命で滝川雄利が修築したが、完成前に伊賀衆に攻められて敗走した。これが天正伊賀の乱のきっかけとなった。乱の後も雄利が使ったとする説がある。",
+        "wikipedia_ja": "丸山城 (伊賀国)",
+        "official_url": null,
+        "province": "伊賀",
+        "type": "山城",
+        "built": {"earliest": 1576, "latest": 1576},
+        "abandoned": {"earliest": 1578, "latest": 1584},
+        "owners": [
+          { "clan": "kitabatake", "from": 1576, "to": 1576 },
+          { "clan": "oda", "from": 1578, "to": 1578 },
+          { "clan": "oda", "from": 1581, "to": 1584 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [136.24861, 34.83583] },
+      "properties": {
+        "id": "fukuchi",
+        "name_ja": "福地城",
+        "reading": "ふくちじょう",
+        "name_en": "Fukuchi Castle",
+        "former_names": [],
+        "description": "伊賀の柘植の国人、柘植三方の一つ福地氏の城。丘の上の詰城と麓の居館からなる。1581年の天正伊賀の乱で福地宗隆は織田方につき勢力を広げたが、翌年、本能寺の変で信長が死ぬと、伊賀衆の残党に裏切り者として攻められ、国外へ逃れた。",
+        "wikipedia_ja": "福地城",
+        "official_url": null,
+        "province": "伊賀",
+        "type": "平山城",
+        "built": null,
+        "abandoned": {"earliest": 1582, "latest": 1582},
+        "owners": [
+          { "clan": "fukuchi", "from": 1467, "to": 1582 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.10514, 37.90962] },
+      "properties": {
+        "id": "yonezawa",
+        "name_ja": "米沢城",
+        "reading": "よねざわじょう",
+        "name_en": "Yonezawa Castle",
+        "former_names": [],
+        "description": "置賜の地頭、長井氏が築いたと伝わる城。のちに伊達氏が奪い、1548年の天文の乱を経て伊達晴宗が本拠とし、伊達政宗はここで生まれた。1591年に政宗が岩出山へ移されると蒲生氏の城となり、1598年からは上杉氏の居城、のちに米沢藩の藩庁となった。",
+        "wikipedia_ja": "米沢城",
+        "official_url": null,
+        "province": "出羽",
+        "type": "平城",
+        "built": {"earliest": 1238, "latest": 1238},
+        "abandoned": {"earliest": 1871, "latest": 1871},
+        "owners": [
+          { "clan": "date", "from": 1467, "to": 1591 },
+          { "clan": "gamo", "from": 1591, "to": 1598 },
+          { "clan": "uesugi", "from": 1598, "to": 1871 }
+        ]
+      }
     }
   ]
 }
