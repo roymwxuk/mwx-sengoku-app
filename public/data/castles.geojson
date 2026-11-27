@@ -3654,6 +3654,106 @@
           { "clan": "asano", "from": 1600, "to": 1615 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [135.19831, 35.53656] },
+      "properties": {
+        "id": "miyazu",
+        "name_ja": "宮津城",
+        "reading": "みやづじょう",
+        "name_en": "Miyazu Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "鶴賀城", "reading": "つるがじょう", "name_en": "Tsuruga Castle"}],
+        "description": "宮津湾に面した海辺の平城。1579年に一色氏を滅ぼして丹後を得た細川藤孝が、織田信長の命で明智光秀の指図を受けて築き、子の忠興が居城とした。1600年、西軍に攻められると藤孝は城を焼いて田辺城に籠もった。その後に入った京極氏が大きく改修した。",
+        "wikipedia_ja": "宮津城",
+        "official_url": null,
+        "province": "丹後",
+        "type": "平城",
+        "built": {"earliest": 1580, "latest": 1580},
+        "abandoned": {"earliest": 1868, "latest": 1868},
+        "owners": [
+          { "clan": "hosokawa", "from": 1580, "to": 1600 },
+          { "clan": "kyogoku", "from": 1600, "to": 1666 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.88583, 36.55444] },
+      "properties": {
+        "id": "utsunomiya",
+        "name_ja": "宇都宮城",
+        "reading": "うつのみやじょう",
+        "name_en": "Utsunomiya Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "亀ヶ岡城", "reading": "かめがおかじょう", "name_en": "Kamegaoka Castle"}],
+        "description": "下野の名族、宇都宮氏が五百年あまり本拠とした平城で、関東七名城の一つ。戦国時代には壬生氏らに奪われたこともあった。1590年の宇都宮仕置の舞台となったが、1597年に宇都宮国綱は改易された。1619年に入った本多正純が大きく改修し、日光社参の将軍の宿所とした。",
+        "wikipedia_ja": "宇都宮城",
+        "official_url": null,
+        "province": "下野",
+        "type": "平城",
+        "built": {"earliest": 1063, "latest": 1185},
+        "abandoned": {"earliest": 1868, "latest": 1868},
+        "owners": [
+          { "clan": "shimotsuke-utsunomiya", "from": 1467, "to": 1549 },
+          { "clan": "mibu", "from": 1549, "to": 1557 },
+          { "clan": "shimotsuke-utsunomiya", "from": 1557, "to": 1597 },
+          { "clan": "asano", "from": 1597, "to": 1598 },
+          { "clan": "gamo", "from": 1598, "to": 1601 },
+          { "clan": "okudaira", "from": 1601, "to": 1619 },
+          { "clan": "honda", "from": 1619, "to": 1622 },
+          { "clan": "okudaira", "from": 1622, "to": 1668 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.60094, 36.35364] },
+      "properties": {
+        "id": "karasawayama",
+        "name_ja": "唐沢山城",
+        "reading": "からさわやまじょう",
+        "name_en": "Karasawayama Castle",
+        "former_names": [],
+        "other_names": [],
+        "description": "佐野市の北、唐沢山の山頂に築かれた佐野氏の山城で、「関東一の山城」と呼ばれる。関東では珍しく高い石垣を持つ。佐野昌綱は上杉謙信に十度攻められ、降っては背きを繰り返して謙信を手こずらせた。1587年に北条氏忠を当主に迎えて後北条氏に従ったが、1590年に佐野房綱が取り戻した。1602年、麓に佐野城が築かれて廃された。",
+        "wikipedia_ja": "唐沢山城",
+        "official_url": "https://www.city.sano.lg.jp/kurashi_gyosei/kanko_bunka_sports/bunka_dento/karasawa/index.html",
+        "province": "下野",
+        "type": "山城",
+        "built": {"earliest": 1451, "latest": 1491},
+        "abandoned": {"earliest": 1602, "latest": 1602},
+        "owners": [
+          { "clan": "sano", "from": 1491, "to": 1587 },
+          { "clan": "hojo", "from": 1587, "to": 1590 },
+          { "clan": "sano", "from": 1590, "to": 1602 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.1475, 36.66389] },
+      "properties": {
+        "id": "karasuyama",
+        "name_ja": "烏山城",
+        "reading": "からすやまじょう",
+        "name_en": "Karasuyama Castle",
+        "former_names": [],
+        "other_names": [{"name_ja": "臥牛城", "reading": "がぎゅうじょう", "name_en": "Gagyū Castle"}],
+        "description": "八高山に築かれた那須氏の山城。1418年に那須資重が築き、那須氏が一つにまとまってからはその本拠となった。戦国時代には常陸の佐竹氏にたびたび城下まで攻め込まれたが、いずれも退けた。1590年、小田原征伐で北条方についた那須資晴は改易され、織田信雄がしばらく入ったのち、成田氏長が城主となった。",
+        "wikipedia_ja": "烏山城",
+        "official_url": null,
+        "province": "下野",
+        "type": "山城",
+        "built": {"earliest": 1418, "latest": 1418},
+        "abandoned": {"earliest": 1869, "latest": 1869},
+        "owners": [
+          { "clan": "nasu", "from": 1467, "to": 1590 },
+          { "clan": "oda", "from": 1590, "to": 1590 },
+          { "clan": "narita", "from": 1591, "to": 1622 }
+        ]
+      }
     }
   ]
 }

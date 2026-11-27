@@ -12,7 +12,7 @@ Links can open a castle or a year directly, e.g. [吉田郡山城](https://roymw
 
 ## Current status
 
-_As of 2026-11-26._ The map, castles, year switch, detail panel, castle list and search work, with 156 castles and 174 clans. The interface is in Japanese.
+_As of 2026-11-27._ The map, castles, year switch, detail panel, castle list and search work, with 160 castles and 179 clans. The interface is in Japanese.
 
 | Milestone                        | Status                                              |
 | -------------------------------- | --------------------------------------------------- |
@@ -23,7 +23,7 @@ _As of 2026-11-26._ The map, castles, year switch, detail panel, castle list and
 | M4 Provinces (令制国) and clans  | Done                                                |
 | M5 Years                         | Done: five years, 1553–1614                         |
 | M6 Search and filters            | In progress: search, clan filter done               |
-| M7 Data growth                   | In progress: 156 castles                            |
+| M7 Data growth                   | In progress: 160 castles                            |
 | M8 Sengoku look and polish       | In progress: castle list, links, icons done         |
 | M9 v1.0 release                  | Released (now v1.2.0), except better error handling |
 
