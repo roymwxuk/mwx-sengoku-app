@@ -40,7 +40,7 @@ Deferred for now: unit and component tests (Vitest), and CI checks. See the [roa
 - See province borders and names; these and the clan colours can be turned off (凡例, top right)
 - Search for a castle in kanji, kana or romaji (城を検索), by current, former or other name; small typos are fine
 - See a castle under its former name in the years it was used (大坂城 is 石山御坊 in 1560)
-- Choose a castle from the list (城一覧, bottom left) by mouse, touch or keyboard
+- Choose a castle from the list (城一覧, bottom left) by mouse, touch or keyboard; its button shows how many castles are shown (fewer when filtered by clan)
 - Open a castle's place in Google Maps, and its Wikipedia article or official site if it has one
 - See a castle's image at the bottom of its panel, where there is one (伊賀上野城 so far); they are AI generated, captioned AI生成画像, not historical
 - See credits, licences, the version (linked to its release notes) and a link to GitHub (概要, bottom left)

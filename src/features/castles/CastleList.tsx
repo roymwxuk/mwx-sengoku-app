@@ -59,7 +59,7 @@ export function CastleList({ castles, view }: Props) {
         onClick={() => setOpen(!open)}
         className="h-11 cursor-pointer border-l-4 border-shu bg-washi px-4 shadow-md hover:text-shu focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-shu"
       >
-        城一覧{' '}
+        城一覧 <span className="text-sm tabular-nums">{sorted.length}城</span>{' '}
         <span
           aria-hidden="true"
           className={`inline-block ${open ? '' : 'rotate-180'}`}
