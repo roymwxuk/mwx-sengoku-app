@@ -172,5 +172,10 @@
   {"id": "watanabe-iyo", "name_ja": "渡辺氏（伊予）", "reading": "わたなべし", "name_en": "Watanabe (Iyo)", "mark": "渡", "color": "#3c64f0"},
   {"id": "otomo", "name_ja": "大友氏", "reading": "おおともし", "name_en": "Ōtomo", "mark": "友", "color": "#6cba6f"},
   {"id": "noshima-murakami", "name_ja": "能島村上氏", "reading": "のしまむらかみし", "name_en": "Noshima Murakami", "mark": "能", "color": "#915aaa"},
-  {"id": "fukuchi", "name_ja": "福地氏", "reading": "ふくちし", "name_en": "Fukuchi", "mark": "地", "color": "#b4c8aa"}
+  {"id": "fukuchi", "name_ja": "福地氏", "reading": "ふくちし", "name_en": "Fukuchi", "mark": "地", "color": "#b4c8aa"},
+  {"id": "shimotsuke-utsunomiya", "name_ja": "宇都宮氏（下野）", "reading": "うつのみやし", "name_en": "Utsunomiya (Shimotsuke)", "mark": "都", "color": "#e15fa0"},
+  {"id": "mibu", "name_ja": "壬生氏", "reading": "みぶし", "name_en": "Mibu", "mark": "壬", "color": "#46007d"},
+  {"id": "okudaira", "name_ja": "奥平氏", "reading": "おくだいらし", "name_en": "Okudaira", "mark": "奥", "color": "#2d284b"},
+  {"id": "sano", "name_ja": "佐野氏", "reading": "さのし", "name_en": "Sano", "mark": "昌", "color": "#a293fb"},
+  {"id": "nasu", "name_ja": "那須氏", "reading": "なすし", "name_en": "Nasu", "mark": "那", "color": "#553223"}
 ]
