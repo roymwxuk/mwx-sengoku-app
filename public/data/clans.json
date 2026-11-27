@@ -177,5 +177,6 @@
   {"id": "mibu", "name_ja": "壬生氏", "reading": "みぶし", "name_en": "Mibu", "mark": "壬", "color": "#46007d"},
   {"id": "okudaira", "name_ja": "奥平氏", "reading": "おくだいらし", "name_en": "Okudaira", "mark": "奥", "color": "#2d284b"},
   {"id": "sano", "name_ja": "佐野氏", "reading": "さのし", "name_en": "Sano", "mark": "昌", "color": "#a293fb"},
-  {"id": "nasu", "name_ja": "那須氏", "reading": "なすし", "name_en": "Nasu", "mark": "那", "color": "#553223"}
+  {"id": "nasu", "name_ja": "那須氏", "reading": "なすし", "name_en": "Nasu", "mark": "那", "color": "#553223"},
+  {"id": "kedoin", "name_ja": "祁答院氏", "reading": "けどういんし", "name_en": "Kedōin", "mark": "祁", "color": "#e180b6"}
 ]
