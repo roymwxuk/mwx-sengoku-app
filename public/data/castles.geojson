@@ -3754,6 +3754,53 @@
           { "clan": "narita", "from": 1591, "to": 1622 }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.66931, 31.74969] },
+      "properties": {
+        "id": "kajiki",
+        "name_ja": "加治木城",
+        "reading": "かじきじょう",
+        "name_en": "Kajiki Castle",
+        "former_names": [],
+        "other_names": [],
+        "description": "大隅の加治木にあった山城。地元の大蔵氏が築いたと伝え、その流れの加治木氏が居城としたが、1496年に島津忠昌に攻め落とされた。のち肝付氏の分家が城主となり、1554年には島津方の肝付兼演が菱刈・蒲生氏らの攻撃に耐えた。1607年、島津義弘が麓に加治木館を築いて移り、山上の城は後詰めの城となった。",
+        "wikipedia_ja": "加治木城",
+        "official_url": null,
+        "province": "大隅",
+        "type": "山城",
+        "built": null,
+        "abandoned": {"earliest": 1607, "latest": 1607},
+        "owners": [
+          { "clan": "kimotsuki", "from": 1549, "to": 1595 },
+          { "clan": "toyotomi", "from": 1595, "to": 1599 },
+          { "clan": "shimazu", "from": 1599, "to": 1607 }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.59861, 31.70583] },
+      "properties": {
+        "id": "iwatsurugi",
+        "name_ja": "岩剣城",
+        "reading": "いわつるぎじょう",
+        "name_en": "Iwatsurugi Castle",
+        "former_names": [],
+        "other_names": [],
+        "description": "岩剣山の山頂、三方を断崖に囲まれた山城。祁答院良重が築いたと伝える。1554年、菱刈・蒲生氏と組んで島津貴久に背いた良重は、貴久の子の義久・義弘・歳久に攻められ、城を捨てて祁答院へ逃れた。三兄弟の初陣の地で、鉄砲が初めて実戦で使われた城ともいわれる。その後は義弘が城代となり、麓の平松館に住んだ。",
+        "wikipedia_ja": "岩剣城",
+        "official_url": null,
+        "province": "大隅",
+        "type": "山城",
+        "built": {"earliest": 1529, "latest": 1554},
+        "abandoned": {"earliest": 1607, "latest": 1607},
+        "owners": [
+          { "clan": "kedoin", "from": 1529, "to": 1554 },
+          { "clan": "shimazu", "from": 1554, "to": 1607 }
+        ]
+      }
     }
   ]
 }
